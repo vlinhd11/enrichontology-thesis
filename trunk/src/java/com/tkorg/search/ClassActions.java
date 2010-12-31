@@ -21,6 +21,7 @@ public class ClassActions {
 	public static ArrayList<String> liClassNameList = null;
 	public static String selectedClassName = "";
 	public static String strResult = "";
+        private static String temp = "";
 
 	public static void viewClasses() {
 		classesArrayList = new ArrayList<OWLNamedClass>();
@@ -63,18 +64,19 @@ public class ClassActions {
 		strResult = "<ul class=\"mktree\" id=\"tree1\" >\n";
 		for (int i = 0; i < classesArrayList.size(); i++) {
 			if (classesArrayList.get(i).getBrowserText().equals("owl:Thing")) {
-				strResult += "<li id=\"" + classesArrayList.get(i).getBrowserText() + "\" " +
+                            temp = classesArrayList.get(i).getBrowserText().replace("_", " ");
+				strResult += "<li id=\"" + temp + "\" " +
                                         "class=\"" + liClassNameList.get(i) + "\" >\n";
 				if (classesArrayList.get(i).getSubclassCount() != 0) {
 					strResult += "	<a href=\"#\" style=\"text-decoration:none\" class=\"bullet\" " +
-                                                    "onclick=\"changeTree('" + classesArrayList.get(i).getBrowserText() + "')\" ></a>" +
+                                                    "onclick=\"changeTree('" + temp + "')\" ></a>" +
                                                 "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				}
 				else {
 					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
 				}
-				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('" + classesArrayList.get(i).getBrowserText() + "','listID')\" >"
-						+ classesArrayList.get(i).getBrowserText()
+				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('" + temp + "','listID')\" >"
+						+ temp
 						+ "</a>\n";
 				addNodesByRank(classesArrayList.get(i));
                                 strResult += "\n</li>\n";
@@ -88,19 +90,20 @@ public class ClassActions {
             strResult += "<ul>\n";
 		for (int i = 0; i < classesArrayList.size(); i++) {
 			if (classesArrayList.get(i).isSubclassOf((RDFSClass) parentClass)) {
-				strResult += "<li id=\"" + classesArrayList.get(i).getBrowserText() + "\" " +
+                            temp = classesArrayList.get(i).getBrowserText().replace("_", " ");
+				strResult += "<li id=\"" + temp + "\" " +
                                         "class=\"" + liClassNameList.get(i) + "\" >";
 				if (classesArrayList.get(i).getSubclassCount() != 0)
 					strResult += "	<a href=\"#\" style=\"text-decoration:none\" class=\"bullet\" onclick=\"changeTree('"
-							+ classesArrayList.get(i).getBrowserText()
+							+ temp
 							+ "')\" ></a>" +
                                                         "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				else
 					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
 				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('"
-						+ classesArrayList.get(i).getBrowserText()
+						+ temp
 						+ "','listID')\" >"
-						+ classesArrayList.get(i).getBrowserText()
+						+ temp
 						+ "</a>\n";
 				if (classesArrayList.get(i).getSubclassCount() != 0) {
 					addNodesByRank(classesArrayList.get(i));

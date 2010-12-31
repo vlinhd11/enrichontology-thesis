@@ -130,7 +130,7 @@
             <%
                 }
             %>
-            <input type="button" value="Download" onclick="submitForm(document.forms[0], 'ERROR', 'ERROR_01')">
+            <input type="button" value="Classify" onclick="submitForm(document.forms[0], 'ERROR', 'ERROR_01')">
 
         </html:form>
 
