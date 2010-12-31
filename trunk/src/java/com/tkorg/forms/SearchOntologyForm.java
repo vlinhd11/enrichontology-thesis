@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionMapping;
-import org.apache.struts.action.ActionMessage;
 
 /**
  *
@@ -30,6 +29,15 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
 	private String m_yahoo;
 	private String google;
 	private String m_google;
+        private String my_property;
+
+    public String getGoogle() {
+        return google;
+    }
+
+    public void setGoogle(String google) {
+        this.google = google;
+    }
 
     public String getLi_id() {
         return li_id;
@@ -53,6 +61,14 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
 
     public void setM_yahoo(String m_yahoo) {
         this.m_yahoo = m_yahoo;
+    }
+
+    public String getMy_property() {
+        return my_property;
+    }
+
+    public void setMy_property(String my_property) {
+        this.my_property = my_property;
     }
 
     public String getProcessid() {
@@ -87,14 +103,6 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
         this.yahoo = yahoo;
     }
 
-    public String getGoogle() {
-        return google;
-    }
-
-    public void setGoogle(String google) {
-        this.google = google;
-    }
-
     /**
      *
      */
@@ -109,12 +117,15 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
      * @param request The HTTP Request we are processing.
      * @return
      */
+    @Override
     public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) {
         ActionErrors errors = new ActionErrors();
-//        if (getName() == null || getName().length() < 1) {
-//            errors.add("name", new ActionMessage("error.name.required"));
-//            // TODO: add 'error.name.required' key to your resources
-//        }
+        if (getGoogle() == null || getGoogle().length() < 1) {
+            setGoogle("");
+        }
+        if (getYahoo() == null || getYahoo().length() < 1) {
+            setYahoo("");
+        }
         return errors;
     }
 }

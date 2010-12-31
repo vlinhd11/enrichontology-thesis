@@ -23,7 +23,8 @@ import org.apache.struts.action.ActionMapping;
 public class SearchOntologyAction extends org.apache.struts.action.Action {
 
     /* forward name="success" path="" */
-    private static final String SUCCESS = "success";
+    private static final String SEARCH_ONTOLOGY_01 = "searchOntology01";
+    private static final String SEARCH_ONTOLOGY_02 = "searchOntology02";
     private static final String FAIL = "fail";
     
     /**
@@ -53,32 +54,42 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                 String yahoo = searchOntologyForm.getYahoo();
                 int m_google = Integer.parseInt(searchOntologyForm.getM_google());
                 int m_yahoo = Integer.parseInt(searchOntologyForm.getM_yahoo());
+                String my_property = searchOntologyForm.getMy_property();
                 SearchOntologyBL searchOntologyBL = new SearchOntologyBL();
                 HttpSession httpSession = request.getSession();
-
-                if (google == null) {
-                    google = "";
+                
+                if ("individual".equals(my_property)) {
+                    searchOntologyBL.searchOntologyWithIndividual(query_string, google, m_google, yahoo, m_yahoo);
+                    httpSession.setAttribute(Constants.GOOGLE_LIST, SearchOntologyBL.googleList);
+                    httpSession.setAttribute(Constants.YAHOO_LIST, SearchOntologyBL.yahooList);
+                    if (Constants.GOOGLE.equals(google)) {
+                        httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)true);
+                    } else {
+                        httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)false);
+                    }
+                    if (Constants.YAHOO.equals(yahoo)) {
+                        httpSession.setAttribute(Constants.IS_YAHOO, (Boolean)true);
+                    } else {
+                        httpSession.setAttribute(Constants.IS_YAHOO, (Boolean)false);
+                    }
+                    return mapping.findForward(SEARCH_ONTOLOGY_01);
                 }
-                if (yahoo == null) {
-                    yahoo = "";
+                else if ("relation".equals(my_property)) {
+                    searchOntologyBL.searchOntologyWithRelation(query_string, google, m_google, yahoo, m_yahoo);
+                    httpSession.setAttribute(Constants.GOOGLE_LIST, SearchOntologyBL.googleList);
+                    httpSession.setAttribute(Constants.YAHOO_LIST, SearchOntologyBL.yahooList);
+                    if (Constants.GOOGLE.equals(google)) {
+                        httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)true);
+                    } else {
+                        httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)false);
+                    }
+                    if (Constants.YAHOO.equals(yahoo)) {
+                        httpSession.setAttribute(Constants.IS_YAHOO, (Boolean)true);
+                    } else {
+                        httpSession.setAttribute(Constants.IS_YAHOO, (Boolean)false);
+                    }
+                    return mapping.findForward(SEARCH_ONTOLOGY_02);
                 }
-                searchOntologyBL.searchOntology(query_string, google, m_google, yahoo, m_yahoo);
-
-                httpSession.setAttribute(Constants.GOOGLE_LIST, SearchOntologyBL.googleList);
-                httpSession.setAttribute(Constants.YAHOO_LIST, SearchOntologyBL.yahooList);
-
-                if (Constants.GOOGLE.equals(google)) {
-                    httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)true);
-                } else {
-                    httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)false);
-                }
-                if (Constants.YAHOO.equals(yahoo)) {
-                    httpSession.setAttribute(Constants.IS_YAHOO, (Boolean)true);
-                } else {
-                    httpSession.setAttribute(Constants.IS_YAHOO, (Boolean)false);
-                }
-
-                return mapping.findForward(SUCCESS);
             } else {
                 return mapping.findForward(FAIL);
             }

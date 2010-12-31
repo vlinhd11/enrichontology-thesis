@@ -8,11 +8,8 @@ import com.tkorg.search.SearchEnginesAction;
 import com.tkorg.util.Constants;
 
 import java.io.File;
-import java.io.UnsupportedEncodingException;
 import java.net.URI;
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -44,9 +41,9 @@ public class SearchOntologyBL {
         return name;
     }
 
-    public void searchOntology(String query_string, String google, int m_google, String yahoo, int m_yahoo) {
+    public void searchOntologyWithIndividual(String query_string, String google, int m_google, String yahoo, int m_yahoo) {
 
-        String[] keywordNameList;
+        String[] keywordNameList = null;
 
         query_string = convertVN(query_string);
         keywordNameList = query_string.split("-");
@@ -73,6 +70,34 @@ public class SearchOntologyBL {
                 keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList[i]  + " " + cntt, true, m_yahoo));
                 yahooList.add(keyword);
             }
+        }
+    }
+
+    public void searchOntologyWithRelation(String query_string, String google, int m_google, String yahoo, int m_yahoo) {
+
+        query_string = convertVN(query_string);
+        query_string = query_string.replace("-", "+");
+
+        SearchEnginesAction queryAction = new SearchEnginesAction();
+        String cntt = "cntt";
+
+        if (google.equals(Constants.GOOGLE)) {
+            try {
+                MyKeyword keyword = new MyKeyword();
+                keyword.setName(query_string);
+                keyword.setLinkandTitle(queryAction.submitQueryToGoogle(query_string + " " + cntt, true, m_google));
+                googleList.add(keyword);
+            } catch (NumberFormatException e) {
+                e.printStackTrace();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        if (yahoo.equals(Constants.YAHOO)) {
+            MyKeyword keyword = new MyKeyword();
+            keyword.setName(query_string);
+            keyword.setLinkandTitle(queryAction.submitQueryToYahoo(query_string  + " " + cntt, true, m_yahoo));
+            yahooList.add(keyword);
         }
     }
 

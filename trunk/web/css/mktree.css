@@ -11,13 +11,9 @@
    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
 
-root { 
-    display: block;
-}
-
 /* Put this inside a @media qualifier so Netscape 4 ignores it */
 @media screen, print {
-	 Turn off list bullets 
+	/*Turn off list bullets*/
 	ul.mktree  li { list-style: none; }
 	/*Control how "spaced out" the tree is*/
 	ul.mktree, ul.mktree ul , ul.mktree li { margin-left:10px; padding:0px; }

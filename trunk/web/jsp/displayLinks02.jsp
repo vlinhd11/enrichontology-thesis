@@ -1,5 +1,5 @@
-<%-- 
-    Document   : displayLinks
+<%--
+    Document   : displayLinks02
     Created on : Dec 29, 2010, 8:23:41 PM
     Author     : danhit
 --%>
@@ -34,7 +34,7 @@
     </head>
     <body bgcolor="#FFFFFF">
         <h1><bean:message key="display.heading" /></h1>
-        
+
         <html:form action="/DisplayLinksAction">
             <html:hidden property="screenid" value="" />
             <html:hidden property="processid" value="" />
@@ -51,9 +51,6 @@
                 <tr BGCOLOR="#FFF8C6">
                     <th width =\"3%\">No.</th>
                     <th width =\"82%\">Search results by Google</th>
-                    <th width =\"5%\">Relevant</th>
-                    <th width =\"5%\">Irrelevant</th>
-                    <th width=\"5%\">Download</th>
                 </tr>
                 <%
                     for(int i = 0; i < googleList.size(); i++) {
@@ -61,7 +58,6 @@
                 <tr>
                     <td></td>
                     <td style="background-color: yellow" width="82%"><%=googleList.get(i).getName()%></td>
-                    <td></td><td></td><td></td>
                 </tr>
                 <%
                         for (int j = 0; j < googleList.get(i).getLinkList().size(); j++) {
@@ -75,9 +71,6 @@
                         <br>
                         <%=googleList.get(i).getTitleList().get(j)%>
                     </td>
-                    <td><center><input type="radio" name="google_rel<%=Integer.toString(j+1)%>" value="Relevant"></center></td>
-                    <td><center><input type="radio" name="google_rel<%=Integer.toString(j+1)%>" value="Irrelevant"></center></td>
-                    <td><center><input type="checkbox" name="google_down<%=Integer.toString(j+1)%>"></center></td>
                 </tr>
             <%
                         }
@@ -93,10 +86,7 @@
             <table border="1" width="100%">
                 <tr BGCOLOR="#FFF8C6">
                     <th width =\"3%\">No.</th>
-                    <th width =\"82%\">Search results by Yahoo</th>
-                    <th width =\"5%\">Relevant</th>
-                    <th width =\"5%\">Irrelevant</th>
-                    <th width=\"5%\">Download</th>
+                    <th width =\"97%\">Search results by Yahoo</th>
                 </tr>
                 <%
                     for(int i = 0; i < yahooList.size(); i++) {
@@ -104,23 +94,19 @@
                 <tr>
                     <td></td>
                     <td style="background-color: yellow" width="82%"><%=yahooList.get(i).getName()%></td>
-                    <td></td><td></td><td></td>
                 </tr>
                 <%
                         for (int j = 0; j < yahooList.get(i).getLinkList().size(); j++) {
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j+1)%>.</td>
-                    <td width="82%">
+                    <td width="97%">
                         <a href="<%=yahooList.get(i).getLinkList().get(j)%>" target="_blank">
                             <%=yahooList.get(i).getLinkList().get(j)%>
                         </a>
                         <br>
                         <%=yahooList.get(i).getTitleList().get(j)%>
                     </td>
-                    <td><center><input type="radio" name="yahoo_rel<%=Integer.toString(j+1)%>" value="Relevant"></center></td>
-                    <td><center><input type="radio" name="yahoo_rel<%=Integer.toString(j+1)%>" value="Irrelevant"></center></td>
-                    <td><center><input type="checkbox" name="yahoo_down<%=Integer.toString(j+1)%>"></center></td>
                 </tr>
             <%
                         }

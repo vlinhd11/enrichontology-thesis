@@ -18,12 +18,14 @@ public class Download {
 
     public void downloadFileFromLink(String url, String title) throws IOException {
         String type=".html";
-        if(url.substring(url.length()- 4,url.length()- 3).equals("."))
-                type=url.substring(url.length()- 4);
+        if(url.substring(url.length()- 4,url.length()- 3).equals(".")
+                && (!url.substring(url.length() - 3, url.length()).equals("pdf"))
+                && (!url.substring(url.length() - 3, url.length()).equals("doc"))) {
+            type=url.substring(url.length()- 4);
+        }
 
         BufferedInputStream in = new BufferedInputStream(new java.net.URL(url).openStream());
-//        FileOutputStream fos = new FileOutputStream("./src/java/com/tkorg/download/files/" + title + type);
-        FileOutputStream fos = new FileOutputStream(Constants.PATH_FILES + title + type);
+        FileOutputStream fos = new FileOutputStream(Constants.PATH_FILES + "\\" + title + type);
         BufferedOutputStream bout = new BufferedOutputStream(fos, 1024);
         byte[] data = new byte[1024];
         int x = 0;
