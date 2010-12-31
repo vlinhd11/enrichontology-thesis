@@ -49,16 +49,17 @@ public class SearchOntologyBL {
         String[] keywordNameList;
 
         query_string = convertVN(query_string);
-        query_string = query_string.replace("_", " ");
         keywordNameList = query_string.split("-");
         
         for (int i = 0; i < keywordNameList.length; i++) {
             SearchEnginesAction queryAction = new SearchEnginesAction();
+            String cntt = "cntt";
+
             if (google.equals(Constants.GOOGLE)) {
                 try {
                     MyKeyword keyword = new MyKeyword();
                     keyword.setName(keywordNameList[i]);
-                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList[i] , true, m_google));
+                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList[i] + " " + cntt, true, m_google));
                     googleList.add(keyword);
 		} catch (NumberFormatException e) {
                     e.printStackTrace();
@@ -69,7 +70,7 @@ public class SearchOntologyBL {
             if (yahoo.equals(Constants.YAHOO)) {
                 MyKeyword keyword = new MyKeyword();
                 keyword.setName(keywordNameList[i]);
-                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList[i], true, m_yahoo));
+                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList[i]  + " " + cntt, true, m_yahoo));
                 yahooList.add(keyword);
             }
         }
