@@ -5,6 +5,7 @@
 
 package com.tkorg.actions;
 
+import com.tkorg.businesslogic.DisplayLinksBL;
 import com.tkorg.businesslogic.SearchOntologyBL;
 import com.tkorg.download.Download;
 import com.tkorg.forms.DisplayLinksForm;
@@ -42,40 +43,15 @@ public class DisplayLinksAction extends org.apache.struts.action.Action {
 
         String screenid = displayLinksForm.getScreenid();
         String processid = displayLinksForm.getProcessid();
-        Download download = new Download();
 
         if (screenid.equals("ERROR")) {
             if (processid.equals("ERROR_01")) {
-
-                //Download Google.
-                try {
-                    for (int i = 0; i < SearchOntologyBL.googleList.size(); i++) {
-                        for (int j = 0; j < SearchOntologyBL.googleList.get(i).getLinkList().size(); j++) {
-                            download.downloadFileFromLink(SearchOntologyBL.googleList.get(i).getLinkList().get(j),
-                                                          "google-" + SearchOntologyBL.googleList.get(i).getName() + "-" + (j + 1));
-                        }
-                    }
-                } catch (Exception e) {
-
-                }
-
-                    //Download Yahoo.
-                try{
-                    for (int i = 0; i < SearchOntologyBL.yahooList.size(); i++) {
-                        for (int j = 0; j < SearchOntologyBL.yahooList.get(i).getLinkList().size(); j++) {
-                            download.downloadFileFromLink(SearchOntologyBL.yahooList.get(i).getLinkList().get(j),
-                                                          "yahoo-" + SearchOntologyBL.yahooList.get(i).getName() + "-" + (j + 1));
-                        }
-                    }
-                } catch (Exception e) {
-                    JOptionPane.showMessageDialog(null, e.toString());
-                }
-
+                DisplayLinksBL displayBL = new DisplayLinksBL();
+                displayBL.downloadLinks();
+                
                 return mapping.findForward(SUCCESS);
             }
         }
-
-
         return mapping.findForward(SUCCESS);
     }
 }

@@ -3,12 +3,15 @@
 
 <%--
     Hoàn thành.
+    1) Tự động tạo file chứa link.
+    2) Cho bỏ tùy ý chọn phân loại.
+    3) Chỉnh kiểu file down về.
+    4) Chỉnh lại vị trí nút Remove & Remove All (thay đổi nút submit query).
+    5) Bỏ hết đóng Bullet trước mỗi class bên ontology.
+    6) Tạo radio chọn link riêng hay có quan hệ.
 
     Cần làm.
-    1) Bỏ hết đóng Bullet trước mỗi class bên ontology.
-    2) Chỉnh lại vị trí nút Remove & Remove All.
-    3) Cho tùy ý chọn link muốn download.
-    4) Chỉnh kiểu file down về.
+xuống hàng
 --%>
 
 <jsp:forward page="Welcome.do"/>

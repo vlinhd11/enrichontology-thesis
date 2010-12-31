@@ -52,10 +52,10 @@
                         <h3>Concepts</h3>
 			<select id="listID" name="listquery" size="20" style="width: 90%;" />
                         <br /><br /><br />
-			<input type="button" value="Remove" onclick="removeConcept('listID')" />
+                        <input type="button" value="Remove" onclick="removeConcept('listID')" />
 			<input type="button" value="Remove All" onclick="removeAll('listID')" />
                     </td>
-                    <td width="30%" valign="top" align="left" >
+                    <td width="30%" align="left" valign="top">
 			<h3>Select Search Engine</h3>
 			<html:checkbox property="google" value="google" >Google</html:checkbox>
 			&nbsp;&nbsp;
@@ -81,7 +81,12 @@
                             <html:option value="40" >40</html:option>
                             <html:option value="50" >50</html:option>
                         </html:select>
-                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <br /><br />
+                        <bean:message key="searchOntology.radio.name" />
+                        &nbsp;&nbsp;
+                        <html:radio property="my_property" value="individual"><bean:message key="searchOntology.radio.my_property.individual" /></html:radio>
+                        <html:radio property="my_property" value="relation"><bean:message key="searchOntology.radio.my_property.relation" /></html:radio>
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                         <html:button property="button01" onclick="submitForm(document.forms[0], 'SEARCH_ONTOLOGY', 'SEARCH_ONTOLOGY_01')">Submit Query</html:button>
                     </td>
                 </tr>

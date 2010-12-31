@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-import javax.swing.DefaultListModel;
-import javax.swing.JList;
-
 import com.tkorg.entities.MyStack;
 import com.tkorg.entities.OWLModel;
 
@@ -64,26 +61,24 @@ public class ClassActions {
 		strResult = "<ul class=\"mktree\" id=\"tree1\" >\n";
 		for (int i = 0; i < classesArrayList.size(); i++) {
 			if (classesArrayList.get(i).getBrowserText().equals("owl:Thing")) {
-                            temp = classesArrayList.get(i).getBrowserText().replace("_", " ");
-				strResult += "<li id=\"" + temp + "\" " +
+				strResult += "<li id=\"" + classesArrayList.get(i).getBrowserText() + "\" " +
                                         "class=\"" + liClassNameList.get(i) + "\" >\n";
 				if (classesArrayList.get(i).getSubclassCount() != 0) {
 					strResult += "	<a href=\"#\" style=\"text-decoration:none\" class=\"bullet\" " +
-                                                    "onclick=\"changeTree('" + temp + "')\" ></a>" +
+                                                    "onclick=\"changeTree('" + classesArrayList.get(i).getBrowserText() + "')\" ></a>" +
                                                 "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				}
 				else {
 					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
 				}
-				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('" + temp + "','listID')\" >"
-						+ temp
+				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('" + classesArrayList.get(i).getBrowserText() + "','listID')\" >"
+						+ classesArrayList.get(i).getBrowserText()
 						+ "</a>\n";
 				addNodesByRank(classesArrayList.get(i));
                                 strResult += "\n</li>\n";
 				break;
 			}
 		}
-		strResult += "</ul>";
 	}
 
 	private static void addNodesByRank(OWLNamedClass parentClass) {
@@ -114,6 +109,7 @@ public class ClassActions {
             strResult += "</ul>";
 	}
 
+    @SuppressWarnings("empty-statement")
 	public static void main(String[] args) {
 		OWLModel owlModel = new OWLModel();
 		URI uri = new File("D://OVIT.owl").toURI();

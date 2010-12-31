@@ -8,7 +8,9 @@
 <struts-config>
     <form-beans>
         <form-bean name="DisplayLinksForm" type="com.tkorg.forms.DisplayLinksForm"/>
-        <form-bean name="SearchOntologyForm" type="com.tkorg.forms.SearchOntologyForm"/>
+        <form-bean name="SearchOntologyForm" type="com.tkorg.forms.SearchOntologyForm">
+            <form-property name="my_property" type="java.lang.String" initial="individual"/>
+        </form-bean>
         <form-bean name="WelcomeForm" type="com.tkorg.forms.WelcomeForm"/>
     
     </form-beans>
@@ -26,9 +28,9 @@
             <forward name="searchOntology" path="/jsp/searchOntology.jsp" />
             <forward name="fail" path="/jsp/error.jsp" />
         </action>
-        <action input="/" name="SearchOntologyForm" path="/SearchOntologyAction" scope="session" type="com.tkorg.actions.SearchOntologyAction">
-            <forward name="success" path="/jsp/displayLinks.jsp" />
-            <forward name="fail" path="/jsp/error.jsp" />
+        <action input="/" name="SearchOntologyForm" path="/SearchOntologyAction" scope="session" type="com.tkorg.actions.SearchOntologyAction" validate="true">
+            <forward name="searchOntology01" path="/jsp/displayLinks01.jsp" />
+            <forward name="searchOntology02" path="/jsp/displayLinks02.jsp" />
         </action>
         <action input="/" name="DisplayLinksForm" path="/DisplayLinksAction" scope="session" type="com.tkorg.actions.DisplayLinksAction">
             <forward name="success" path="/jsp/error.jsp" />
