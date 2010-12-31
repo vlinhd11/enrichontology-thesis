@@ -86,7 +86,7 @@
                         &nbsp;&nbsp;
                         <html:radio property="my_property" value="individual"><bean:message key="searchOntology.radio.my_property.individual" /></html:radio>
                         <html:radio property="my_property" value="relation"><bean:message key="searchOntology.radio.my_property.relation" /></html:radio>
-                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                         <html:button property="button01" onclick="submitForm(document.forms[0], 'SEARCH_ONTOLOGY', 'SEARCH_ONTOLOGY_01')">Submit Query</html:button>
                     </td>
                 </tr>
