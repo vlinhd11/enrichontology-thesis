@@ -29,7 +29,7 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
 	private String m_yahoo;
 	private String google;
 	private String m_google;
-        private String my_property;
+        private String my_property = "individual";
 
     public String getGoogle() {
         return google;
@@ -108,7 +108,8 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
      */
     public SearchOntologyForm() {
         super();
-        // TODO Auto-generated constructor stub
+
+//        my_property = "individual";
     }
 
     /**
