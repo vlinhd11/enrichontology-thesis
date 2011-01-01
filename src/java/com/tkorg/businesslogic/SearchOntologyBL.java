@@ -32,9 +32,11 @@ public class SearchOntologyBL {
     private String convertVN(String name) {
 
         for (int i = 0; i < Constants.unicodeWords.length; i++) {
-            int index = name.indexOf(Constants.unicodeWords[i]);
-            if (index != -1) {
-                name = name.substring(0, index) + Constants.utf8Words[i] + name.split(Constants.unicodeWords[i])[1];
+            if (!Constants.unicodeWords[i].equals("")) {
+                int index = name.indexOf(Constants.unicodeWords[i]);
+                if (index != -1) {
+                    name = name.substring(0, index) + Constants.utf8Words[i] + name.split(Constants.unicodeWords[i])[1];
+                }
             }
         }
 
@@ -45,13 +47,13 @@ public class SearchOntologyBL {
 
         String[] keywordNameList = null;
 
-        query_string = convertVN(query_string);
         keywordNameList = query_string.split("-");
         
         for (int i = 0; i < keywordNameList.length; i++) {
             SearchEnginesAction queryAction = new SearchEnginesAction();
             String cntt = "cntt";
 
+            keywordNameList[i] = convertVN(keywordNameList[i]);
             if (google.equals(Constants.GOOGLE)) {
                 try {
                     MyKeyword keyword = new MyKeyword();

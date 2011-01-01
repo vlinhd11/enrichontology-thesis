@@ -9,6 +9,7 @@
     4) Chỉnh lại vị trí nút Remove & Remove All (thay đổi nút submit query).
     5) Bỏ hết đóng Bullet trước mỗi class bên ontology.
     6) Tạo radio chọn link riêng hay có quan hệ.
+	7) Chỉnh link tiếng việt.
 
     Cần làm.
 xuống hàng
