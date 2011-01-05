@@ -51,14 +51,13 @@ public class SearchOntologyBL {
         
         for (int i = 0; i < keywordNameList.length; i++) {
             SearchEnginesAction queryAction = new SearchEnginesAction();
-            String cntt = "cntt";
 
             keywordNameList[i] = convertVN(keywordNameList[i]);
             if (google.equals(Constants.GOOGLE)) {
                 try {
                     MyKeyword keyword = new MyKeyword();
                     keyword.setName(keywordNameList[i]);
-                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList[i] + " " + cntt, true, m_google));
+                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList[i], true, m_google));
                     googleList.add(keyword);
 		} catch (NumberFormatException e) {
                     e.printStackTrace();
@@ -69,7 +68,7 @@ public class SearchOntologyBL {
             if (yahoo.equals(Constants.YAHOO)) {
                 MyKeyword keyword = new MyKeyword();
                 keyword.setName(keywordNameList[i]);
-                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList[i]  + " " + cntt, true, m_yahoo));
+                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList[i], true, m_yahoo));
                 yahooList.add(keyword);
             }
         }
@@ -81,13 +80,12 @@ public class SearchOntologyBL {
         query_string = query_string.replace("-", "+");
 
         SearchEnginesAction queryAction = new SearchEnginesAction();
-        String cntt = "cntt";
 
         if (google.equals(Constants.GOOGLE)) {
             try {
                 MyKeyword keyword = new MyKeyword();
                 keyword.setName(query_string);
-                keyword.setLinkandTitle(queryAction.submitQueryToGoogle(query_string + " " + cntt, true, m_google));
+                keyword.setLinkandTitle(queryAction.submitQueryToGoogle(query_string, true, m_google));
                 googleList.add(keyword);
             } catch (NumberFormatException e) {
                 e.printStackTrace();
@@ -98,7 +96,7 @@ public class SearchOntologyBL {
         if (yahoo.equals(Constants.YAHOO)) {
             MyKeyword keyword = new MyKeyword();
             keyword.setName(query_string);
-            keyword.setLinkandTitle(queryAction.submitQueryToYahoo(query_string  + " " + cntt, true, m_yahoo));
+            keyword.setLinkandTitle(queryAction.submitQueryToYahoo(query_string, true, m_yahoo));
             yahooList.add(keyword);
         }
     }
