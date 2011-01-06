@@ -31,6 +31,9 @@
       <owl:Class rdf:ID="Class_2"/>
     </rdfs:subClassOf>
   </owl:Class>
+  <owl:Class rdf:ID="Class_8">
+    <rdfs:subClassOf rdf:resource="#Class_1"/>
+  </owl:Class>
   <owl:Class rdf:about="#Class_2">
     <rdfs:subClassOf rdf:resource="#Class_1"/>
   </owl:Class>
