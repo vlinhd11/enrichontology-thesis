@@ -81,9 +81,8 @@
                             <html:option value="40" >40</html:option>
                             <html:option value="50" >50</html:option>
                         </html:select>
-                        <br /><br />
-                        <bean:message key="searchOntology.radio.name" />
-                        &nbsp;&nbsp;
+                        <br /><br /><br /><br />
+                       
                         <html:radio property="my_property" value="individual"><bean:message key="searchOntology.radio.my_property.individual" /></html:radio>
                         <html:radio property="my_property" value="relation"><bean:message key="searchOntology.radio.my_property.relation" /></html:radio>
                         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
