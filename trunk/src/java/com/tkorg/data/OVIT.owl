@@ -13,60 +13,24 @@
   <owl:Ontology rdf:about="">
     <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/protege"/>
   </owl:Ontology>
-  <owl:Class rdf:ID="Ubiquitous_computing">
-    <rdfs:subClassOf>
-      <owl:Class rdf:ID="Kỹ_thuật_phần_mềm"/>
-    </rdfs:subClassOf>
+  <owl:Class rdf:ID="Hệ_thống_mạng_và_máy_tính">
     <owl:disjointWith>
-      <owl:Class rdf:ID="Bảo_mật_máy_tính"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Ngôn_ngữ_lập_trình"/>
+      <owl:Class rdf:ID="Trí_tuệ_nhân_tạo"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Thiết_kế_trình_biên_dịch"/>
+      <owl:Class rdf:ID="Cấu_trúc_rời_rạc"/>
     </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Cơ_sở_dữ_liệu"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Mạng_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Kiến_trúc_hệ_thống"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Hệ_điều_hành"/>
-    </owl:disjointWith>
-  </owl:Class>
-  <owl:Class rdf:about="#Kỹ_thuật_phần_mềm">
     <owl:disjointWith>
       <owl:Class rdf:ID="Kiến_trúc_máy_tính"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Trí_tuệ_nhân_tạo"/>
-    </owl:disjointWith>
-    <rdfs:subClassOf>
-      <owl:Class rdf:ID="Khái_niệm_công_nghệ_thông_tin"/>
-    </rdfs:subClassOf>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Khoa_học_máy_tính"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
       <owl:Class rdf:ID="Cấu_trúc_dữ_liệu_và_giải_thuật"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Phần_mềm"/>
+      <owl:Class rdf:ID="Kiểu_dữ_liệu"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Cơ_sở_toán_học"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Lập_trình"/>
+      <owl:Class rdf:ID="Các_thuật_toán_và_lý_thuyết"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:ID="Tham_chiếu"/>
@@ -75,42 +39,94 @@
       <owl:Class rdf:ID="Khoa_học_tính_toán"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Kiểu_dữ_liệu"/>
+      <owl:Class rdf:ID="Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Cơ_sở_toán_học"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Phần_mềm"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Kỹ_thuật_phần_mềm"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Lập_trình"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:ID="Lý_thuyết_số">
+  <owl:Class rdf:ID="Topological_Sort">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_chương_trình_động">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_Brute_Force">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Kỹ_thuật_phần_mềm">
     <owl:disjointWith>
-      <owl:Class rdf:ID="Lý_thuyết_kiểu"/>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Giải_tích_số"/>
+      <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
     </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Logic_tính_toán"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Hình_học_tính_toán"/>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
     </owl:disjointWith>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Lý_thuyết_phân_loại"/>
+      <owl:Class rdf:about="#Cấu_trúc_rời_rạc"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Lý_thuyết_đồ_thị"/>
+      <owl:Class rdf:about="#Phần_mềm"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:ID="Lý_thuyết_Ôtômat"/>
+      <owl:Class rdf:ID="Cấu_trúc_dữ_liệu_nâng_cao"/>
     </owl:disjointWith>
-    <rdfs:subClassOf>
+    <owl:disjointWith>
       <owl:Class rdf:about="#Cơ_sở_toán_học"/>
-    </rdfs:subClassOf>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Tham_chiếu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiểu_dữ_liệu"/>
+    </owl:disjointWith>
   </owl:Class>
   <owl:Class rdf:about="#Phần_mềm">
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </owl:disjointWith>
     <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
       <owl:Class rdf:about="#Lập_trình"/>
     </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
@@ -118,6 +134,9 @@
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_rời_rạc"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Tham_chiếu"/>
@@ -128,6 +147,10 @@
     <owl:disjointWith>
       <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
     </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
     </owl:disjointWith>
@@ -141,35 +164,52 @@
       <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:ID="Công_ty_phần_cứng">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+  <owl:Class rdf:ID="Thuật_toán_mã_hóa_bất_đối_xứng">
     <rdfs:subClassOf>
-      <owl:Class rdf:ID="Công_ty_công_nghệ_thông_tin"/>
+      <owl:Class rdf:ID="Các_thuật_toán_mã_hóa"/>
     </rdfs:subClassOf>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Công_ty_dịch_vụ"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Công_ty_phần_mềm"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Chi_nhánh"/>
-    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_sắp_xếp_O_n_log_n">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Các_thuật_toán_sắp_xếp"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Các_thuật_toán_mã_hóa">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="An_ninh_và_bảo_mật"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mật_mã"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Giải_quyết_các_quan_hệ_lặp_trong_tổ_hợp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Tổ_hợp"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="#Cơ_sở_toán_học">
     <owl:disjointWith>
       <owl:Class rdf:about="#Tham_chiếu"/>
     </owl:disjointWith>
     <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
       <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
     </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_rời_rạc"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
     </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
@@ -190,51 +230,20 @@
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
-  <owl:Class rdf:about="#Cơ_sở_dữ_liệu">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Thiết_kế_trình_biên_dịch"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
-    </owl:disjointWith>
-    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiến_trúc_hệ_thống"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Hệ_điều_hành"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Mạng_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Ngôn_ngữ_lập_trình"/>
-    </owl:disjointWith>
+  <owl:Class rdf:ID="Big_Omega">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Những_phân_tích_phức_tạp"/>
+    </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="#Ngôn_ngữ_lập_trình">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Hệ_điều_hành"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Mạng_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiến_trúc_hệ_thống"/>
-    </owl:disjointWith>
-    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Thiết_kế_trình_biên_dịch"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
+  <owl:Class rdf:ID="B-Trees">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Regular_Expressions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Trung_cấp">
     <owl:disjointWith>
@@ -266,76 +275,53 @@
       <owl:Class rdf:about="#Trường_đào_tạo_công_nghệ_thông_tin"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="#Kiến_trúc_hệ_thống">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Ngôn_ngữ_lập_trình"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Hệ_điều_hành"/>
-    </owl:disjointWith>
-    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Thiết_kế_trình_biên_dịch"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Mạng_máy_tính"/>
-    </owl:disjointWith>
-  </owl:Class>
-  <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
-    </owl:disjointWith>
+  <owl:Class rdf:ID="Hiệu_suất_đo_đạc_thực_nghiệm">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+      <owl:Class rdf:about="#Những_phân_tích_phức_tạp"/>
     </rdfs:subClassOf>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lập_trình"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiểu_dữ_liệu"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Tham_chiếu"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Phần_mềm"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
   </owl:Class>
-  <owl:Class rdf:about="#Thiết_kế_trình_biên_dịch">
-    <owl:disjointWith rdf:resource="#Ngôn_ngữ_lập_trình"/>
-    <owl:disjointWith rdf:resource="#Kiến_trúc_hệ_thống"/>
+  <owl:Class rdf:ID="Thuật_toán_lập_kế_hoạch">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mạch_và_độ_phức_tạp_của_vi_mạch">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Lý_thuyết_phức_tạp"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thiết_kế_trình_biên_dịch">
     <owl:disjointWith>
-      <owl:Class rdf:about="#Hệ_điều_hành"/>
+      <owl:Class rdf:ID="Ngôn_ngữ_lập_trình"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
-    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Kiến_trúc_hệ_thống"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Hệ_điều_hành"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Cơ_sở_dữ_liệu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Ubiquitous_computing"/>
+    </owl:disjointWith>
     <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Mạng_máy_tính"/>
+      <owl:Class rdf:ID="Mạng_máy_tính"/>
     </owl:disjointWith>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
+      <owl:Class rdf:ID="Bảo_mật_máy_tính"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Công_ty_công_nghệ_thông_tin">
+  <owl:Class rdf:ID="Những_cấu_trúc_dữ_liệu_nâng_cao_khác">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Công_ty_công_nghệ_thông_tin">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
@@ -355,21 +341,15 @@
       <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:about="#Mạng_máy_tính">
-    <owl:disjointWith rdf:resource="#Thiết_kế_trình_biên_dịch"/>
-    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
-    <owl:disjointWith rdf:resource="#Ngôn_ngữ_lập_trình"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Hệ_điều_hành"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
-    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith rdf:resource="#Kiến_trúc_hệ_thống"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
-    </owl:disjointWith>
+  <owl:Class rdf:ID="Thuật_toán_thỏa_hiệp_về_thời_gian_và_không_gian">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Những_phân_tích_phức_tạp"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Ngôn_ngữ_và_chuỗi_và_ký_tự">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:ID="Xử_lý_ngôn_ngữ_tự_nhiên">
     <owl:disjointWith>
@@ -411,34 +391,14 @@
       <owl:Class rdf:ID="Khai_phá_dữ_liệu"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Tham_chiếu">
+  <owl:Class rdf:ID="Stabilization">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+      <owl:Class rdf:ID="Thuật_toán_phân_bố"/>
     </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sự_kiện_công_nghệ_thông_tin">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiểu_dữ_liệu"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lập_trình"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Phần_mềm"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
-    </owl:disjointWith>
   </owl:Class>
   <owl:Class rdf:about="#Phân_tích_số_học">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -454,169 +414,168 @@
       <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:ID="Sự_kiện_công_nghệ_thông_tin">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-  </owl:Class>
-  <owl:Class rdf:about="#Kiến_trúc_máy_tính">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Kiểu_dữ_liệu"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+  <owl:Class rdf:ID="Thuật_toán_cho_kiến_trúc_song_song">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+      <owl:Class rdf:ID="Thuật_toán_cho_môi_trường_điện_toán"/>
     </rdfs:subClassOf>
-    <owl:disjointWith rdf:resource="#Tham_chiếu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Phần_mềm"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lập_trình"/>
-    </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Logic_tính_toán">
+  <owl:Class rdf:ID="Logic_tính_toán">
     <owl:disjointWith>
-      <owl:Class rdf:about="#Hình_học_tính_toán"/>
+      <owl:Class rdf:ID="Hình_học_tính_toán"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_phân_loại"/>
+      <owl:Class rdf:ID="Lý_thuyết_phân_loại"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
+      <owl:Class rdf:ID="Lý_thuyết_Ôtômat"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_kiểu"/>
+      <owl:Class rdf:ID="Lý_thuyết_số"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Lý_thuyết_kiểu"/>
     </owl:disjointWith>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Giải_tích_số"/>
+      <owl:Class rdf:ID="Giải_tích_số"/>
     </owl:disjointWith>
     <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_đồ_thị"/>
+      <owl:Class rdf:ID="Lý_thuyết_đồ_thị"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Nhận_dạng_mẫu">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Máy_học"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_nhận_thức"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Giao_tiếp_người_máy"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Thị_giác_máy"/>
-    </owl:disjointWith>
+  <owl:Class rdf:ID="Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
+      <owl:Class rdf:ID="Thuật_toán"/>
     </rdfs:subClassOf>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Xử_lý_ảnh"/>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Rút_trích_thông_tin"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khai_phá_dữ_liệu"/>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Rôbô_học"/>
+      <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Những_phân_tích_phức_tạp"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
     </owl:disjointWith>
   </owl:Class>
+  <owl:Class rdf:ID="Cellular_Automata">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+    </rdfs:subClassOf>
+  </owl:Class>
   <owl:Class rdf:about="#Kiểu_dữ_liệu">
-    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_máy_tính"/>
     </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
     <owl:disjointWith rdf:resource="#Phần_mềm"/>
     <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
       <owl:Class rdf:about="#Lập_trình"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Tham_chiếu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Tham_chiếu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </owl:disjointWith>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
     </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_rời_rạc"/>
+    </owl:disjointWith>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
       <owl:Class rdf:about="#Trí_tuệ_nhân_tạo"/>
     </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
   </owl:Class>
-  <owl:Class rdf:about="#Công_ty_dịch_vụ">
+  <owl:Class rdf:ID="Một_số_lý_thuyết_khác_về_Automata">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Termination_Detection">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Thuật_toán_phân_bố"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Công_ty_dịch_vụ">
     <rdfs:subClassOf rdf:resource="#Công_ty_công_nghệ_thông_tin"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Công_ty_phần_cứng"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Công_ty_phần_mềm"/>
+      <owl:Class rdf:ID="Công_ty_phần_cứng"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Chi_nhánh"/>
+      <owl:Class rdf:ID="Công_ty_phần_mềm"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Chi_nhánh"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Hóa_học_tính_toán">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Vật_lý_tính_toán"/>
-    <owl:disjointWith rdf:resource="#Phân_tích_số_học"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Tin_sinh_học"/>
-    </owl:disjointWith>
+  <owl:Class rdf:ID="Thuật_toán_phân_nhánh_và_ràng_buộc">
     <rdfs:subClassOf>
-      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+      <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
     </rdfs:subClassOf>
   </owl:Class>
-  <owl:Class rdf:ID="Kiến_trúc_vi_mô">
-    <rdfs:subClassOf rdf:resource="#Kiến_trúc_máy_tính"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Logic_số"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:ID="Đa_xử_lý"/>
-    </owl:disjointWith>
+  <owl:Class rdf:ID="Bảng_băm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Thuật_toán_băm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_Prims">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Thuật_toán_tối_thiểu_khoảng_cách_trong_cây"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="#Trí_tuệ_nhân_tạo">
-    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Tham_chiếu"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_máy_tính"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Tham_chiếu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_rời_rạc"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Phần_mềm"/>
     <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Lập_trình"/>
     </owl:disjointWith>
@@ -630,37 +589,72 @@
       <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Lý_thuyết_kiểu">
+  <owl:Class rdf:about="#Cấu_trúc_rời_rạc">
     <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_phân_loại"/>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Hình_học_tính_toán"/>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Tham_chiếu"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </owl:disjointWith>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
     </owl:disjointWith>
-    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
     <owl:disjointWith>
-      <owl:Class rdf:about="#Giải_tích_số"/>
+      <owl:Class rdf:about="#Lập_trình"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_đồ_thị"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Thuật_toán_phân_bố">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_tìm_kiếm_theo_chiều_sâu">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_tham_lam">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="#Hệ_điều_hành">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Kiến_trúc_hệ_thống"/>
-    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
-    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_hệ_thống"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cơ_sở_dữ_liệu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ubiquitous_computing"/>
+    </owl:disjointWith>
     <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
-    <owl:disjointWith rdf:resource="#Ngôn_ngữ_lập_trình"/>
-    <owl:disjointWith rdf:resource="#Mạng_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ngôn_ngữ_lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mạng_máy_tính"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
     </owl:disjointWith>
@@ -669,6 +663,11 @@
   <owl:Class rdf:ID="Chuyên_gia_công_nghệ_thông_tin">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Lý_thuyết">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="#Rút_trích_thông_tin">
     <owl:disjointWith>
@@ -700,7 +699,9 @@
     <owl:disjointWith>
       <owl:Class rdf:about="#Rôbô_học"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Nhận_dạng_mẫu"/>
+    </owl:disjointWith>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
@@ -727,7 +728,9 @@
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_nhận_thức"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Nhận_dạng_mẫu"/>
+    </owl:disjointWith>
     <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#Rôbô_học"/>
@@ -736,35 +739,13 @@
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
-  <owl:Class rdf:about="#Khai_phá_dữ_liệu">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Thị_giác_máy"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Rôbô_học"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_nhận_thức"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
-    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
-    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Xử_lý_ảnh"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Máy_học"/>
-    </owl:disjointWith>
+  <owl:Class rdf:about="#Lý_thuyết_phức_tạp">
+    <rdfs:subClassOf rdf:resource="#Lý_thuyết"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Splay_Trees">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </rdfs:subClassOf>
   </owl:Class>
   <owl:Class rdf:about="#Máy_học">
     <owl:disjointWith>
@@ -776,7 +757,9 @@
     <owl:disjointWith>
       <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khai_phá_dữ_liệu"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
     </owl:disjointWith>
@@ -788,40 +771,24 @@
     </owl:disjointWith>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Nhận_dạng_mẫu"/>
+    </owl:disjointWith>
     <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#Xử_lý_ảnh"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Thị_giác_máy">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Khoa_học_nhận_thức"/>
-    </owl:disjointWith>
-    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Rôbô_học"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Máy_học"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Xử_lý_ảnh"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
-    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
-    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
-  </owl:Class>
-  <owl:Class rdf:ID="Thuật_toán">
-    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+  <owl:Class rdf:about="#Thuật_toán">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Biểu_thức_đệ_quy"/>
+    </rdfs:subClassOf>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
@@ -831,26 +798,6 @@
       <owl:Class rdf:ID="Phân_tích_thuật_toán"/>
     </owl:disjointWith>
   </owl:Class>
-  <owl:Class rdf:about="#Lý_thuyết_đồ_thị">
-    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
-    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_phân_loại"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_kiểu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Hình_học_tính_toán"/>
-    </owl:disjointWith>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Giải_tích_số"/>
-    </owl:disjointWith>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
-  </owl:Class>
   <owl:Class rdf:about="#Khoa_học_nhận_thức">
     <owl:disjointWith>
       <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
@@ -859,28 +806,102 @@
     <owl:disjointWith>
       <owl:Class rdf:about="#Rôbô_học"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Nhận_dạng_mẫu"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
     <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khai_phá_dữ_liệu"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Máy_học"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
       <owl:Class rdf:about="#Xử_lý_ảnh"/>
     </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Thị_giác_máy"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thị_giác_máy"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
   </owl:Class>
+  <owl:Class rdf:ID="Cây_nhị_phân_cân_bằng_như_Red-Black">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Big_Theta">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Những_phân_tích_phức_tạp"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_nâng_cao">
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Tham_chiếu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <rdfs:subClassOf rdf:resource="#Thuật_toán"/>
+    <owl:disjointWith rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Những_phân_tích_phức_tạp"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Push-down_Automata">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Push-down_Lemma">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+    </rdfs:subClassOf>
+  </owl:Class>
   <owl:Class rdf:about="#Lý_thuyết_phân_loại">
-    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_số"/>
+    </owl:disjointWith>
     <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
     <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_đồ_thị"/>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_kiểu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_đồ_thị"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_kiểu"/>
+    </owl:disjointWith>
     <owl:disjointWith>
       <owl:Class rdf:about="#Hình_học_tính_toán"/>
     </owl:disjointWith>
@@ -893,13 +914,486 @@
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
-  <owl:Class rdf:about="#Lập_trình">
-    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+  <owl:Class rdf:ID="Fault_Tolerance">
+    <rdfs:subClassOf rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_phân_bố"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Tổ_chức_Hiệp_hội_công_nghệ_thông_tin">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Đọc_và_ghi_đồng_thời_hoặc_chiếm_giữ">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_cho_kiến_trúc_song_song"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Những_phân_tích_phức_tạp">
+    <owl:disjointWith rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Thuật_toán"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Hình_học_tính_toán">
+    <owl:disjointWith rdf:resource="#Lý_thuyết_phân_loại"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_đồ_thị"/>
+    </owl:disjointWith>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_số"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_kiểu"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Giải_tích_số"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Biểu_thức_đệ_quy">
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_rời_rạc"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Binomial_Heaps">
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata">
+    <rdfs:subClassOf rdf:resource="#Lý_thuyết"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Chi_nhánh">
+    <rdfs:subClassOf rdf:resource="#Công_ty_công_nghệ_thông_tin"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Công_ty_phần_cứng"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Công_ty_dịch_vụ"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Công_ty_phần_mềm"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Trung_tâm_dạy_nghề">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Trường_đào_tạo_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Trung_cấp"/>
+    <owl:disjointWith rdf:resource="#Cao_đẳng"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Đại_học"/>
+    </owl:disjointWith>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_đường_đi_ngắn_nhất_tới_nguồn">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Những_chiến_lược_thiết_kế_Thuật_toán">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán"/>
+    <owl:disjointWith rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Một_số_phân_tích_phức_tạp_nâng_cao_khác">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Tin_sinh_học">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </rdfs:subClassOf>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Vật_lý_tính_toán"/>
+    <owl:disjointWith rdf:resource="#Phân_tích_số_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Hóa_học_tính_toán"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Phân_tích_thuật_toán">
+    <owl:disjointWith rdf:resource="#Thuật_toán"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu"/>
+    </owl:disjointWith>
+    <có_nghĩa_tiếng_Anh_là>
+      <Phân_tích_thuật_toán rdf:ID="Analysis_of_algorithms">
+        <có_nghĩa_tiếng_Việt_là rdf:resource="#Phân_tích_thuật_toán"/>
+        <Nội_dung rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >To analyze an algorithm is to determine the amount of resources (such as time and storage) necessary to execute it. Most algorithms are designed to work with inputs of arbitrary length. Usually the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity) or storage locations (space complexity). Algorithm analysis is an important part of a broader computational complexity theory, which provides theoretical estimates for the resources needed by any algorithm which solves a given computational problem. These estimates provide an insight into reasonable directions of search for efficient algorithms.</Nội_dung>
+        <Nguồn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >http://en.wikipedia.org/wiki/Analysis_of_algorithms</Nguồn>
+      </Phân_tích_thuật_toán>
+    </có_nghĩa_tiếng_Anh_là>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    </rdfs:subClassOf>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_hàm_băm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Thuật_toán_băm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tries">
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Rôbô_học">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
+    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
+    <owl:disjointWith rdf:resource="#Máy_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Xử_lý_ảnh"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thị_giác_máy"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khai_phá_dữ_liệu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Nhận_dạng_mẫu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
+    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:about="#Thuật_toán_băm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_thuật_toán_tính_toán_lý_thuyết_số">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Đa_xử_lý">
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Kiến_trúc_vi_mô"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Logic_số"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
+    </rdfs:subClassOf>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_sắp_xếp_thời_gian_theo_tuyến_tính">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_sắp_xếp"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Giải_thưởng_công_nghệ_thông_tin">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:about="#Sự_sống_nhân_tạo">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Xử_lý_ảnh"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Máy_học"/>
+    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Nhận_dạng_mẫu"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Rôbô_học"/>
+    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
+    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
+    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thị_giác_máy"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khai_phá_dữ_liệu"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Đánh_dấu_tiệm_cận_Little_O">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hội_thảo_công_nghệ_thông_tin">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Open_Hashing">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_băm"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Ubiquitous_computing">
+    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
+    </owl:disjointWith>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ngôn_ngữ_lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Thiết_kế_trình_biên_dịch"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Cơ_sở_dữ_liệu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mạng_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_hệ_thống"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_điều_hành"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lý_thuyết_số">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_kiểu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Giải_tích_số"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
+    <owl:disjointWith rdf:resource="#Hình_học_tính_toán"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Lý_thuyết_phân_loại"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_đồ_thị"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Công_ty_phần_cứng">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <rdfs:subClassOf rdf:resource="#Công_ty_công_nghệ_thông_tin"/>
+    <owl:disjointWith rdf:resource="#Công_ty_dịch_vụ"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Công_ty_phần_mềm"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Chi_nhánh"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_luồng_đi_mạng">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_duyệt_cây_theo_chiều_rộng">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mô_hình_PRAM">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_cho_kiến_trúc_song_song"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_đường_đi_ngắn_nhất_của_Dijkstras">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Cơ_sở_dữ_liệu">
+    <owl:disjointWith rdf:resource="#Thiết_kế_trình_biên_dịch"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_hệ_thống"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_điều_hành"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mạng_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Ngôn_ngữ_lập_trình"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_thuật_toán_tìm_kiếm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_sắp_xếp_Shell_Sort">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_sắp_xếp"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Ngôn_ngữ_lập_trình">
+    <owl:disjointWith rdf:resource="#Hệ_điều_hành"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mạng_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_hệ_thống"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Thiết_kế_trình_biên_dịch"/>
+    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Kiến_trúc_hệ_thống">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Ngôn_ngữ_lập_trình"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
+    <owl:disjointWith rdf:resource="#Hệ_điều_hành"/>
+    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
+    <owl:disjointWith rdf:resource="#Thiết_kế_trình_biên_dịch"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Mạng_máy_tính"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Cấu_trúc_dữ_liệu_và_giải_thuật">
+    <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
     <rdfs:subClassOf>
       <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
     </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Tham_chiếu"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </owl:disjointWith>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_tìm_kiếm_theo_chiều_sâu_dùng_vòng_lặp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Consensus_and_Election">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_phân_bố"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_tìm_kiếm_theo_chiều_rộng">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tìm_kiếm_kết_hợp_trong_Cấu_trúc_dữ_liệu">
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mật_mã">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#An_ninh_và_bảo_mật"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_duyệt_cây_nhị_phân_theo_chiều_sâu">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Mạng_máy_tính">
+    <owl:disjointWith rdf:resource="#Thiết_kế_trình_biên_dịch"/>
+    <owl:disjointWith rdf:resource="#Ubiquitous_computing"/>
+    <owl:disjointWith rdf:resource="#Ngôn_ngữ_lập_trình"/>
+    <owl:disjointWith rdf:resource="#Hệ_điều_hành"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Cơ_sở_dữ_liệu"/>
+    <rdfs:subClassOf rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Kiến_trúc_hệ_thống"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Bảo_mật_máy_tính"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Tham_chiếu">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
+    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Kiến_trúc_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
-    <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_thuật_toán_so_khớp_mẫu_và_chuỗi">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Kiến_trúc_máy_tính">
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#Khoa_học_máy_tính"/>
     </owl:disjointWith>
@@ -907,16 +1401,295 @@
       <owl:Class rdf:about="#Khoa_học_tính_toán"/>
     </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Tham_chiếu"/>
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_định_tuyến_và_giao_diện">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Phân_tích_phân_bổ">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Nhận_dạng_mẫu">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Máy_học"/>
+    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
+    <owl:disjointWith rdf:resource="#Sự_sống_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thị_giác_máy"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Xử_lý_ảnh"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
+    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khai_phá_dữ_liệu"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Rôbô_học"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Các_thuật_toán_và_lý_thuyết">
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Tham_chiếu"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lập_trình"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_thuật_toán_trên_ma_trận">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_các_cặp_đường_đi_ngắn_nhất">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Các_thuật_toán_sắp_xếp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_thuật_toán_gần_đúng">
+    <rdfs:subClassOf rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Các_thuật_toán_đồ_thị_và_cây">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_trực_tuyến_và_ngoại_tuyến">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_cho_kiến_trúc_song_song"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_chia_nhỏ_và_xử_lý">
+    <rdfs:subClassOf rdf:resource="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành">
+    <owl:disjointWith rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    <owl:disjointWith rdf:resource="#Những_phân_tích_phức_tạp"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <rdfs:subClassOf rdf:resource="#Thuật_toán"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Hóa_học_tính_toán">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Vật_lý_tính_toán"/>
+    <owl:disjointWith rdf:resource="#Phân_tích_số_học"/>
+    <owl:disjointWith rdf:resource="#Tin_sinh_học"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Kiến_trúc_vi_mô">
+    <rdfs:subClassOf rdf:resource="#Kiến_trúc_máy_tính"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Logic_số"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Đa_xử_lý"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Pointer_jumping">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_cho_kiến_trúc_song_song"/>
+  </owl:Class>
+  <owl:Class rdf:about="#An_ninh_và_bảo_mật">
+    <rdfs:subClassOf rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Xác_định_khác_biệt_trong_các_mức_trung_bình_và_các_trường_hợp_xấu">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Thuật_toán_tối_thiểu_khoảng_cách_trong_cây">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_đồ_thị_và_cây"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Phân_tích_tiệm_cận">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_suy_ngược">
+    <rdfs:subClassOf rdf:resource="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Pumping_Lemma">
+    <rdfs:subClassOf rdf:resource="#Lý_thuyết_về_ngôn_ngữ_chính_thức_và_Automata"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_mã_hóa_đối_xứng">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_mã_hóa"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lý_thuyết_kiểu">
+    <owl:disjointWith rdf:resource="#Lý_thuyết_phân_loại"/>
+    <owl:disjointWith rdf:resource="#Hình_học_tính_toán"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
+    </owl:disjointWith>
+    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Giải_tích_số"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_đồ_thị"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+  </owl:Class>
+  <owl:Class rdf:about="#Khai_phá_dữ_liệu">
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Thị_giác_máy"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Rôbô_học"/>
+    <owl:disjointWith rdf:resource="#Sự_sống_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
+    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
+    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
+    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
+    </owl:disjointWith>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Xử_lý_ảnh"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Máy_học"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_giải_khóa_mật_mã">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_mã_hóa"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Thị_giác_máy">
+    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
+    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Rôbô_học"/>
+    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Sự_sống_nhân_tạo"/>
+    <owl:disjointWith rdf:resource="#Máy_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Xử_lý_ảnh"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
+    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
+    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Quan_hệ_tái_lập">
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Giải_quyết_các_quan_hệ_lặp_trong_tổ_hợp"/>
+        <owl:onProperty>
+          <owl:InverseFunctionalProperty rdf:ID="dùng"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lý_thuyết_đồ_thị">
+    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
+    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Lý_thuyết_phân_loại"/>
+    <owl:disjointWith rdf:resource="#Lý_thuyết_kiểu"/>
+    <owl:disjointWith rdf:resource="#Hình_học_tính_toán"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Giải_tích_số"/>
+    </owl:disjointWith>
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Threaded_Binary_Trees">
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_hệ_số_ngẫu_nhiên_giả">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_máy_tính_lượng_tử">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Big_O">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Lập_trình">
+    <owl:disjointWith rdf:resource="#Phần_mềm"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_máy_tính"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
+    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Các_thuật_toán_và_lý_thuyết"/>
+    <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
     <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
     <owl:disjointWith rdf:resource="#Tham_chiếu"/>
     <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
     <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
   </owl:Class>
-  <owl:Class rdf:ID="Tổ_chức_Hiệp_hội_công_nghệ_thông_tin">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+  <owl:Class rdf:ID="Các_thuật_toán_về_ngẫu_nhiên">
+    <rdfs:subClassOf rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
   </owl:Class>
   <owl:Class rdf:about="#Trường_đào_tạo_công_nghệ_thông_tin">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -925,36 +1698,18 @@
   <owl:Class rdf:about="#Đại_học">
     <owl:disjointWith rdf:resource="#Trung_cấp"/>
     <owl:disjointWith rdf:resource="#Cao_đẳng"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Trung_tâm_dạy_nghề"/>
-    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Trung_tâm_dạy_nghề"/>
     <rdfs:subClassOf rdf:resource="#Trường_đào_tạo_công_nghệ_thông_tin"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
-  <owl:Class rdf:about="#Hình_học_tính_toán">
-    <owl:disjointWith rdf:resource="#Lý_thuyết_phân_loại"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Lý_thuyết_Ôtômat"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_đồ_thị"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_số"/>
-    <rdfs:subClassOf rdf:resource="#Cơ_sở_toán_học"/>
-    <owl:disjointWith rdf:resource="#Lý_thuyết_kiểu"/>
-    <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Giải_tích_số"/>
-    </owl:disjointWith>
-  </owl:Class>
-  <owl:Class rdf:about="#Chi_nhánh">
-    <rdfs:subClassOf rdf:resource="#Công_ty_công_nghệ_thông_tin"/>
-    <owl:disjointWith rdf:resource="#Công_ty_phần_cứng"/>
-    <owl:disjointWith rdf:resource="#Công_ty_dịch_vụ"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Công_ty_phần_mềm"/>
-    </owl:disjointWith>
+  <owl:Class rdf:about="#Thuật_toán_cho_môi_trường_điện_toán">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán"/>
+    <owl:disjointWith rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
+    <owl:disjointWith rdf:resource="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
+    <owl:disjointWith rdf:resource="#Những_chiến_lược_thiết_kế_Thuật_toán"/>
+    <owl:disjointWith rdf:resource="#Những_phân_tích_phức_tạp"/>
   </owl:Class>
   <owl:Class rdf:about="#Lý_thuyết_Ôtômat">
     <owl:disjointWith rdf:resource="#Lý_thuyết_đồ_thị"/>
@@ -970,12 +1725,17 @@
     <owl:disjointWith rdf:resource="#Logic_tính_toán"/>
     <owl:disjointWith rdf:resource="#Hình_học_tính_toán"/>
   </owl:Class>
+  <owl:Class rdf:about="#Cấu_trúc_dữ_liệu">
+    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</protege:subclassesDisjoint>
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith rdf:resource="#Thuật_toán"/>
+    <owl:disjointWith rdf:resource="#Phân_tích_thuật_toán"/>
+  </owl:Class>
   <owl:Class rdf:about="#Xử_lý_ảnh">
     <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
     <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Rôbô_học"/>
-    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Rôbô_học"/>
     <owl:disjointWith>
       <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
     </owl:disjointWith>
@@ -984,56 +1744,14 @@
     <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
     <owl:disjointWith rdf:resource="#Thị_giác_máy"/>
     <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
-    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Sự_sống_nhân_tạo"/>
     <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith rdf:resource="#Máy_học"/>
   </owl:Class>
-  <owl:Class rdf:about="#Cấu_trúc_dữ_liệu">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
-    <owl:disjointWith rdf:resource="#Thuật_toán"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Phân_tích_thuật_toán"/>
-    </owl:disjointWith>
-  </owl:Class>
-  <owl:Class rdf:about="#Trung_tâm_dạy_nghề">
-    <rdfs:subClassOf rdf:resource="#Trường_đào_tạo_công_nghệ_thông_tin"/>
-    <owl:disjointWith rdf:resource="#Trung_cấp"/>
-    <owl:disjointWith rdf:resource="#Cao_đẳng"/>
-    <owl:disjointWith rdf:resource="#Đại_học"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-  </owl:Class>
-  <owl:Class rdf:about="#Tin_sinh_học">
-    <rdfs:subClassOf>
-      <owl:Class rdf:about="#Khoa_học_tính_toán"/>
-    </rdfs:subClassOf>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Vật_lý_tính_toán"/>
-    <owl:disjointWith rdf:resource="#Phân_tích_số_học"/>
-    <owl:disjointWith rdf:resource="#Hóa_học_tính_toán"/>
-  </owl:Class>
-  <owl:Class rdf:about="#Phân_tích_thuật_toán">
-    <owl:disjointWith rdf:resource="#Thuật_toán"/>
-    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu"/>
-    <có_nghĩa_tiếng_Anh_là>
-      <Phân_tích_thuật_toán rdf:ID="Analysis_of_algorithms">
-        <có_nghĩa_tiếng_Việt_là rdf:resource="#Phân_tích_thuật_toán"/>
-        <Nội_dung rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >To analyze an algorithm is to determine the amount of resources (such as time and storage) necessary to execute it. Most algorithms are designed to work with inputs of arbitrary length. Usually the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps (time complexity) or storage locations (space complexity). Algorithm analysis is an important part of a broader computational complexity theory, which provides theoretical estimates for the resources needed by any algorithm which solves a given computational problem. These estimates provide an insight into reasonable directions of search for efficient algorithms.</Nội_dung>
-        <Nguồn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-        >http://en.wikipedia.org/wiki/Analysis_of_algorithms</Nguồn>
-      </Phân_tích_thuật_toán>
-    </có_nghĩa_tiếng_Anh_là>
-    <rdfs:subClassOf rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+  <owl:Class rdf:ID="Thuật_toán_Heuristics">
+    <rdfs:subClassOf rdf:resource="#Các_phương_pháp_khác_với_khái_niệm_khác_nhau_về_thành_công"/>
   </owl:Class>
   <owl:Class rdf:about="#Khái_niệm_công_nghệ_thông_tin">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -1051,37 +1769,28 @@
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
   </owl:Class>
+  <owl:Class rdf:ID="Bucket_Hashing">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_băm"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Các_thuật_toán_hình_học">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+  </owl:Class>
   <owl:Class rdf:about="#Logic_số">
     <owl:disjointWith rdf:resource="#Kiến_trúc_vi_mô"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Đa_xử_lý"/>
-    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Đa_xử_lý"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <rdfs:subClassOf rdf:resource="#Kiến_trúc_máy_tính"/>
   </owl:Class>
-  <owl:Class rdf:about="#Rôbô_học">
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
-    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
-    <owl:disjointWith rdf:resource="#Máy_học"/>
-    <owl:disjointWith rdf:resource="#Xử_lý_ảnh"/>
-    <owl:disjointWith rdf:resource="#Thị_giác_máy"/>
-    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
-    <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Biễu_diễn_tri_thức"/>
-    </owl:disjointWith>
-    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
-    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+  <owl:Class rdf:ID="Các_thuật_toán_tối_ưu_hóa_tổ_hợp">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_quan_trọng_trong_giảng_dạy_và_thực_hành"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Định_lý_Brents_và_hiệu_quả_công_việc.">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_cho_kiến_trúc_song_song"/>
   </owl:Class>
   <owl:Class rdf:about="#Khoa_học_máy_tính">
     <rdfs:subClassOf rdf:resource="#Khái_niệm_công_nghệ_thông_tin"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
     <owl:disjointWith>
@@ -1089,20 +1798,25 @@
     </owl:disjointWith>
     <owl:disjointWith rdf:resource="#Tham_chiếu"/>
     <owl:disjointWith rdf:resource="#Lập_trình"/>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
     <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
     <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
+    <owl:disjointWith rdf:resource="#Các_thuật_toán_và_lý_thuyết"/>
     <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
     <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
     <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
     <owl:disjointWith rdf:resource="#Phần_mềm"/>
     <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
   </owl:Class>
-  <owl:Class rdf:about="#Đa_xử_lý">
-    <owl:disjointWith rdf:resource="#Kiến_trúc_vi_mô"/>
-    <owl:disjointWith rdf:resource="#Logic_số"/>
-    <rdfs:subClassOf rdf:resource="#Kiến_trúc_máy_tính"/>
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+  <owl:Class rdf:about="#Tổ_hợp">
+    <rdfs:subClassOf rdf:resource="#Cấu_trúc_rời_rạc"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_Steganography">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_mã_hóa"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_Kruskals">
+    <rdfs:subClassOf rdf:resource="#Thuật_toán_tối_thiểu_khoảng_cách_trong_cây"/>
   </owl:Class>
   <owl:Class rdf:about="#Giải_tích_số">
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -1116,24 +1830,33 @@
     <owl:disjointWith rdf:resource="#Lý_thuyết_đồ_thị"/>
     <owl:disjointWith rdf:resource="#Lý_thuyết_kiểu"/>
   </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_sắp_xếp_dựa_trên_so_sánh">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_sắp_xếp"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Thuật_toán_Transitive_Closure_của_Floyds">
+    <rdfs:subClassOf rdf:resource="#Các_thuật_toán_đồ_thị_và_cây"/>
+  </owl:Class>
   <owl:Class rdf:about="#Khoa_học_tính_toán">
     <owl:disjointWith rdf:resource="#Kiểu_dữ_liệu"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_rời_rạc"/>
     <rdfs:subClassOf rdf:resource="#Khái_niệm_công_nghệ_thông_tin"/>
+    <owl:disjointWith rdf:resource="#Hệ_thống_mạng_và_máy_tính"/>
     <owl:disjointWith rdf:resource="#Kiến_trúc_máy_tính"/>
     <owl:disjointWith rdf:resource="#Tham_chiếu"/>
     <owl:disjointWith rdf:resource="#Phần_mềm"/>
     <owl:disjointWith rdf:resource="#Cơ_sở_toán_học"/>
     <owl:disjointWith rdf:resource="#Kỹ_thuật_phần_mềm"/>
     <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_và_giải_thuật"/>
+    <owl:disjointWith rdf:resource="#Cấu_trúc_dữ_liệu_nâng_cao"/>
     <owl:disjointWith rdf:resource="#Khoa_học_máy_tính"/>
+    <owl:disjointWith rdf:resource="#Các_thuật_toán_và_lý_thuyết"/>
     <owl:disjointWith rdf:resource="#Trí_tuệ_nhân_tạo"/>
     <owl:disjointWith rdf:resource="#Lập_trình"/>
   </owl:Class>
-  <owl:Class rdf:ID="Giải_thưởng_công_nghệ_thông_tin">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
+  <owl:Class rdf:ID="Đánh_dấu_tiệm_cận_little_Omega">
+    <rdfs:subClassOf rdf:resource="#Những_phân_tích_phức_tạp"/>
   </owl:Class>
   <owl:Class rdf:about="#Biễu_diễn_tri_thức">
     <owl:disjointWith rdf:resource="#Máy_học"/>
@@ -1144,29 +1867,11 @@
     <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
     <owl:disjointWith rdf:resource="#Xử_lý_ảnh"/>
     <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
-    <owl:disjointWith>
-      <owl:Class rdf:about="#Sự_sống_nhân_tạo"/>
-    </owl:disjointWith>
+    <owl:disjointWith rdf:resource="#Sự_sống_nhân_tạo"/>
     <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
     <owl:disjointWith rdf:resource="#Thị_giác_máy"/>
     <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
-  </owl:Class>
-  <owl:Class rdf:about="#Sự_sống_nhân_tạo">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-    <owl:disjointWith rdf:resource="#Biễu_diễn_tri_thức"/>
-    <owl:disjointWith rdf:resource="#Xử_lý_ảnh"/>
-    <owl:disjointWith rdf:resource="#Máy_học"/>
-    <rdfs:subClassOf rdf:resource="#Trí_tuệ_nhân_tạo"/>
-    <owl:disjointWith rdf:resource="#Khoa_học_nhận_thức"/>
-    <owl:disjointWith rdf:resource="#Nhận_dạng_mẫu"/>
-    <owl:disjointWith rdf:resource="#Rôbô_học"/>
-    <owl:disjointWith rdf:resource="#Giao_tiếp_người_máy"/>
-    <owl:disjointWith rdf:resource="#Rút_trích_thông_tin"/>
-    <owl:disjointWith rdf:resource="#Xử_lý_ngôn_ngữ_tự_nhiên"/>
-    <owl:disjointWith rdf:resource="#Thị_giác_máy"/>
     <owl:disjointWith rdf:resource="#Khai_phá_dữ_liệu"/>
   </owl:Class>
   <owl:Class rdf:about="#Công_ty_phần_mềm">
@@ -1177,19 +1882,15 @@
     <owl:disjointWith rdf:resource="#Công_ty_dịch_vụ"/>
     <owl:disjointWith rdf:resource="#Chi_nhánh"/>
   </owl:Class>
-  <owl:Class rdf:ID="Hội_thảo_công_nghệ_thông_tin">
-    <protege:subclassesDisjoint rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</protege:subclassesDisjoint>
-  </owl:Class>
-  <owl:ObjectProperty rdf:ID="trao">
-    <owl:inverseOf>
-      <owl:InverseFunctionalProperty rdf:ID="được_trao_bởi"/>
-    </owl:inverseOf>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="được_triển_khai_bằng_cách_sử_dụng">
     <rdfs:subPropertyOf>
       <owl:ObjectProperty rdf:ID="được_triển_khai"/>
     </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="trao">
+    <owl:inverseOf>
+      <owl:InverseFunctionalProperty rdf:ID="được_trao_bởi"/>
+    </owl:inverseOf>
   </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="là_chi_nhánh_của_công_ty">
     <rdfs:domain rdf:resource="#Chi_nhánh"/>
@@ -1204,24 +1905,24 @@
     </owl:inverseOf>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:about="#có_chi_nhánh_là">
-    <owl:inverseOf rdf:resource="#là_chi_nhánh_của_công_ty"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
-  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:ID="có_nghĩa_tiếng_Việt_là">
     <owl:inverseOf>
       <owl:ObjectProperty rdf:ID="có_nghĩa_tiếng_Anh_là"/>
     </owl:inverseOf>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#có_chi_nhánh_là">
+    <owl:inverseOf rdf:resource="#là_chi_nhánh_của_công_ty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+  </owl:ObjectProperty>
   <owl:ObjectProperty rdf:about="#có_nghĩa_tiếng_Anh_là">
     <owl:inverseOf rdf:resource="#có_nghĩa_tiếng_Việt_là"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
   </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="là_một_dạng"/>
   <owl:ObjectProperty rdf:about="#thuộc_công_ty">
     <owl:inverseOf rdf:resource="#có_công_ty_thành_viên_là"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   </owl:ObjectProperty>
-  <owl:ObjectProperty rdf:ID="là_một_dạng"/>
   <owl:ObjectProperty rdf:ID="công_tác_tại"/>
   <owl:DatatypeProperty rdf:ID="Tên">
     <rdfs:domain>
@@ -1365,7 +2066,7 @@
   </owl:InverseFunctionalProperty>
   <owl:InverseFunctionalProperty rdf:ID="được_dùng_bởi">
     <owl:inverseOf>
-      <owl:InverseFunctionalProperty rdf:ID="dùng"/>
+      <owl:InverseFunctionalProperty rdf:about="#dùng"/>
     </owl:inverseOf>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </owl:InverseFunctionalProperty>
@@ -1381,13 +2082,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <owl:inverseOf rdf:resource="#được_dùng_bởi"/>
   </owl:InverseFunctionalProperty>
-  <Cấu_trúc_dữ_liệu rdf:ID="Cây">
-    <Nội_dung rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >Trong khoa học máy tính, cây là một cấu trúc dữ liệu được sử dụng rộng rãi gồm một tập hợp các nút (tiếng Anh: node) được liên kết với nhau theo quan hệ cha-con.</Nội_dung>
-    <Nguồn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
-    >http://vi.wikipedia.org/wiki/Cây_(cấu_trúc_dữ_liệu)</Nguồn>
-    <là_một_dạng rdf:resource="#Cấu_trúc_dữ_liệu"/>
-  </Cấu_trúc_dữ_liệu>
   <Cấu_trúc_dữ_liệu rdf:ID="Ngăn_xếp">
     <Nguồn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >http://vi.wikipedia.org/wiki/Ngăn_xếp</Nguồn>
@@ -1457,6 +2151,13 @@
     <là_một_dạng rdf:resource="#Cấu_trúc_dữ_liệu"/>
     <Nội_dung rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
     >Hàng đợi (tiếng Anh: queue) là một cấu trúc dữ liệu dùng để chứa các đối tượng làm việc theo cơ chế FIFO (viết tắt từ tiếng Anh: First In First Out), nghĩa là "vào trước ra trước</Nội_dung>
+  </Cấu_trúc_dữ_liệu>
+  <Cấu_trúc_dữ_liệu rdf:ID="Cây">
+    <Nội_dung rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Trong khoa học máy tính, cây là một cấu trúc dữ liệu được sử dụng rộng rãi gồm một tập hợp các nút (tiếng Anh: node) được liên kết với nhau theo quan hệ cha-con.</Nội_dung>
+    <Nguồn rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >http://vi.wikipedia.org/wiki/Cây_(cấu_trúc_dữ_liệu)</Nguồn>
+    <là_một_dạng rdf:resource="#Cấu_trúc_dữ_liệu"/>
   </Cấu_trúc_dữ_liệu>
   <Cấu_trúc_dữ_liệu rdf:ID="Linked_list">
     <có_nghĩa_tiếng_Việt_là>
