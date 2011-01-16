@@ -43,7 +43,7 @@ public class Constants {
 
     /* path */
     public static String PATH_ONTOLOGY = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/OVIT.owl").getPath();
-    public static String PATH_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/train").getPath();
+//    public static String PATH_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/train").getPath();
 //    public static String PATH_LAST_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/lastTrain").getPath();
     public static String PATH_LAST_TRAIN = "D:/lastTrain";
     public static String PATH_FILES = "D:/download files";
