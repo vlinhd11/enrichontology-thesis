@@ -12,6 +12,8 @@ import com.tkorg.entities.OWLModel;
 import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
 import edu.stanford.smi.protegex.owl.model.RDFSClass;
 import edu.stanford.smi.protegex.owl.model.impl.DefaultRDFSNamedClass;
+import java.util.HashSet;
+import java.util.Set;
 
 public class ClassActions {
 	public static ArrayList<OWLNamedClass> classesArrayList = null;
@@ -36,7 +38,10 @@ public class ClassActions {
 			liClassNameList.add("liClosed");
 		}
 
-		// Convert all classes into Tree.
+                // remove duplicate class in list
+                Set setClasses = new HashSet(classesArrayList);
+                classesArrayList = new ArrayList<OWLNamedClass>(setClasses);
+		// Convert all classes into Tree.                                
 		convertClassesIntoTree();
 	}
 
@@ -61,17 +66,17 @@ public class ClassActions {
 		strResult = "<ul class=\"mktree\" id=\"tree1\" >\n";
 		for (int i = 0; i < classesArrayList.size(); i++) {
 			if (classesArrayList.get(i).getBrowserText().equals("owl:Thing")) {
-				strResult += "<li id=\"" + classesArrayList.get(i).getBrowserText() + "\" " +
+				strResult += "<li id=\"" + classesArrayList.get(i).getBrowserText() +"\" " +
                                         "class=\"" + liClassNameList.get(i) + "\" >\n";
 				if (classesArrayList.get(i).getSubclassCount() != 0) {
-					strResult += "	<a href=\"#\" style=\"text-decoration:none\" class=\"bullet\" " +
+					strResult += "	<a href='#"+classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" " +
                                                     "onclick=\"changeTree('" + classesArrayList.get(i).getBrowserText() + "')\" ></a>" +
                                                 "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				}
 				else {
 					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
 				}
-				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('" + classesArrayList.get(i).getBrowserText() + "','listID')\" >"
+				strResult += "<a href='#"+classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" name='"+classesArrayList.get(i).getBrowserText() + "_"+i+"'"+ "style=\"text-decoration:none\" onclick=\"addConcept('" + classesArrayList.get(i).getBrowserText() + "','listID')\" >"
 						+ classesArrayList.get(i).getBrowserText()
 						+ "</a>\n";
 				addNodesByRank(classesArrayList.get(i));
@@ -89,13 +94,13 @@ public class ClassActions {
 				strResult += "<li id=\"" + temp + "\" " +
                                         "class=\"" + liClassNameList.get(i) + "\" >";
 				if (classesArrayList.get(i).getSubclassCount() != 0)
-					strResult += "	<a href=\"#\" style=\"text-decoration:none\" class=\"bullet\" onclick=\"changeTree('"
+					strResult += "	<a href='#"+temp + "_sub_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" onclick=\"changeTree('"
 							+ temp
 							+ "')\" ></a>" +
                                                         "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				else
 					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
-				strResult += "<a href=\"#\" style=\"text-decoration:none\" onclick=\"addConcept('"
+				strResult += "<a href='#"+temp + "_sub_"+i+ "'"+" name='"+temp + "_sub_"+i+"'"+" style=\"text-decoration:none\" onclick=\"addConcept('"
 						+ temp
 						+ "','listID')\" >"
 						+ temp
