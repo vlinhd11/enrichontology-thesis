@@ -5,10 +5,8 @@
 
 package com.tkorg.businesslogic;
 
-import com.hp.hpl.jena.graph.query.SimpleQueryEngine.Cons;
 import com.tkorg.download.Download;
 import com.tkorg.util.Constants;
-import com.yahoo.shopping.Cost;
 import java.io.File;
 import javax.swing.JOptionPane;
 
