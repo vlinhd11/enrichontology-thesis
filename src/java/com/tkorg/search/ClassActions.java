@@ -91,11 +91,11 @@ public class ClassActions {
 		for (int i = 0; i < classesArrayList.size(); i++) {
 			if (classesArrayList.get(i).isSubclassOf((RDFSClass) parentClass)) {
                             temp = classesArrayList.get(i).getBrowserText().replace("_", " ");
-				strResult += "<li id=\"" + temp + "\" " +
+				strResult += "<li id=\"" + temp + "_" + parentClass.getBrowserText() + "\" " +
                                         "class=\"" + liClassNameList.get(i) + "\" >";
 				if (classesArrayList.get(i).getSubclassCount() != 0)
 					strResult += "	<a href='#"+temp + "_sub_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" onclick=\"changeTree('"
-							+ temp
+							+ temp + "_" + parentClass.getBrowserText()
 							+ "')\" ></a>" +
                                                         "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				else
