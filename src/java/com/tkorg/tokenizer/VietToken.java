@@ -44,7 +44,7 @@ public class VietToken {
                     File[] textFiles = trainFiles[i].listFiles();
                     for (int j = 0; j < textFiles.length; j++) {
                         String temp = Constants.PATH_LAST_TRAIN + "/" + trainFiles[i].getName() + "/" + textFiles[j].getName();
-                        vietToken.tokenize(textFiles[i].toString(), temp);
+                        vietToken.tokenize(textFiles[j].toString(), temp);
                         removeStopwords.remove(temp);
                     }
                 }
