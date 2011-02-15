@@ -1,0 +1,26 @@
+﻿Chip Intel dành cho máy tính bảng sẽ có mặt vào năm sau
+
+Hôm 8/12/2010, CEO Paul Otellini của Intel cho biết, hãng này sẽ tạo ấn tượng trên thị trường máy tính bảng vào năm tới với chip Atom dành cho máy tính bảng.
+
+Trong Hội nghị Công nghệ Toàn cầu Barclays Capital được truyền trên web, ông Paul Otellini cho biết, Intel có 35 hợp đồng thiết kế chip máy tính bảng với các hãng gồm Dell, Toshiba, Lenovo, Fujitsu, Asus và Cisco, nhằm chuẩn bị sản xuất máy tính bảng chạy HĐH Windows hay Android.
+Ông Otellini cho biết, vài máy tính bảng dùng chip Intel sẽ được triển lãm ở Triển lãm Hàng Điện tử Tiêu dùng CES vào tháng tới. Tại cuộc triển lãm này cũng sẽ có tuyên bố liên quan đến loại chip này.
+
+Chip của Intel hiện được dùng trong 80% máy tính cá nhân trên khắp thế giới, nhưng hãng đang cố gắng đưa chip của mình vào thị trường di động mới nổi đang bị Arm thống trị. Chip dựa trên cấu trúc Arm đang được dùng trong hầu hết điện thoại thông minh (smartphone) và máy tính bảng trên thế giới, gồm iPad của Apple và Galaxy Tab của Samsung.
+
+Ông Otellini cho biết, số máy tính bảng bán ra trên toàn thế giới sẽ đạt mức 30 triệu vào năm tới, và sẽ cạnh tranh với netbook. Theo ông Otellini, máy tính bảng là một mặt hàng mới trong thị trường máy tính cá nhân và hiện không có tác động tiêu cực đối với số netbook hay MTXT bán ra.
+
+Intel đang nhắm đưa vào thị trường máy tính bảng 2 chip có tên mã là Oak Trail và Moorestown dùng BXL Atom ít tốn điện năng. Chip Oak Trail dựa trên cấu trúc x86 và sẽ giúp máy tính bảng hoàn toàn hỗ trợ môi trường và trình điều khiển của Windows, nên có thể dễ dàng gắn các thiết bị ngoại vi. Một số các thiết bị được tự động phát hiện khi được gắn vào MTXT hay máy tính để bàn chạy HĐH Windows 7.
+
+Ông Otellini cho biết, chip Moorestown đã được công bố, và được thiết kế để sử dụng trong máy tính bảng di động. Chip này sẽ không tương thích với Windows, nhưng sẽ dùng được với các HĐH dựa trên Linux như Android và Meego, đây là các HĐH gọn nhẹ dùng cho các thiết bị di động. HĐH Android cũng sẽ chạy được với chip Oak Trail.
+
+Theo ông Otellini, Intel muốn đảm bảo các HĐH hiện có đều được hỗ trợ. Các nhà phân tích cho biết, thị trường máy tính bảng vẫn còn trong thời kỳ phôi thai, và các hãng sản xuất chip đang hỗ trợ nhiều HĐH để có thể nâng cao doanh số chip.
+
+Moorestown cũng được thiết kế cho smartphone, nhưng hiện chưa thấy có thiết bị nào chạy chip này.
+
+Trong khi đó, Intel đang chuẩn bị tung ra chip máy tính thế hệ kế tiếp có tên mã Sandy Bridge. Loại chip này, sẽ được bán ra hàng loạt vào tháng tới, có tính năng đồ họa cải tiến hơn so với các chip trước đây, với CPU và BXL đồ họa tích hợp sẵn trong một phiến silicon duy nhất, và với tài nguyên dùng chung. Chip cũng có bộ gia tốc và bộ mở rộng chuyên dùng để nâng cao hiệu năng đồ họa và video.
+
+Ông Otellini cho biết, tính năng đồ họa mạnh mẽ trong loại chip mới này sẽ đe dọa phân khúc bình dân của thị trường BXL đồ họa rời.
+
+Intel sẽ bắt đầu bán ra chip Sandy Bridge 4 nhân vào đầu năm tới, sau đó sẽ bán các mẫu chip 2 nhân và 1 nhân vào cuối quý 1/2011 để hoàn tất loạt chip mới này.
+
+Ông Otellini cho biết, Intel sẽ công bố chip dựa trên Sandy Bridge tên mã là Ivybridge vào đầu năm 2012, nhưng không cho biết thêm chi tiết về loại chip này.

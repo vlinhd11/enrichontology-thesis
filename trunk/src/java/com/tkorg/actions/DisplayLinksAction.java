@@ -6,15 +6,14 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.DisplayLinksBL;
-import com.tkorg.businesslogic.SearchOntologyBL;
 import com.tkorg.download.Download;
 import com.tkorg.forms.DisplayLinksForm;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.JOptionPane;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
+import vn.hus.nlp.tokenizer.TokenizerProvider;
 
 /**
  *
