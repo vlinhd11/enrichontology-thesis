@@ -1,0 +1,23 @@
+﻿An toàn thông tin có mục đích là phải tổ chức việc xử lý, ghi nhớ và trao đổi thông tin sao cho tính cẩn mật, toàn vẹn, sẵn sàng và đáng tin cậy được bảo đảm ở mức độ đầy đủ.
+Ngày nay vấn đề an toàn thông tin được xem là một trong những quan tâm hàng đầu của xã hội, có ảnh hưởng rất nhiều đến hầu hết các ngành khoa học tự nhiên, kỹ thuật, khoa học xã hội và kinh tế.
+Mục lục [ẩn]
+1 Tiêu chuẩn
+2 Đọc thêm
+3 Liên kết ngoài
+
+[sửa]Tiêu chuẩn
+
+Trên trường quốc tế Tiêu chuẩn Anh BS 7799 "Hướng dẫn về quản lý an toàn thông tin", được công bố lần đầu tiên vào năm 1995, đã được chấp nhận. Xuất phát từ phần 1 của Tiêu chuẩn Anh BS 77999 là tiêu chuẩn ISO/IEC 17799:2000 mà hiện nay tồn tại dưới phiên bản được sửa đổi ISO/IEC 17799:2005.
+Nội dung ISO/IEC 17799:2005 bao gồm 134 biện pháp cho an toàn thông tin và được chia thành 11 nhóm:
+Chính sách an toàn thông tin (Information security policy): chỉ thị và hướng dẫn về an toàn thông tin
+Tổ chức an toàn thông tin (Organization of information security): tổ chức biện pháp an toàn và qui trình quản lý.
+Quản lý tài sản (Asset management): trách nhiệm và phân loại giá trị thông tin
+An toàn tài nguyên con người (Human resource security) : bảo đảm an toàn
+An toàn vật lý và môi trường (Physical and environmental security)
+Quản lý vận hành và trao đổi thông tin (Communications and operations management)
+Kiểm soát truy cập (Access control)
+Thu nhận, phát triển và bảo quản các hệ thống thông tin (Information systems acquisition, development and maintenance)
+Quản lý sự cố mất an toàn thông tin (Information security incident management)
+Quản lý duy trì khả năng tồn tại của doanh nghiệp (Business continuity management)
+Tuân thủ các quy định pháp luật (Compliance)
+Tiêu chuẩn ISO/IEC 27001:2005 phát triển từ phần 2 của BS 7799. Tiêu chuẩn này quy định các yêu cầu đối với một hệ thống quản lý an toàn thông tin và tương tự như ISO 9001 là một tiêu chuẩn về quản lý có thể được cấp giấy chứng nhận.

@@ -1,0 +1,28 @@
+﻿Chip Intel Core sẽ ngăn sao chép video truyền trực tuyến
+
+Hôm 3/1/2011, Intel cho biết đang phát triển một tính năng bảo mật phần cứng trong các chip Core thế hệ kế tiếp để ngăn ngừa sao chép phim đang truyền trực tuyến (streaming).
+
+Tính năng này của chip được gọi là “Insider”, gồm tính năng bảo vệ lớp đầu cuối và quản lý để mở khóa phim độ nét cao của các dịch vụ xem phim trực tuyến, theo bà Karen Regis, Giám đốc Tiếp thị mảng Khách hàng Tiêu dùng của Intel.
+“Insider” là một trong những sản phẩm đồ họa cải tiến của Intel trong các BXL Core thế hệ kế tiếp, sẽ được chính thức phát hành vào ngày 5/1/2011 trước khi Triển lãm Hàng Điện tử Tiêu dùng được tổ chức tại Las Vegas (Mỹ).
+
+Với “Insider”, người dùng có thể truy xuất nhiều hơn các nội dung phim có độ nét 1080p, chưa được chính thức đưa lên Internet, theo bà Regis. Các phim có độ nét cao 1080p (với hình ảnh được hiển thị ở độ phân giải 1920x1080 pixel) cũng có thể xem được trên đĩa Blu-ray.
+
+Các hãng phim cũng e ngại phim của họ bị xâm phạm bản quyền, việc này làm họ hạn chế sản xuất phim độ nét 1080p cao cấp có thể xem trên mạng. Bà Regis cho biết, “Insider” cho ta một màn bảo mật nhằm khuyến khích nhiều hãng phim sản xuất phim độ nét cao.
+
+Intel đã hợp tác với bộ phận Phân phối Sản phẩm số của hãng phim Warner Bros để sản xuất 300 đầu phim độ nét cao, sẽ bán ở cửa hàng WB Shop hay trên dịch vụ CinemaNow của Best Buy. Các phim này chỉ có thể xem được trên các máy có BXL Core thế hệ kế tiếp của Intel.
+
+Bà Regis cho biết, trong tương lai, tính năng này sẽ được đưa vào những sản phẩm chip tiêu dùng khác của Intel. Intel cũng đang hợp tác thêm với các hãng phim và sẽ công bố trong vài tháng tới.
+
+Ngoài “Insider”, Intel cũng đang xây dựng nhiều công nghệ đồ họa mới trên chip Core để tăng tốc trong việc tạo và dựng hình video. Intel lần đầu tiên đang xây dựng một BXL đồ họa và CPU trong cùng một chip, nhằm cải thiện hiệu năng ứng dụng và đồ họa trong khi tiêu thụ ít điện năng. Các chip Core được sản xuất theo một vi cấu trúc mới có tên mã là Sandy Bridge.
+
+Intel đang thêm các bộ gia tốc phần cứng chuyên dùng để có thể nhanh chóng mã hóa và giải mã video. Tính năng này được gọi là “Quick Sync”, cho phép người dùng chuyển video độ nét cao sang một định dạng thích hợp cho smartphone chỉ trong vài giây. Các bộ gia tốc phần cứng này nhanh hơn các phần mềm phải cần đến vài phút mới chuyển được định dạng của video.
+
+Intel cũng đang nâng cấp công nghệ Wi-Di hiện có của họ, cho phép người dùng truyền không dây hình ảnh và video từ máy tính đến TV độ nét cao. Người dùng cũng có thể xem trực tuyến các phim có bản quyền với tính năng “Insider” của Intel, bà Regis cho biết.
+
+Nhưng các BXL Core mới này không hỗ trợ DirectX 11, công nghệ giúp hình ảnh đồ họa trông thực hơn trên máy tính chạy HĐH Windows 7 của Microsoft. Intel vẫn bị lạc hậu một bước so với Advanced Micro Devices (AMD), hãng sắp tung ra các chip Fusion có BXL đồ họa hỗ trợ DirectX 11.
+
+Bà Regis cho biết, Intel đã thử nghiệm các ứng dụng và nhận thấy không có nhiều ứng dụng dùng các tính năng trong DirectX 11 hiện nay. Hãng sẽ đưa tính năng này vào BXL đồ họa trước khi đưa ra đại chúng.
+
+Trong phân khúc người dùng cá nhân, DirectX 11 thích hợp hơn cho lĩnh vực game cao cấp, là lĩnh vực mà card đồ họa rời được sử dụng rất nhiều.
+
+Intel sẽ bắt đầu xuất xưởng chip Core 4 nhân vào tháng 1/2011, kế tiếp là chip 2 nhân vào tháng 2/2011.

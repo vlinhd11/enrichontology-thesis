@@ -1,0 +1,88 @@
+﻿Công nghệ phần mềm hay kỹ nghệ phần mềm (tiếng Anh: software engineering) là sự áp dụng một cách tiếp cận có hệ thống, có kỷ luật, và định lượng được cho việc phát triển, sử dụng và bảo trì phần mềm.[1] Ngành học kỹ nghệ phần mềm bao trùm kiến thức, các công cụ, và các phương pháp cho việc định nghĩa yêu cầu phần mềm, và thực hiện các tác vụ thiết kế, xây dựng, kiểm thử (software testing), và bảo trì phần mềm.[2] Kỹ nghệ phần mềm còn sử dụng kiến thức của các lĩnh vực như kỹ thuật máy tính, khoa học máy tính, quản lý, toán học, quản lý dự án, quản lý chất lượng, công thái học phần mềm (software ergonomics), và kỹ nghệ hệ thống (systems engineering).[2]
+Trích dẫn một câu nói của Edsger Dijkstra về công nghệ phần mềm:
+Khi máy tính chưa xuất hiện, thì việc lập trình chưa có khó khăn gì cả. Khi mới xuất hiện một vài chiếc máy tính chức năng kém thì việc lập trình bắt đầu gặp một vài khó khăn nho nhỏ. Giờ đây khi chúng ta có những chiếc máy tính khổng lồ thì những khó khăn ấy trở nên vô cùng lớn. Như vậy ngành công nghiệp điện tử không giải quyết khó khăn nào cả mà họ chỉ tạo thêm ra những khó khăn mới. Khó khăn mà họ tạo nên chính là việc sử dụng sản phẩm của họ.
+Mục lục [ẩn]
+1 Lịch sử
+1.1 Dòng thời gian
+1.2 Hướng tương lai của kỹ nghệ phần mềm
+2 Nghề nghiệp
+2.1 Công việc
+2.2 Chứng chỉ
+2.3 Ảnh hưởng của toàn cầu hóa
+3 Giáo dục
+4 Các ngành con
+5 Các ngành liên quan
+5.1 Khoa học máy tính
+5.2 Quản lí dự án
+5.3 Kĩ nghệ hệ thống
+6 Các sản phẩm phần mềm
+6.1 Phân loại
+6.2 Thuộc tính của sản phẩm phần mềm
+7 Tham khảo
+8 Xem thêm
+9 Đọc thêm
+10 Liên kết ngoài
+[sửa]Lịch sử
+
+Bài chi tiết: Lịch sử công nghệ phần mềm
+Công nghệ phần mềm có một lịch sử khá sớm. Các công cụ được dùng cũng như các ứng dụng được viết đã tham gia vào kỹ nghệ phần mềm theo thời gian.
+[sửa]Dòng thời gian
+Thập niên 1940: Các chương trình cho máy tính được viết bằng tay.
+Thâp niên 1950: Các công cụ đầu tiên xuất hiện như là phần mềm biên dịch Macro Assembler và phần mềm thông dịch đã được tạo ra và sử dụng rộng rãi để nâng cao năng suất và chất lượng. Các trình dịch được tối ưu hoá lần đầu tiên ra đời.
+Thập niên 1960: Các công cụ của thế hệ thứ hai như các trình dịch tối ưu hoá và công việc kiểm tra mẫu đã được dùng để nâng cao sản phẩm và chất lượng. Khái niệm công nghệ phần mềm đã được bàn thảo rộng rãi.
+Thập niên 1970: Các công cụ phần mềm, chẳng hạn trong UNIX các vùng chứa mã, lệnh make, v.v. được kết hợp với nhau. Số lượng doanh nghiệp nhỏ về phần mềm và số lượng máy tính cỡ nhỏ tăng nhanh.
+Thập niên 1980: các PC và máy trạm ra đời. Cùng lúc có sự xuất hiện của mô hình dự toán khả năng. Lượng phần mềm tiêu thụ tăng mạnh.
+Thập niên 1990: Phương pháp lập trình hướng đối tượng ra đời. Các quá trình nhanh như là lập trình cực hạn được chấp nhận rộng rãi. Trong thập niên này, WWW và các thiết bị máy tính cầm tay phổ biến rộng rãi.
+Hiện nay: Các phần mềm biên dịch và quản lý như là .NET, PHP và Java làm cho việc viết phần mềm trở nên dễ dàng hơn nhiều.
+[sửa]Hướng tương lai của kỹ nghệ phần mềm
+Lập trình định dạng và các phương pháp linh hoạt sẽ giữ vai trò quan trọng trong tương lai của công nghệ phần mềm. ICSE 2005 đã tham gia theo dõi cả hai chủ đề này. (ICSE là dạng viết tắt của International Conference on Software Engineering tức là Hội nghị Quốc tế về Kỹ nghệ Phần mềm.)
+- Lập trình định dạng (aspect-oriented programming) sẽ giúp người lập trình ứng xử với các yêu cầu không liên quan đến các chức năng thực tế của phần mềm bằng cách cung ứng các công cụ để thêm hay bớt các khối mã ít bị thay đổi trong nhiều vùng của của mã nguồn. Lập trình định dạng mô tả các đối tượng và hàm nên ứng xử như thế nào trong một tình huống cụ thể.
+Thí dụ: Lập trình định dạng có thêm vào các cơ cấu kiểm soát hiệu chỉnh lỗi, biên bản và khoá cho tất cả các đối tượng của một số kiểu. Các nhà nghiên cứu đang tìm cách ứng dụng lập trình định dạng để thiết kế mã cho mục tiêu thông thường.
+- Phát triển phần mềm linh hoạt: nhằm hướng dẩn các đề án phát triển phần mềm mà trong đó bao gồm việc thoả mãn các nhu cầu thay đổi và sự cạnh tranh của thị trường một cách nhanh chóng. Các quá trình cồng kềnh, nặng về hồ sơ tính như là TickIT, CMM và ISO 9000 đang lu mờ dần tầm quan trọng.
+Hội nghị Future of Software Engineering (FOSE) tin rằng ICSE 2000 đã hồ sơ hoá các tính năng hiện đại nhất của kỹ nghệ phần mềm và nêu ra nhiều vấn đề cần được giải quyết trong thập niên tới.
+Đề án Feyerabend có ý định tìm hiểu tương lai của kỹ nghệ phần mềm qua tìm kiếm và xuất bản các ý kiến sáng tạo.
+[sửa]Nghề nghiệp
+
+Bài chi tiết: Kĩ sư phần mềm
+[sửa]Công việc
+[sửa]Chứng chỉ
+[sửa]Ảnh hưởng của toàn cầu hóa
+[sửa]Giáo dục
+
+[sửa]Các ngành con
+
+Kĩ nghệ phần mềm có thể được chia thành 10 ngành con, đó là:[3]
+Yêu cầu phần mềm: Phân tách, phân tích, đặc tả và phê chuẩn các yêu cầu đối với phần mềm.
+Thiết kế phần mềm: Việc thiết kế phần mềm thường được hoàn thành bằng các công cụ Computer-Aided Software Engineering (CASE) và sử dụng các tiêu chuẩn định dạng, như Unified Modeling Language (UML).
+Phát triển phần mềm: Xây dựng phần mềm thông qua việc dùng các ngôn ngữ lập trình.
+Kiểm thử phần mềm
+Bảo trì phần mềm: Các hệ thống phần mềm thường có nhiều vấn đề và cần được cải tiến trong một thời gian dài sau khi đã được hoàn tất vào lần đầu tiên. Lĩnh vực con này xem xét các vấn đề đó.
+Quản lí cấu hình phần mềm: Bởi vì các hệ thống phần mềm rất phức tạp, cấu hình của chúng (ví dụ như kiểm soát phiên bản và mã nguồn) phải được quản lí bằng các phương pháp chuẩn và có cấu trúc.
+Quản lí kĩ nghệ phần mềm: Quản lí hệ thống phần mềm vay mượn rất nhiều khái niệm từ quản lí dự án, nhưng có nhiều khác biệt nhỏ gặp trong phần mềm mà không gặp trong các ngành quản lí khác.
+Quy trình phát triển phần mềm: Quy trình xây dựng phần mềm là điều tranh cãi giữa các nhà thực hành; một số quy trình nổi tiếng là Mô hình Thác nước, Mô hình Xoắn ốc, Phát triển Tăng tiến và Lặp, và Phát triển Linh hoạt.
+Các công cụ kĩ thuật phần mềm, xem bài Computer Aided Software Engineering
+Chất lượng phần mềm
+[sửa]Các ngành liên quan
+
+Kĩ nghệ phần mềm liên quan đến các ngành khoa học máy tính, khoa học quản lí, và kĩ nghệ hệ thống.[4][5]
+[sửa]Khoa học máy tính
+Kĩ nghệ phần mềm đã từng được nhiều nhà khoa học coi là một lĩnh vực con của khoa học máy tính.[cần dẫn nguồn] Nhiều nền tảng của kĩ nghệ phần mềm đến từ khoa học máy tính.
+[sửa]Quản lí dự án
+Việc xây dựng một hệ thống phần mềm thường được coi là một dự án và việc quản lí nó vay mượn nhiều nguyên lí từ lĩnh vực Quản lí dự án.
+[sửa]Kĩ nghệ hệ thống
+Các kĩ sư hệ thống đã xem xét độ phức tạp của các hệ thống lớn trong nhiều thập kỉ, và những kiến thức của họ được áp dụng cho nhiều vấn đề kĩ nghệ phần mềm.
+[sửa]Các sản phẩm phần mềm
+
+Đối tượng chính của công nghệ phần mềm là sản xuất ra các sản phẩm phần mềm.
+Sản phẩm phần mềm là các phần mềm được phân phối cho khách hàng cùng với các tài liệu mô tả phương thức cài đặt và cách thức sử dụng chúng.
+[sửa]Phân loại
+Sản phẩm tổng quát: là các phần mềm đứng riêng, được sản xuất bởi một tổ chức phát triển và bán vào thị trường cho bất kỳ khách hàng nào có khả năng tiêu thụ.
+Sản phẩm chuyên ngành: là phần mềm được hỗ trợ tài chính bởi khách hàng trong chuyên ngành. Phần mềm được phát triển một cách đặc biệt cho khách hàng qua các hợp đồng.
+Cho đến thập niên 1980 hầu hết sản phẩm phần mềm đều làm theo đơn đặt hàng riêng (đặc biệt hóa). Nhưng kể từ khi có PC tình hình hoàn toàn thay đổi. Các phần mềm được phát triển và bán cho hàng trăm ngàn khách hàng là chủ các PC và do đó giá bán các sản phẩm này cũng rẻ hơn nhiều. Microsoft là nhà sản xuất phần mềm lớn nhất hiện nay.
+[sửa]Thuộc tính của sản phẩm phần mềm
+Thuộc tính của một sản phẩm phần mềm là các đặc tính xuất hiện từ sản phẩm một khi nó được cài đặt và được đưa ra dùng. Các thuộc tính này không bao gồm các dịch vụ được cung cấp kèm theo sản phẩm đó. Ví dụ: mức hiệu quả, độ bền, khả năng bảo trì, khả năng dùng ở nhiều nền là các thuộc tính.
+Các thuộc tính biến đổi tùy theo phần mềm. Tuy nhiên những thuộc tính tối quan trọng bao gồm:
+Khả năng bảo trì: Nó có khả năng thực hành những tiến triển để thỏa mãn yêu cầu của khách hàng.
+Khả năng tin cậy: Khả năng tin cậy của phần mềm bao gồm một loạt các đặc tính như là độ tin cậy, an toàn, và bảo mật. Phần mềm tin cậy không thể tạo ra các thiệt hại vật chất hay kinh tế trong trường hợp hư hỏng.
+Độ hữu hiệu: Phần mềm không thể phí phạm các nguồn tài nguyên như là bộ nhớ và các chu kì vi xử lý.
+Khả năng sử dụng: Phần mềm nên có một giao diện tương đối dễ cho người dùng và có đầy đủ các hồ sơ về phần mềm.

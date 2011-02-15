@@ -42,11 +42,16 @@ public class Constants {
     /* number hÃ nh */
 
     /* path */
-    public static String PATH_ONTOLOGY = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/OVIT.owl").getPath();
+//    public static String PATH_ONTOLOGY = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/OVIT.owl").getPath();
 //    public static String PATH_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/train").getPath();
 //    public static String PATH_LAST_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/lastTrain").getPath();
-    public static String PATH_LAST_TRAIN = "D:/lastTrain";
-    public static String PATH_FILES = "D:/download files";
+//    public static String PATH_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/tokenizer").getPath();
+//    public static String PATH_STOPWORD = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/stopwords.txt").getPath();
+    public static String PATH_STOPWORD = "C:/HOC TAP/ThucHanh/NetBeans/EnrichOntology/src/java/com/tkorg/data/stopwords.txt";
+    public static String PATH_TRAIN = "C:/Train";
+    public static String PATH_ONTOLOGY = "C:/OVIT.owl";
+    public static String PATH_LAST_TRAIN = "C:/lastTrain";
+    public static String PATH_FILES = "C:/download files";
 
     /* text */
     public static String GOOGLE = "google";

@@ -1,0 +1,13 @@
+﻿Microsoft, Ford hợp tác viết phần mềm xe điện
+
+Microsoft sẽ mở rộng phần mềm quản lý năng lượng tiêu dùng Hohm của họ để làm việc với các ô-tô điện của Ford Motor, hôm 31/3/2010, hai công ty thông báo.
+
+Với Hohm, các chủ sở hữu tương lai của những chiếc xe điện Ford sẽ có thể xác định thời gian tốt nhất để sạc điện cho xe của họ ở nhà, tại một cuộc họp báo ở New York (Mỹ) lãnh đạo 2 công ty cho biết.
+Khi người tiêu dùng bắt đầu sử dụng xe điện và xe lai nhiều, các công ty điện lực sẽ thấy nhu cầu điện vào buổi tối tăng lên do khi đó, mọi người trở về nhà từ nơi làm việc và cắm điện vào xe ô tô của mình để sạc, CEO Steve Ballmer của Microsoft giải thích.
+
+"Nhu cầu được đặt trên lưới điện sẽ rất lớn", ông Ballmer nói. "Giải quyết thách thức của việc làm thế nào mà nhu cầu đó được quản lý thông minh nhất sẽ là tối quan trọng. Và đấy là phần việc của CNTT".
+
+Hai công ty cam kết sẽ làm việc với các công ty điện lực thành phố nên phần mềm có thể xác định được khi nào là thời gian hợp lý nhất để người tiêu dùng sạc điện cho xe.
+
+Hohm là một dịch vụ Microsoft dùng để phân tích việc sử dụng điện trong gia đình, khuyến nghị những thay đổi để tiết kiệm năng lượng.
+ 
