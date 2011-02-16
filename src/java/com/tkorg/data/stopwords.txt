@@ -14,6 +14,8 @@ ai nấy
 ái dà
 alô
 amen
+anh ta
+anh
 áng
 ào
 ắt
@@ -22,13 +24,16 @@ amen
 âu là
 ầu ơ
 ấy
+ba
 bài
 bản
 bao giờ
+bao gồm
 bao lâu
 bao nả
 bao nhiêu
 bay biến
+bảy
 bằng
 bằng ấy
 bằng không
@@ -36,6 +41,8 @@ bằng nấy
 bắt đầu từ
 bập bà bập bõm
 bập bõm
+bất
+bất chấp
 bất chợt
 bất cứ
 bất đồ
@@ -65,7 +72,13 @@ bấy nhiêu
 bèn
 béng
 bển
+bên
+bên dưới
+bên trái
+bên trên
+bên phải
 bệt
+bị
 biết bao
 biết bao nhiêu
 biết chừng nào
@@ -73,6 +86,7 @@ biết đâu
 biết đâu chừng
 biết đâu đấy
 biết mấy
+bốn
 bộ
 bội phần
 bông
@@ -92,13 +106,15 @@ bởi vậy
 bởi vì
 bức
 cả
-cả thảy	 cái
+cả thảy	 
+cái
 các
 cả thảy
 cả thể
 càng
 căn
 căn cắt
+cần
 cật lực
 cật sức
 cây
@@ -110,6 +126,7 @@ chắc
 chắc hẳn
 chăn chắn
 chăng
+chẳng
 chẳng lẽ
 chẳng những
 chẳng nữa
@@ -121,18 +138,26 @@ chết tiệt
 chết thật
 chí chết
 chỉn
+chín
 chính
+chính anh
+chính chị
 chính là
 chính thị
+chính tôi
 chỉ
 chỉ do
 chỉ là
 chỉ tại
 chỉ vì
+chị
 chiếc
+cho
 cho đến
 cho đến khi
+cho là
 cho nên
+cho rằng
 cho tới
 cho tới khi
 choa
@@ -152,11 +177,17 @@ chung cục
 chung qui
 chung quy
 chung quy lại
+chúng
 chúng mình
 chúng ta
+chúng tao
+chúng mày
 chúng tôi
+chúng nó
+chưa
 chứ
 chứ lị
+có
 có chăng là
 có dễ
 có vẻ
@@ -166,6 +197,7 @@ coi mòi
 con
 còn
 cô
+cô ấy
 cô mình
 cổ lai
 công nhiên
@@ -173,9 +205,16 @@ cơ
 cơ chừng
 cơ hồ
 cơ mà
+cỡ chừng
 cơn
 cu cậu
+cụ thể
 của
+của mày
+của bạn
+của
+cuối
+cuối cùng
 cùng
 cùng cực
 cùng nhau
@@ -205,10 +244,14 @@ do vì
 do đó
 do vậy
 dở chừng
+dù
 dù cho
+dù là
 dù rằng
+dù thế
 duy
 dữ
+dựa
 dưới
 đã
 đại để
@@ -222,7 +265,68 @@ dưới
 đành đạch
 đánh đùng
 đáo để
+đằng sau
+đằng trước
+đâu
+đây
+đều
+để
+đó
+đồng thời
+đủ
+được
+gì
+giữa
+gồm
+hai
+Hay
+hay
+hãy
+hầu hết
+hiện nay
+hoàn toàn
+hoặc
+họ
+hỡi
+hơn
+hồi nãy
+ít
+kế tiếp
+khoảng
+khoảng chừng
+không
+khi
+là
+lại
+làm
+lẫn
+lên
+liên tiếp
+liên tục
+luôn
+luôn luôn
+lúc
+lúc ấy
+lúc trước
+mà
+mày
+mãi
+mãi mãi
+mặc dù
+mặc kệ
+mặt khác
+mầy
+mi
+mọi
+mỗi
+một
+mười
+này
+năm
+nãy
 nấy
+nè
+nên
 nên chi
 nền
 nếu
@@ -242,6 +346,7 @@ ngăn ngắt
 nghe chừng
 nghe đâu
 nghen
+nghĩa là
 nghiễm nhiên
 nghỉm
 ngõ hầu
@@ -271,6 +376,7 @@ nhé
 nhỉ
 nhiên hậu
 nhiệt liệt
+nhiều
 nhón nhén
 nhỡ ra
 nhung nhăng
@@ -301,17 +407,21 @@ oái
 ô kê
 ô kìa
 ồ
+ôi
 ôi chao
 ôi thôi
+ối
 ối dào
 ối giời
 ối giời ơi
+ối trời
 ôkê
 ổng
 ơ
 ơ hay
 ơ kìa
 ờ
+ở
 ớ
 ơi
 phải
@@ -334,7 +444,8 @@ qua quít
 qua quýt
 quả
 quả đúng
-quả làquả tang
+quả là
+quả tang
 quả thật
 quả tình
 quả vậy
@@ -352,6 +463,7 @@ quý hồ
 quyển
 quyết
 quyết nhiên
+r
 ra
 ra phết
 ra trò
@@ -368,6 +480,7 @@ rất mực
 ren rén
 rén
 rích
+riêng
 riệt
 riu ríu
 rón rén
@@ -376,28 +489,36 @@ rốt cục
 rốt cuộc
 rút cục
 rứa
-sa sả	 sạch
+s
+sa sả	 
+sạch
+sẵn sàng
 sao
+sau
 sau chót
 sau cùng
 sau cuối
 sau đó
+sáu
 sắp
 sất
 sẽ
 sì
 song le
+số
 số là
 sốt sột
 sở dĩ
 suýt
 sự
+tao
 tà tà
 tại
 tại vì
 tấm
 tấn
 tự vì
+tám
 tanh
 tăm tắp
 tắp
@@ -423,18 +544,23 @@ thậm chí
 thật lực
 thật vậy
 thật ra
+thật là
 thẩy
+theo
 thế
 thế à
 thế là
+thế đấy
 thế mà
 thế nào
 thế nên
 thế ra
 thế thì
+thế nhưng
 thếch
 thi thoảng
 thì
+thì ra
 thình lình
 thỉnh thoảng
 thoạt
@@ -446,10 +572,12 @@ thốc
 thốc tháo
 thộc
 thôi
+thôi thì
 thốt
 thốt nhiên
 thuần
 thục mạng
+thuộc
 thúng thắng
 thửa
 thực ra
@@ -458,6 +586,8 @@ thương ôi
 tiện thể
 tiếp đó
 tiếp theo
+tiếp đến
+tiếp tục
 tít mù
 tỏ ra
 tỏ vẻ
@@ -470,7 +600,9 @@ tốc tả
 tôi
 tối ư
 tông tốc
-tột	 
+tột
+tớ	 
+trái
 tràn cung mây
 trên
 trển
@@ -478,14 +610,19 @@ trệt
 trếu tráo
 trệu trạo
 trong
+trong khi
+trong lúc
 trỏng
+trời ơi
 trời đất ơi
 trước
 trước đây
 trước đó
 trước kia
+trước khi
 trước nay
 trước tiên
+trừ khi
 trừ phi
 tù tì
 tuần tự
@@ -493,12 +630,18 @@ tuốt luốt
 tuốt tuồn tuột
 tuốt tuột
 tuy
+tuy là
 tuy nhiên
 tuy rằng
 tuy thế
 tuy vậy
 tuyệt nhiên
+từ
+tự
 từng
+tức
+tức là
+tức khắc
 tức thì
 tức tốc
 tựu trung
@@ -512,25 +655,36 @@ tựu trung
 ử
 ừ
 và
+vài
 vả chăng
 vả lại
+vào
+vào lúc
 vạn nhất
 văng tê
+vân vân
 vẫn
+vẫn là
 vâng
 vậy
 vậy là
 vậy thì
+vậy thôi
+vậy mà
+vậy nên
 veo
 veo veo
 vèo
 về
+về mặt
+về phía
 vì
 vì chưng
 vì thế
 vì vậy
 ví bằng
 ví dù
+ví dụ
 ví phỏng
 ví thử
 vị tất
@@ -546,6 +700,7 @@ vung tàn tán
 vung tán tàn
 vung thiên địa
 vụt
+vừa
 vừa mới
 xa xả
 xăm xăm
@@ -566,3 +721,755 @@ xuống
 ý
 ý chừng
 ý da
+a ha
+A lô
+À ơi
+Á
+À
+Á à
+Ạ
+Ạ ơi
+Ai
+Ai ai
+Ai nấy
+Ái
+Ái chà
+Ái dà
+Alô
+Amen
+Anh ta
+Anh
+Áng
+Ào
+Ắt
+Ắt hẳn
+Ắt là
+Âu là
+Ầu ơ
+Ấy
+Ba
+Bài
+Bản
+Bao giờ
+Bao gồm
+Bao lâu
+Bao nả
+Bao nhiêu
+Bay biến
+Bảy
+Bằng
+Bằng ấy
+Bằng không
+Bằng nấy
+Bắt đầu từ
+Bập bà bập bõm
+Bập bõm
+Bất
+Bất chấp
+Bất chợt
+Bất cứ
+Bất đồ
+Bất giác
+Bất kể
+Bất kì
+Bất kỳ
+Bất luận
+Bất nhược
+Bất quá
+Bất thình lình
+Bất tử
+Bây bẩy
+Bây chừ
+Bây giờ
+Bây giờ
+Bây nhiêu
+Bấy
+Bấy giờ
+Bấy chầy
+Bấy chừ
+Bấy giờ
+Bấy lâu
+Bấy lâu nay
+Bấy nay
+Bấy nhiêu
+Bèn
+Béng
+Bển
+Bên
+Bên dưới
+Bên trái
+Bên trên
+Bên phải
+Bệt
+Bị
+Biết bao
+Biết bao nhiêu
+Biết chừng nào
+Biết đâu
+Biết đâu chừng
+Biết đâu đấy
+Biết mấy
+Bốn
+Bộ
+Bội phần
+Bông
+Bỗng
+Bỗng chốc
+Bỗng dưng
+Bỗng đâu
+Bỗng không
+Bỗng nhiên
+Bỏ mẹ
+Bớ
+Bởi
+Bởi chưng
+Bởi nhưng
+Bởi thế
+Bởi vậy
+Bởi vì
+Bức
+Cả
+Cả thảy	 
+Cái
+Các
+Cả thảy
+Cả thể
+Càng
+Căn
+Căn cắt
+Cần
+Cật lực
+Cật sức
+Cây
+Cha 
+Cha chả
+Chành chạnh
+Chao ôi
+Chắc
+Chắc hẳn
+Chăn chắn
+Chăng
+Chẳng
+Chẳng lẽ
+Chẳng những
+Chẳng nữa
+Chẳng phải
+Chậc
+Chầm chập
+Chết nỗi
+Chết tiệt
+Chết thật
+Chí chết
+Chỉn
+Chín
+Chính
+Chính anh
+Chính chị
+Chính là
+Chính thị
+Chính tôi
+Chỉ
+Chỉ do
+Chỉ là
+Chỉ tại
+Chỉ vì
+Chị
+Chiếc
+Cho
+Cho đến
+Cho đến khi
+Cho là
+Cho nên
+Cho rằng
+Cho tới
+Cho tới khi
+Choa
+Chốc chốc
+Chớ
+Chớ chi
+Chợt
+Chú
+Chu cha
+Chú mày
+Chú mình
+Chui cha
+Chùn chùn
+Chùn chũn
+Chủn
+Chung cục
+Chung qui
+Chung quy
+Chung quy lại
+Chúng
+Chúng mình
+Chúng ta
+Chúng tao
+Chúng mày
+Chúng tôi
+Chúng nó
+Chưa
+Chứ
+Chứ lị
+Có
+Có chăng là
+Có dễ
+Có vẻ
+Cóc khô
+Coi bộ
+Coi mòi
+Con
+Còn
+Cô
+Cô ấy
+Cô mình
+Cổ lai
+Công nhiên
+Cơ
+Cơ chừng
+Cơ hồ
+Cơ mà
+Cỡ chừng
+Cơn
+Cu cậu
+Cụ thể
+Của
+Của mày
+Của bạn
+Của
+Cuối
+Cuối cùng
+Cùng
+Cùng cực
+Cùng nhau
+Cùng với
+Cũng
+Cũng như
+Cũng vậy
+Cũng vậy thôi
+Cứ
+Cứ việc
+Cực kì	 
+Cực kỳ
+Cực lực
+Cuộc
+Cuốn
+Dào
+Dạ
+Dần dà
+Dần dần
+Dầu sao
+Dẫu
+Dẫu sao
+Dễ sợ
+Dễ thường
+Do
+Do vì
+Do đó
+Do vậy
+Dở chừng
+Dù
+Dù cho
+Dù là
+Dù rằng
+Dù thế
+Duy
+Dữ
+Dựa
+Dưới
+Đã
+Đại để
+Đại loại
+Đại nhân
+Đại phàm
+Đang
+Đáng lẽ
+Đáng lí
+Đáng lý
+Đành đạch
+Đánh đùng
+Đáo để
+Đằng sau
+Đằng trước
+Đâu
+Đây
+Đều
+Để
+Đó
+Đồng thời
+Đủ
+Được
+Gì
+Giữa
+Gồm
+Hai
+Hay
+Hay
+Hãy
+Hầu hết
+Hiện nay
+Hoàn toàn
+Hoặc
+Họ
+Hỡi
+Hơn
+Hồi nãy
+Ít
+Kế tiếp
+Khoảng
+Khoảng chừng
+Không
+Khi
+Là
+Lại
+Làm
+Lẫn
+Lên
+Liên tiếp
+Liên tục
+Luôn
+Luôn luôn
+Lúc
+Lúc ấy
+Lúc trước
+Mà
+Mày
+Mãi
+Mãi mãi
+Mặc dù
+Mặc kệ
+Mặt khác
+Mầy
+Mi
+Mọi
+Mỗi
+Một
+Mười
+Này
+Năm
+Nãy
+Nấy
+Nè
+Nên
+Nên chi
+Nền
+Nếu
+Nếu như
+Ngay
+Ngay cả
+Ngay lập tức
+Ngay lúc
+Ngay khi
+Ngay từ
+Ngay tức khắc
+Ngày càng
+Ngày ngày
+Ngày xưa
+Ngày xửa
+Ngăn ngắt
+Nghe chừng
+Nghe đâu
+Nghen
+Nghĩa là
+Nghiễm nhiên
+Nghỉm
+Ngõ hầu
+Ngoải
+Ngoài
+Ngôi
+Ngọn
+Ngọt
+Ngộ nhỡ
+Ngươi
+Nhau
+Nhân dịp
+Nhân tiện
+Nhất
+Nhất đán
+Nhất định
+Nhất loạt
+Nhất luật
+Nhất mực
+Nhất nhất
+Nhất quyết
+Nhất sinh
+Nhất tâm
+Nhất tề
+Nhất thiết
+Nhé
+Nhỉ
+Nhiên hậu
+Nhiệt liệt
+Nhiều
+Nhón nhén
+Nhỡ ra
+Nhung nhăng
+Như
+Như chơi
+Như không
+Như quả
+Như thể
+Như tuồng
+Như vậy
+Nhưng	 
+Nhưng mà
+Những
+Những ai
+Những như
+Nhược bằng
+Nó
+Nóc
+Nọ
+Nổi
+Nớ
+Nữa
+Nức nở
+Oai oái
+Oái
+Ô hay
+Ô hô
+Ô kê
+Ô kìa
+Ồ
+Ôi
+Ôi chao
+Ôi thôi
+Ối
+Ối dào
+Ối giời
+Ối giời ơi
+Ối trời
+Ôkê
+Ổng
+Ơ
+Ơ hay
+Ơ kìa
+Ờ
+Ở
+Ớ
+Ơi
+Phải
+Phải chi
+Phải chăng
+Phăn phắt
+Phắt
+Phè
+Phỉ phui
+Pho
+Phóc
+Phỏng
+Phỏng như
+Phót
+Phốc
+Phụt
+Phương chi
+Phứt
+Qua quít
+Qua quýt
+Quả
+Quả đúng
+Quả là
+Quả tang
+Quả thật
+Quả tình
+Quả vậy
+Quá
+Quá chừng
+Quá độ
+Quá đỗi
+Quá lắm
+Quá sá
+Quá thể
+Quá trời
+Quá ư
+Quá xá
+Quý hồ
+Quyển
+Quyết
+Quyết nhiên
+R
+Ra
+Ra phết
+Ra trò
+Ráo
+Ráo trọi
+Rày
+Răng
+Rằng
+Rằng là
+Rất
+Rất chi là
+Rất đỗi
+Rất mực
+Ren rén
+Rén
+Rích
+Riêng
+Riệt
+Riu ríu
+Rón rén
+Rồi
+Rốt cục
+Rốt cuộc
+Rút cục
+Rứa
+S
+Sa sả	 
+Sạch
+Sẵn sàng
+Sao
+Sau
+Sau chót
+Sau cùng
+Sau cuối
+Sau đó
+Sáu
+Sắp
+Sất
+Sẽ
+Sì
+Song le
+Số
+Số là
+Sốt sột
+Sở dĩ
+Suýt
+Sự
+Tao
+Tà tà
+Tại
+Tại vì
+Tấm
+Tấn
+Tự vì
+Tám
+Tanh
+Tăm tắp
+Tắp
+Tắp lự
+Tất cả
+Tất tần tật
+Tất tật
+Tất thảy
+Tênh
+Tha hồ
+Thà
+Thà là
+Thà rằng
+Thái quá
+Than ôi
+Thanh
+Thành ra
+Thành thử
+Thảo hèn
+Thảo nào
+Thậm
+Thậm chí
+Thật lực
+Thật vậy
+Thật ra
+Thật là
+Thẩy
+Theo
+Thế
+Thế à
+Thế là
+Thế đấy
+Thế mà
+Thế nào
+Thế nên
+Thế ra
+Thế thì
+Thế nhưng
+Thếch
+Thi thoảng
+Thì
+Thì ra
+Thình lình
+Thỉnh thoảng
+Thoạt
+Thoạt nhiên
+Thoắt
+Thỏm
+Thọt
+Thốc
+Thốc tháo
+Thộc
+Thôi
+Thôi thì
+Thốt
+Thốt nhiên
+Thuần
+Thục mạng
+Thuộc
+Thúng thắng
+Thửa
+Thực ra
+Thực vậy
+Thương ôi
+Tiện thể
+Tiếp đó
+Tiếp theo
+Tiếp đến
+Tiếp tục
+Tít mù
+Tỏ ra
+Tỏ vẻ
+Tò te
+Toà
+Toé khói
+Toẹt
+Tọt
+Tốc tả
+Tôi
+Tối ư
+Tông tốc
+Tột
+Tớ	 
+Trái
+Tràn cung mây
+Trên
+Trển
+Trệt
+Trếu tráo
+Trệu trạo
+Trong
+Trong khi
+Trong lúc
+Trỏng
+Trời ơi
+Trời đất ơi
+Trước
+Trước đây
+Trước đó
+Trước kia
+Trước khi
+Trước nay
+Trước tiên
+Trừ khi
+Trừ phi
+Tù tì
+Tuần tự
+Tuốt luốt
+Tuốt tuồn tuột
+Tuốt tuột
+Tuy
+Tuy là
+Tuy nhiên
+Tuy rằng
+Tuy thế
+Tuy vậy
+Tuyệt nhiên
+Từ
+Tự
+Từng
+Tức
+Tức là
+Tức khắc
+Tức thì
+Tức tốc
+Tựu trung
+Ủa
+Úi
+Úi chà
+Úi dào
+Ư
+Ứ hự
+Ứ ừ
+Ử
+Ừ
+Và
+Vài
+Vả chăng
+Vả lại
+Vào
+Vào lúc
+Vạn nhất
+Văng tê
+Vân vân
+Vẫn
+Vẫn là
+Vâng
+Vậy
+Vậy là
+Vậy thì
+Vậy thôi
+Vậy mà
+Vậy nên
+Veo
+Veo veo
+Vèo
+Về
+Về mặt
+Về phía
+Vì
+Vì chưng
+Vì thế
+Vì vậy
+Ví bằng
+Ví dù
+Ví dụ
+Ví phỏng
+Ví thử
+Vị tất
+Vô hình trung
+Vô kể
+Vô luận
+Vô vàn
+Vốn dĩ
+Với
+Với lại
+Vở
+Vung tàn tán
+Vung tán tàn
+Vung thiên địa
+Vụt
+Vừa
+Vừa mới
+Xa xả
+Xăm xăm
+Xăm xắm
+Xăm xúi
+Xềnh xệch
+Xệp
+Xiết bao
+Xoành xoạch
+Xoẳn
+Xoét
+Xoẹt
+Xon xón
+Xuất kì bất ý
+Xuất kỳ bất ý
+Xuể
+Xuống
+Ý
+Ý chừng
+Ý da
+.
+,
+'
+'
+"
+"
+-
+_
+<
+>
+@
+#
+$
+%
+&
+*
+^
+:
+?
+!
+/
+\
+[
+]
+{
+}
+;
+(
+)
