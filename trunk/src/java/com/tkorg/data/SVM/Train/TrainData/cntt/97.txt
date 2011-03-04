@@ -1,0 +1,62 @@
+﻿Phần mềm
+
+Phần mềm (tiếng Anh: software) là một tập hợp những câu lệnh được viết bằng một hoặc nhiều ngôn ngữ lập trình theo một trật tự xác định nhằm tự động thực hiện một số nhiệm vụ hoặc chức năng hoặc giải quyết một bài toán nào đó.
+
+Mục lục [ẩn]
+1 Đặc điểm
+2 Phân loại
+2.1 Theo phương thức hoạt động
+2.2 Theo khả năng ứng dụng
+3 Quá trình tạo phần mềm
+3.1 Về mặt thiết kế
+3.2 Sản xuất và phát triển
+4 Một số loại phần mềm
+4.1 Phần mềm hệ thống
+4.2 Phần mềm lập trình
+4.3 Phần mềm ứng dụng
+4.3.1 Phần mềm quản lý
+4.4 Các loại khác
+5 Xem thêm
+6 Liên kết ngoài
+[sửa]Đặc điểm
+
+Trước đây, để tạo ra chương trình máy tính người ta phải làm việc trực tiếp với các con số 0 hoặc 1 (sử dụng hệ số nhị phân), hay còn gọi là ngôn ngữ máy. Công việc này vô cùng khó khăn, chiếm nhiều thời gian, công sức và đặc biệt dễ gây ra lỗi. Để khắc phục nhược điểm này, người ta đề xuất ra hợp ngữ, một ngôn ngữ cho phép thay thế dãy 0 hoặc 1 này bởi các từ gợi nhớ tiếng Anh. Tuy nhiên, cải tiến này vẫn còn chưa thật thích hợp với đa số người dùng máy tính, những người luôn mong muốn các lệnh chính là ý nghĩa của các thao tác mà nó mô tả. Vì vậy, ngay từ những năm 1950, người ta đã xây dựng những ngôn ngữ lập trình mà câu lệnh của nó gần với ngôn ngữ tự nhiên. Các ngôn ngữ này được gọi là ngôn ngữ lập trình bậc cao.
+Chương trình máy tính thường được tạo ra bởi con người, những người này được gọi là lập trình viên, tuy nhiên cũng tồn tại những chương trình được sinh ra bởi các chương trình khác. Trên đường có nhiều người không bình thường.
+[sửa]Phân loại
+
+[sửa]Theo phương thức hoạt động
+Phần mềm hệ thống dùng để vận hành máy tính và các phần cứng máy tính, ví dụ như các hệ điều hành máy tính Windows XP, Linux, Unix, các thư viện động (còn gọi là thư viện liên kết động; tiếng Anh: dynamic linked library - DLL) của hệ điều hành, các trình điều khiển (driver), phần sụn (firmware) và BIOS. Đây là các loại phần mềm mà hệ điều hành liên lạc với chúng để điều khiển và quản lý các thiết bị phần cứng.
+Phần mềm ứng dụng để người sử dụng có thể hoàn thành một hay nhiều công việc nào đó, ví dụ như các phần mềm văn phòng (Microsoft Office, Lotus 1-2-3, FoxPro), phần mềm doanh nghiệp, phần mềm quản lý nguồn nhân lực XETA, phần mềm giáo dục, cơ sở dữ liệu, phần mềm trò chơi, chương trình tiện ích, hay các loại phần mềm ác tính.
+Các phần mềm chuyển dịch mã bao gồm trình biên dịch và trình thông dịch: các loại chương trình này sẽ đọc các câu lệnh từ mã nguồn được viết bởi các lập trình viên theo một ngôn ngữ lập trình và dịch nó sang dạng ngôn ngữ máy mà máy tính có thể hiểu đưọc, hay dịch nó sang một dạng khác như là tập tin đối tượng (object file) và các tập tin thư viện (library file) mà các phần mềm khác (như hệ điều hành chẳng hạn) có thể hiểu để vận hành máy tính thực thi các lệnh.
+[sửa]Theo khả năng ứng dụng
+Những phần mềm không phụ thuộc, nó có thể được bán cho bất kỳ khách hàng nào trên thị trường tự do. Ví dụ: phần mềm về cơ sở dữ liệu như Oracle, đồ họa như Photoshop, Corel Draw, soạn thảo và xử lý văn bản, bảng tính,... Ưu điểm: Thông thường đây là những phần mềm có khả năng ứng dụng rộng rãi cho nhiều nhóm người sử dụng. Khuyết điểm: Thiếu tính uyển chuyển, tùy biến.
+Những phần mềm được viết theo đơn đặt hàng hay hợp đồng của một khách hàng cụ thể nào đó (một công ty, bệnh viện, trường học,...). Ví dụ: phần mềm điều khiển, phần mềm hỗ trợ bán hàng,...
+Ưu điểm: Có tính uyển chuyển, tùy biến cao để đáp ứng được nhu cầu của một nhóm người sử dụng nào đó. Khuyết điểm: Thông thường đây là những phần mềm ứng dụng chuyên ngành hẹp.
+[sửa]Quá trình tạo phần mềm
+
+[sửa]Về mặt thiết kế
+Tùy theo mức độ phức tạp của phần mềm làm ra, người thiết kế phần mềm sẽ ít nhiều dùng đến các phương tiện để tạo ra mẫu thiết kế theo ý muốn (chẳng hạn như là các sơ đồ khối, các lưu đồ, các thuật toán và các mã giả), sau đó mẫu này được mã hoá bằng các ngôn ngữ lập trình và đưọc các trình dịch chuyển thành các khối lệnh (module) hay/và các tệp khả thi. Tập họp các tệp khả thi và các khối lệnh đó làm thành một phần mềm. Thường khi một phần mềm được tạo thành, để cho hoàn hảo thì phần mềm đó phải đưọc điều chỉnh hay sửa chữa từ khâu thiết kế cho đến khâu tạo thành phiên bản phần mềm một số lần. Một phần mềm thông thường sẽ tương thích với một hay vài hệ điều hành, tùy theo cách thiết kế, cách viết mã nguồn và ngôn ngữ lập trình được dùng.
+[sửa]Sản xuất và phát triển
+Việc phát triển và đưa ra thị trường của một phần mềm là đối tượng nghiên cứu của bộ môn kỹ nghệ phần mềm hay còn gọi là công nghệ phần mềm (software engineering). Bộ môn này nghiên cứu các phương pháp tổ chức, cách thức sử dụng nguồn tài nguyên, vòng quy trình sản xuất, cùng với các mối liên hệ với thị trường, cũng như liên hệ giữa các yếu tố này với nhau. Tối ưu hoá qui trình sản xuất phần mềm cũng là đối tượng đưọc cứu xét của bộ môn.
+[sửa]Một số loại phần mềm
+
+[sửa]Phần mềm hệ thống
+Phần mềm hệ thống giúp vận hành phần cứng máy tính và hệ thống máy tính. Nó bao gồm các hệ điều hành, phần mềm điều vận thiết bị (device driver), các công cụ phân tích (diagnostic tool), trình phục vụ, hệ thống cửa sổ, các tiện ích,... Mục đích của phần mềm hệ thống là để giúp các lập trình viên ứng dụng không phải quan tâm đến các chi tiết của hệ thống máy tính phức tạp được sử dụng, đặc biệt là các tính năng bộ nhớ và các phần cứng khác chẳng hạn như máy in, bàn phím, thiết bị hiển thị,...
+[sửa]Phần mềm lập trình
+Phần mềm lập trình thường cung cấp các công cụ hỗ trợ lập trình viên trong khi viết chương trình và phần mềm bằng các ngôn ngữ lập trình khác nhau. Các công cụ này bao gồm các trình soạn thảo, trình biên dịch, trình thông dịch, trình liên kết, trình tìm lỗi, v.v... Một môi trường phát triển tích hợp (IDE) kết hợp các công cụ này thành một gói phần mềm, và một lập trình viên có thể không cần gõ nhiều dòng lệnh để dịch, tìm lỗi, lần bước,... vì IDE thường có một giao diện người dùng đồ họa cao cấp (GUI).
+[sửa]Phần mềm ứng dụng
+[sửa]Phần mềm quản lý
+Là phần mềm ứng dụng với nhiệm vụ thực hiện tin học hoá các quá trình quản lý truyền thống, không chỉ đơn thuần là việc lưu trữ hay xử lý thông tin.
+Việc xây dựng và khai thác phần mềm quản lý đòi hỏi sự am hiểu về chuyên môn quản lý tương ứng, thí dụ quản lý con người, quản lý kho hàng, quản lý lương, v.v... Bản thân phần mềm và các lập trình viên, nói chung, không sản xuất ra phần mềm quản lý được.
+Ngày nay, các phần mềm quản lý có xu hướng trực tuyến nhiều hơn nhờ công nghệ trên nền Internet phát triển mạnh hơn 6 năm trước đây rất nhiều.
+Một số chủng loại phần mềm quản lý tiêu biểu:
+Phần mềm dự toán G8
+Quản lý kinh doanh và hoạt động Siêu thị;
+Quản lý nhân sự;
+Quản lý thi trắc nghiệm;
+Quản lý phòng Game, Net;
+Quản lý tài sản;
+Quản lý bán hàng;
+Các giải pháp ERP.
+[sửa]Các loại khác
+Cũng do con người viết nên để phục vụ mục đích nào đó, nhưng Virus (máy tính) là virus, trojan,... được viết để chạy với những mục đích riêng của một một nhóm người nhằn lừa đảo, quảng cáo, ăn cắp, phá hoại thông tin, phá hoại phần cứng hoặc chỉ là để trêu chọc người dùng vi tính.

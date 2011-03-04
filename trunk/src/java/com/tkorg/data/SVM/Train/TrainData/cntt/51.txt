@@ -1,0 +1,41 @@
+﻿Chứng chỉ Công nghệ Thông tin (CNTT) là gì?
+* Chứng chỉ là một thước đo tiêu chuẩn khách quan cho các chuyên viên, tổ chức trong ngành công nghệ thông tin.
+* Chứng chỉ Microsoft chứng minh các cá nhân hay tổ chức có đầy đủ kiến thức và kinh nghiệm thực tiển về sản phẩm và công nghệ của Microsoft.
+
+Tại sao cần phải có chứng chỉ CNTT?
+
+* Chứng chỉ CNTT tạo cơ hội giúp các chuyên viên CNTT có một hướng phát triển sự nghiệp còn các nhà tuyển dụng có công cụ để đánh giá và chọn lựa nhân lực có trình độ chuyên môn ca.
+* Trong cuốn sách hướng dẫn quan điểm nghề nghiệp năm 2000-2001 (Occupational Outlook Handbook 2000-2001) của Cục thống kê lao động Mỹ có viết:
+
+"Chứng chỉ kỹ thuật hoặc chuyên môn là một cách chứng minh khả năng hoặc phẩm chất trong một lĩnh vực cụ thể. Chứng chỉ chuyên môn có thể cung cấp cho người tìm việc một lợi thế cạnh tranh”
+
+Tại sao cần phải có chứng chỉ của Microsoft?
+
+* Chứng chỉ nâng cao giá trị công việc của cá nhân, tổ chức.
+* Chứng chỉ tăng hiệu suất làm việc của cá nhân, tổ chức.
+* Chứng chỉ hoàn ngay vốn đầu tư!
+* Theo tạp chí MCP xuất bản tháng 8/2000, cuộc thăm dò bảng lương hàng năm có viết:
+o Gần 1/3 các giảng viên được Microsoft công nhận (MCT) đã báo cáo ́được tăng lương gần 25% sau khi có chứng chỉ.
+o Đối với những người có bằng Kỹ sư Hệ thống + Internet (MCSE+I) cũng được trả lương thỏa đáng – 25% số người nhận được loại chứng chỉ này cũng được tăng lương 25%.
+
+10 lý do các nhà tuyển dụng thuê và phát triển các chuyên viên có chứng chỉ của Microsoft:
+
+1. Triển khai dự án tốt hơn
+Nghiên cứu về giá trị cho thấy các công ty với đội ngũ nhân viên có chứng chỉ đều nói rằng họ đã có những tiến bộ đáng kể trong việc thực hiện dự án đúng thời hạn và không vượt ngân sách.
+2. Tăng sự hài lòng của khách hàng
+Các nhân viên có chứng chỉ giúp các doanh nghiệp tăng sự thỏa mãn của khách hàng bằng dịch vụ được cải thiện, năng suất và tính độc lập cao hơn.
+3. Giảm chi phí hỗ trợ
+Nghiên cứu về giá trị cho thấy các công ty với đội ngũ nhân viên có chứng chỉ xác nhận rằng thời gian chết của hệ thống mạng ít hơn và đã phần nào giảm được tính phụ thuộc của việc hỗ trợ ngoài ý muốn.
+4. Chứng minh năng lực của nhà sản xuất
+Khi thực hiện dự án sử dụng linh kiện phụ tùng dmột nhà sản xuất khác cung ứng, chứng chỉ là một công cụ đảm bảo khả năng chuyên môn kỹ thuật của nhà cung cấp.
+5. Nâng cakhả năng cạnh tranh
+Các nhân viên có bằng cấp của Microsoft thường có kỹ năng chuyên sâu hơn để cung cấp dịch vụ và năng suất ở cấp độ cao hơn, tạo ra cơ hội cạnh tranh tốt hơn.
+6. Lợi ích trong việc đầu tư cho nhân viên
+Các công ty, tổ chức có lợi nhuận cao đã chứng minh rằng điều này là kết quả của việc đầu tư nhiều hơn cho các nhân viên kỹ thuật thi lấy chứng chỉ.
+7. Tăng thỏa mãn của nhân viên
+Sự thỏa mãn và sự duy trì lâu dài của nhân viên chỉ cao hơn khi ban điều hành tạo điều kiện thuận lợi cho mục tiêu nghề nghiệp của nhân viên.
+8. Đánh giá chuẩn năng lực nhân viên một cách khách quan
+Chứng chỉ đóng vai trò như một điểm chuẩn đáng tin cậy cho việc tuyển dụng và đề bạt nhân viên cũng như đảm bảo cho tổ chức của bạn được xây dựng trên năng lực kỹ thuật cao nhất.
+9. Thưởng công cho sự thành thạo của nhân viên
+Chứng chỉ là một cách thừa nhận và thưởng công cho các nhân viên có năng suất bằng việc công nhận sự thành thạo của họ. Chứng chỉ cũng cung cấp cơ hội đào tạo lại để nhân viên có thể làm việc hiệu quả hơn với kỹ thuật mới.
+10. Xem xét kết quả khách quan của việc đầu tư cho đào tạo Chứng chỉ là cách tốt nhất phản ánh kết quả của việc đầu tư cho đào tạo và lấy chứng chỉ thông qua việc cung cấp phương pháp chuẩn chviệc quyết định nhu cầu đào tạo và đánh giá kết quả.

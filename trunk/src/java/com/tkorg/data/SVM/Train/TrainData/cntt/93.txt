@@ -1,0 +1,142 @@
+﻿Mạng máy tính hay hệ thống mạng (tiếng Anh: computer network hay network system), Được thiết lập khi có từ 2 máy vi tính trở lên kết nối với nhau để chia sẻ tài nguyên: máy in, máy fax, tệp tin, dữ liệu....
+Một máy tính được gọi là tự hoạt (autonomous) nếu nó có thể khởi động, vận hành các phần mềm đã cài đặt và tắt máy mà không cần phải có sự điều khiển hay chi phối bởi một máy tính khác.
+Các thành phần của mạng có thể bao gồm:
+Các hệ thống đầu cuối (end system) kết nối với nhau tạo thành mạng, có thể là các máy tính hoặc các thiết bị khác. Nói chung hiện nay ngày càng nhiều các loại thiết bị có khả năng kết nối vào mạng máy tính như điện thoại di động, PDA, tivi,...
+Môi trường truyền (media) mà các thao tác truyền thông được thực hiện qua đó. Môi trường truyền có thể là các loại dây dẫn (dây cáp), sóng điện từ (đối với các mạng không dây).
+Giao thức truyền thông (protocol) là các quy tắc quy định cách trao đổi dữ liệu giữa các thực thể.
+[sửa]Lịch sử mạng máy tính
+
+Máy tính của thập niên 1940 là các thiết bị cơ-điện tử lớn và rất dễ hỏng. Sự phát minh ra transitor bán dẫn vào năm 1947 tạo ra cơ hội để làm ra chiếc máy tính nhỏ và đáng tin cậy hơn.
+Năm 1950, các máy tính lớn mainframe chạy bởi các chương trình ghi trên thẻ đục lỗ (punched card) bắt đầu được dùng trong các học viện lớn. Điều này tuy tạo nhiều thuận lợi với máy tính có khả năng được lập trình nhưng cũng có rất nhiều khó khăn trong việc tạo ra các chương trình dựa trên thẻ đục lỗ này.
+Vào cuối thập niên 1950, người ta phát minh ra mạch tích hợp (IC) chứa nhiều transitor trên một mẫu bán dẫn nhỏ, tạo ra một bước nhảy vọt trong việc chế tạo các máy tính mạnh hơn, nhanh hơn và nhỏ hơn. Đến nay, IC có thể chứa hàng triệu transistor trên một mạch.
+Vào cuối thập niên 1960, đầu thập niên 1970, các máy tính nhỏ được gọi là minicomputer bắt đầu xuất hiện.
+Năm 1977, công ty máy tính Apple Computer giới thiệu máy vi tính cũng được gọi là máy tính cá nhân (personal computer - PC).
+Năm 1981, IBM đưa ra máy tính cá nhân đầu tiên. Sự thu nhỏ ngày càng tinh vi hơn của các IC đưa đến việc sử dụng rộng rãi máy tính cá nhân tại nhà và trong kinh doanh.
+Vào giữa thập niên 1980, người sử dụng dùng các máy tính độc lập bắt đầu chia sẻ các tập tin bằng cách dùng modem kết nối với các máy tính khác. Cách thức này được gọi là điểm nối điểm, hay truyền theo kiểu quay số. Khái niệm này được mở rộng bằng cách dùng các máy tính là trung tâm truyền tin trong một kết nối quay số. Các máy tính này được gọi là sàn thông báo (bulletin board). Các người dùng kết nối đến sàn thông báo này, để lại đó hay lấy đi các thông điệp, cũng như gửi lên hay tải về các tập tin. Hạn chế của hệ thống là có rất ít hướng truyền tin, và chỉ với những ai biết về sàn thông báo đó. Ngoài ra, các máy tính tại sàn thông báo cần một modem cho mỗi kết nối, khi số lượng kết nối tăng lên, hệ thống không thề đáp ứng được nhu cầu.
+Qua các thập niên 1950, 1970, 1980 và 1990, Bộ Quốc phòng Hoa Kỳ đã phát triển các mạng diện rộng WAN có độ tin cậy cao, nhằm phục vụ các mục đích quân sự và khoa học. Công nghệ này khác truyền tin điểm nối điểm. Nó cho phép nhiều máy tính kết nối lại với nhau bằng các đường dẫn khác nhau. Bản thân mạng sẽ xác định dữ liệu di chuyển từ máy tính này đến máy tính khác như thế nào. Thay vì chỉ có thể thông tin với một máy tính tại một thời điểm, nó có thể thông tin với nhiều máy tính cùng lúc bằng cùng một kết nối. Sau này, WAN của Bộ Quốc phòng Hoa Kỳ đã trở thành Internet.
+[sửa]Ứng dụng của mạng máy tính
+
+Trong các tổ chức: Trước khi có mạng, trong các tổ chức, mỗi nơi đều phải có chỗ lưu trữ dữ liệu riêng, các thông tin trong nội bộ sẽ khó được cập nhật kịp thời; một ứng dụng ở nơi này không thể chia sẻ cho nơi khác. Với một hệ thống mạng người ta có thể:
+Chia sẻ các tài nguyên: Các ứng dụng, kho dữ liệu và các tài nguyên khác như sức mạnh của các CPU được dùng chung và chia sẻ thì cả hệ thống máy tính sẽ làm việc hữu hiệu hơn.
+Độ tin cậy và sự an toàn của thông tin cao hơn. Thông tin được cập nhật theo thời gian thực, do đó chính xác hơn. Một khi có một hay vài máy tính bị hỏng thì các máy còn lại vẫn có khả năng hoạt động và cung cấp dịch vụ không gây ách tắc.
+Tiết kiệm: qua kỹ thuật mạng người ta có thể tận dụng khả năng của hệ thống, chuyên môn hoá các máy tính, và do đó phục vụ đa dạng hoá hơn. Thí dụ: Hệ thống mạng có thể cung cấp dịch vụ suốt ngày và nhiều nơi có thể dùng cùng một chương trình ứng dụng, chia nhau cùng một cơ sở dữ liệu và các máy in, do dó tiết kiệm được rất nhiều.
+Ngoài ra, khi tạo mạng, người chủ chỉ cần đầu tư một hoặc vài máy tính có khả năng hoạt động cao để làm máy chủ cung cấp các dịch vụ chính yếu và đa số còn lại là các máy khách dùng để chạy các ứng dụng thông thường và khai thác hay yêu cầu các dịch vụ mà máy chủ cung cấp. Một hệ thống như vậy gọi là mạng có kiểu chủ-khách (client-server model).
+Người ta còn gọi các máy dùng để nối vào máy chủ là máy trạm (work-station). Tuy nhiên, các máy trạm vẫn có thể hoạt động độc lập mà không cần đến các dịch vụ cung cấp từ máy chủ.
+Mạng máy tính còn là một phương tiện thông tin mạnh và hữu hiệu giữa các cộng sự trong tổ chức.
+Cho nhiều người: Hệ thống mạng cung cấp nhiều tiện lợi cho sự truyền thông tin trong các mối quan hệ người với người như là:
+Cung cấp thông tin từ xa giữa các cá nhân
+Liên lạc trực tiếp và riêng tư giữa các cá nhân với nhau
+Làm phương tiện giải trí chung: như các trò chơi, các thú tiêu khiển, chia sẻ phim ảnh, vv qua mạng.
+Các ứng dụng quan trọng hiện tại qua mạng là: thư điện tử, hội nghị truyền hình (video conference), điện thoại Internet, giao dịch và lớp học ảo (e-learning hay virtual class), dịch vụ tìm kiếm thông tin qua các máy truy tìm, vv.
+Các vấn đề xã hội: Quan hệ giữa người với người trở nên nhanh chóng, dễ dàng và gần gũi hơn cũng mang lại nhiều vấn đề xã hội cần giải quyết như:
+Lạm dụng hệ thống mạng để làm điều phi pháp hay thiếu đạo đức: Các tổ chức buôn người, khiêu dâm, lường gạt, hay tội phạm qua mạng, tổ chức tin tặc để ăn cắp tài sản của công dân và các cơ quan, tổ chức khủng bố, ...
+Mạng càng lớn thì nguy cơ lan truyền các phần mềm ác tính càng dễ xảy ra.
+Hệ thống buôn bán trở nên khó kiểm soát hơn nhưng cũng tạo điều kiện cho cạnh tranh gay gắt hơn.
+Một vấn đề nảy sinh là xác định biên giới giữa việc kiểm soát nhân viên làm công và quyền tư hữu của họ. (Chủ thì muốn toàn quyền kiểm soát các điện thư hay các cuộc trò chuyện trực tuyến nhưng điều này có thể vi phạm nghiêm trọng quyền cá nhân).
+Vấn đề giáo dục thanh thiếu niên cũng trở nên khó khăn hơn vì các em có thể tham gia vào các việc trên mạng mà cha mẹ khó kiểm soát nổi.
+Hơn bao giờ hết với phương tiện thông tin nhanh chóng thì sự tự do ngôn luận hay lạm dụng quyền ngôn luận cũng có thể ảnh hưởng sâu rộng hơn trước đây như là các trường hợp của các phần mềm quảng cáo (adware) và các thư rác (spam mail)...
+[sửa]Phần cứng của mạng
+
+Trong kỹ thuật mạng, việc quan trọng nhất là vận chuyển dữ liệu giữa các máy. Nói chung sẽ có hai phương thức là:
+Mạng quảng bá (broadcast network): bao gồm một kênh truyền thông được chia sẻ cho mọi máy trong mạng. Mẫu thông tin ngắn gọi là gói (packet) được gửi ra bởi một máy bất kỳ thì sẽ tới được tất cả máy khác. Trong gói sẽ có một phần ghi địa chỉ gói đó muốn gửi tới.
+Khi nhận các gói, mỗi máy sẽ kiểm tra lại phần địa chỉ này. Nếu một gói là dành cho đúng máy đang kiểm tra thì sẽ đưọc xử lý tiếp, bằng không thì bỏ qua.
+Mạng điểm nối điểm (point-to-point network): bao gồm nhiều mối nối giữa các cặp máy tính với nhau. Để chuyển từ nguồn tới đích, một gói có thể phải đi qua các máy trung gian. Thường thì có thể có nhiều đường di chuyển có độ dài khác nhau (từ máy nguồn tới máy đích với số lượng máy trung gian khác nhau). Thuật toán để định tuyến đường truyền giữ vai trò quan trọng trong kỹ thuật này.
+Dưới đây là đối tượng chính của phần cứng mạng:
+[sửa]LAN
+
+
+Mạng vòng
+
+
+Mạng tuyến tính
+LAN (từ Anh ngữ: local area network), hay còn gọi là "mạng cục bộ", là mạng tư nhân trong một toà nhà, một khu vực (trường học hay cơ quan chẳng hạn) có cỡ chừng vài km. Chúng nối các máy chủ và các máy trạm trong các văn phòng và nhà máy để chia sẻ tài nguyên và trao đổi thông tin. LAN có 3 đặc điểm:
+Giới hạn về tầm cỡ phạm vi hoạt động từ vài mét cho đến 1 km.
+Thường dùng kỹ thuật đơn giản chỉ có một đường dây cáp (cable) nối tất cả máy. Vận tốc truyền dữ liệu thông thường là 10 Mbps, 100 Mbps, 1 Gbps, và gần đây là 10 Gbps.
+Hai kiến trúc mạng kiểu LAN thông dụng bao gồm:
+Mạng bus hay mạng tuyến tính. Các máy nối nhau một cách liên tục thành một hàng từ máy này sang máy kia. Ví dụ của nó là Ethernet (chuẩn IEEE 802.3).
+Mạng vòng. Các máy nối nhau như trên và máy cuối lại được nối ngược trở lại với máy đầu tiên tạo thành vòng kín. Thí dụ mạng vòng thẻ bài IBM (IBM token ring).
+Mạng sao.
+[sửa]MAN
+MAN (từ Anh ngữ: metropolitan area network), hay còn gọi là "mạng đô thị", là mạng có cỡ lớn hơn LAN, phạm vi vài km. Nó có thể bao gồm nhóm các văn phòng gần nhau trong thành phố, nó có thể là công cộng hay tư nhân và có đặc điểm:
+Chỉ có tối đa hai dây cáp nối.
+Không dùng các kỹ thuật nối chuyển.
+Có thể hỗ trợ chung vận chuyển dữ liệu và đàm thoại, hay ngay cả truyền hình. Ngày nay người ta có thể dùng kỹ thuật cáp quang (fiber optical) để truyền tín hiệu. Vận tốc có hiện nay thể đạt đến 10 Gbps.
+Ví dụ của kỹ thuật này là mạng DQDB (Distributed Queue Dual Bus) hay còn gọi là bus kép theo hàng phân phối (tiêu chuẩn IEEE 802.6).
+[sửa]WAN
+
+
+Các kiểu nối trong WAN
+WAN (wide area network), còn gọi là "mạng diện rộng", dùng trong vùng địa lý lớn thường cho quốc gia hay cả lục địa, phạm vi vài trăm cho đến vài ngàn km. Chúng bao gồm tập họp các máy nhằm chạy các chương trình cho người dùng. Các máy này thường gọi là máy lưu trữ(host) hay còn có tên là máy chủ, máy đầu cuối (end system). Các máy chính được nối nhau bởi các mạng truyền thông con (communication subnet) hay gọn hơn là mạng con (subnet). Nhiệm vụ của mạng con là chuyển tải các thông điệp (message) từ máy chủ này sang máy chủ khác.
+Mạng con thường có hai thành phần chính:
+Các đường dây vận chuyển còn gọi là mạch (circuit), kênh (channel), hay đường trung chuyển (trunk).
+Các thiết bị nối chuyển. Đây là loại máy tính chuyện biệt hoá dùng để nối hai hay nhiều đường trung chuyển nhằm di chuyển các dữ liệu giữa các máy. Khi dữ liệu đến trong các đường vô, thiết bị nối chuyển này phải chọn (theo thuật toán đã định) một đường dây ra để gửi dữ liệu đó đi. Tên gọi của thiết bị này là nút chuyển gói (packet switching node) hay hệ thống trung chuyển (intermediate system). Máy tính dùng cho việc nối chuyển gọi là "bộ chọn đường" hay "bộ định tuyến" (router).
+Hầu hết các WAN bao gồm nhiều đường cáp hay là đường dây điện thoại, mỗi đường dây như vậy nối với một cặp bộ định tuyến. Nếu hai bộ định tuyến không nối chung đường dây thì chúng sẽ liên lạc nhau bằng cách gián tiếp qua nhiều bộ định truyến trung gian khác. Khi bộ định tuyến nhận được một gói dữ liệu thì nó sẽ chứa gói này cho đến khi đường dây ra cần cho gói đó được trống thì nó sẽ chuyển gói đó đi. Trường hợp này ta gọi là nguyên lý mạng con điểm nối điểm, hay nguyên lý mạng con lưu trữ và chuyển tiếp (store-and-forward), hay nguyên lý mạng con nối chuyển gói.
+Có nhiều kiểu cấu hình cho WAN dùng nguyên lý điểm tới điểm như là dạng sao, dạng vòng, dạng cây, dạng hoàn chỉnh, dạng giao vòng, hay bất định.
+[sửa]Mạng không dây
+Bài chi tiết: Mạng không dây
+Các thiết bị cầm tay hay bỏ túi thường có thể liên lạc với nhau bằng phương pháp không dây và theo kiểu LAN. Một phương án khác được dùng cho điện thoại cầm tay dựa trên giao thức CDPD (Cellular Digital Packet Data) hay là dữ liệu gói kiểu cellular số.
+Các thiết bị không dây hoàn toàn có thể nối vào mạng thông thường (có dây) tạo thành mạng hỗn hợp (trang bị trên một số máy bay chở khách
+[sửa]Liên mạng
+Bài chi tiết: Liên mạng
+Các mạng trên thế giới có thể khác biệt nhau về phần cứng và phần mềm, để chúng liên lạc được với nhau cần phải có thiết bị gọi là cổng nối (gateway) làm nhiệm vụ điều hợp. Một tập hợp các mạng nối kết nhau được gọi là liên mạng. Dạng thông thường nhất của liên mạng là một tập hợp nhiều LAN nối nhau bởi một WAN.
+[sửa]Phần mềm của mạng
+
+Phần mềm của mạng được thiết kế để thoả mãn các tiêu chuẩn và yêu cầu đặt ra bởi phần cứng và mục đích sử dụng.
+[sửa]Hệ thống thứ bậc các giao thức trong mạng
+Để giảm độ phức tạp trong lúc thiết kế, mạng được chia ra làm nhiều lớp (layer) hay cấp độ (level) nối tiếp nhau và có nhiệm vụ riêng. Ta gọi tầng 1 là tầng phần mềm thấp nhất làm việc trực tiếp với phần cứng của mạng hay còn gọi là phần môi trường vật lý (physical medium). Tiếp theo đó là tầng 2 tức là tầng sẽ tiếp xúc với tầng phần mềm 1 và nằm giữa tầng 1 và tầng 3. Cứ như thế cho đến tầng cuối cùng thường là một chương trình ứng dụng có giao diện với người dùng. Như vậy mồi tầng sẽ được thiết kế để làm một nhiệm vụ riêng.
+[sửa]Ví dụ về một hệ thống mạng có 5 tầng
+Tầng 5 có giao diện với ngưòi dùng và giữ nhiệm vụ gửi nguyên mẫu thông tin xuống tầng 4. Tầng 4 chịu trách nhiệm thêm vào dữ liệu nguyên thủy các địa được từ tầng 4 thành nhiều [[Chuyển các nối kết (mạch điện) vật lý. Quan trọng nhất là cách và chiều vận chuyển dữ liệu:
+Đơn truyền (simplex). Các thông tin có thể đồng thời vận chuyển đi và được nhận về cùng lúc từ máy đích mà không phải chờ đợi.
+Đơn công hay bán song công (half-duplex communication). Đường thông tin có thể dùng để nhận và gửi nhưng không thể cùng một lúc. Để gửi thông tin chiều ngược lại thì phải đợi máy đích nhận xong một gói (hay nguyên cả mẫu thông tin) rồi sau đó, máy đó mới có thể bắt đầu gửi đi thông tin (hay một gói) của nó theo chiều ngược lại.
+[sửa]Các mô hình mạng điển hình
+
+Các mô hình dưới đây, TCP/IP và OSI là các tiêu chuẩn, không phải là các bộ lọc hay phần mềm tạo giao thức.
+[sửa]OSI
+OSI, hay còn gọi là "Mô hình liên kết giữa các hệ thống mở", là thiết kế dựa trên sự phát triển của ISO (Tổ Chức Tiêu Chuẩn Quốc Tế).
+Mô hình bao gồm 7 tầng:
+Tầng ứng dụng: cho phép người dùng (con người hay phần mềm) truy cập vào mạng bằng cách cung cấp giao diện người dùng, hỗ trợ các dịch vụ như gửi thư điện tử truy cập và truyền file từ xa, quản lý CSDL dùng chung và một số dịch vụ khác về thông tin.
+Tầng trình diễn: thực hiện các nhiệm vụ liên quan đến cú pháp và nội dung của thông tin gửi đi.
+Tầng phiên: đóng vai trò "kiểm soát viên" hội thoại (dialog) của mạng với nhiệm vụ thiết lập, duy trì và đồng bộ hóa tính liên tác giữa hai bên.
+Tầng giao vận: nhận dữ liệu từ tầng phiên, cắt chúng thành những đơn vị nhỏ nếu cần, gửi chúng xuống tầng mạng và kiểm tra rằng các đơn vị này đến được đầu nhận.
+Tầng mạng: điều khiển vận hành của mạng con. Xác định mở đầu và kết thúc của một cuộc truyền dữ liệu.
+Tầng liên kết dữ liệu: nhiệm vụ chính là chuyển dạng của dữ liệu thành các khung dữ liệu (data frames) theo các thuật toán nhằm mục đích phát hiện, điều chỉnh và giải quyết các vấn đề như hư, mất và trùng lập các khung dữ liệu.
+Tầng vật lý: Thực hiện các chức năng cần thiết để truyền luồng dữ liệu dưới dạng bit đi qua các môi trường vật lý.
+[sửa]TCP/IP
+TCP/IP cũng giống như OSI nhưng kiểu này có ít hơn ba tầng:
+Tầng ứng dụng: bao gồm nhiều giao thức cấp cao. Trước đây người ta sử dụng các áp dụng đầu cuối ảo như TELNET, FTP, SMTP. Sau đó nhiều giao thức đã được định nghĩa thêm vào như DNS, HTTP...
+Tầng giao vận: nhiệm vụ giống như phần giao vận của OSI nhưng có hai giao thức được dùng tới là TCP và UDP.
+Tầng mạng: chịu trách nhiệm chuyển gói dữ liệu từ nơi gửi đến nơi nhận, gói dữ liệu có thể phải đi qua nhiều mạng (các chặng trung gian). Tầng liên kết dữ liệu thực hiện truyền gói dữ liệu giữa hai thiết bị trong cùng một mạng, còn tầng mạng đảm bảo rằng gói dữ liệu sẽ được chuyển từ nơi gửi đến đúng nơi nhận. Tầng này định nghĩa một dạng thức của gói và của giao thức là IP.
+Tầng liên kết dữ liệu: Sử dụng để truyền gói dữ liệu trên một môi trường vật lý.
+[sửa]Các thí dụ về mạng
+
+[sửa]
+ARPANET
+ARPANET là mạng kiểu WAN, nguyên thủy do DoD, hay Bộ Quốc phòng Hoa Kỳ, (DoD viết tắt từ Department of Defense) khởi xướng đầu thập niên 1960 nhằm tạo ra một mạng có thể tồn tại với chiến tranh hạt nhân lúc đó có thể xảy ra giữa Mỹ và Liên Xô. Chữ ARPANET là từ chữ Advance Research Project Agency và chữ NET viết hợp lại. Đây là một trong những mạng đầu tiên dùng kỹ thuật nối chuyển gói, nó bao gồm các mạng con và nhiều máy chính. Các mạng con thì được thiết kế dùng các minicomputer gọi là các IMP, hay Bộ xử lý mẫu tin giao diện, (từ chữ Interface Message Processor) để bảo đảm khả năng truyền thông, mỗi IMP phải nối với ít nhất hai IMP khác và gọi các phần mềm của các mạng con này là giao thức IMP-IMP. Các IMP nối nhau bởi các tuyến điện thoai 56 Kbps sẵn có. ARPANET đã phát triển rất mạnh bởi sự ủng hộ của các đại học. Nhiều giao thức khác đã được thử nghiệm và áp dụng trên mạng này trong đó quan trọng là việc phát minh ra giao thức TCP/IP dùng trong các LAN nối với ARPANET. Đến 1983, ARPANET đã chứng tỏ sự bền bỉ và thành công bao gồm hơn 200 IMP và hàng trăm máy chính. Cũng trong thập niên 1980, nhiều LAN đã nối vào ARPANET và thiết kế DNS, hay 'hệ thống đặt tên miền, (từ chữ Domain Naming System) cũng ra đời trên mạng này trước tiên. Đến 1990 thì mạng này mới hết được sử dụng. Đây được xem là mạng có tính cách lịch sử là tiền thân của Internet.
+[sửa]NSFNET
+Vào 1984 thì tổ chức National Science Foundation của Hoa Kì (gọi tắt là NSF) đã thiết kế nhằm phục vụ cho nhu cầu nghiên cứu và thông tin giữa các đại học bao gồm 6 siêu máy tính từ nhiều trung tâm trải rộng trong Hoa Kỳ. Đây là mạng WAN đầu tiên dùng TCP/IP. Cuối thập niên 1990 thì kĩ thuật sợi quang (fiber optics) đã được áp dụng. Tháng 12 năm 1991 thì mạng National Research and Educational Network ra đời để thay cho NSFNET và dùng vận tốc đến hàng giga bit. Đến 1995 thì NSFNET không còn cần thiết nữa.
+[sửa]Internet
+Số lượng máy tính nối vào ARPANET tăng nhanh sau khi TCP/IP trở thành giao diện chính thức duy nhất vào ngày 1 tháng 1 năm 1983. Sau khi ARPANET và NSFNET nối nhau thì sự phát triển mạng tăng theo hàm mũ. Nhiều nơi trên thế giới bắt đầu nối vào làm thành các mạng ở Canada, Châu Âu và bên kia Đại Tây Dương đã hình thành Internet. Từ 1990, Internet đã có hơn 300 mạng và 2000 máy tính nối vào. Đến 1995 đã có hàng trăm mạng cỡ trung bình, hàng chục ngàn LAN, hàng triệu máy chính, và hàng chục triệu người dùng Internet. Độ lớn của nó nhân đôi sau mỗi hai năm.
+Chất liệu chính giữ Internet nối mạng với nhau là giao thức TCP/IP và chồng giao diện TCP/IP. TCP/IP đã làm cho các dịch vụ trở nên phổ dụng. Đến tháng 1 năm 1992, thì sự phát triển tự phát của Internet không còn hữu hiệu nữa. Tổ chức Internet Society ra đời nhằm cổ vũ và để quản lý nó. Internet có các ứng dụng chính sau:
+Thư điện tử (email): cung cấp khả năng viết, gửi và nhận các thư điện tử.
+Nhóm tin (newsgroup): các diễn đàn cho người dùng trao đổi thông tin. Có nhiều chục ngàn nhóm như vậy và có kiểu cách, phong thái riêng.
+Đăng nhập từ xa (remote login): giúp cho người dùng ở bất kì nơì nào có thể dùng Internet để đăng nhập và sử dụng hay điều khiển một máy khác chỗ mà họ có tài khoản. Nổi tiếng là chương trình Telnet.
+Truyền tập tin (file transfer): dùng chương trình FTP để chuyển các tập tin qua Internet đi khắp nơi.
+Máy truy tìm (search engine) các chương trình này qua Internet có thể giúp nguời ta tìm thông tin ở mọi dạng, mọi cấp về mọi thứ. Từ việc tìm các tài liệu nghiên cứu chuyên sâu cho đến tìm người và thông tin về người đó, hay tìm cách thức đi đường bản đồ,...
+[sửa]Novell Netware
+Novell Netware là hệ điều hành chuyên cho mạng và một bộ các giao thức mạng dùng để nói chuyện với máy khách trên mạng. Phần mềm này phát triển bởi Novell. Ngày nay, Netware hỗ trợ TCP/IP cũng như là IPX/SPX.
+[sửa]Thí dụ về các dịch vụ thông tin dữ liệu
+
+[sửa]X.25
+X.25 là một giao thức đã đuợc công nhận bởi CCITT (viết tắt từ tiếng Anh: Consultative Committee for International Telegraph and Telephone, nghĩa là Hội Đồng Tham Vấn về Điện Thoại và Điện Tín Quốc Tế). Giao thức này là giao thức rất phổ biến được đưa ra nhằm bảo đảm sự nguyên vẹn của dữ liệu khi di chuyển trong mạng. Nó định nghĩa sự kết nối với nhau của nhiều mạng dùng kỹ thuật nối chuyển gói với các máy tính liên hệ hoặc các đầu ra. X.25 cho phép các máy tính của nhiều mạng công cộng khác nhau có thể liên lạc xuyên qua một máy tính trung gian ở tầng network.
+[sửa]Frame relay
+Frame relay là một giao thức về nối chuyển gói dùng cho việc nối các thiết bị trong WAN. Giao thức này được tạo ra để dùng trong môi trường có vận tốc rất nhanh và khả năng bị lỗi ít. Ở Mỹ, nó hỗ trợ vận tốc T-1 (hay DS1) lên đến 1.544 Mbps. Thực ra, frame relay cơ bản dựa trên giao thức cũ là X.25. Sự khác nhau ở đây, frame relay là kỹ thuật "gói nhanh" (fast-packet) và kỹ thuật này sẽ không tiến hành điều chỉnh lỗi. Khi lỗi tìm ra, thì nó chỉ đơn giản huỷ bỏ gói có lỗi đi. Các đầu cuối chịu trách nhiệm cho việc phát hiện lỗi và yêu cầu gửi lại gói đã hủy bỏ.
+[sửa]ISDN
+ISDN từ chữ Integrated Services Digital Network nghĩa là "mạng kỹ thuật số các dịch vụ tổng hợp". Một cách tổng quát thì ISDN là loại mạng sử dụng kỹ thuật nối chuyển mạch. ISDN là một tiêu chuẩn quốc tế về truyền thông bằng âm thanh, dữ liệu, tín hiệu và hình ảnh kỹ thuật số. Một thí dụ là nó có thể dùng cho các buổi hội thảo truyền hình (videoconference) cùng lúc trao đổi hình ảnh, âm thanh, và chữ giữa các máy cá nhân có nối kết với nhóm các hệ thống hội thảo truyền hình.
+Hệ thống ISDN sử dụng các nối kết qua đường dây điện thoại số cho phép nhiều kênh truyền hoạt động đồng thời qua cùng một tiêu chuẩn giao diện duy nhất. Người dùng ở nhà và các cơ sở kinh tế muốn có ISDN qua hệ thống dường dây điện thoại số cần phải cài thêm các trang bị đặc biệt về phần cứng gọi là bộ tiếp hợp (adapter). Vận tốc tối đa hiện tại của ISDN lên đến 128 Kbps. Nhiều địa phương không trang bị đưòng dây điện thoại số thì sẽ không cài đặt được kỹ thuật ISDN.
+[sửa]Các tổ chức ảnh hưởng tới quá trình tiêu chuẩn hoá mạng
+
+Các tổ chức ảnh hưởng lớn hay có thẩm quyền đến việc tiêu chuẩn hoá mạng máy tính:
+ISO "Tổ Chức Tiêu Chuẩn Quốc Tế"
+ANSI "Viện Tiêu Chuẩn Quốc Gia Hoa Kỳ"
+IEEE "Học Viện của các Kỹ Sư Điện và Điện Tử"
+ITU "Liên Minh Viễn Thông Quốc Tế"

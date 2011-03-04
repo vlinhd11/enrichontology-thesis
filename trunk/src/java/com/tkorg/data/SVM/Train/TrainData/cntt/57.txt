@@ -1,0 +1,4 @@
+﻿Mẹo tiết kiệm pin cho iPhone 
+
+(TNTT&GT) Đầu tiên, hãy giảm độ sáng của màn hình LCD bằng cách vào Menu > Settings > Brightness rồi chỉnh độ sáng màn hình xuống còn 10% hoặc thấp hơn đến mức có thể. Sau đó, hãy tắt tính năng tự quét WiFi trong điện thoại bằng cách vào Menu > Settings > WiFi, mục WiFi chọn OFF.
+Bạn làm tương tự để tắt việc tự quét sóng Bluetooth trong điện thoại đi. Nếu dùng 3G, hãy vào Menu > General > Network, chọn Off tại mục Enable 3G để máy không tự nối sóng 3G khi bạn chưa cần đến. Nếu bạn chơi game trên iPhone, nên tắt chế độ rung.

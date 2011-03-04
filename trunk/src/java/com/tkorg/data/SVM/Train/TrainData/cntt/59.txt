@@ -1,0 +1,9 @@
+﻿Internet miễn phí cho mọi người
+
+Thập niên vừa qua đánh dấu sự phát triển mạnh mẽ của hệ thống thông tin toàn cầu, đặc biệt là internet. Ngày nay chúng ta có thể khai thác thông tin không chỉ qua máy tính mà còn từ các thiết bị cầm tay như điện thoại thông minh, máy tính bảng.
+
+Thế nhưng, trên thực tế vẫn có bình quân 7/10 người chưa có điều kiện truy cập internet. Như vậy số lượng người còn bị hạn chế tìm hiểu thông tin lên đến 5 tỉ trên toàn cầu.
+
+Để giải quyết vấn đề này, người sáng lập Tổ chức Kosta Grammatis muốn mua một vệ tinh truyền thông TerreStar-1 từ hãng TerreStar. Nỗ lực này được tiến hành bằng 3 bước: Đầu tiên là thu thập 150.000 USD cho kế hoạch tài chính, gửi giá mời thầu vệ tinh, thuê kỹ sư. Giai đoạn hai sẽ gửi giá thầu chính thức, phát triển modem mã nguồn mở có khe cắm quỹ đạo. Giai đoạn ba sẽ di chuyển vệ tinh đến quỹ đạo mới với các nước đối tác triển khai dịch vụ.
+
+Con số 150.000 USD chỉ là khoản tiền ban đầu để khởi động dự án, chi phí cuối cùng có thể sẽ cao hơn nhiều. Ví dụ như vệ tinh có tên gọi Iridium được bán gần đây với giá 23 triệu USD. Khi các nhóm từ thiện có thể tăng ngân quỹ cần thiết, có kế hoạch bảo hiểm bằng cách dùng nguồn tiền từ các công ty viễn thông để mua và bán lại băng thông tốc độ cao thì internet sẽ là dịch vụ miễn phí cho tất cả mọi người. (Theo Discovery)

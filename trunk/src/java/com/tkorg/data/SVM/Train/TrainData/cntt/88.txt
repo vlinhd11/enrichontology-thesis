@@ -1,0 +1,296 @@
+﻿NGÀNH KỸ THUẬT MÁY TÍNH
+
+1. Mục tiêu đào tạo
+
+a. Mục tiêu chung
+
+    Đào tạo kỹ sư ngành Kỹ thuật máy tính, có phẩm chất chính trị tốt, có ý thức tổ chức kỷ luật, đạo đức nghề nghiệp, nắm vững các nguyên lý cơ bản và thực tiễn hiện tại trong lĩnh vực kỹ thuật máy tính, có khả năng suy nghĩ độc lập và có thể làm chủ trong việc giải quyết vấn đề một cách có hệ thống, nhận thức được vai trò của kỹ thuật và công nghệ, đặc biệt là máy tính trong công cuộc công nghiệp hoá và hiện đại hoá đất nước.
+
+b. Mục tiêu cụ thể
+
+    Sau khi hoàn thành chương trình đào tạo, kỹ sư ngành Kỹ thuật máy tính có khả năng nghiên cứu và thiết kế các bộ phận thiết bị chức năng của máy tính hoặc tham gia thiết kế các hệ thống máy tính, bao gồm cả phần cứng lẫn phần mềm.
+
+2. Khung chương trình đào tạo
+
+Tổng cộng 210 đơn vị học trình (đvht), chưa kể 5 đvht Giáo dục thể chất, 165 tiết Giáo dục Quốc Phòng. Thời gian đào tạo 4 năm được chia thành 2 phần. 
+        + Kiến thức giáo dục đại cương tối thiểu 80 đvht
+        + Kiến thức giáo dục chuyên nghiệp tối thiểu 130 đvht
+
+3. Danh mục các học phần bắt buộc
+
+Kiến thức giáo dục đại cương
+
+Tên học trình 
+
+ số đvht
+
+Triết học Mác-Lênin
+
+6
+
+Kinh tế chính trị Mác-Lênin
+
+5
+
+Chủ nghĩa xã hội khoa học
+
+4
+
+Lịch sử Đảng Cộng sản Việt Nam
+
+4
+
+Tư tưởng Hồ Chí Minh
+
+3
+
+Ngoại ngữ
+
+10
+
+Giáo dục thể chất
+
+5
+
+Giáo dục Quốc phòng
+
+165(tiết)
+
+Đại số
+
+4
+
+Giải tích 1
+
+6
+
+Giải tích 2
+
+5
+
+Vật lý đại cương 1
+
+4
+
+Vật lý đại cương 2
+
+3
+
+Hóa đại cương
+
+3
+
+Tin học đại cương
+
+4
+
+Tổng cộng
+
+61 đơn vị học trình
+
+                    * Không tính các học phần 7 và 8
+
+Kiến thức giáo dục chuyên nghiệp
+
+Kiến thức cơ sở của ngành
+
+ 
+
+Kiến thức ngành
+
+Tên học trình
+
+Số đvht
+
+Tên học trình
+
+Số đvht
+
+Xác xuất thống kê
+
+2
+
+Lý thuyết mạch và hệ thống
+
+5
+
+Cấu trúc rời rạc
+
+3
+
+Mạng máy tính
+
+2
+
+Cơ sở lập trình
+
+3
+
+Phân tích và thiết kế hệ thống 
+
+2
+
+Giải thuật và độ phức tạp
+
+3
+
+Công nghệ phần mềm
+
+2
+
+Điện tử
+
+4
+
+Quản lý thông tin
+
+2
+
+Hệ thống số
+
+3
+
+Các hệ thống thông minh
+
+2
+
+Kiến trúc và tổ chức máy tính
+
+5
+
+Hệ thống nhúng
+
+2
+
+Hệ điều hành
+
+2
+
+QThiết kế vi mạch VLSI và ASIC
+
+3
+
+Tổng cộng
+
+25
+
+Các mô hình máy tính thế hệ mới
+
+2
+
+Tự động thiết kế
+
+2
+
+Xử lý tính hiệu số
+
+5
+
+Kiểm tra và chuẩn đoán thiết kế
+
+2
+
+Tổng cộng
+
+34
+
+4. Kiến thức bổ trợ
+
+- Bố trí các nội dung được lựa chọn khá tự do, liên quan tới nhiều ngành đào tạo nhưng xét thấy có lợi trong việc mở rộng năng lực hoạt động của sinh viên sau khi tốt nghiệp.
+
+-  Bố trí các học phần có nội dung thuộc ngành đào tạo thứ hai khác với ngành Kỹ thuật máy tính nhằm giúp mở rộng phạm vi hoạt động của sinh viên sau khi tốt nghiệp. Trong trường hợp mảng kiến thức thuộc ngành thứ hai có khối lượng bằng hoặc vượt 25 đvht, chương trình mới được tạo ra sẽ cấu trúc kiểu ngành chính (Major) – ngành phục (Minor), trong đó, ngành chính là Kỹ thuật máy tính. Trường hợp đặc biệt khi chương trình mới tạo ra thoả mãn đồng thời những quy định về chương trình khung tương ứng với hai ngành đào tạo khác nhau thì người tốt nghiệp sẽ được nhận hai văn bằng đào tạo. Đương nhiên trong trường hợp này, khối lượng kiến thức của toàn chương trình và thời gian đào tạo theo thiết kế sẽ lớn hơn nhiều so với hai kiểu cấu trúc chương trình trên.
+
+5. Nội dung cụ thể các học trình kiến thức cơ sở của ngành
+
+Tên học trình
+
+Nội dung
+
+Xác suất và thống kê
+
+Nội dung của học phần bao gồm: xác suất rời rạc, xác suất liên tục, phân bố mẫu, ước lượng phỏng đoán, kiểm tra giả định, tương quan và hồi quy
+
+Cấu trúc rời rạc
+
+Cấu trúc rời rạc là kiến thức rất cơ bản và hầu hết các lĩnh vực của công nghệ thông tin đều đòi hỏi phải làm quen với các khái niệm của cấu trúc rời rạc. Học phần bao gồm các nội dung: các chức năng, quan hệ và tập hợp, luận lý cơ sở, kỹ thuật chứng minh, đồ thị và cây 
+
+Cơ sở lập trình
+
+Học phần cung cấp các nội dung về cấu trúc lập trình căn bản, các giải thuật và giải quyết vấn đề, cấu trúc dữ liệu căn bản, mẫu lập trình, đệ quy, lập trình hướng đối tượng, lập trình đồng thời và hướng sự kiện
+
+Giải thuật và độ phức tạp
+
+Học phần cung cấp những giải thuật rất cơ bản được dùng trong các ngành Khoa học máy tính, Kỹ thuật máy tính và các lĩnh vực có liên quan khác. Nội dung bao gồm: phân tích các giải thuật cơ bản, giải thuật chiến lược, các giải thuật tính toán cơ bản, các giải thuật phân tán, cơ sở lý thuyết tính toán và các lớp phức tạp P và NP.
+
+Điện tử
+
+Học phần cung cấp cho sinh viên: Các khái niệm chung về tính chất điện từ của vật liệu, diode, và các mạch diode, MOS, các họ mạch luận lý MOS, các linh kiện lưỡng cực và mạch lưỡng cực; Thiết kế mạch: mạch luận lý, mạch khuếch đại, mạch SPICE
+
+Hệ thống số
+
+Nội dung bao gồm: lý thuyết mạch, mạch luận lý tổ hợp, thiết kế khối các mạch tổ hợp, phần tử nhớ, mạch luận lý tuần tự, luận lý chuyển đổi thanh ghi, thiết kế hệ thống số
+
+Kiến trúc và tổ chức máy tính
+
+Giới thiệu chung; Cơ sở kiến trúc máy tính; Tính toán luận lý; Tổ chức và kiến trúc bộ nhớ; Giao tiếp và truyền; Nhận dữ liệu; Các hệ thống giao tiếp cấp thấp; Thiết kế hệ thống xử lý; Tổ chức của bộ xử lý trung tâm (CPU); Hiệu năng hệ thống; Đa xử lý
+
+Hệ điều hành
+
+Nội dung của học phần bao gồm: Chức năng và thiết kế hệ điều hành; Các nguyên lý của hệ điều hành; Đồng thời, định thời và điều động; Quản lý bộ nhớ; Quản lý thiết bị; Đánh giá hiệu năng hệ thống
+
+6. Nội dung cụ thể các học trình kiến thức ngành
+
+
+Tên học trình
+
+Nội dung
+
+Lý thuyết mạch và hệ thống
+
+Học phần cung cấp cho sinh viên: Cơ sở lượng từ điện; Mạch và các mạch thụ động; Mạch và các mạch chủ động; Đáp ứng tần số; Phân tích tín hiệu sin; Covolution; Tín hiệu rời rạc theo thời gian; Phân tích chuỗi Fourier
+
+Mạng máy tính
+
+Giới thiệu chung; Kiến trúc mạng; Nghi thức giao tiếp mạng; Mạng cục bộ và mạng diện rộng; Mô hình tính toán trên mạng
+
+Phân tích và thiết kế hệ thống
+
+Giới thiệu chung; Chu kỳ sống; Phân tích yêu cầu và đưa ra giải pháp; Đặc tả; thiết kế kiến trúc
+
+Công nghệ phần mềm
+
+Giới thiệu chung; Các quá trình pháp triển; Các yêu cầu và đặc tả phần mềm; Thiết kế phần mềm; Kiểm tra và xác nhận chất lượng phần mềm; Các công cụ và môi trường phần mềm
+
+Quản lý thông tin
+
+Giới thiệu chung; Các hệ thống và mô hình thông tin; Các hệ thống cơ sở dữ liệu; Mô hình hoá dữ liệu
+
+Các hệ thống thông minh
+
+Nội dung bao gồm: Các vấn đề cơ sở trong các hệ thống thông minh; Các tiêu chí thoả mãn tìm và ràng buộc; Lập luận và thể hiện tri thức
+
+Hệ thống nhúng
+
+Giới thiệu chung; Cơ sở của các hệ thống nhúng; Các vấn đề ngôn ngữ; ánh xạ ngôn ngữ và phần cứng; Phân loại các hệ thống nhúng
+
+Thiết kế vi mạch VLSI và ASIC
+
+Cơ sở linh kiện; Xử lý và dàn mạch; Chức năng và cấu trúc chuyển đổi căn bản; Đặc tín; Hiệu năng và mạch; Các mạch luận lý tổ hợp; Các mạch luận lý tuần tự; Cấu trúc các mạch nguồn; Thiết kế các mạch nguồn có công suất thấp; Các cấu trúc màng và bộ nhớ bán dẫn; Các mạch ngoại vi dạng chip; Công nghệ thiết kế mạch chuyên dùng; Phương pháp luận thiết kế vi mạch đặc chủng ứng dụng
+
+Các mô hình máy tính thế hệ mới
+
+Giới thiệu chung; Một số mô hình; Các kiến trúc; Các vấn đề hệ điều hành; Các vấn đề phần mềm các giải thuật
+
+Tự động thiết kế 
+
+Giới thiệu chung; Quy trình thiết kế FPLD; Bán đặc dụng và đặc dụng; Mô phỏng chức năng, mô hình hoá; Tổng hợp mạch: hành vi, luận lý; Tối ưu mạch thiết kế; ánh xạ công nghệ; Cấu trúc thư viện mạch và giải thuật; Quy trình kiểm tra
+
+ 
+
+Xử lý tín hiệu số
+
+Giới thiệu chung; Tín hiệu rời rạc theo thời gian; Lập trình đa phương tiện; Dòng dữ liệu; Wave table generation; Convolution; Phân tích chuỗi Fourier; Xử lý tín hiệu thoại; Điều chế tổng quan và demodulation; Biến đổi La Place; Biến đổi Z; Các bộ lọc; Cơ sở xử lý ảnh; Hiển thị ảnh; Đọc và ghi file; Phát hiện cạnh; Xử lý đường bao; Cải thiện ảnh
+
+Kiểm tra và chẩn đoán thiết kế
+
+Giới thiệu chung: Lỗi và mô hình trong mạch số; Các phương pháp kiểm tra; Thiết kế hệ thống kiểm tra đặc trưng phân lập; Kiểm tra và chẩn đoán cấp hệ thống; Độ tin cậy và tính sẵn sàng; Phát hiện lỗi và sửa lỗi; Thiết kế hệ thống an toàn; An toàn phần mềm

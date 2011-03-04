@@ -1,0 +1,2 @@
+﻿Cáp quang là một loại cáp viễn thông làm bằng thủy tinh hoặc nhựa, sử dụng ánh sáng để truyền tín hiệu.
+Cáp quang dài, mỏng thành phần của thủy tinh trong suốt bằng đường kính của một sợi tóc. Chúng được sắp xếp trong bó được gọi là cáp quang và được sử dụng để truyền tín hiệu trong khoảng cách rất xa. Không giống như cáp đồng truyền tín hiệu bằng điện, cáp quang ít bị nhiễu, tốc độ cao (đây là tốc độ truyền dữ liệu, phân biệt với tốc độ tín hiệu) và truyền xa hơn.

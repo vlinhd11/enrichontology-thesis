@@ -1,0 +1,9 @@
+﻿Thế giới đang lưu hơn 295 exabyte dữ liệu
+
+Tạp chí Science (Khoa học) vừa công bố một công trình nghiên cứu cho biết, tính đến hết năm 2007 cả thế giới đã lưu trữ khoảng 295 exabyte dữ liệu (1 exabyte = 1 tỷ GB) thông qua hơn 60 phương thức khác nhau như: ổ đĩa cứng, đĩa DVD hay sách in nhưng lượng dữ liệu được số hóa đã chiếm tới 94% tổng số dữ liệu của loài người.
+
+Các nhà nghiên cứu đã minh họa một cách hình tượng, nếu đem lượng dữ liệu này in thành sách, số sách đó sẽ đủ phủ kín toàn bộ diện tích đất nước Trung Quốc và dày tới 13 lớp. Còn nếu đem lượng dữ liệu này lưu trữ vào đĩa CD, chồng đĩa này sẽ có chiều cao bằng khoảng cách từ trái đất lên đến… mặt trăng.
+
+Theo tiết lộ của nhóm nghiên cứu, thực chất đây chỉ là lượng dữ liệu được lưu trữ trong khoảng thời gian từ năm 1986 đến 2007 và đây là một minh chứng rõ nét nhất cho cuộc cách mạng “bùng nổ thông tin” mà thế giới đã trải qua trong ít năm vừa qua. Nếu năm 2000, khoảng 75% dữ liệu của thế giới vẫn được lưu trữ bằng cách công nghệ analog (băng cassette, băng video…) thì đến năm 2007, tỷ lệ lưu trữ bằng công nghệ số hóa (ổ đĩa cứng…) đã là 94%.
+
+Các nhà khoa học còn cho biết thêm, tính đến năm 2010, mỗi ngày có khoảng 2 zettabyte dữ liệu (1 zettabyte = 1.000 exabyte) được phát tán đi trên khắp thế giới hay tính trung bình, mỗi người dân trên thế giới sẽ phải đọc khoảng 175 tờ báo mỗi ngày. Tuy vậy, khoảng cách số giữa các quốc gia giàu – nghèo trên thế giới cũng đang tăng mạnh, các nhà nghiên cứu cho biết. Năm 2002, lượng thông tin mà 1 người dân ở nước giàu nhận được trong 1 ngày nhiều gấp 8 lần so với nước nghèo thì đến năm 2007, khoảng cách này là 15 lần.

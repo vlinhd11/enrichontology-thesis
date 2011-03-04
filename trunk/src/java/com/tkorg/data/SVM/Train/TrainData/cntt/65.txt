@@ -1,0 +1,29 @@
+﻿Công nghệ tương lai cho đĩa cứng
+
+ừ tháng 1/2011, các hãng sản xuất đĩa cứng sẽ áp dụng công nghệ mới có tên Advanced Format, mang đến một sự thay đổi lớn cho công nghệ đĩa cứng tương lai.
+
+Như bạn đã biết, cung từ (sector) là đơn vị lưu trữ nhỏ nhất trong ổ đĩa cứng. Từ thuở sơ khai cách đây khoảng 30 năm, khi máy tính còn dùng hệ điều hành (HĐH) DOS, ổ đĩa cứng đã được định dạng thành những sector có kích thước 512 byte.
+
+Mỗi sector 512 byte đều bao gồm khối chứa địa chỉ vị trí dữ liệu (Sync/DAM) và một vùng để lưu trữ mã sửa sai ECC (Error Correcting Code). Ngoài ra, giữa các sector còn có một khoảng trống nhỏ, do đó dung lượng hữu dụng của ổ đĩa cứng luôn nhỏ hơn thông báo của nhà sản xuất.
+
+Việc chia thành các sector 512 byte hữu dụng với ổ đĩa cứng có dung lượng vài megabyte (MB) trước đây. Nhưng với sự phát triển của công nghệ, dung lượng của ổ đĩa cứng ngày nay lên đến hàng terabyte (TB), và định dạng sector 512 byte của ổ đĩa cứng hiện nay đã cho thấy những mặt hạn chế, gây lãng phí dung lượng lưu trữ.
+
+Nâng sector 512 byte lên 4KB
+
+Để khắc phục vấn đề này, Hiệp hội quốc tế về thiết bị và vật liệu ổ đĩa IDEMA (International Disk Drive Equipment and Materials Association) và các hãng sản xuất đĩa cứng hàng đầu đã đưa ra công nghệ Advanced Format (định dạng cao cấp), nhằm nâng dung lượng mỗi sector từ 512 byte lên thành 4.096 byte (4KB).
+
+Hiện nay, tập tin tạo ra từ các phần mềm hầu như có kích thước trung bình lớn hơn 512 byte. Đó là lý do kích thước 512 byte của một sector trở nên “lạc hậu” và cũng là lý do để các hãng sản xuất tăng kích thước sector lên 4KB.
+
+Mỗi vùng ECC trong cấu trúc sector 512 byte có kích thước 40 byte. Do đó, 8 sector 512 byte (tương đương 4KB) sẽ cần đến 320 byte để lưu mã ECC. Trong khi đó, mỗi sector 4KB chỉ cần 100 byte để lưu dữ liệu ECC, tiết kiệm đến 220 byte so với cấu trúc sector 512 byte.
+
+Theo Western Digital, một trong những hãng tiên phong trong việc sử dụng Advanced Format, định dạng mới với các sector 4KB sẽ giúp tiết kiệm dung lượng ổ cứng nhiều hơn, giảm không gian lãng phí khoảng 8 lần, hiệu suất cũng sẽ được nâng lên 7-11%. Đồng thời, công nghệ Advanced Format cũng giúp cải tiến việc sửa lỗi theo khối đến 50% thông qua việc sử dụng đoạn mã ECC lớn hơn.
+
+Từ tháng 1/2011, các hãng sản xuất đĩa cứng trên thế giới cam kết sẽ áp dụng việc chuyển đổi này cho các sản phẩm mới của họ, và ổ đĩa cứng sử dụng công nghệ sector Advanced Format đều sẽ mang logo AF.
+
+AF ảnh hưởng đến HĐH như thế nào?
+
+Như đã đề cập ở phần trên, công nghệ AF sẽ giúp tăng hiệu suất của hệ thống lên đến 7-11%. Nhưng đó chỉ là đối với các HĐH mới sau này, chẳng hạn Windows Vista, Windows 7, Mac OS X Tiger, Leopard, Snow Leopard, và các phiên bản Linux ra đời sau tháng 9/2009. Theo Seagate, ổ đĩa cứng công nghệ AF mới nhưng chạy HĐH cũ thì tốc độ sẽ chậm hơn.
+
+Cụ thể là, các ổ đĩa sử dụng công nghệ AF vẫn tương thích ngược với cấu trúc sector 512 byte bằng cách ánh xạ 8 sector 512 byte luận lý vào 1 sector vật lý. Nhưng không may là cách làm này sẽ gặp vấn đề trên Windows XP. Mặc định, Windows XP tạo ra phân vùng chính tại địa chỉ khối luận lý LBA (logical block address) số 63, là vị trí thiếu một khối để chia hết cho 8. Kết quả là dữ liệu được ghi đè lên 2 biên của khối sector 4KB vật lý. Tốc độ đọc và tốc độ ghi tuần tự không bị ảnh hưởng nhiều, nhưng tốc độ ghi ngẫu nhiên hay ghi các tập tin nhỏ sẽ bị chậm nhiều.
+
+Tuy vậy, để hỗ trợ cho người dùng muốn sử dụng ổ cứng công nghệ AF mới trên HĐH Windows XP, WD đã cung cấp phần mềm WD Align (tải xuống tại wdc.com) cho phép các ổ đĩa theo chuẩn mới hoạt động với hiệu năng tối đa trên Windows XP.

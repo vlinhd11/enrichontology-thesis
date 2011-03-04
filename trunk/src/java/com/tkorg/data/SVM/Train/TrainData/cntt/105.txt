@@ -1,0 +1,2 @@
+﻿Thiết kế phần mềm (Software design) là một quá trình giải quyết vấn đề và lập kế hoạch cho một giải pháp phần mềm.Sau khi các mục đích và đặc điểm kĩ thuật của phần mềm được quyết định, lập trình viên sẽ thiết kế hoặc thuê người thiết kế để phát triển một kế hoạch cho giải pháp phần mềm. Nó bao gồm các thành phần cấp thấp, các vấn đề thuật toán cũng như một khung nhìn kiến trúc.
+Bước Phân tích yêu cầu trong quy trình phát triển phần mềm.

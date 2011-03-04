@@ -1,0 +1,93 @@
+﻿Luật pháp
+
+Luật pháp dưới góc độ luật học được hiểu như là tổng thể các quy tắc xử sự có tính bắt buộc chung, do Nhà nước đặt ra hoặc thừa nhận, thể hiện ý chí của giai cấp cầm quyền, được Nhà nước đảm bảo thực hiện bằng các biện pháp giáo dục, thuyết phục, và cưỡng chế.
+Luật pháp thông thường được thực thi thông qua một hệ thống tòa án trong đó quan tòa sẽ nghe tranh tụng từ các bên và áp dụng các quy định để đưa ra phán quyết công bằng và hợp lý. Cách thức mà luật pháp được thực thi được biết đến như là hệ thống pháp lý, thông thường phát triển trên cơ sở tập quán tại mỗi quốc gia.
+Phần lớn các quốc gia dựa vào cảnh sát pháp lý để thi hành luật pháp. Cảnh sát pháp lý nói chung phải được đào tạo chuyên nghiệp về các kiến thức, kỹ năng thực thi luật pháp trước khi được cho phép có các hành vi nhân danh pháp luật, chẳng hạn như đưa ra các cảnh báo và trát đòi hầu tòa, thực thi việc tìm kiếm hay ra các lệnh khác cũng như thực hiện việc tạm giam, tạm giữ.
+Những người hành nghề pháp lý nói chung phải được đào tạo chuyên nghiệp về các kiến thức pháp lý trước khi được phép biện hộ cho các bên tại tòa án, dự thảo các văn bản pháp lý hay đưa ra các tư vấn pháp lý.
+Mục lục [ẩn]
+1 Lịch sử
+2 Bản chất
+3 Thuộc tính của luật pháp
+4 Các hệ thống pháp luật
+4.1 Dân luật/Luật châu Âu lục địa
+4.2 Thông Luật
+4.3 Tập quán pháp
+4.4 Luật tôn giáo
+5 Các bộ phận của luật
+5.1 Luật tư
+5.2 Luật công
+5.3 Luật tố tụng
+5.4 Luật hình sự
+5.5 Luật quốc tế
+6 Triết học luật
+7 Xem thêm
+8 Đọc thêm
+9 Tham khảo
+10 Liên kết ngoài
+[sửa]Lịch sử
+
+Bài chính: Lịch sử luật pháp.
+Luật pháp dưới góc độ luật học được hiểu như là tổng thể các quy tắc xử sự có tính bắt buộc chung, do Nhà nước đặt ra hoặc thừa nhận, thể hiện ý chí của giai cấp cầm quyền, được Nhà nước đảm bảo thực hiện bằng các biện pháp giáo dục, thuyết phục, và cưỡng chế.
+Luật pháp thông thường được thực thi thông qua một hệ thống các cơ quan thực thi, bao gồm các cơ quan như Công an (cảnh sát), tòa án, Việc kiểm sát, thi hành án.....Tuy nhiên, cũng cần hiểu rằng, chỉ những hành vi vi phạm pháp luật gây hậu quả xấu cho xã hội và đến một mức độ cần thiết mới có thể bị đưa ra Toà án. Hiện nay, hầu hết các nước trên thế giới đều có hai "nhánh" là thực thi luật pháp theo con đường hành chính và thực thi theo con đường hình sự. Hành chính và hình sự là hai cấp độ khác nhau và không thể đồng thời áp dụng lên một hành vi vi phạm. (Cụ thể xin vui lòng xem thêm quy định tại các văn bản pháp luật hiện hành để biết quy định nào sẽ cấu thành tội phạm hình sự và hành vi nào sẽ bị xử phạt hành chính).
+Về cơ bản, luật pháp được thực thi thông qua các biện pháp hành chính là nhiều hơn cả, ví dụ như: cảnh sát giao thông xử phạt người vi phạm, thanh tra xây dựng thanh tra và xử phạt vi phạm.....
+Trong xã hội dân dự, mặc dù Toà án vừa đóng vai trò là cơ quan thực thi nhưng cũng vừa là một người trọng tài để đưa ra các phán xét của mình về tính hợp pháp của hành vi. Tuy vậy, ở Việt Nam và đại đa số các nước Châu Á nói chung, việc đưa vụ việc đến Toà án chưa trở thành một thói quan và văn hoá pháp luật.
+Phần lớn các quốc gia dựa vào cảnh sát pháp lý để thi hành luật pháp. Cảnh sát pháp lý nói chung phải được đào tạo chuyên nghiệp về các kiến thức, kỹ năng thực thi luật pháp trước khi được cho phép có các hành vi nhân danh pháp luật, chẳng hạn như đưa ra các cảnh báo và trát đòi hầu tòa, thực thi việc tìm kiếm hay ra các lệnh khác cũng như thực hiện việc tạm giam, tạm giữ.
+Những người hành nghề pháp lý nói chung phải được đào tạo chuyên nghiệp về các kiến thức pháp lý trước khi được phép biện hộ cho các bên tại tòa án, dự thảo các văn bản pháp lý hay đưa ra các tư vấn pháp lý.
+[sửa]Bản chất
+
+Bản chất của luật pháp phản ánh bản chất của Nhà nước đặt ra nó. Nhà nước kiểu nào thì pháp luật kiểu đó. Chính vì vậy, luật pháp có tính chất giai cấp. Luật pháp còn có tính xã hội vì nó chứa đựng những chuẩn mực chung được số đông trong xã hội ủng hộ. Nếu không luật pháp sẽ bi chống đối. Luật pháp có tính dân tộc, nghĩa là phù hợp với truyền thống, tập quán, giá trị đạo đức của các dân tộc trong đất nước. Bản chất này cho phép luật pháp gần gũi với dân chúng, được dân chúng ủng hộ, do đó mà có hiệu quả điều chỉnh lên các quan hệ xã hội. Luật pháp có tính thời đại, nghĩa là phù hợp với trình độ phát triển kinh tế của đất nước, có khả năng hội nhập với luật pháp quốc tế.
+[sửa]Thuộc tính của luật pháp
+
+Về mặt nội dung, luật pháp có tính quy phạm phổ biến. Luật pháp là do Nhà nước đặt ra, nên đối tượng điều chỉnh của nó phổ biến hơn (rộng rãi hơn) các quy phạm xã hội khác.
+Về mặt hình thức, luật pháp có tính chặt chẽ. Để dân chúng biết được và phải biết ý chí của Nhà nước, thì ý chí này phải được thể hiện dưới các hình thức chặt chẽ. Có 3 hình thức luật pháp cơ bản, đó là tập quán pháp, tiền lệ pháp, và văn bản quy phạm pháp luật.
+Luật pháp được đảm bảo bằng Nhà nước. Sau khi đặt ra luật pháp, Nhà nước đưa luật pháp vào đời sống thông qua các cơ quan Nhà nước, các thiết chế chính trị, các cán bộ, nguồn lực tài chính, các phương pháp quản lý đặc biệt là phương pháp cưỡng chế.
+[sửa]Các hệ thống pháp luật
+
+Bài chính Các hệ thống pháp luật trên thế giới.
+
+
+Hình trên bia mộ vua Hammurabi mô tả thần Shamash đang tiết lộ bộ luật cho vua. Hiện vật bảo tàng Louvre.
+Nói chung có 4 hệ thống pháp luật đang được thực thi ngày nay trên thế giới.
+[sửa]Dân luật/Luật châu Âu lục địa
+Bài chính Dân luật.
+Hệ thống luật châu Âu lục địa (civil law) là sự pháp điển hóa đặt thành một hệ thống bao hàm toàn diện các quy tắc được áp dụng và làm sáng tỏ bởi các quan tòa. Đây là hệ thống luật được thực thi lớn nhất trên thế giới, với khoảng 60% dân số thế giới sống tại các quốc gia được điều hành bởi hệ thống luật này.
+Sự khác biệt quan trọng nhất của hệ thống luật này với thông luật (common law), hay luật Anh-Mỹ, là thông thường thì chỉ có các quy định trong các đạo luật mới được coi là có giá trị ràng buộc pháp lý mà không phải là các tiền lệ, ngoại trừ các trường hợp tương tự đã được phán quyết tại tòa án tối cao. Tuy nhiên, trong thực tế xét xử đối với các trường hợp tương tự thì các tòa án thông thường theo các phán quyết trước đây của mình. Ngoài ra, tại một số hệ thống luật pháp theo hệ thống luật châu Âu lục địa (chẳng hạn tại Đức), các văn bản của các học giả pháp lý cũng có ảnh hưởng đáng kể tại tòa.
+Trong phần lớn các chế định pháp lý thì lĩnh vực hạt nhân của luật tư được pháp điển hóa trong dạng luật dân sự, nhưng trong một số trường hợp, chẳng hạn tại Scotland thì chúng không được pháp điển hóa. Hệ thống luật châu Âu lục địa có nguồn gốc từ Luật La Mã, đã được các học giả và các tòa án kế tục và sử dụng từ cuối thời kỳ Trung cổ trở đi. Phần lớn các hệ thống pháp lý ngày nay có nguồn gốc từ xu hướng pháp điển hóa trong thế kỷ 19. Luật dân sự của nhiều quốc gia, cụ thể là tại các thuộc địa cũ của Pháp và Tây Ban Nha có các vết tích từ bộ luật Napoleon trong nhiều khía cạnh. Tuy nhiên, điều này không đúng đối với phần lớn các quốc gia trong khu vực Trung và Đông Âu, Scandinavia và Đông Á. Đáng chú ý là Bộ Luật Dân sự của Đức BGB đã được phát triển từ luật La Mã với sự tham chiếu tới các tập quán pháp lý của Đức và có ảnh hưởng quyết định tới sự đi theo dân luật tại các quốc gia khác.
+Tầm quan trọng của luật Napoléon cũng không nên cường điệu hóa quá mức do nó chỉ bao hàm một số lĩnh vực cơ bản của luật tư, trong khi còn có các bộ luật khác điều chỉnh các lĩnh vực như luật doanh nghiệp, luật hành chính, luật thuế và hiến pháp v.v.
+[sửa]Thông Luật
+Xem thêm về nội dung này tại Tiền lệ pháp.
+Là một hệ thống pháp luật với hình thức pháp lý đặc thù là Tiền lệ pháp. Đó là pháp luật dựa trên các phán quyết tạo ra tiền lệ (stare decisis) từ các vụ án trước đó. Hệ thống thông luật hiện nay được áp dụng tại Ireland, Anh, Australia, New Zealand, Nam Phi, Canada (ngoại trừ Québec) và Hoa Kỳ (bang Louisiana sử dụng cả thông luật và dân luật Napoleon). Ngoài ra, một số quốc gia khác cũng áp dụng hệ thống thông luật trong một hệ thống hỗn hợp, chẳng hạn như Pakistan, Ấn Độ và Nigeria chủ yếu áp dụng hệ thống thông luật, nhưng kết hợp cả luật tôn giáo và tập quán pháp.
+[sửa]Tập quán pháp
+Bài chính: Tập quán pháp
+Tập quán pháp là những tập quán có ích sẵn có đối với một nhà nước mới được thành lập và được nhà nước này thừa nhận làm pháp luật. Lưu ý là luật tập quán cũng có thể thích hợp trong các phán quyết tại các hệ thống pháp lý khác trong những lĩnh vực hay vụ việc mà các quy định pháp lý điều chỉnh lại không (hoặc chưa) tồn tại. Ví dụ, tại Austria, các học giả luật tư thông thường cho rằng luật tập quán vẫn còn tồn tại, trong khi các học giả luật công lại không công nhận điều này. Trong bất kỳ trường hợp nào, rất khó để tìm các ví dụ thích hợp trong thực tế.
+[sửa]Luật tôn giáo
+Bài chính: Luật tôn giáo.
+Nhiều quốc gia xây dựng hệ thống pháp luật của mình trên cơ sở các nguyên lý tôn giáo. Hệ thống có ảnh hưởng lớn nhất trong dạng này là Sharia, hay luật Hồi giáo.
+Luật Do Thái (Halakha), được tuân thủ bởi những người Do Thái Chính thống và Bảo thủ (trong các dạng khác nhau đáng kể) đề cập cả các quan hệ có tính chất tôn giáo cũng như dân luật. Tuy nhiên, không giống như Sharia, hiện nay không có quốc gia nào có luật pháp tuân theo Halakha một cách đầy đủ.
+Ở mức độ nhỏ hơn thì hiện nay vẫn còn các khu vực trên thế giới áp dụng luật giáo hội, nó được tuân thủ bởi những người theo Công giáo và Anh giáo, và hệ thống pháp lý tương tự được sử dụng bởi Chính thống giáo Đông phương. Tuy nhiên, luật giáo hội Kitô giáo ngày nay gần như chỉ để phân xử các quan hệ tôn giáo chứ không giống như Sharia, trong đó nó liên quan tới cả dân luật (chẳng hạn các quyền về tài sản, hợp đồng, công ty, hiệp hội và đền bù tổn thất) cũng như luật hành chính.
+[sửa]Các bộ phận của luật
+
+Trong nghĩa rộng, các bộ phận của luật pháp có thể phân chia trên cơ sở bên nào là bên có tố quyền. Một điều rất phổ biến là các lĩnh vực thực tế của áp dụng luật pháp có thể bao trùm nhiều bộ phận của luật pháp.
+[sửa]Luật tư
+Bài chính: Luật tư.
+Lĩnh vực của luật tư (luật dân sự) là hệ thống pháp lý liên quan đến các bộ luật điều chỉnh các quan hệ giữa các cá nhân hay pháp nhân (không nhà nước). Luật tư có thể coi như là luật dân sự mở rộng, nó không chỉ là hệ thống dân luật thịnh hành ở nhiều quốc gia mà còn bao gồm cả những gì có trong dời sống pháp luật của 1 cá nhân mà không có sự chi phối mạnh mẽ của Nhà nước như Hôn Nhân gia đình, thừa kế, thương mại (nói chung là các lĩnh vực mà các bên liên quan thiết lập theo THOẢ THUẬN là chính).
+Luật tư quốc tế là sự mở rộng của luật tư để hướng dẫn cách xử sự, giải quyết các tranh chấp giữa các cá nhân hay pháp nhân thuộc các hệ thống tư pháp khác nhau (xuyên quốc gia). Nó bao gồm cả các hợp đồng thương mại như vận đơn (để vận chuyển) và các quyền cá nhân v.v đến thừa kế tài sản. Các thành phần quan trọng của luật tư quốc tế vẫn chưa được pháp điển hóa trong các điều khoản của các điều ước quốc tế (chẳng hạn lex situs - địa điểm thích hợp của quyền sở hữu tài sản) nhưng nói chung được công nhận tại các quốc gia và vì thế vẫn duy trì ở dạng luật tập quán.
+Ví dụ: Khi ông A là người Viêt Nam đi du lịch sang Hoa kỳ, tại đây, chẳng may ông bị tai nạn giao thông, đưa vào bệnh viện, trước khi qua đời Ông di chúc miệng lại cho con trai của ông đang ở Việt Nam tài sản là 100.000USD mà ông mang đang gởi ở Ngân Hàng Thụy Sỹ. Như vậy luật pháp của nước nào sẽ được dùng để xử lý Di chúc này, đó là một trong rất nhiều lĩnh vực mà Luật Tư quốc tế điều chỉnh. Khi mà các quy định của luật tư quốc tế khác với các luật tư quốc gia thì ở đó tồn tại mâu thuẫn luật.
+[sửa]Luật công
+Bài chính: Luật công.
+Trong nghĩa chung nhất thì lĩnh vực của luật công là các sắc luật trong hệ thống luật pháp đang đề cập tới nhằm điều chỉnh các quan hệ giữa các tổ chức nhà nước ở các cấp độ khác nhau, cũng như điều chỉnh các tranh chấp giữa tổ chức nhà nước với các cá nhân, pháp nhân khác (phi-nhà nước) trong phạm vi quốc gia đó. Các tổ chức nhà nước sử dụng tố quyền để khởi kiện các cá nhân vì các vi phạm hình sự cũng như các cá nhân/pháp nhân vì các vi phạm luật pháp khác. Luật công có thể chia thành 3 tiểu thể loại: hiến pháp, luật hành chính và luật hình sự.
+Tương tự, các cá nhân/pháp nhân cũng có thể khởi kiện các cơ quan, tổ chức nhà nước (công quyền) vì các tổn thất mà các tổ chức nhà nước đã gây ra cho họ. Nó bao gồm các nền tảng trên cơ sở các quy định, sắc luật được đưa ra vượt quá khả năng của họ hay dẫn đến các vi phạm các quyền cá nhân. Hai điểm đang đề cập này thông thường được bảo vệ bởi hiến pháp của quốc gia đó.
+[sửa]Luật tố tụng
+Bài chính: Luật tố tụng
+Luật tố tụng là lĩnh vực của luật pháp điều chỉnh quy trình tiến hành vụ việc pháp lý. Nó bao gồm các quy trình như ai có thể có quyền đệ đơn tới tòa, đệ đơn ra tòa như thế nào, cũng như quyền và nghĩa vụ của các bên tham gia tranh tụng. Luật tố tụng thường được coi như là luật "bổ trợ" do nó là các bộ luật liên quan đến việc các bộ luật khác được áp dụng như thế nào. Thông thường, nó bao gồm các quy định tố tụng dân sự và hình sự, nhưng nó có thể bao gồm cả luật điều chỉnh bằng cứ trong đó xác định cách thức như thế nào được phép sử dụng để xác nhận chứng cứ, cũng như luật liên quan đến các phương thức khắc phục hậu quả.
+[sửa]Luật hình sự
+Bài chính: Luật hình sự
+Khái niệm luật hình sự nói về những luật có chung tính chất là đề ra những hình phạt riêng biệt và nặng nề hơn bình thường nếu phạm vào. Tùy theo loại tội và thẩm quyền, sự trừng phạt (về mặt) hình sự bao gồm tử hình, giam giữ, bị quản thúc hoặc bị phạt vạ. Những tội cổ xưa như sát nhân (giết người), phản quốc .v.v. luật hình sự nơi nào cũng có. Nhưng cũng có nhiều tội ở nước này đưa vào luật hình sự mà nước khác thì không. Ngay cả trong các bộ luật đôi khi cũng không rõ ràng về ranh giới giữa dân sự và hình sự. Luật hình sự thường được tiến hành khởi tố bởi chính quyền, không giống như luật dân sự thường được tiến hành khởi tố bởi người dân hay các pháp nhân khác.
+[sửa]Luật quốc tế
+Bài chính: Luật quốc tế.
+Luật quốc tế điều chỉnh các quan hệ giữa các quốc gia, các thực thể quốc tế chưa đầy đủ ,lãnh thổ hoặc vùng lãnh thổ. Hay giữa các công dân của các quốc gia khác nhau cũng như giữa các tổ chức quốc tế. Hai nguồn cơ bản của luật quốc tế là các luật tập quán và các điều ước quốc tế.
+[sửa]Triết học luật
+
+Bài chính: Triết học luật
+Triết học luật là một nhánh của triết học và luật học trong đó nghiên cứu các vấn đè cơ bản của luật và hệ thống pháp lý, chẳng hạn như "Thế nào là luật?", "Cái gì là tiêu chuẩn của hiệu lực pháp lý?", "Cái gì là quan hệ giữa luật pháp và đạo đức?" và nhiều vấn đề tương tự khác.
+Trong truyền thống phương Tây có một số trường phái tư tưởng về các nền tảng triết học của luật.Thứ nhất, đó là quy luật tự nhiên, trong đó người ta cố gắng miêu tả luật pháp như là các phẩm chất vốn có của loài người thu được từ tự nhiên. Thứ hai, đó là chủ nghĩa pháp lý thực chứng, trong đó người ta cho rằng luật pháp là sản phẩm thuần túy của con người được cộng đồng dùng để duy trì trật tự cộng đồng và không có liên hệ gì gọi là vốn có hay cần thiết giữa luật pháp và đạo đức. Thứ ba, đó là chủ nghĩa pháp lý duy thực, trong đó người ta tin rằng luật pháp là tập hợp tùy tiện các quy tắc chủ yếu được thiết lập bởi sự thiên vị và sở thích của các quan tòa và như thế nó là không hoàn hảo và đầy nhược điểm. Chủ nghĩa pháp lý biểu đạt là một học thuyết đương thời đề cập tới sự khác biệt giữa luật pháp và chủ nghĩa pháp lý thực chứng cũng như quy luật tự nhiên, trong đó người ta cho rằng luật pháp không phải là tập hợp của các dữ liệu đã cho, các quy ước hay các dữ kiện tự nhiên mà là những gì các nhà làm luật cố gắng xây dựng nên hay thu được từ thực tế cũng như không có sự phân chia giữa đạo đức và luật pháp (cho dù có khác biệt), nó không phải là nội tại trong tự nhiên và nó không thể tồn tại độc lập bên ngoài các thông lệ pháp lý.

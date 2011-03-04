@@ -1,0 +1,99 @@
+﻿Wi-Fi Direct: Chia sẻ dữ liệu trực tiếp
+
+Wi-Fi vốn là công nghệ mang đến cho người dùng sự tiện dụng trong kết nối, giờ đây còn kết hợp thêm với công nghệ truyền dữ liệu trực tiếp, Wi-Fi Direct.
+Trước đây, để chia sẻ dữ liệu qua mạng Wi-Fi, bạn phải trang bị AP/router Wi-Fi, giờ đây với công nghệ Wi-Fi Direct, bạn có thể chia sẻ dữ liệu trực tiếp giữa các thiết bị với nhau mà không cần thông qua hệ thống mạng.
+
+Chia sẻ mọi nơi
+
+
+Hình 1: Chia sẻ nội dung trực tiếp
+Wi-Fi Direct, một công nghệ cho phép kết nối không dây (Wi-Fi) từ thiết bị này đến thiết bị khác dựa trên các chuẩn Wi-Fi vừa được Liên minh Wi-Fi (Wi-Fi Alliance) phê chuẩn vào cuối tháng 10/2010 vừa qua (áp dụng từ 26/10). Các thiết bị hỗ trợ công nghệ Wi-Fi Direct (đạt chứng nhận Wi-Fi Direct của Liên minh Wi-Fi) có thể kết nối với nhau một cách đơn giản hơn, thuận tiện hơn cho người dùng trong việc in ấn, chia sẻ, đồng bộ và hiển thị thông tin/hình ảnh lên màn hình.
+
+Do hỗ trợ kết nối trực tiếp nên các thiết bị có trang bị Wi-Fi Direct, chẳng hạn điện thoại di động, máy quay/máy ảnh, máy in, máy tính, các thiết bị chơi game có thể kết nối trực tiếp để truyền nội dung, chia sẻ các ứng dụng tại bất kỳ nơi nào, bất kỳ thời điểm nào. Các thiết bị có thể kết nối theo mô hình một - một hay một - nhiều (nhiều thiết bị có thể kết nối đồng thời với nhau). Nếu thường xuyên kết nối các thiết bị với nhau, các thiết bị này có thể lưu lại thông tin kết nối (profile) để có thể sử dụng tiếp tục trong những lần "họp mặt" sau.
+
+Ưu điểm của Wi-Fi Direct
+
+
+Hình 2: In ấn trực tiếp
+Công nghệ Wi-Fi Direct được xây dựng dựa trên thế mạnh về hiệu năng, tầm phủ sóng, chế độ bảo mật, tính dễ sử dụng, và sự phổ biến của chuẩn Wi-Fi, không cần thiết lập mạng kiến trúc (Infrastructure network). Các thiết bị hỗ trợ Wi-Fi Direct đáp ứng xu hướng: kết nối đơn giản, kết nối trực tiếp đến nhiều thiết bị, đem đến cho người dùng một số lợi ích sau:
+
+Tính di động và linh động: Các thiết bị Wi-Fi Direct hỗ trợ kết nối tại bất kỳ nơi nào, thời điểm nào.
+
+Tiện dùng tức thì: Người dùng có thể tạo các kết nối trực tiếp đến nhiều thiết bị cùng hỗ trợ Wi-Fi Direct. Chẳng hạn, nếu có một MTXT Wi-Fi Direct, bạn sẽ có thể tạo kết nối trực tiếp đến các thiết bị Wi-Fi có sẵn tại nhà.
+
+Dễ sử dụng: Các thiết bị Wi-Fi Direct có tính năng cho phép người dùng tìm xem các thiết bị và dịch vụ trước khi thiết lập kết nối đến.
+
+Kết nối an toàn: Chế độ bảo mật WPS (Wi-Fi Protected Setup) giúp đơn giản hóa việc tạo chế độ bảo mật giữa các thiết bị kết nối. Hầu hết người dùng đều có thể kết nối thông qua nút nhấn bảo mật WPS.
+
+Cũng tương tự chuẩn Wi-Fi mới nhất 802.11n, Wi-Fi Direct cũng có chế độ quản lý điện năng tiêu thụ giúp duy trì kết nối được lâu hơn.
+
+Nguyên lý làm việc của Wi-Fi Direct
+
+Thiết bị Wi-Fi Direct có thể hoạt động tại bất kỳ vị trí nào, thời điểm nào, kể cả bạn không truy cập vào mạng Wi-Fi. Thiết bị Wi-Fi Direct của bạn sẽ phát tín hiệu tới các thiết bị khác trong khu vực phủ sóng. Bạn có thể thấy các thiết bị này và gửi yêu cầu kết nối hay nhận được lời mời kết nối từ các thiết bị Wi-Fi Direct khác. Khi có 2 hay nhiều thiết bị Wi-Fi Direct, bạn có thể tạo thành nhóm Wi-Fi Direct, sử dụng chế độ mã hóa bằng mã PIN WPS (Wi-Fi Protected Setup) và chế độ mã hóa cao nhất (WPA2).
+
+Khái quá về cấp chứng nhận Wi-Fi Direct
+Tương tự các sản phẩm đạt chứng nhận Wi-Fi, các sản phẩm đạt chứng nhận Wi-Fi Direct đóng vai trò quan trọng trong việc cung cấp cho người dùng và doanh nghiệp sự tin tưởng rằng các thiết bị Wi-Fi Direct sẽ hoạt động tốt, các thiết bị của các nhà cung cấp khác nhau sẽ có khả năng tương thích. Để đạt chứng nhận Wi-Fi Direct, các sản phẩm Wi-Fi Direct sẽ phải vượt qua các phần kiểm tra chính như sau: 
+
+- Kiểm tra chứng nhận Wi-Fi chuẩn: Thiết bị phải hỗ trợ thấp nhất là chuẩn 802.11g và mã hóa WPA2-Personal. 
+
+- Kiểm tra chứng nhận WMM (Wi-Fi Multimedia) và WPS (Wi-Fi Protected Setup): WMM và WPS là các tùy chọn trong các chứng nhận trước đây của Liên minh Wi-Fi, nhưng với chứng nhận Wi-Fi Direct buộc phải đạt cả 2 tính năng này.
+
+Các thiết bị Wi-Fi Direct có thể kết nối với nhau theo dạng một-một hay một-nhiều và dạng một-một phổ biến hơn, cho phép trao đổi nội dung hay chia sẻ ứng dụng với bạn bè hay đồng nghiệp –tương tự Bluetooth.
+
+
+Hinh 4: Kết nối một-nhiều
+Phần lớn các thiết bị Wi-Fi Direct có thể kết nối với nhiều thiết bị cùng lúc, được gọi là kết nối một-nhiều. Thiết bị chính hoạt động như gate keeper (thiết bị kiểm soát ngõ ra vào) sẽ phát thông tin mời và quyết định cho phép thiết bị yêu cầu kết nối nào tham gia nhóm. Chỉ các thiết bị nhận được phép của gatekeeper mới được phép kết nối đến các thiết bị khác trong nhóm. Mô hình kết nối một-nhiều trong gia đình thường gồm: máy tính, máy in, loa, TV, màn hình và máy ảnh số.
+
+Thiết bị Wi-Fi Direct thường có các tính năng:
+
+Tìm kiếm thiết bị (Device Discovery): được dùng để nhận biết các thiết bị Wi-Fi Direct khác và thiết lập kết nối. Cách thức hoạt động Device Discovery tương tự cách tìm kiếm các điểm truy cập trong mạng kiến trúc; người dùng có thể chọn một trong các thiết bị tìm thấy để kết nối. Nếu thiết bị này chưa có sẵn trong nhóm thì sẽ tạo một nhóm mới. Wi-Fi Protected Setup là tính năng dùng để xác thực thông tin cho thiết bị Wi-Fi Direct.
+
+Tìm kiếm dịch vụ (Service Discovery): tính năng tùy chọn, cho phép quảng bá dịch vụ được hỗ trợ bởi các lớp ứng dụng cao hơn (chẳng hạn, Bonjour, UPnP, Web Service Discovery) tới các thiết bị Wi-Fi Direct khác. Service Discovery có thể thực hiện tại bất kỳ thời điểm nào (ngay cả trước khi thiết lập kết nối với các thiết bị khác) với bất kỳ thiết bị Wi-Fi Direct nào được tìm thấy. Chẳng hạn, khi bạn muốn in ảnh, ứng dụng in ấn có thể xác định thiết bị Wi-Fi Direct nào có thể cung cấp dịch vụ in ấn này và đưa ra danh sách thiết bị để bạn chọn. Điều này giúp tiết kiệm khá nhiều thời gian và công sức cho người dùng, thay vì kết nối đến các máy in không tương thích.
+
+Nhu cầu truyền dữ liệu trực tiếp rất lớn
+TưTheo Liên minh Wi-Fi, các sản phẩm cho người tiêu dùng và cho doanh nghiệp sử dụng Wi-Fi Direct sẽ bùng nổ trong thời gian rất ngắn, công nghệ này sẽ được nhúng vào hàng loạt thiết bị số hiện nay như TV, điện thoại thông minh, máy ảnh số, MP3, máy in, máy tính xách tay...
+ 
+
+
+Theo các khảo sát gần đây của Wakefield, trên toàn cầu hiện nay, nhân loại tạo ra, lưu trữ, truy cập và chia sẻ rất nhiều bài hát, phim, hình ảnh và tài liệu hơn bao giờ hết. Trước đây tại Mỹ, những người ở độ tuổi từ 18-29, trung bình lưu trữ khoảng 2.400 bài hát, phim và hình ảnh trên các thiết bị số của họ. Điều tương tự này cũng đang diễn ra tại Trung Quốc, Nhật và Hàn Quốc. Cư dân của 3 nước này cũng hay sử dụng máy quay/máy ảnh số để xem hình ảnh của gia đình và bạn bè, hay dùng một thiết bị cầm tay hay máy tính xách tay để xem phim. Các sản phẩm Wi-Fi Direct hiện nay cho phép người dùng kết nối trực tiếp giữa các thiết bị với nhau để chia sẻ hình ảnh, game, phim, hay trình chiếu "tác phẩm" lên màn hình hay TV.
+
+Cũng trong cuộc khảo sát này, hầu hết người dùng cho rằng họ muốn kết nối trực tiếp để nhắn tin, chia sẻ hình ảnh với bạn bè và người thân trong gia đình, hiển thị hình ảnh từ thiết bị cầm tay lên màn hình máy tính hay TV, nhìn thấy hình của nhau khi chat và ngay cả chơi game với nhiều người khác khi ra khỏi nhà, chẳng hạn trạm chờ xe/máy bay.
+
+Tạo nhóm: Một thiết bị Wi-Fi Direct cũng có thể tạo thành một nhóm. Điều này cần thiết trong việc kết nối tạo nhóm chia sẻ với các thiết bị cũ, chẳng hạn chia sẻ kết nối Internet. Nhóm Wi-Fi Direct có thể được hình thành tự động, các thiết bị tự xác định xem thiết bị nào là thiết bị chính của nhóm. Thiết bị chính quyết định thời gian tồn tại của nhóm.
+
+Wi-Fi Direct kế thừa sức mạnh Wi-Fi truyền thống … 
+• Băng thông và tầm phủ sóng như công nghệ Wi-Fi 
+• Tương thích ngược với các thiết bị đạt chứng nhận Wi-Fi trước 
+• Hỗ trợ hầu hết các ứng dụng 
+• Chế độ bảo mật mới nhất: WPA2 
+• Dễ dàng cài đặt và được bảo vệ bởi Wi-Fi Protected Setup.
+
+… và các khả năng mới. 
+• Các thiết bị tự động tìm thấy nhau 
+• Các thiết bị này có thể nhìn thấy các thiết bị khác đang làm nhiệm vụ gì (chẳng hạn, in ấn) 
+• Quản lý điện năng tiêu thụ 
+• Các thiết bị có thể kết nối với nhau khi đang kết nối Internet .
+
+ 
+
+Sau khi nhóm hình thành, thiết bị Wi-Fi Direct có thể mời các thiết bị Wi-Fi Direct khác tham gia nhóm (xem hình). Tùy chọn này có thể được dùng để yêu cầu tái lập nhóm. Quyết định chấp nhận hay không tùy thuộc vào thiết bị Wi-Fi Direct được mời. Với cách này, người dùng có thể nhanh chóng tìm ra được các thiết bị và dịch vụ đáp ứng yêu cầu một cách nhanh chóng. Chẳng hạn, máy ảnh có thể tìm kiếm các thiết bị Wi-Fi Direct là các máy in.
+
+Hiện thực sản phẩm
+
+Các chipset đầu tiên được chọn đưa vào chương trình kiểm tra cấp chứng nhận Wi-Fi Direct:
+
+• Atheros XSPAN Dual-band 802.11n PCIe Mini Card (AR928x)
+
+• Broadcom BCM43224 Dual-Band 802.11n 2x2 MIMO PCIe Half Mini Card
+
+• Intel Centrino Advanced-N 6200
+
+• Ralink MIMObility 802.11n 2x2 PCIe Half Mini Card
+
+• Realtek RTL8192CE-VA4 HM92C00 PCIe mini card
+
+Ngoài ra, còn có Cisco 2106 Wireless LAN Controller và Cisco Aironet 1240 Series Access Points v.v... Để biết thông tin chi tiết về các sản phẩm cấp chứng nhận, đặc tả kỹ thuật..., bạn truy cập trang web www.wi-fi.org/Wi-Fi_Direct.php. Với các thiết bị Wi-Fi Direct, bạn có thể chủ động trong mọi tình huống từ chia sẻ file, đồng bộ dữ liệu, in ấn...mà không cần phải thông qua các điểm truy cập hay hệ thống mạng truyền thống. Theo các tổ chức nghiên cứu thị trường như ABI Research, Wakefield cho thấy, tiềm năng của Wi-Fi Direct là rất lớn, mở ra nhiều cơ hội mới cho các ứng dụng truyền thông đa phương tiện.
+
+
+Hình 5: Một nhóm thiết bị kết nối bằng Wi-Fi Direct cũ và mới mời.
+Tham khảo Wi-Fi.org, Computerworld.com

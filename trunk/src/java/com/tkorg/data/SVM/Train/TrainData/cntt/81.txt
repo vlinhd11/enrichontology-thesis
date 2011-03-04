@@ -1,0 +1,74 @@
+﻿Đồ họa máy tính là một lĩnh vực của khoa học máy tính nghiên cứu về cơ sở toán học, các thuật toán cũng như các kĩ thuật để cho phép tạo, hiển thị và điều khiển hình ảnh trên màn hình máy tính. Đồ họa máy tính có liên quan ít nhiều đến một số lĩnh vực như đại số, hình học giải tích, hình học họa hình, quang học,... và kĩ thuật máy tính, đặc biệt là chế tạo phần cứng (các loại màn hình, các thiết bị xuất, nhập, các vỉ mạch đồ họa...).
+Theo nghĩa rộng hơn, đồ họa máy tính là phương pháp và công nghệ dùng trong việc chuyển đổi qua lại giữa dữ liệu và hình ảnh trên màn hình bằng máy tính. Đồ họa máy tính hay kĩ thuật đồ họa máy tính còn được hiểu dưới dạng phương pháp và kĩ thuật tạo hình ảnh từ các mô hình toán học mô tả các đối tượng hay dữ liệu lấy được từ các đối tượng trong thực tế. Thuật ngữ "đồ họa máy tính" (computer graphics) được đề xuất bởi một chuyên gia người Mĩ tên là William Fetter vào năm 1960. Khi đó ông đang nghiên cứu xây dựng mô hình buồng lái máy bay cho hãng Boeing. William Fetter đã dựa trên các hình ảnh 3 chiều của mô hình người phi công trong buồng lái để xây dựng nên mô hình buồng lái tối ưu cho máy bay Boeing. Đây là phương pháp nghiên cứu rất mới vào thời kì đó. Phương pháp này cho phép các nhà thiết kế quan sát một cách trực quan vị trí của người lái trong khoang buồng lái. William Fetter đã đặt tên cho phương pháp của mình là computer graphics...
+
+Mục lục
+1 Lịch sử
+2 Phần cứng và đồ họa
+3 Các hệ màu thông dụng
+3.1 Hệ màu RGB
+3.2 Hệ màu CMYK (hệ màu trừ)
+3.3 Hệ màu HSB (hệ tổng hợp)
+3.4 Hệ màu Lab (hệ tổng hợp)
+4 Giải thuật xây dựng các thực thể cơ sở
+4.1 Giải thuật DDA (Digital Differential Analyzer)
+5 Các phép biến đổi Affine cơ sở trên mặt phẳng
+6 Các ứng dụng của đồ họa máy tính
+7 Tham khảo
+8 Liên kết ngoài
+
+Lịch sử
+
+
+Ivan Sutherland và hệ thống Sketchpad(1962)
+Lịch sử của đồ họa máy tính vào thập niên 1960 còn được đánh dấu bởi dự án SketchPad được phát triển tại Học viện Công nghệ Massachusetts (MIT) bởi Ivan Sutherland. Các thành tựu thu được đã được báo cáo tại hội nghị Fall Joint Computer và đây cũng chính là sự kiện lần đầu tiên người ta có thể tạo mới, hiển thị và thay đổi được dữ liệu hình ảnh trực tiếp trên màn hình máy tính trong thời gian thực. Hệ thống Sketchpad này được dùng để thiết kế hệ thống mạch điện và bao gồm những thành phần sau:
+CRT màn hình
+Bút sáng và một bàn phím bao gồm các phím chức năng
+Máy tính chứa chương trình xử lí các thông tin
+Với hệ thống này, người sử dụng có thể vẽ trực tiếp các sơ đồ mạch điện lên màn hình thông qua bút sáng, chương trình sẽ phân tích và tính toán các thông số cần thiết của mạch điện do người dùng vẽ nên.
+Kỹ thuật đồ họa được liên tục hoàn thiện vào thập niên 1970 với sự xuất hiện của các chuẩn đồ họa làm tăng cường khả năng giao tiếp và tái sử dụng của phần mềm cũng như các thư viện đồ họa.
+Sự phát triển vượt bậc của công nghệ vi điện tử và phần cứng máy tính vào thập niên 1980 làm xuất hiện hàng loạt các vỉ mạch hỗ trợ cho việc truy xuất đồ họa đi cùng với sự giảm giá đáng kể của máy tính cá nhân làm đồ họa ngày càng đi sâu vào cuộc sống thực tế.
+
+Các hệ màu thông dụng
+
+[sửa]Hệ màu RGB
+Hệ màu RGB mô tả màu sắc bằng ba thành phần Red, Green, Blue trong một mô hình gọi là "không gian màu". Không gian này được minh họa bằng một khối lập phương với các trục chính R, G, B.
+Mỗi màu trong không gian RGB đều được biểu diễn như là một vector thông qua ba vector cơ sở là Red, Green, Blue. Do đó, ứng với các tổ hợp khác nhau của ba màu này sẽ cho ta một màu mới.
+Trong hình lập phương mỗi màu gốc (Red, Green, Blue) được đặt vào góc đối diện với các màu bù nó. (Hai màu bù nhau là hai màu mà khi kết hợp tạo thành màu trắng hay xám (grey)). Như vậy Red đối diện với Cyan, Green đối diện với Magenta, Blue đối diện với Yellow. Giá tr
+ư/ư./\ơ/;\ /\/\ư/ư/ư/'ư / /ị xám nằm trên đường chéo nối các đỉnh (0,0,0) và (1,1,1) của hình lập phương. Thường thường các trục R, G, B được chuẩn hóa. Khi kết hợp hai màu lại với nhau thì màu sinh ra có vector bằng tổng các vector thành phần.
+Thuận lợi
+- Không gian RGB là chuẩn công nghiệp cho các thao tác đồ họa máy tính. Các thao tác màu sắc có thể được tính toán trên các không gian màu khác nhưng cuối cùng cần phải chuyển về không gian RGB để có thể hiển thị trên màn hình (do thiết kế của phần cứng dựa trên mô hình RGB).
+- Có thể chuyển đổi qua lại giữa không gian RGB với các không gian màu khác như CIE, CMY, HSL, HSV, ...
+- Các thao tác tính toán trên không gian RGB thường đơn giản hơn.
+Bất lợi
+- Các giá trị R,G,B của một màu là khác nhau đối với các màn hình khác nhau : Nghĩa là các giá trị R,G,B của một màu trên màn hình màu này sẽ không sinh ra đúng màu đó trên một màn hình khác.
+- Sự mô tả các màu trong thế giới thực đối với không gian RGB còn nhiều hạn chế bởi vì không gian RGB không hoàn toàn phù hợp với sự cảm nhận màu sắc của con người. Hai điểm phân biệt trong không gian RGB, với mắt người có thể hoặc không thể là thể hiện của hai màu khác nhau.
+[sửa]Hệ màu CMYK (hệ màu trừ)
+Hệ màu CMYK tái tạo màu bằng mực, dùng trong in ấn, in offset, in phun màu. Gồm 3 màu mực cơ bản:
+Cyan (C)
+Magenta (M)
+Yellow (y)
+Ba màu này tổng hợp lại ra màu đen (Black). Nhưng màu đen này in ra không đen hoàn toàn nên thường người ta bổ sung thêm hộp mực màu đen trong máy in. Đây là mực màu, không phải là mực in trắng đen.
+[sửa]Hệ màu HSB (hệ tổng hợp)
+Hệ HSB gồm 3 thành phần cơ bản của màu sắc:
+Hue (H): sắc màu (0-360)
+Saturation (S): độ no màu (0-100%)
+Brightness (B): độ sáng tối (0-100%)
+[sửa]Hệ màu Lab (hệ tổng hợp)
+Hệ màu Lab tái tạo màu trong công nghệ thăng hoa màu của ảnh kỹ thuật số. Công nghệ này thường không có mực in mà giấy đóng vai trò quang phổ tạo sắc lên có ngưỡng rất cao và dải màu phong phú.
+Hệ Lab gồm 3 thành phần:
+L (light): ánh sáng (trắng - đen, 0-100%)
+a: từ xanh lá đến đỏ (-127 đến 128)
+b: từ xanh dương đến vàng (-127 đến 128)
+[sửa]Giải thuật xây dựng các thực thể cơ sở
+
+[sửa]Giải thuật DDA (Digital Differential Analyzer)
+Xét đoạn thẳng có hệ số góc 0<m<1 và Δx>0. Giả sử ta đã xác định được điểm thứ i có tọa độ (xi, yi) cần được bật sáng.
+[sửa]Các phép biến đổi Affine cơ sở trên mặt phẳng
+
+[sửa]Các ứng dụng của đồ họa máy tính
+
+Đồ họa máy tính có rất nhiều ứng dụng trong máy tình vì ước tính đến 80% thông tin xử lí là hình ảnh. Một số ứng dụng tiêu biểu của đồ họa máy tính như là:
+Tạo mô hình, hoạt cảnh (game, giải trí,...)
+Hỗ trợ thiết kế đồ họa
+Mô phỏng hình ảnh, chuẩn đoán hình ảnh (trong y tế)
+Huấn luyện đào tạo ảo (quân sự, hành không,...)

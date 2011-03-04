@@ -1,0 +1,25 @@
+﻿Siêu máy tính Mira hất văng Tianhe-1a
+
+Phòng thí nghiệm quốc gia của Bộ năng lượng Mỹ, Argonne, đã bắt đầu xây dựng siêu máy tính của IBM trở thành một trong những siêu máy tính mạnh nhất hiện nay, hất văng vị trí dẫn đầu của Tianhe-1a chỉ sau 1 thời gian ngắn nắm giữ vị trí.
+
+Theo IBM, mô hình siêu máy tính mới của hãng sẽ có tên gọi là Mira, có khả năng thực hiện phép toán 10 petaflops mỗi giây và sẽ được đưa vào hoạt động vào năm 2012. Nó sẽ được xây dựng trên phiên bản kế tiếp của kiến trúc siêu máy tính Blue Gene từ IBM, còn được gọi là Blue Gene/Q.
+
+Thông qua sự tài trợ của Bộ Khoa học quốc gia, Argonne là nơi cho phép chính phủ, các nhà nghiên cứu, viện hàn lâm khoa học truy cập vào siêu máy tính để nghiên cứu những dự án có quy mô lớn, các dự án phát triển. Các siêu máy tính được sử dụng để phục vụ các lĩnh vực tính toán hóa học, khí động học, khoa học vật liệu, năng lượng thay thế và các ngành khác.
+
+Tháng trước, Tổng thống Mỹ Barack Obama nhấn mạnh rằng, việc sử dụng các siêu máy tính như là một cách để Mỹ có thể duy trì lợi thế cạnh tranh kinh tế của mình. Ông ám chí tới sự tiến bộ của các nước khác, như Trung Quốc, đã thực hiện công việc xây dựng các siêu máy tính của riêng mình.
+
+Con số hiệu suất tính toán 10 petaflop đã bỏ xa con số mà Thiên Hà-1A (Tianhe-1a) của Trung Quốc nắm giữ vị trí siêu máy tính lớn nhất thế giới hiện nay với hiệu suất 2,67 petaflops trong Top500 siêu máy tính nhanh nhất thế giới bình chọn 2 năm một lần.
+
+Theo IBM dự đoán, siêu máy tính Mira có thể được sử dụng để cắt giảm thời gian cần để chạy các mô hình máy vi tính và thậm chí là thực thi công việc mà trước đây quá lớn ngay cả đối với các máy tính lớn nhất thế giới. Nó có thể nghiên cứu phản ứng với thuốc của cơ thể con người trên máy tính chỉ trong khoảng 2 phút, nhanh gấp 5 lần so với các siêu máy tính hiện nay. Tốc độ chạy nhanh hơn cho phép các ngành công nghiệp nghiên cứu khoa học và các học viện có thể tiến hành nghiên cứu thêm để đưa ra các sản phẩm mới và đổi mới cho thị trường.
+
+Đến năm 2012, Mira sẽ là một trong ba hệ thống siêu máy tính của Mỹ từ IBM có khả năng thực hiện phép tính 10 petaflops hoặc lớn hơn. IBM cũng sẽ đưa ra một mô hình siêu máy tính chạy ở tốc độ 20 petaflop cho phòng thí nghiệm quốc gia Lawrence Livermore (LLNL) của Bộ năng lượng Mỹ có tên gọi là Sequoia. Hãng cũng sẽ tài trợ hệ thống Blue Waters chạy ở tốc độ 10 petaflops cho đại học Illinois tại Urbana, thuộc Trung tâm quốc gia cho các ứng dụng siêu máy tính.
+
+Mira bao gồm 750.000 bộ xử lý IBM PowerPC A2 chạy ở tốc độ 1,6 Ghz. Mỗi bộ xử lý sẽ thực hiện một phép tính toán và được đặt trong 1.024 giá đỡ khác nhau, mỗi giá được trang bị 128 nút điều chỉnh I/O để dành riêng cho việc di chuyển dữ liệu trong việc tính toán. Mỗi nút điều khiển sẽ được trang bị 8 hoặc 16GB bộ nhớ, tập hợp đến 750 terabyte bộ nhớ trên toàn hệ thống. Việc chuyển đổi các dữ liệu sẽ thông qua kết nối IBM 5D Torus với băng thông 40 gigabit/giây.
+
+Siêu máy tính này sẽ chạy hệ điều hành mã nguồn mở Compute Node Lightweight, một phiên bản sửa đổi của Red Hat Enterprise Linux. Hệ thống sẽ được làm mát bằng nước và tiêu thụ trung bình 60 kW cho mỗi giá đỡ.
+
+IBM không tiết lộ giá của Mira, mặc dù họ cho rằng, Argonne đã mua siêu máy tính này với kinh phí tài trợ lên đến 180 triệu USD.
+
+Turek, chuyên gia siêu máy tính của IBM cho biết: “Trong khi hệ thống siêu máy tính này có khả năng thực hiện 10 petaflops thì siêu máy tính Blue Gene/Q có thể hoạt động với quy mô lên đến 50 petaflops, thậm chí nhiều hơn nữa”.
+
+IBM đã phát triển kiến trúc Blue Gene từ năm 1993 như một phần của một nỗ lực phát triển 100 triệu USD của chính phủ Mỹ cùng với LLNL. Các nỗ lực nghiên cứu nhằm tạo ra một kiến trúc siêu máy tính hiệu quả cả về năng lượng lẫn hiệu suất, có khả năng mở rộng siêu máy tính lớn hơn.

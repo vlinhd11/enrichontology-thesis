@@ -1,0 +1,72 @@
+﻿1 Khái niệm
+1.1 Các vấn đề thường xảy ra đối với một dự án phần mềm
+2 Các hoạt động chính trong quản lý dự án phần mềm
+2.1 Xác định dự án phần mềm cần thực hiện
+2.1.1 Xác định yêu cầu chung:
+2.1.2 Viết đề án:
+2.2 Lập kế hoạch thực hiện dự án
+2.2.1 Các loại kế hoạch thực hiện dự án
+2.2.2 Quy trình lập kế hoạch thực hiện dự án
+2.2.3 Cấu trúc kế hoạch thực hiện dự án:
+2.3 Tổ chức thực hiện dự án
+2.4 Quản lý quá trình thực hiện dự án
+2.5 Kết thúc dự án
+Khái niệm
+
+Dự án là tập hợp các công việc được thực hiện bởi một tập thể (có thể có chuyên môn khác nhau, thực hiện công việc khác nhau, thời gian tham gia dự án khác nhau), nhằm đạt được một kết quả như dự kiến, trong thời gian dự kiến, với một kinh phí dự kiến. Trong thuật ngữ của chuyên ngành Kĩ nghệ phần mềm, Quản lý dự án phần mềm là các hoạt động trong lập kế hoạch, giám sát và điều khiển tài nguyên dự án (ví dụ như kinh phí, con người), thời gian thực hiện, các rủi ro trong dự án và cả quy trình thực hiện dự án; nhằm đảm bảo thành công cho dự án. Quản lý dự án phần mềm cần đảm bảo cân bằng giữa ba yếu tố: thời gian, tài nguyên và chất lượng. Ba yếu tố này được gọi là tam giác dự án:
+Các vấn đề thường xảy ra đối với một dự án phần mềm
+Thời gian thực hiện dự án vượt mức dự kiến
+Chi phí thực hiện dự án vượt mức dự kiến
+Kết quả của dự án không như dự kiến
+Trách nhiệm của người quản lý dự án
+Quản lý thời gian: Lập lịch, kiểm tra đối chiếu quá trình thực hiện dự án với lịch trình, điều chỉnh lịch trình khi cần thiết
+Quản lý tài nguyên: xác định, phân bổ và điều phối tài nguyên
+Quản lý sản phẩm: thêm, bớt các chức năng phù hợp với yêu cầu của khách hàng
+Quản lý rủi ro: xác định, phân tích rủi ro và đề xuất giải pháp khắc phục
+Tổ chức cách làm việc
+
+Các hoạt động chính trong quản lý dự án phần mềm
+
+Xác định dự án phần mềm cần thực hiện
+Xác định yêu cầu chung:
+Trước tiên cần xác định các yêu cầu chức năng (công việc phần mềm thực hiện) cũng như phi chức năng (công nghệ dùng để phát triển phần mềm, sử dụng trong hệ điều hành nào...) của phần mềm. Sau đó cần xác định rõ tài nguyên cần thiết để xây dựng phần mềm. Tài nguyên ở đây có thể gồm có nhân tố con người, các thành phần, phần mềm có thể sử dụng lại, các phần cứng hoặc công cụ có sẵn cần dùng đến; trong đó nhân tố con người là quan trọng nhất. Điều cuối cùng là xác định thời gian cần thiết để thực hiện dự án. Trong quá trình này cần phải nắm bắt được bài toán thực tế cần giải quyết cũng như các hoạt động mang tính nghiệp vụ của khách hàng để có thể xác định rõ ràng yêu cầu chung của đề án, xem xét dự án có khả thi hay không.
+Viết đề án:
+Viết đề án là quá trình xây dựng tài liệu mô tả đề án để xác định phạm vi của dự án, trách nhiệm của những người tham gia dự án; là cam kết giữa người quản lý dự án, người tài trợ dự án và khách hàng. Nội dung của tài liệu mô tả đề án thường có những nội dung sau:
+Bối cảnh thực hiện dự án: Căn cứ pháp lý để thực hiện dự án, hiện trạng công nghệ thông tin của khách hàng trước khi có dự án, nhu cầu ứng dụng phần mềm của khách hàng, đặc điểm và phạm vi của phần mềm sẽ xây dựng.
+Mục đích và mục tiêu của dự án: Xác định mục đích tổng thể: Tin học hóa hoạt động nào trong quy trình nghiệp vụ của khách hàng? Xác định mục tiêu của phần mềm: lượng dữ liệu xử lý, lợi ích phần mềm đem lại.
+Phạm vi dự án: Những người liên quan tới dự án, các hoạt động nghiệp vụ cần tin học hóa.
+Nguồn nhân lực tham gia dự án: Cán bộ nghiệp vụ, người phân tích, người thiết kế, người lập trình, người kiểm thử, người cài đặt triển khai dự án cho khách hàng, người hướng dẫn khách hàng sử dụng phần mềm, người bảo trì dự án phần mềm.
+Ràng buộc thời gian thực hiện dự án: Ngày nghiệm thu dự án, ngày bàn giao dự án.
+Ràng buộc kinh phí: Kinh phí trong từng giai đoạn thực hiện dự án.
+Ràng buộc công nghệ phát triển: Công nghệ nào được phép sử dụng để thực hiện dự án.
+Chữ kí các bên liên quan tới dự án.
+Lập kế hoạch thực hiện dự án
+Lập kế hoạch thực hiện dự án là hoạt động diễn ra trong suốt quá trình từ khi bắt đầu thực hiện dự án đến khi bàn giao sản phẩm với nhiều loại kế hoạch khác nhau nhằm hỗ trợ kế hoạch chính của dự án phần mềm về lịch trình và ngân sách.
+Các loại kế hoạch thực hiện dự án
+Kế hoạch đảm bảo chất lượng: Mô tả các chuẩn, các qui trình được sử dụng trong dự án.
+Kế hoạch thẩm định: Mô tả các phương pháp, nguồn lực, lịch trình thẩm định hệ thống.
+Kế hoạch quản lý cấu hình: Mô tả các thủ tục, cấu trúc quản lý cấu hình được sử dụng.
+Kế hoạch bảo trì: Dự tính các yêu cầu về hệ thống, chi phí, nỗ lực cần thiết cho bảo trì.
+Kế hoạch phát triển đội ngũ: Mô tả kĩ năng và kinh nghiệm của các thành viên trong nhóm dự án sẽ phát triển như thế nào.
+Quy trình lập kế hoạch thực hiện dự án
+Thiết lập các ràng buộc của dự án: thời gian, nhân lực, ngân sách
+Đánh giá bước đầu về các "tham số" của dự án: quy mô, độ phức tạp, nguồn lực
+Xác định các mốc thời gian trong thực hiện dự án và sản phẩm thu được ứng với mỗi mốc thời gian
+Trong khi dự án chưa hoàn thành hoặc chưa bị hủy bỏ thì thực hiện lặp đi lặp lại các công việc sau:
+Lập lịch thực hiện dự án
+Thực hiện các hoạt động theo lịch trình
+Theo dõi sự tiến triển của dự án, so sánh với lịch trình
+Đánh giá lại các tham số của dự án
+Lập lại lịch thực hiện dự án cho các tham số mới
+Thỏa thuận lại các ràng buộc và sản phẩm bàn giao của mỗi mốc thời gian
+Nếu có vấn đề nảy sinh thì xem xét lại các kĩ thuật khởi đầu đưa ra các biện pháp cần thiết
+Cấu trúc kế hoạch thực hiện dự án:
+Tổ chức dự án
+Phân tích các rủi ro
+Yêu cầu về tài nguyên phần cứng, phần mềm
+Phân công công việc
+Lập lịch dự án
+Cơ chế kiểm soát và báo cáo
+Tổ chức thực hiện dự án
+Quản lý quá trình thực hiện dự án
+Kết thúc dự án

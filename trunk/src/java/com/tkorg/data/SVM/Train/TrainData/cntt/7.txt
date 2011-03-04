@@ -1,0 +1,37 @@
+﻿Bộ xử lý thỏa sức ép xung
+
+Không thuộc dòng Extreme Edition nhưng hai BXL “tân binh” Intel Core i5-655K, Core i7-875K vẫn được mở hệ số nhân và cho phép người dùng phổ thông thỏa đam mê ép xung
+Tính năng
+
+BXL Intel Core i7-875K cũng thuộc dòng Lynnfield và sở hữu những thông số kỹ thuật tương tự Core i7-870 (ID: A0910_42) như: 4 nhân xung nhịp 2,93GHz, cache L3 8MB, hỗ trợ công nghệ siêu phân luồng mang lại 8 luồng xử lý, Intel Turbo Boost lên đến 3,6GHz… Điểm đáng giá tạo ra sự khác biệt so với Core i7-870 là Intel đã mở hệ số nhân của Core i7-875K nên người dùng có thể tự do ép xung để có hiệu năng cao hơn trong những ứng dụng nặng ký như đồ họa hoặc chơi game… 
+
+Tương tự, BXL Intel Core i5-655K cũng sở hữu những đặc tính tương tự i5-650 (dòng Clarkdale) như: 2 nhân 3,2GHz (4 luồng xử lý khi bật công nghệ siêu phân luồng) Intel Turbo Boost lên 3,46GHz cùng mức cache L3 4MB… và được mở hệ số nhân.
+
+
+Lần đầu tiên mở hệ số nhân là Intel Core i5-655K (Clarkdale) và Intel Core i7-875K (Lynnfield) .
+Và có lẽ Intel hướng đến đối tượng là những người dùng chủ yếu cần một hệ thống hiệu năng cao, game thủ… nên đã loại bỏ 2 tính năng là Intel Virtualization Technology for Directed I/O (VT-d: tính năng cho phép người dùng gán trực tiếp thiết bị vật lý trong hệ thống cho một máy ảo thay vì phải giả lập bằng phần mềm giúp cải thiện hiệu năng cho giải pháp ảo hóa) và Intel Trusted Execution Technology (bảo mật dữ liệu, chương trình). Hai BXL vẫn hoạt động trên các BMC socket 1156 chipset P55, H55, H57 và Q57.
+
+Sức mạnh
+
+Nhìn chung qua hai công cụ WorldBench 6 và PCMark Vantage, BXL Core i7-875K với lợi thế 4 nhân, 8 luồng xử lý cùng mức cache L3 gấp đôi đã thể hiện hiệu năng vượt trội trong các tác vụ nặng ký như dựng hình 3D (hơn 35%), nén file Winzip (49%), Gaming (20%), Productivity (15%)… Tuy nhiên với các ứng dụng đơn giản như lướt web, xử lý văn phòng thì sự chênh lệch chỉ ở mức vài giây, thậm chí Core i5-655K có phần nhỉnh hơn ở phép thử lướt web Firefox và xử lý ảnh với Photoshop CS2 (chi tiết xem biểu đồ). Điểm số chung cuộc WorldBench 6 của cả hai cũng rất cao và i7-875K vượt trội với 128 điểm so với 118 của Core i5-655K. 
+
+Test Lab cũng thử hiệu năng với việc render mô hình đồ họa trong Cinebench R10 và khả năng tính toán dấu chấm động trong MaxxFLOPS. Với lợi thế gấp đôi số nhân, Core i7-875K đã áp đảo hoàn toàn với một khoảng cách rất xa so với đồng hương i5-655K (hơn 69% trong Cinebench R10 và đến 72% trong MaxxFLOPS). Chỉ với tản nhiệt quạt gió đi kèm, Test Lab cũng thử ép xung với công cụ EasyTune 6 của BMC Gigabyte, kết quả BXL Core i7-875K đã đạt đến mức xung nhịp 3,3GHz và Core i5-655K là 3,6GHz cùng mức hiệu năng tăng đáng kể. Với Cinebench R10, BXL i7-875K đã cải thiện 11,6% và i5-655K đến 12,5%. Với các phép toán dấu chấm động bằng công cụ MaxxFLOPS, i5-875K tạo bất ngờ với cải thiện đến 22,5%; i5-655K cũng cải thiện 8%.
+
+Intel Core i5-655K: 5.156.000 đồng; Intel Core i7-875K: 8.115.000 đồng. Tất cả bảo hành 3 năm.
+
+Cấu hình thử nghiệm:
+
+BMC Gigabyte GA-P55A-UD4P, card đồ họa nVidia 9600GSO, bộ nhớ 2x1GB DDR3 Corsair TR3X3G1333C9, ổ cứng SATA 250GB, bộ nguồn AcBel ATX-550CA-AB8FM, HĐH Windows 7 Ultimate 64bit.
+
+
+ 
+PCMark Vantage
+
+
+ 
+WorldBench 6
+
+
+ Kết quả ép xung
+
+ 

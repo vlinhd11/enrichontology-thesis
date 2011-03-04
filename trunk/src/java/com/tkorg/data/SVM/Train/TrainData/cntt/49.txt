@@ -1,0 +1,47 @@
+﻿Giới thiệu Học viện CNTT HanoiCTT	#post13
+HỌC VIỆN CÔNG NGHỆ THÔNG TIN HANOICTT
+
+TẦM NHÌN CHIẾN LƯỢC
+
+Nền tảng
+
+Thành lập vào tháng 10 năm 2001, HanoiCTT là đơn vị nghiên cứu, huấn luyện, đào tạo và chuyển giao công nghệ thông tin cho các tổ chức, đơn vị trong nước. Hiện nay HanoiCTT là học viện duy nhất triển khai mô hình đào tạo toàn diện với các chương trình đào tạo chuyên gia công nghệ thông tin bao gồm: Chuyên gia CCNA (Cisco Certified Network Associate) và CCNP (Cisco Certified Network Professional), chuyên gia cơ sở dữ liệu Oracle, chuyên gia phần mềm và chuyên gia mạng NIIT, chuyên gia Microsoft, chuyên gia bảo mật hệ thống mạng Juniper, Redhat, các khoá học quản lý dự án phần mền của Carnegie Mellon, các khoá học của IBM, EC- Council. . Đồng thời HanoiCTT triển khai Trung tâm thi quốc tế Prometric tại Việt nam ( Authorised Prometric Testing Center) và sắp tới là VUE, chuyên tổ chức các kỳ thi lấy chứng chỉ Quốc tế về công nghệ thông tin
+
+Tầm nhìn
+
+Ngày nay công nghệ thông tin có ảnh hưởng vô cùng quan trọng đến mọi lĩnh vực đời sống, kinh tế xã hội. Việc đào tạo nguồn nhân lực công nghệ thông tin đang là vấn đề đặt ra hết sức bức thiết, nhất là trong thời điểm hiện nay khi Việt Nam đang hướng tới nền kinh tế tri thức mà công nghệ thông tin đóng vai trò “con lộ chính”. Tầm nhìn chiến lược của HanoiCTT là trở thành đầu mối số một tại Việt Nam về đào tạo và chuyển giao công nghệ ở cấp độ cao. 
+
+Sứ mệnh
+
+Sứ mệnh của HanoiCTT đó là đưa công nghệ đào tạo mới E-learning vào Việt Nam nhằm xây dựng đội ngũ chuyên gia công nghệ thông tin có chuyên môn cao, đáp ứng nhu cầu thiếu hụt về nguồn nhân lực này. Theo số liệu của Tập đoàn Dữ liệu Quốc tế (International Data Corporation—IDC) cho biết thì hiện nay trên thế giới đang thiếu khoảng 800.000 các chuyên gia làm việc trong lĩnh vực công nghệ cao và con số này sẽ tiếp tục tăng lên hàng triệu người trong vòng 10 năm tới khi nền kinh tế tri thức ngày càng phát triển.
+
+Chiến lược
+
+HanoiCTT liên tục liên kết và mở rộng mối quan hệ hợp tác với các đối tác giáo dục hàng đầu trên thế giới để đào tạo ra các chuyên gia về công nghệ thông tin có đẳng cấp quốc tế. Học viên sẽ được trang bị những kỹ năng và kiến thức cần thiết để có thể làm việc ngay sau khi tốt nghiệp.
+Bên cạnh đó, HanoiCTT cũng phối hợp cùng với các đối tác, các công ty tin học hàng đầu tại Hà Nội tổ chức các chương trình giới thiệu việc làm, tạo điều kiện cho các học viên có cơ hội tiếp xúc trực tiếp với các nhà tuyển dụng. Thông qua những chương trình như vậy, học viên sẽ có bức tranh toàn diện hơn về thị trường lao động hiện nay cũng như tìm hiểu rõ hơn về yêu cầu tuyển dụng của các công ty.
+Đầu tư vào cơ sở hạ tầng và con người cũng là một trong những chiến lược phát triển chủ đạo của HanoiCTT. Với các trang thiết bị giảng dạy hiện đại, và đội ngũ giảng viên nhiệt tình, được đào tạo chính quy, HanoiCTT đã đạt tiêu chuẩn là một trung tâm đào tạo CNTT quốc tế, sánh ngang với các nước trong khu vực 
+
+Nội dung chương trình đào tạo của chúng tôi trong năm 2009 (Vui lòng click vào các link dưới đây)
+1) Chương trình đào tạo quản trị mạng Microsoft – MCSE => http://docs.google.com/Doc?docid=ddt9zkzd_298cpfdm4c7&hl=vi 
+2) Chương trình Microsoft – MCAD => http://docs.google.com/Doc?docid=ddt9zkzd_307cnkqmmgw&hl=vi 
+3) Chương trình quản trị mạng Microsoft – MCSA => http://docs.google.com/Doc?docid=ddt9zkzd_293hjtx9td8&hl=vi 
+4) Chương trình quản trị hệ thống CCNP => http://docs.google.com/Doc?docid=ddt9zkzd_286gxqr5mc5&hl=vi
+5) Chương trình quản trị hệ thống CCNA => http://docs.google.com/Doc?docid=ddt9zkzd_285fhbdtkdr&hl=vi 
+6) CHƯƠNG TRÌNH JUNIPER NETWORK => http://docs.google.com/Doc?docid=ddt9zkzd_326drqzb8gd&hl=vi 
+7) CHƯƠNG TRÌNH ĐÀO TẠO SUN => http://docs.google.com/Doc?docid=ddt9zkzd_337c9w2t6cc&hl=vi 
+8) CHƯƠNG TRÌNH ĐÀO TẠO CHÍNH THỨC CỦA REDHAT TẠI VIỆT NAM => http://docs.google.com/Doc?docid=ddt9zkzd_317g8bx5pfx&hl=vi 
+9) Khóa học thi lấy chứng chỉ Hacker- CEH => http://docs.google.com/Doc?docid=ddt9zkzd_318f4pvdff8&hl=vi 
+10) Khóa học Quản trị dự án phần mềm CMU => http://docs.google.com/Doc?docid=ddt9zkzd_328f4xgqpdv&hl=vi 
+11) Chương trình quản trị CSDL Oracle 9i => http://docs.google.com/Doc?docid=ddt9zkzd_309dxt3v5c4&hl=vi 
+12) Chương trình quản trị CSDL Oracle 10g => http://docs.google.com/Doc?docid=ddt9zkzd_315gd4f9mdt&hl=vi 
+
+
+Thông tin chi tiết, vui lòng liên hệ:
+Học viện CNTT HanoiCTT
+Phòng Tư Vấn Đào Tạo
+DTT HanoiCTT Information Technology Group
+Level 1, 141 Le Duan street, Hoan Kiem district, Hanoi
+Tel : +84.4.9422727/ 942 2728
+Fax : +84.4.9422729
+Email : contact@hanoictt.com 
+Website: www.hanoictt.com ; www.niit-hanoictt.edu.vn

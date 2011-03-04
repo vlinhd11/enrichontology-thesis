@@ -1,0 +1,11 @@
+﻿Các bước giảm tiếng ồn máy tính  
+  14/04/2010 10:45 
+ 
+(TNTT&GT) Thủ phạm ồn ào thường là bộ nguồn cấp điện, quạt làm mát và ổ đĩa cứng. Để giảm tiếng ồn cho máy tính, cần thay thế các bộ phận này bằng thiết bị phù hợp.
+Với bộ nguồn cấp điện: nên tìm một bộ nguồn thay thế mới. Có thể dùng một số bộ nguồn như bộ nguồn S12-330 của Saesonic công suất 330 watt; bộ nguồn Phantom 500 công suất 500 watt.
+
+Quạt làm mát có chức năng làm mát cho các mạch điện bên trong thùng máy. Nếu máy tính sử dụng quạt làm mát gắn vào thùng máy thì  thay bằng loại khác ít ồn hơn hoặc lắp những phiến tỏa nhiệt hiệu quả cao trên CPU và những nơi khác trong hệ thống.
+
+Bọc kín đĩa cứng: đặt đĩa cứng đang dùng vào trong hộp cách âm lắp vừa vào khoang 5,25 inch (dùng cho ổ CD hoặc DVD) để triệt tiêu tiếng ồn của đĩa cứng.
+
+Không nên thực hiện ngăn cách thùng máy. Việc dùng vật liệu cao su xốp gắn bên trong thùng máy để cách âm thường mất nhiều công sức nhưng hiệu quả đạt được không đáng kể.
