@@ -39,14 +39,15 @@
 			<html:hidden property="screenid" value=""/>
 			<html:hidden property="processid" value=""/>
 			<html:hidden property="query_string" value=""/>
-
-			<jsp:useBean id="ontology" class="com.tkorg.businesslogic.SearchOntologyBL" scope="session">
-                            <%
-                              String namePath = Constants.PATH_ONTOLOGY;
-                            %>
-                            <jsp:setProperty name="ontology" property="path" value="<%=namePath%>" />
-                            <jsp:getProperty name="ontology" property="result" />
-			</jsp:useBean>
+                        <div id="scroll_box">
+                            <jsp:useBean id="ontology" class="com.tkorg.businesslogic.SearchOntologyBL" scope="session">
+                                <%
+                                  String namePath = Constants.PATH_ONTOLOGY;
+                                %>
+                                <jsp:setProperty name="ontology" property="path" value="<%=namePath%>" />
+                                <jsp:getProperty name="ontology" property="result" />
+                            </jsp:useBean>
+                        </div>
                     </td>
                     <td width="30%" align="left" valign="top">
                         <h3>Concepts</h3>
