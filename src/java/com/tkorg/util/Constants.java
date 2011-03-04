@@ -12,7 +12,7 @@ package com.tkorg.util;
 public class Constants {
 
     /* Dictionary VN */
-    public static String[] unicodeWords = {"Ã¡", "Ã ",  "áº£", "",  "áº¡",
+    public static String[] unicodeWords = {"Ã¡", "Ã ", "áº£", "",  "áº¡",
                                            "",  "",  "",  "áº³",  "",  "",
                                            "Ã¢",  "áº¥",  "áº§",  "",  "",  "áº­",
                                            "Ä", "Ä",
@@ -38,20 +38,54 @@ public class Constants {
                                            "ú", "ù", "ủ", "ũ", "ụ",
                                            "ư", "ứ", "ừ", "ử", "ữ", "ự",
                                            "ý", "ỳ", "ỷ", "ỹ", "ỵ"};
+    public static String[] extraStopwords = {"bao_giờ", "bây_giờ", "bấy_giờ", "bỏ_mẹ", "dễ_thường", "đều", "đồng_thời", "họ",
+                                            "học", "mọi", "mười", "nền", "ngọn", "ngọt", "người", "nhất_tề", "nhiều", "nọ",
+                                            "ối_giời", "ối_giời ơi", "ối_trời", "ờ", "phỏng", "phỏng như", "quá_trời",
+                                            "ráo_trọi", "thỏm", "thọt", "tỏ_ra", "tỏ_vẻ", "tọt", "trỏng", "trời_ơi",
+                                            "trời_đất_ơi", "về", "về_mặt", "về_phía", "ví_phỏng", "xềnh_xệch"};
+    public static String[] extraCapitalStopwords = {"Á", "Á_à", "Ái", "Ái_chà", "Ái_dà", "Áng","Bao_giờ", "Bây_giờ",
+                                            "Bấy_giờ", "Bỏ_mẹ", "Dễ_thường", "Đã", "Đại_để", "Đại_nhân", "Đại_phàm",
+                                            "Đang", "Đáng_lẻ", "Đáng_lẽ", "Đáng_lí", "Đáng_lý", "Đàng_đạch",
+                                            "Đánh_đùng", "Đáo_để", "Đằng_sau", "Đằng_trước", "Đâu", "Đây", "Đến", "Đều",
+                                            "Để", "Đó", "Đồng_thời", "Đủ", "Được", "Họ",
+                                            "Học", "Ít", "Mọi", "Mười", "Nền", "Ngọn", "Ngọt", "Người", "Nhất_tề", "Nhiều", "Nọ",
+                                            "Ối", "Ối_dào", "Ối_giời", "Ối_giời_ơi", "Ối_trời", "Ờ", "Ở", "Ớ", "Phỏng",
+                                            "Phỏng_như", "Quá_trời",
+                                            "Ráo_trọi", "Thỏm", "Thọt", "Tỏ_ra", "Tỏ_vẻ", "Tọt", "Trỏng", "Trời_ơi",
+                                            "Trời_đất_ơi", "Úi", "Úi_chà", "Úi_dào", "Về", "Về_mặt", "Về_phía", "Ví_phỏng",
+                                            "Xềnh_Xệch", "Ý", "Ý_chừng", "Ý_da"};
 
-    /* number hÃ nh */
+    /* number */
+    
 
     /* path */
-//    public static String PATH_ONTOLOGY = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/OVIT.owl").getPath();
-//    public static String PATH_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/train").getPath();
-//    public static String PATH_LAST_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/training/lastTrain").getPath();
-//    public static String PATH_TRAIN = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/tokenizer").getPath();
-//    public static String PATH_STOPWORD = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/stopwords.txt").getPath();
-    public static String PATH_STOPWORD = "C:/HOC TAP/ThucHanh/NetBeans/EnrichOntology/src/java/com/tkorg/data/stopwords.txt";
-    public static String PATH_TRAIN = "C:/Train";
-    public static String PATH_ONTOLOGY = "C:/OVIT.owl";
-    public static String PATH_LAST_TRAIN = "C:/lastTrain";
-    public static String PATH_FILES = "C:/download files";
+    public static String PATH_ONTOLOGY = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/OVIT.owl").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_STOPWORD = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/stopwords.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+
+    public static String PATH_SVM_TRAIN_TRAINDATA = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/TrainData").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_TRAIN_REMOVESTOPWORDFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/RemoveStopwordFiles").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_TRAIN_ITFEATURES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/IT_features.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_TRAIN_OTHERFEATURES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/other_features.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_TRAIN_TFIDFFEATURES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/tfidf_features.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_TRAIN_MODEL = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/train_model.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+
+    public static String PATH_SVM_CLASSIFY_DOWNLOADFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Classify/DownloadFiles").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_CLASSIFY_REMOVESTOPWORDFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Classify/RemoveStopwordFiles").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_CLASSIFY_CHOSENFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Classify/ChosenFile").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_CLASSIFY_PDFFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Classify/PDFFiles").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_CLASSIFY_TFIDFDOWNLOADFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Classify/tfidf_download_files.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+    public static String PATH_SVM_CLASSIFY_RESULT = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Classify/result.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
+
+    /* IConstants */
+    public static final String LEXICON_DFA = "E:/resources/automata/lexicon_dfa_minimal.xml";
+    public static final String LEXER_SPECIFICATION= "E:/resources/lexers/lexers.xml";
+    public static final String UNIGRAM_MODEL = "E:/resources/bigram/unigram.xml";
+    public static final String BIGRAM_MODEL = "E:/resources/bigram/bigram.xml";
+    public static final String NAMED_ENTITY_PREFIX = "E:/resources/prefix/namedEntityPrefix.xml";
+    public static final String TOKENIZER_SEGMENTER_LEXICON_DFA = "E:/resources/automata/dfaLexicon.xml";
+    public static String TOKENIZER_SEGMENTER_EXTERNAL_LEXICON = "E:/resources/automata/externalLexicon.xml";
+    public static String TOKENIZER_SEGMENTER_NORMALIZATION_RULES = "E:/resources/normalization/rules.txt";
+    public static final String CONDITIONAL_PROBABILITIES = "E:/resources/prob.xml";
 
     /* text */
     public static String GOOGLE = "google";
