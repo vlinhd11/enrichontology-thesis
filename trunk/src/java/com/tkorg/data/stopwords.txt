@@ -1,278 +1,279 @@
-﻿a ha
-a lô
-à ơi
+﻿a_ha
+a_lô
+à_ơi
 á
 à
-á à
+á_à
 ạ
-ạ ơi
+ạ_ơi
 ai
-ai ai
-ai nấy
+ai_ai
+ai_nấy
 ái
-ái chà
-ái dà
+ái_chà
+ái_dà
 alô
 amen
-anh ta
+anh_ta
 anh
 áng
 ào
 ắt
-ắt hẳn
-ắt là
-âu là
-ầu ơ
+ắt_hẳn
+ắt_là
+âu_là
+ầu_ơ
 ấy
 ba
 bài
 bản
-bao giờ
-bao gồm
-bao lâu
-bao nả
-bao nhiêu
-bay biến
+bạn
+bao_giờ
+bao_gồm
+bao_lâu
+bao_nả
+bao_nhiêu
+bay_biến
 bảy
 bằng
-bằng ấy
-bằng không
-bằng nấy
-bắt đầu từ
-bập bà bập bõm
-bập bõm
+bằng_ấy
+bằng_không
+bằng_nấy
+bắt_đầu_từ
+bập_bà_bập_bõm
+bập_bõm
 bất
-bất chấp
-bất chợt
-bất cứ
-bất đồ
-bất giác
-bất kể
-bất kì
-bất kỳ
-bất luận
-bất nhược
-bất quá
-bất thình lình
-bất tử
-bây bẩy
-bây chừ
-bây giờ
-bây giờ
-bây nhiêu
+bất_chấp
+bất_chợt
+bất_cứ
+bất_đồ
+bất_giác
+bất_kể
+bất_kì
+bất_kỳ
+bất_luận
+bất_nhược
+bất_quá
+bất_thình_lình
+bất_tử
+bây_bẩy
+bây_chừ
+bây_giờ
+bây_nhiêu
 bấy
-bấy giờ
-bấy chầy
-bấy chừ
-bấy giờ
-bấy lâu
-bấy lâu nay
-bấy nay
-bấy nhiêu
+bấy_chầy
+bấy_chừ
+bấy_giờ
+bấy_lâu
+bấy_lâu_nay
+bấy_nay
+bấy_nhiêu
 bèn
 béng
 bển
 bên
-bên dưới
-bên trái
-bên trên
-bên phải
+bên_dưới
+bên_trái
+bên_trên
+bên_phải
 bệt
 bị
-biết bao
-biết bao nhiêu
-biết chừng nào
-biết đâu
-biết đâu chừng
-biết đâu đấy
-biết mấy
+biết_bao
+biết_bao_nhiêu
+biết_chừng_nào
+biết_đâu
+biết_đâu_chừng
+biết_đâu_đấy
+biết_mấy
 bốn
 bộ
-bội phần
+bội_phần
 bông
 bỗng
-bỗng chốc
-bỗng dưng
-bỗng đâu
-bỗng không
-bỗng nhiên
-bỏ mẹ
+bỗng_chốc
+bỗng_dưng
+bỗng_đâu
+bỗng_không
+bỗng_nhiên
+bỏ_mẹ
 bớ
 bởi
-bởi chưng
-bởi nhưng
-bởi thế
-bởi vậy
-bởi vì
+bởi_chưng
+bởi_nhưng
+bởi_thế
+bởi_vậy
+bởi_vì
 bức
 cả
-cả thảy	 
+cả_thảy
 cái
 các
-cả thảy
-cả thể
+cả_thể
 càng
 căn
-căn cắt
+căn_cắt
 cần
-cật lực
-cật sức
+cật_lực
+cật_sức
 cây
-cha 
-cha chả
-chành chạnh
-chao ôi
+cha_
+cha_chả
+chành_chạnh
+chao_ôi
 chắc
-chắc hẳn
-chăn chắn
+chắc_hẳn
+chăn_chắn
 chăng
 chẳng
-chẳng lẽ
-chẳng những
-chẳng nữa
-chẳng phải
+chẳng_lẽ
+chẳng_những
+chẳng_nữa
+chẳng_phải
 chậc
-chầm chập
-chết nỗi
-chết tiệt
-chết thật
-chí chết
+chầm_chập
+chết_nỗi
+chết_tiệt
+chết_thật
+chí_chết
 chỉn
 chín
 chính
-chính anh
-chính chị
-chính là
-chính thị
-chính tôi
+chính_anh
+chính_chị
+chính_là
+chính_thị
+chính_tôi
 chỉ
-chỉ do
-chỉ là
-chỉ tại
-chỉ vì
+chỉ_do
+chỉ_là
+chỉ_tại
+chỉ_vì
 chị
 chiếc
 cho
-cho đến
-cho đến khi
-cho là
-cho nên
-cho rằng
-cho tới
-cho tới khi
+cho_đến
+cho_đến_khi
+cho_là
+cho_nên
+cho_rằng
+cho_tới
+cho_tới_khi
 choa
-chốc chốc
+chốc_chốc
 chớ
-chớ chi
+chớ_chi
 chợt
 chú
-chu cha
-chú mày
-chú mình
-chui cha
-chùn chùn
-chùn chũn
+chu_cha
+chú_mày
+chú_mình
+chui_cha
+chùn_chùn
+chùn_chũn
 chủn
-chung cục
-chung qui
-chung quy
-chung quy lại
+chung_cục
+chung_qui
+chung_quy
+chung_quy_lại
 chúng
-chúng mình
-chúng ta
-chúng tao
-chúng mày
-chúng tôi
-chúng nó
+chúng_mình
+chúng_ta
+chúng_tao
+chúng_mày
+chúng_tôi
+chúng_nó
 chưa
 chứ
-chứ lị
+chứ_lị
 có
-có chăng là
-có dễ
-có vẻ
-cóc khô
-coi bộ
-coi mòi
+có_chăng_là
+có_dễ
+có_vẻ
+có_thể
+cóc_khô
+coi_bộ
+coi_mòi
 con
 còn
 cô
-cô ấy
-cô mình
-cổ lai
-công nhiên
+cô_ấy
+cô_mình
+cổ_lai
+công_nhiên
 cơ
-cơ chừng
-cơ hồ
-cơ mà
-cỡ chừng
+cơ_chừng
+cơ_hồ
+cơ_mà
+cỡ_chừng
 cơn
-cu cậu
-cụ thể
+cu_cậu
+cụ_thể
 của
-của mày
-của bạn
+của_mày
+của_bạn
 của
 cuối
-cuối cùng
+cuối_cùng
 cùng
-cùng cực
-cùng nhau
-cùng với
+cùng_cực
+cùng_nhau
+cùng_với
 cũng
-cũng như
-cũng vậy
-cũng vậy thôi
+cũng_như
+cũng_vậy
+cũng_vậy_thôi
 cứ
-cứ việc
-cực kì	 
-cực kỳ
-cực lực
+cứ_việc
+cực_kì
+cực_kỳ
+cực_lực
 cuộc
 cuốn
 dào
 dạ
-dần dà
-dần dần
-dầu sao
+dần_dà
+dần_dần
+dầu_sao
 dẫu
-dẫu sao
-dễ sợ
-dễ thường
+dẫu_sao
+dễ_sợ
+dễ_thường
 do
-do vì
-do đó
-do vậy
-dở chừng
+do_vì
+do_đó
+do_vậy
+dở_chừng
 dù
-dù cho
-dù là
-dù rằng
-dù thế
+dù_cho
+dù_là
+dù_rằng
+dù_thế
+dùng
 duy
 dữ
 dựa
 dưới
 đã
-đại để
-đại loại
-đại nhân
-đại phàm
+đại_để
+đại_loại
+đại_nhân
+đại_phàm
 đang
-đáng lẽ
-đáng lí
-đáng lý
-đành đạch
-đánh đùng
-đáo để
-đằng sau
-đằng trước
+đáng_lẽ
+đáng_lí
+đáng_lý
+đành_đạch
+đánh_đùng
+đáo_để
+đằng_sau
+đằng_trước
 đâu
 đây
+đến
 đều
 để
 đó
-đồng thời
+đồng_thời
 đủ
 được
 gì
@@ -282,18 +283,20 @@ hai
 Hay
 hay
 hãy
-hầu hết
-hiện nay
-hoàn toàn
+hầu_hết
+hiện_nay
+hoàn_toàn
 hoặc
 họ
+học
 hỡi
 hơn
-hồi nãy
+hồi_nãy
 ít
-kế tiếp
+kế_tiếp
+khác
 khoảng
-khoảng chừng
+khoảng_chừng
 không
 khi
 là
@@ -301,20 +304,20 @@ lại
 làm
 lẫn
 lên
-liên tiếp
-liên tục
+liên_tiếp
+liên_tục
 luôn
-luôn luôn
+luôn_luôn
 lúc
-lúc ấy
-lúc trước
+lúc_ấy
+lúc_trước
 mà
 mày
 mãi
-mãi mãi
-mặc dù
-mặc kệ
-mặt khác
+mãi_mãi
+mặc_dù
+mặc_kệ
+mặt_khác
 mầy
 mi
 mọi
@@ -327,675 +330,682 @@ nãy
 nấy
 nè
 nên
-nên chi
+nên_chi
 nền
 nếu
-nếu như
+nếu_như
 ngay
-ngay cả
-ngay lập tức
-ngay lúc
-ngay khi
-ngay từ
-ngay tức khắc
-ngày càng
-ngày ngày
-ngày xưa
-ngày xửa
-ngăn ngắt
-nghe chừng
-nghe đâu
+ngay_cả
+ngay_lập_tức
+ngay_lúc
+ngay_khi
+ngay_từ
+ngay_tức_khắc
+ngày_càng
+ngày_ngày
+ngày_xưa
+ngày_xửa
+ngăn_ngắt
+nghe_chừng
+nghe_đâu
 nghen
-nghĩa là
-nghiễm nhiên
+nghĩa_là
+nghiễm_nhiên
 nghỉm
-ngõ hầu
+ngõ_hầu
 ngoải
 ngoài
 ngôi
 ngọn
 ngọt
-ngộ nhỡ
+ngộ_nhỡ
 ngươi
+người
 nhau
-nhân dịp
-nhân tiện
+nhân_dịp
+nhân_tiện
 nhất
-nhất đán
-nhất định
-nhất loạt
-nhất luật
-nhất mực
-nhất nhất
-nhất quyết
-nhất sinh
-nhất tâm
-nhất tề
-nhất thiết
+nhất_đán
+nhất_định
+nhất_loạt
+nhất_luật
+nhất_mực
+nhất_nhất
+nhất_quyết
+nhất_sinh
+nhất_tâm
+nhất_tề
+nhất_thiết
 nhé
 nhỉ
-nhiên hậu
-nhiệt liệt
+nhiên_hậu
+nhiệt_liệt
 nhiều
-nhón nhén
-nhỡ ra
-nhung nhăng
+nhón_nhén
+nhỡ_ra
+nhung_nhăng
 như
-như chơi
-như không
-như quả
-như thể
-như tuồng
-như vậy
-nhưng	 
-nhưng mà
+như_chơi
+như_không
+như_quả
+như_thể
+như_tuồng
+như_vậy
+nhưng
+nhưng_mà
 những
-những ai
-những như
-nhược bằng
+những_ai
+những_như
+nhược_bằng
 nó
 nóc
 nọ
 nổi
 nớ
 nữa
-nức nở
-oai oái
+nức_nở
+oai_oái
 oái
-ô hay
-ô hô
-ô kê
-ô kìa
+ô_hay
+ô_hô
+ô_kê
+ô_kìa
 ồ
 ôi
-ôi chao
-ôi thôi
+ôi_chao
+ôi_thôi
 ối
-ối dào
-ối giời
-ối giời ơi
-ối trời
+ối_dào
+ối_giời
+ối_giời_ơi
+ối_trời
 ôkê
 ổng
 ơ
-ơ hay
-ơ kìa
+ơ_hay
+ơ_kìa
 ờ
 ở
 ớ
 ơi
 phải
-phải chi
-phải chăng
-phăn phắt
+phải_chi
+phải_chăng
+phăn_phắt
 phắt
 phè
-phỉ phui
+phỉ_phui
 pho
 phóc
 phỏng
-phỏng như
+phỏng_như
 phót
 phốc
 phụt
-phương chi
+phương_chi
 phứt
-qua quít
-qua quýt
+qua_quít
+qua_quýt
 quả
-quả đúng
-quả là
-quả tang
-quả thật
-quả tình
-quả vậy
+quả_đúng
+quả_là
+quả_tang
+quả_thật
+quả_tình
+quả_vậy
 quá
-quá chừng
-quá độ
-quá đỗi
-quá lắm
-quá sá
-quá thể
-quá trời
-quá ư
-quá xá
-quý hồ
+quá_chừng
+quá_độ
+quá_đỗi
+quá_lắm
+quá_sá
+quá_thể
+quá_trời
+quá_ư
+quá_xá
+quý_hồ
 quyển
 quyết
-quyết nhiên
+quyết_nhiên
 r
 ra
-ra phết
-ra trò
+ra_phết
+ra_trò
 ráo
-ráo trọi
+ráo_trọi
 rày
 răng
 rằng
-rằng là
+rằng_là
 rất
-rất chi là
-rất đỗi
-rất mực
-ren rén
+rất_chi_là
+rất_đỗi
+rất_mực
+ren_rén
 rén
 rích
 riêng
 riệt
-riu ríu
-rón rén
+riu_ríu
+rón_rén
 rồi
-rốt cục
-rốt cuộc
-rút cục
+rốt_cục
+rốt_cuộc
+rút_cục
 rứa
 s
-sa sả	 
+sa_sả
 sạch
-sẵn sàng
+sẵn_sàng
 sao
 sau
-sau chót
-sau cùng
-sau cuối
-sau đó
+sau_chót
+sau_cùng
+sau_cuối
+sau_đó
 sáu
 sắp
 sất
 sẽ
 sì
-song le
+song_le
 số
-số là
-sốt sột
-sở dĩ
+số_là
+sốt_sột
+sở_dĩ
 suýt
 sự
+sử_dụng
 tao
-tà tà
+tà_tà
 tại
-tại vì
+tại_vì
 tấm
 tấn
-tự vì
+tự_vì
 tám
 tanh
-tăm tắp
+tăm_tắp
 tắp
-tắp lự
-tất cả
-tất tần tật
-tất tật
-tất thảy
+tắp_lự
+tất_cả
+tất_tần_tật
+tất_tật
+tất_thảy
 tênh
-tha hồ
+tha_hồ
 thà
-thà là
-thà rằng
-thái quá
-than ôi
+thà_là
+thà_rằng
+thái_quá
+than_ôi
 thanh
-thành ra
-thành thử
-thảo hèn
-thảo nào
+thành_ra
+thành_thử
+thảo_hèn
+thảo_nào
 thậm
-thậm chí
-thật lực
-thật vậy
-thật ra
-thật là
+thậm_chí
+thật_lực
+thật_vậy
+thật_ra
+thật_là
 thẩy
 theo
 thế
-thế à
-thế là
-thế đấy
-thế mà
-thế nào
-thế nên
-thế ra
-thế thì
-thế nhưng
+thế_à
+thế_là
+thế_đấy
+thế_mà
+thế_nào
+thế_nên
+thế_ra
+thế_thì
+thế_nhưng
 thếch
-thi thoảng
+thi_thoảng
 thì
-thì ra
-thình lình
-thỉnh thoảng
+thì_ra
+thình_lình
+thỉnh_thoảng
 thoạt
-thoạt nhiên
+thoạt_nhiên
 thoắt
 thỏm
 thọt
 thốc
-thốc tháo
+thốc_tháo
 thộc
 thôi
-thôi thì
+thôi_thì
 thốt
-thốt nhiên
+thốt_nhiên
 thuần
-thục mạng
+thục_mạng
 thuộc
-thúng thắng
+thúng_thắng
 thửa
-thực ra
-thực vậy
-thương ôi
-tiện thể
-tiếp đó
-tiếp theo
-tiếp đến
-tiếp tục
-tít mù
-tỏ ra
-tỏ vẻ
-tò te
+thực_ra
+thực_vậy
+thương_ôi
+tiện_thể
+tiếp_đó
+tiếp_theo
+tiếp_đến
+tiếp_tục
+tít_mù
+tỏ_ra
+tỏ_vẻ
+tò_te
 toà
-toé khói
+toé_khói
 toẹt
 tọt
-tốc tả
+tốc_tả
 tôi
-tối ư
-tông tốc
+tối_ư
+tông_tốc
 tột
-tớ	 
+tớ
 trái
-tràn cung mây
+tràn_cung_mây
 trên
 trển
 trệt
-trếu tráo
-trệu trạo
+trếu_tráo
+trệu_trạo
 trong
-trong khi
-trong lúc
+trong_khi
+trong_lúc
 trỏng
-trời ơi
-trời đất ơi
+trời_ơi
+trời_đất_ơi
 trước
-trước đây
-trước đó
-trước kia
-trước khi
-trước nay
-trước tiên
-trừ khi
-trừ phi
-tù tì
-tuần tự
-tuốt luốt
-tuốt tuồn tuột
-tuốt tuột
+trước_đây
+trước_đó
+trước_kia
+trước_khi
+trước_nay
+trước_tiên
+trừ_khi
+trừ_phi
+tù_tì
+tuần_tự
+tuốt_luốt
+tuốt_tuồn_tuột
+tuốt_tuột
 tuy
-tuy là
-tuy nhiên
-tuy rằng
-tuy thế
-tuy vậy
-tuyệt nhiên
+tuy_là
+tuy_nhiên
+tuy_rằng
+tuy_thế
+tuy_vậy
+tuyệt_nhiên
 từ
 tự
 từng
 tức
-tức là
-tức khắc
-tức thì
-tức tốc
-tựu trung
+tức_là
+tức_khắc
+tức_thì
+tức_tốc
+tựu_trung
 ủa
 úi
-úi chà
-úi dào
+úi_chà
+úi_dào
 ư
-ứ hự
-ứ ừ
+ứ_hự
+ứ_ừ
 ử
 ừ
 và
 vài
-vả chăng
-vả lại
+vả_chăng
+vả_lại
 vào
-vào lúc
-vạn nhất
-văng tê
-vân vân
+vào_lúc
+vạn_nhất
+văng_tê
+vân_vân
 vẫn
-vẫn là
+vẫn_là
 vâng
 vậy
-vậy là
-vậy thì
-vậy thôi
-vậy mà
-vậy nên
+vậy_là
+vậy_thì
+vậy_thôi
+vậy_mà
+vậy_nên
 veo
-veo veo
+veo_veo
 vèo
 về
-về mặt
-về phía
+về_mặt
+về_phía
 vì
-vì chưng
-vì thế
-vì vậy
-ví bằng
-ví dù
-ví dụ
-ví phỏng
-ví thử
-vị tất
-vô hình trung
-vô kể
-vô luận
-vô vàn
-vốn dĩ
+vì_chưng
+vì_thế
+vì_vậy
+ví_bằng
+ví_dù
+ví_dụ
+ví_phỏng
+ví_thử
+vị_tất
+việc
+vô_hình_trung
+vô_kể
+vô_luận
+vô_vàn
+vốn_dĩ
 với
-với lại
+với_lại
 vở
-vung tàn tán
-vung tán tàn
-vung thiên địa
+vung_tàn_tán
+vung_tán_tàn
+vung_thiên_địa
 vụt
 vừa
-vừa mới
-xa xả
-xăm xăm
-xăm xắm
-xăm xúi
-xềnh xệch
+vừa_mới
+xa_xả
+xăm_xăm
+xăm_xắm
+xăm_xúi
+xềnh_xệch
 xệp
-xiết bao
-xoành xoạch
+xiết_bao
+xoành_xoạch
 xoẳn
 xoét
 xoẹt
-xon xón
-xuất kì bất ý
-xuất kỳ bất ý
+xon_xón
+xuất_kì_bất_ý
+xuất_kỳ_bất_ý
 xuể
 xuống
 ý
-ý chừng
-ý da
-a ha
-A lô
-À ơi
+ý_chừng
+ý_da
+a_ha
+A_lô
+À_ơi
 Á
 À
-Á à
+Á_à
 Ạ
-Ạ ơi
+Ạ_ơi
 Ai
-Ai ai
-Ai nấy
+Ai_ai
+Ai_nấy
 Ái
-Ái chà
-Ái dà
+Ái_chà
+Ái_dà
 Alô
 Amen
-Anh ta
+Anh_ta
 Anh
 Áng
 Ào
 Ắt
-Ắt hẳn
-Ắt là
-Âu là
-Ầu ơ
+Ắt_hẳn
+Ắt_là
+Âu_là
+Ầu_ơ
 Ấy
 Ba
 Bài
 Bản
-Bao giờ
-Bao gồm
-Bao lâu
-Bao nả
-Bao nhiêu
-Bay biến
+Bạn
+Bao_giờ
+Bao_gồm
+Bao_lâu
+Bao_nả
+Bao_nhiêu
+Bay_biến
 Bảy
 Bằng
-Bằng ấy
-Bằng không
-Bằng nấy
-Bắt đầu từ
-Bập bà bập bõm
-Bập bõm
+Bằng_ấy
+Bằng_không
+Bằng_nấy
+Bắt_đầu_từ
+Bập_bà_bập_bõm
+Bập_bõm
 Bất
-Bất chấp
-Bất chợt
-Bất cứ
-Bất đồ
-Bất giác
-Bất kể
-Bất kì
-Bất kỳ
-Bất luận
-Bất nhược
-Bất quá
-Bất thình lình
-Bất tử
-Bây bẩy
-Bây chừ
-Bây giờ
-Bây giờ
-Bây nhiêu
+Bất_chấp
+Bất_chợt
+Bất_cứ
+Bất_đồ
+Bất_giác
+Bất_kể
+Bất_kì
+Bất_kỳ
+Bất_luận
+Bất_nhược
+Bất_quá
+Bất_thình_lình
+Bất_tử
+Bây_bẩy
+Bây_chừ
+Bây_giờ
+Bây_giờ
+Bây_nhiêu
 Bấy
-Bấy giờ
-Bấy chầy
-Bấy chừ
-Bấy giờ
-Bấy lâu
-Bấy lâu nay
-Bấy nay
-Bấy nhiêu
+Bấy_giờ
+Bấy_chầy
+Bấy_chừ
+Bấy_giờ
+Bấy_lâu
+Bấy_lâu_nay
+Bấy_nay
+Bấy_nhiêu
 Bèn
 Béng
 Bển
 Bên
-Bên dưới
-Bên trái
-Bên trên
-Bên phải
+Bên_dưới
+Bên_trái
+Bên_trên
+Bên_phải
 Bệt
 Bị
-Biết bao
-Biết bao nhiêu
-Biết chừng nào
-Biết đâu
-Biết đâu chừng
-Biết đâu đấy
-Biết mấy
+Biết_bao
+Biết_bao_nhiêu
+Biết_chừng_nào
+Biết_đâu
+Biết_đâu_chừng
+Biết_đâu_đấy
+Biết_mấy
 Bốn
 Bộ
-Bội phần
+Bội_phần
 Bông
 Bỗng
-Bỗng chốc
-Bỗng dưng
-Bỗng đâu
-Bỗng không
-Bỗng nhiên
-Bỏ mẹ
+Bỗng_chốc
+Bỗng_dưng
+Bỗng_đâu
+Bỗng_không
+Bỗng_nhiên
+Bỏ_mẹ
 Bớ
 Bởi
-Bởi chưng
-Bởi nhưng
-Bởi thế
-Bởi vậy
-Bởi vì
+Bởi_chưng
+Bởi_nhưng
+Bởi_thế
+Bởi_vậy
+Bởi_vì
 Bức
 Cả
-Cả thảy	 
+Cả_thảy
 Cái
 Các
-Cả thảy
-Cả thể
+Cả_thảy
+Cả_thể
 Càng
 Căn
-Căn cắt
+Căn_cắt
 Cần
-Cật lực
-Cật sức
+Cật_lực
+Cật_sức
 Cây
-Cha 
-Cha chả
-Chành chạnh
-Chao ôi
+Cha_
+Cha_chả
+Chành_chạnh
+Chao_ôi
 Chắc
-Chắc hẳn
-Chăn chắn
+Chắc_hẳn
+Chăn_chắn
 Chăng
 Chẳng
-Chẳng lẽ
-Chẳng những
-Chẳng nữa
-Chẳng phải
+Chẳng_lẽ
+Chẳng_những
+Chẳng_nữa
+Chẳng_phải
 Chậc
-Chầm chập
-Chết nỗi
-Chết tiệt
-Chết thật
-Chí chết
+Chầm_chập
+Chết_nỗi
+Chết_tiệt
+Chết_thật
+Chí_chết
 Chỉn
 Chín
 Chính
-Chính anh
-Chính chị
-Chính là
-Chính thị
-Chính tôi
+Chính_anh
+Chính_chị
+Chính_là
+Chính_thị
+Chính_tôi
 Chỉ
-Chỉ do
-Chỉ là
-Chỉ tại
-Chỉ vì
+Chỉ_do
+Chỉ_là
+Chỉ_tại
+Chỉ_vì
 Chị
 Chiếc
 Cho
-Cho đến
-Cho đến khi
-Cho là
-Cho nên
-Cho rằng
-Cho tới
-Cho tới khi
+Cho_đến
+Cho_đến_khi
+Cho_là
+Cho_nên
+Cho_rằng
+Cho_tới
+Cho_tới_khi
 Choa
-Chốc chốc
+Chốc_chốc
 Chớ
-Chớ chi
+Chớ_chi
 Chợt
 Chú
-Chu cha
-Chú mày
-Chú mình
-Chui cha
-Chùn chùn
-Chùn chũn
+Chu_cha
+Chú_mày
+Chú_mình
+Chui_cha
+Chùn_chùn
+Chùn_chũn
 Chủn
-Chung cục
-Chung qui
-Chung quy
-Chung quy lại
+Chung_cục
+Chung_qui
+Chung_quy
+Chung_quy_lại
 Chúng
-Chúng mình
-Chúng ta
-Chúng tao
-Chúng mày
-Chúng tôi
-Chúng nó
+Chúng_mình
+Chúng_ta
+Chúng_tao
+Chúng_mày
+Chúng_tôi
+Chúng_nó
 Chưa
 Chứ
-Chứ lị
+Chứ_lị
 Có
-Có chăng là
-Có dễ
-Có vẻ
-Cóc khô
-Coi bộ
-Coi mòi
+Có_chăng_là
+Có_dễ
+Có_vẻ
+Có_thể
+Cóc_khô
+Coi_bộ
+Coi_mòi
 Con
 Còn
 Cô
-Cô ấy
-Cô mình
-Cổ lai
-Công nhiên
+Cô_ấy
+Cô_mình
+Cổ_lai
+Công_nhiên
 Cơ
-Cơ chừng
-Cơ hồ
-Cơ mà
-Cỡ chừng
+Cơ_chừng
+Cơ_hồ
+Cơ_mà
+Cỡ_chừng
 Cơn
-Cu cậu
-Cụ thể
+Cu_cậu
+Cụ_thể
 Của
-Của mày
-Của bạn
+Của_mày
+Của_bạn
 Của
 Cuối
-Cuối cùng
+Cuối_cùng
 Cùng
-Cùng cực
-Cùng nhau
-Cùng với
+Cùng_cực
+Cùng_nhau
+Cùng_với
 Cũng
-Cũng như
-Cũng vậy
-Cũng vậy thôi
+Cũng_như
+Cũng_vậy
+Cũng_vậy_thôi
 Cứ
-Cứ việc
-Cực kì	 
-Cực kỳ
-Cực lực
+Cứ_việc
+Cực_kì
+Cực_kỳ
+Cực_lực
 Cuộc
 Cuốn
 Dào
 Dạ
-Dần dà
-Dần dần
-Dầu sao
+Dần_dà
+Dần_dần
+Dầu_sao
 Dẫu
-Dẫu sao
-Dễ sợ
-Dễ thường
+Dẫu_sao
+Dễ_sợ
+Dễ_thường
 Do
-Do vì
-Do đó
-Do vậy
-Dở chừng
+Do_vì
+Do_đó
+Do_vậy
+Dở_chừng
 Dù
-Dù cho
-Dù là
-Dù rằng
-Dù thế
+Dù_cho
+Dù_là
+Dù_rằng
+Dù_thế
+Dùng
 Duy
 Dữ
 Dựa
 Dưới
 Đã
-Đại để
-Đại loại
-Đại nhân
-Đại phàm
+Đại_để
+Đại_loại
+Đại_nhân
+Đại_phàm
 Đang
-Đáng lẽ
-Đáng lí
-Đáng lý
-Đành đạch
-Đánh đùng
-Đáo để
-Đằng sau
-Đằng trước
+Đáng_lẽ
+Đáng_lí
+Đáng_lý
+Đành_đạch
+Đánh_đùng
+Đáo_để
+Đằng_sau
+Đằng_trước
 Đâu
 Đây
+Đến
 Đều
 Để
 Đó
-Đồng thời
+Đồng_thời
 Đủ
 Được
 Gì
@@ -1005,18 +1015,20 @@ Hai
 Hay
 Hay
 Hãy
-Hầu hết
-Hiện nay
-Hoàn toàn
+Hầu_hết
+Hiện_nay
+Hoàn_toàn
 Hoặc
 Họ
+Học
 Hỡi
 Hơn
-Hồi nãy
+Hồi_nãy
 Ít
-Kế tiếp
+Kế_tiếp
+Khác
 Khoảng
-Khoảng chừng
+Khoảng_chừng
 Không
 Khi
 Là
@@ -1024,20 +1036,20 @@ Lại
 Làm
 Lẫn
 Lên
-Liên tiếp
-Liên tục
+Liên_tiếp
+Liên_tục
 Luôn
-Luôn luôn
+Luôn_luôn
 Lúc
-Lúc ấy
-Lúc trước
+Lúc_ấy
+Lúc_trước
 Mà
 Mày
 Mãi
-Mãi mãi
-Mặc dù
-Mặc kệ
-Mặt khác
+Mãi_mãi
+Mặc_dù
+Mặc_kệ
+Mặt_khác
 Mầy
 Mi
 Mọi
@@ -1050,406 +1062,414 @@ Nãy
 Nấy
 Nè
 Nên
-Nên chi
+Nên_chi
 Nền
 Nếu
-Nếu như
+Nếu_như
 Ngay
-Ngay cả
-Ngay lập tức
-Ngay lúc
-Ngay khi
-Ngay từ
-Ngay tức khắc
-Ngày càng
-Ngày ngày
-Ngày xưa
-Ngày xửa
-Ngăn ngắt
-Nghe chừng
-Nghe đâu
+Ngay_cả
+Ngay_lập_tức
+Ngay_lúc
+Ngay_khi
+Ngay_từ
+Ngay_tức_khắc
+Ngày_càng
+Ngày_ngày
+Ngày_xưa
+Ngày_xửa
+Ngăn_ngắt
+Nghe_chừng
+Nghe_đâu
 Nghen
-Nghĩa là
-Nghiễm nhiên
+Nghĩa_là
+Nghiễm_nhiên
 Nghỉm
-Ngõ hầu
+Ngõ_hầu
 Ngoải
 Ngoài
 Ngôi
 Ngọn
 Ngọt
-Ngộ nhỡ
+Ngộ_nhỡ
 Ngươi
+Người
 Nhau
-Nhân dịp
-Nhân tiện
+Nhân_dịp
+Nhân_tiện
 Nhất
-Nhất đán
-Nhất định
-Nhất loạt
-Nhất luật
-Nhất mực
-Nhất nhất
-Nhất quyết
-Nhất sinh
-Nhất tâm
-Nhất tề
-Nhất thiết
+Nhất_đán
+Nhất_định
+Nhất_loạt
+Nhất_luật
+Nhất_mực
+Nhất_nhất
+Nhất_quyết
+Nhất_sinh
+Nhất_tâm
+Nhất_tề
+Nhất_thiết
 Nhé
 Nhỉ
-Nhiên hậu
-Nhiệt liệt
+Nhiên_hậu
+Nhiệt_liệt
 Nhiều
-Nhón nhén
-Nhỡ ra
-Nhung nhăng
+Nhón_nhén
+Nhỡ_ra
+Nhung_nhăng
 Như
-Như chơi
-Như không
-Như quả
-Như thể
-Như tuồng
-Như vậy
-Nhưng	 
-Nhưng mà
+Như_chơi
+Như_không
+Như_quả
+Như_thể
+Như_tuồng
+Như_vậy
+Nhưng
+Nhưng_mà
 Những
-Những ai
-Những như
-Nhược bằng
+Những_ai
+Những_như
+Nhược_bằng
 Nó
 Nóc
 Nọ
 Nổi
 Nớ
 Nữa
-Nức nở
-Oai oái
+Nức_nở
+Oai_oái
 Oái
-Ô hay
-Ô hô
-Ô kê
-Ô kìa
+Ô_hay
+Ô_hô
+Ô_kê
+Ô_kìa
 Ồ
 Ôi
-Ôi chao
-Ôi thôi
+Ôi_chao
+Ôi_thôi
 Ối
-Ối dào
-Ối giời
-Ối giời ơi
-Ối trời
+Ối_dào
+Ối_giời
+Ối_giời_ơi
+Ối_trời
 Ôkê
 Ổng
 Ơ
-Ơ hay
-Ơ kìa
+Ơ_hay
+Ơ_kìa
 Ờ
 Ở
 Ớ
 Ơi
 Phải
-Phải chi
-Phải chăng
-Phăn phắt
+Phải_chi
+Phải_chăng
+Phăn_phắt
 Phắt
 Phè
-Phỉ phui
+Phỉ_phui
 Pho
 Phóc
 Phỏng
-Phỏng như
+Phỏng_như
 Phót
 Phốc
 Phụt
-Phương chi
+Phương_chi
 Phứt
-Qua quít
-Qua quýt
+Qua_quít
+Qua_quýt
 Quả
-Quả đúng
-Quả là
-Quả tang
-Quả thật
-Quả tình
-Quả vậy
+Quả_đúng
+Quả_là
+Quả_tang
+Quả_thật
+Quả_tình
+Quả_vậy
 Quá
-Quá chừng
-Quá độ
-Quá đỗi
-Quá lắm
-Quá sá
-Quá thể
-Quá trời
-Quá ư
-Quá xá
-Quý hồ
+Quá_chừng
+Quá_độ
+Quá_đỗi
+Quá_lắm
+Quá_sá
+Quá_thể
+Quá_trời
+Quá_ư
+Quá_xá
+Quý_hồ
 Quyển
 Quyết
-Quyết nhiên
+Quyết_nhiên
 R
 Ra
-Ra phết
-Ra trò
+Ra_phết
+Ra_trò
 Ráo
-Ráo trọi
+Ráo_trọi
 Rày
 Răng
 Rằng
-Rằng là
+Rằng_là
 Rất
-Rất chi là
-Rất đỗi
-Rất mực
-Ren rén
+Rất_chi_là
+Rất_đỗi
+Rất_mực
+Ren_rén
 Rén
 Rích
 Riêng
 Riệt
-Riu ríu
-Rón rén
+Riu_ríu
+Rón_rén
 Rồi
-Rốt cục
-Rốt cuộc
-Rút cục
+Rốt_cục
+Rốt_cuộc
+Rút_cục
 Rứa
 S
-Sa sả	 
+Sa_sả
 Sạch
-Sẵn sàng
+Sẵn_sàng
 Sao
 Sau
-Sau chót
-Sau cùng
-Sau cuối
-Sau đó
+Sau_chót
+Sau_cùng
+Sau_cuối
+Sau_đó
 Sáu
 Sắp
 Sất
 Sẽ
 Sì
-Song le
+Song_le
 Số
-Số là
-Sốt sột
-Sở dĩ
+Số_là
+Sốt_sột
+Sở_dĩ
 Suýt
 Sự
+sử_dụng
 Tao
-Tà tà
+Tà_tà
 Tại
-Tại vì
+Tại_vì
 Tấm
 Tấn
-Tự vì
+Tự_vì
 Tám
 Tanh
-Tăm tắp
+Tăm_tắp
 Tắp
-Tắp lự
-Tất cả
-Tất tần tật
-Tất tật
-Tất thảy
+Tắp_lự
+Tất_cả
+Tất_tần_tật
+Tất_tật
+Tất_thảy
 Tênh
-Tha hồ
+Tha_hồ
 Thà
-Thà là
-Thà rằng
-Thái quá
-Than ôi
+Thà_là
+Thà_rằng
+Thái_quá
+Than_ôi
 Thanh
-Thành ra
-Thành thử
-Thảo hèn
-Thảo nào
+Thành_ra
+Thành_thử
+Thảo_hèn
+Thảo_nào
 Thậm
-Thậm chí
-Thật lực
-Thật vậy
-Thật ra
-Thật là
+Thậm_chí
+Thật_lực
+Thật_vậy
+Thật_ra
+Thật_là
 Thẩy
 Theo
 Thế
-Thế à
-Thế là
-Thế đấy
-Thế mà
-Thế nào
-Thế nên
-Thế ra
-Thế thì
-Thế nhưng
+Thế_à
+Thế_là
+Thế_đấy
+Thế_mà
+Thế_nào
+Thế_nên
+Thế_ra
+Thế_thì
+Thế_nhưng
 Thếch
-Thi thoảng
+Thi_thoảng
 Thì
-Thì ra
-Thình lình
-Thỉnh thoảng
+Thì_ra
+Thình_lình
+Thỉnh_thoảng
 Thoạt
-Thoạt nhiên
+Thoạt_nhiên
 Thoắt
 Thỏm
 Thọt
 Thốc
-Thốc tháo
+Thốc_tháo
 Thộc
 Thôi
-Thôi thì
+Thôi_thì
 Thốt
-Thốt nhiên
+Thốt_nhiên
 Thuần
-Thục mạng
+Thục_mạng
 Thuộc
-Thúng thắng
+Thúng_thắng
 Thửa
-Thực ra
-Thực vậy
-Thương ôi
-Tiện thể
-Tiếp đó
-Tiếp theo
-Tiếp đến
-Tiếp tục
-Tít mù
-Tỏ ra
-Tỏ vẻ
-Tò te
+Thực_ra
+Thực_vậy
+Thương_ôi
+Tiện_thể
+Tiếp_đó
+Tiếp_theo
+Tiếp_đến
+Tiếp_tục
+Tít_mù
+Tỏ_ra
+Tỏ_vẻ
+Tò_te
 Toà
-Toé khói
+Toé_khói
 Toẹt
 Tọt
-Tốc tả
+Tốc_tả
 Tôi
-Tối ư
-Tông tốc
+Tối_ư
+Tông_tốc
 Tột
-Tớ	 
+Tớ
 Trái
-Tràn cung mây
+Tràn_cung_mây
 Trên
 Trển
 Trệt
-Trếu tráo
-Trệu trạo
+Trếu_tráo
+Trệu_trạo
 Trong
-Trong khi
-Trong lúc
+Trong_khi
+Trong_lúc
 Trỏng
-Trời ơi
-Trời đất ơi
+Trời_ơi
+Trời_đất_ơi
 Trước
-Trước đây
-Trước đó
-Trước kia
-Trước khi
-Trước nay
-Trước tiên
-Trừ khi
-Trừ phi
-Tù tì
-Tuần tự
-Tuốt luốt
-Tuốt tuồn tuột
-Tuốt tuột
+Trước_đây
+Trước_đó
+Trước_kia
+Trước_khi
+Trước_nay
+Trước_tiên
+Trừ_khi
+Trừ_phi
+Tù_tì
+Tuần_tự
+Tuốt_luốt
+Tuốt_tuồn_tuột
+Tuốt_tuột
 Tuy
-Tuy là
-Tuy nhiên
-Tuy rằng
-Tuy thế
-Tuy vậy
-Tuyệt nhiên
+Tuy_là
+Tuy_nhiên
+Tuy_rằng
+Tuy_thế
+Tuy_vậy
+Tuyệt_nhiên
 Từ
 Tự
 Từng
 Tức
-Tức là
-Tức khắc
-Tức thì
-Tức tốc
-Tựu trung
+Tức_là
+Tức_khắc
+Tức_thì
+Tức_tốc
+Tựu_trung
 Ủa
 Úi
-Úi chà
-Úi dào
+Úi_chà
+Úi_dào
 Ư
-Ứ hự
-Ứ ừ
+Ứ_hự
+Ứ_ừ
 Ử
 Ừ
 Và
 Vài
-Vả chăng
-Vả lại
+Vả_chăng
+Vả_lại
 Vào
-Vào lúc
-Vạn nhất
-Văng tê
-Vân vân
+Vào_lúc
+Vạn_nhất
+Văng_tê
+Vân_vân
 Vẫn
-Vẫn là
+Vẫn_là
 Vâng
 Vậy
-Vậy là
-Vậy thì
-Vậy thôi
-Vậy mà
-Vậy nên
+Vậy_là
+Vậy_thì
+Vậy_thôi
+Vậy_mà
+Vậy_nên
 Veo
-Veo veo
+Veo_veo
 Vèo
 Về
-Về mặt
-Về phía
+Về_mặt
+Về_phía
 Vì
-Vì chưng
-Vì thế
-Vì vậy
-Ví bằng
-Ví dù
-Ví dụ
-Ví phỏng
-Ví thử
-Vị tất
-Vô hình trung
-Vô kể
-Vô luận
-Vô vàn
-Vốn dĩ
+Vì_chưng
+Vì_thế
+Vì_vậy
+Ví_bằng
+Ví_dù
+Ví_dụ
+Ví_phỏng
+Ví_thử
+Vị_tất
+Việc
+Vô_hình_trung
+Vô_kể
+Vô_luận
+Vô_vàn
+Vốn_dĩ
 Với
-Với lại
+Với_lại
 Vở
-Vung tàn tán
-Vung tán tàn
-Vung thiên địa
+Vung_tàn_tán
+Vung_tán_tàn
+Vung_thiên_địa
 Vụt
 Vừa
-Vừa mới
-Xa xả
-Xăm xăm
-Xăm xắm
-Xăm xúi
-Xềnh xệch
+Vừa_mới
+Xa_xả
+Xăm_xăm
+Xăm_xắm
+Xăm_xúi
+Xềnh_xệch
 Xệp
-Xiết bao
-Xoành xoạch
+Xiết_bao
+Xoành_xoạch
 Xoẳn
 Xoét
 Xoẹt
-Xon xón
-Xuất kì bất ý
-Xuất kỳ bất ý
+Xon_xón
+Xuất_kì_bất_ý
+Xuất_kỳ_bất_ý
 Xuể
 Xuống
 Ý
-Ý chừng
-Ý da
+Ý_chừng
+Ý_da
+1
 .
 ,
 '
 '
 "
 "
+”
+“
+“
+”
 -
 _
 <
@@ -1473,3 +1493,4 @@ $
 ;
 (
 )
+...
