@@ -10,7 +10,6 @@ import com.tkorg.util.Constants;
 import java.io.File;
 import java.net.URI;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -30,12 +29,21 @@ public class SearchOntologyBL {
     }
 
     private String convertVN(String name) {
-
         for (int i = 0; i < Constants.unicodeWords.length; i++) {
             if (!Constants.unicodeWords[i].equals("")) {
-                int index = name.indexOf(Constants.unicodeWords[i]);
-                if (index != -1) {
-                    name = name.substring(0, index) + Constants.utf8Words[i] + name.split(Constants.unicodeWords[i])[1];
+                String strTemp = "";
+                strTemp = name;
+                String[] temp = strTemp.split(Constants.unicodeWords[i]);
+                if (temp[0].length() < name.length()) {
+                    strTemp = "";
+                    for (int j = 0; j < temp.length; j++) {
+                        if (j < temp.length - 1) {
+                            strTemp = strTemp + temp[j] + Constants.utf8Words[i];
+                        } else {
+                            strTemp = strTemp + temp[j];
+                        }
+                    }
+                    name = strTemp;
                 }
             }
         }
@@ -134,10 +142,7 @@ public class SearchOntologyBL {
     public static void main(String args[]) {
         SearchOntologyBL search = new SearchOntologyBL();
 
-        String name = "CÃ´ng Ã¡i";
-        JOptionPane.showMessageDialog(null, name);
+        String name = "Khái niá»m thuá»c ngÃ nh cÃ´ng nghá» thÃ´ng tin";
         name = search.convertVN(name);
-
-        JOptionPane.showMessageDialog(null, name);
     }
 }
