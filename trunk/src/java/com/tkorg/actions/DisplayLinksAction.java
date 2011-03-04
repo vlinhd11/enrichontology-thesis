@@ -6,14 +6,12 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.DisplayLinksBL;
-import com.tkorg.download.Download;
 import com.tkorg.forms.DisplayLinksForm;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
-import vn.hus.nlp.tokenizer.TokenizerProvider;
 
 /**
  *
@@ -46,7 +44,7 @@ public class DisplayLinksAction extends org.apache.struts.action.Action {
         if (screenid.equals("ERROR")) {
             if (processid.equals("ERROR_01")) {
                 DisplayLinksBL displayBL = new DisplayLinksBL();
-                displayBL.downloadLinks();
+                displayBL.downloadAndClassify();
                 
                 return mapping.findForward(SUCCESS);
             }
