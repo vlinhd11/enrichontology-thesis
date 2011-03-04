@@ -1,0 +1,116 @@
+﻿Hệ điều hành là một chương trình chạy trên máy tính, dùng để điều hành, quản lý các thiết bị phần cứng và các tài nguyên phần mềm trên máy tính.
+Hệ điều hành đóng vai trò trung gian trong việc giao tiếp giữa người sử dụng và phần cứng máy tính, cung cấp một môi trường cho phép người sử dụng phát triển và thực hiện các ứng dụng của họ một cách dễ dàng.
+
+Mục lục [ẩn]
+1 Giới thiệu
+2 Chức năng chính yếu của hệ điều hành
+2.1 Quản lý chia sẻ tài nguyên
+2.2 Giả lập một máy tính mở rộng
+3 Nhiệm vụ của hệ điều hành
+4 Các thành phần của hệ điều hành
+5 Phân loại hệ điều hành
+5.1 Dưới góc độ loại máy tính
+5.2 Thông thường dưới góc độ người sử dụng và số chương trình được sử dụng cùng lúc hệ điều hành được chia làm 3 loại chính:
+5.3 Dưới góc độ người dùng (truy xuất tài nguyên cùng lúc)
+5.4 Dưới góc độ hình thức xử lý
+6 Hàm hệ thống
+7 Những dịch vụ cốt lõi
+8 Các hệ điều hành hiện đại
+9 Phân loại và thuật ngữ
+10 Thí dụ hệ điều hành
+11 Liên kết ngoài
+
+Giới thiệu
+
+Các máy tính ban đầu không có hệ điều hành (xem Lịch sử hệ điều hành). Người điều hành sẽ tải và chạy chương trình một cách thủ công. Khi chương trình được thiết kế để tải và chạy chương trình khác, nó đã thay thế công việc của con người.
+Thuật ngữ "hệ điều hành" được dùng gần đây chỉ tới một phần mềm cần thiết để người dùng quản lý hệ thống và chạy các phần mềm ứng dụng khác trên hệ thống. Nó không chỉ có nghĩa là "phần lõi" tương tác trực tiếp với phần cứng mà còn cả các thư viện cần thiết để các chương trình quản lý và điều chỉnh hệ thống.
+Không có sự phân biệt rõ ràng giữa phần mềm ứng dụng và hệ điều hành. Tuy nhiên, đôi khi vấn đề này cũng được tranh cãi. Thí dụ trường hợp Bộ Tư pháp Mỹ và Microsoft tranh cãi Internet Explorer có phải là một phần của Windows không.
+Cấp thấp nhất của hệ điều hành là phần lõi (còn gọi là nhân), lớp phần mềm đầu tiên được tải vào hệ thống khi khởi động. Các phần mềm được tải tiếp theo phụ thuộc vào nó sẽ cung cấp các dịch vụ cốt lõi cho hệ thống. Những dịch vụ phổ biến là truy xuất đĩa, quản lý bộ nhớ, định thời, và truy xuất tới thiết bị phần cứng. Có nhiều tranh cãi về những thành phần nào tạo nên phần lõi, như hệ thống tập tin có được đưa vào phần lõi không.
+[sửa]Chức năng chính yếu của hệ điều hành
+
+Theo nguyên tắc, hệ điều hành cần thỏa mãn hai chức năng chính yếu sau:
+[sửa]Quản lý chia sẻ tài nguyên
+Tài nguyên của hệ thống (CPU, bộ nhớ, thiết bị ngoại vi,...) vốn rất giới hạn, nhưng trong các hệ thống đa nhiệm, nhiều người sử dụng có thể đồng thời yêu cầu nhiều tài nguyên. Để thỏa mãn yêu cầu sử dụng chỉ với tài nguyên hữu hạn và nâng cao hiệu quả sử dụng tài nguyên, hệ điều hành cần phải có cơ chế và chiến lược thích hợp để quản lý việc phân phối tài nguyên.
+Ngoài yêu cầu dùng chung tài nguyên để tiết kiệm chi phí, người sử dụng còn cần phải chia sẻ thông tin (tài nguyên phần mềm) lẫn nhau, khi đó hệ điều hành cần đảm bảo việc truy xuất đến các tài nguyên này là hợp lệ, không xảy ra tranh chấp, mất đồng nhất,...
+[sửa]Giả lập một máy tính mở rộng
+Hệ điều hành làm ẩn đi các chi tiết phần cứng, người sử dụng được cung cấp một giao diện đơn giản, dễ hiểu, dễ sử dụng và không phụ thuộc vào thiết bị phần cứng cụ thể.
+Thực tế, ta có thể xem Hệ điều hành như là một hệ thống bao gồm nhiều máy tính trừu tượng xếp thành nhiều lớp chồng lên nhau, máy tính mức dưới phục vụ cho máy tính mức trên. Lớp trên cùng là giao diện trực quan nhất để chúng ta điều khiển.
+Ngoài ra có thể chia chức năng của Hệ điều hành theo bốn chức năng sau:
+Quản lý quá trình (process management)
+Quản lý bộ nhớ (memory management)
+Quản lý hệ thống lưu trữ (storage management)
+Giao tiếp với người dùng (user interaction)
+[sửa]Nhiệm vụ của hệ điều hành
+
+Điều khiển và quản lý trực tiếp các phần cứng như bo mạch chủ, bo mạch đồ họa và bo mạch âm thanh,...
+Thực hiện một số thao tác cơ bản trong máy tính như các thao tác đọc, viết tập tin, quản lý hệ thống tập tin (file system) và các kho dữ liệu.
+Cung ứng một hệ thống giao diện sơ khai cho các ứng dụng thường là thông qua một hệ thống thư viện các hàm chuẩn để điều hành các phần cứng mà từ đó các ứng dụng có thể gọi tới.
+Cung ứng một hệ thống lệnh cơ bản để điều hành máy. Các lệnh này gọi là lệnh hệ thống (system command).
+Ngoài ra hệ điều hành, trong vài trường hợp, cũng cung cấp các dịch vụ cơ bản cho các phần mềm ứng dụng thông thường như chương trình duyệt Web, chương trình soạn thảo văn bản....
+[sửa]Các thành phần của hệ điều hành
+
+Hệ thống quản lý tiến trình
+Hệ thống quản lý bộ nhớ
+Hệ thống quản lý nhập xuất
+Hệ thống quản lý tập tin
+Hệ thống bảo vệ
+Hệ thống dịch lệnh
+Quản lý mạng
+[sửa]Phân loại hệ điều hành
+
+[sửa]Dưới góc độ loại máy tính
+Hệ điều hành dành cho máy MainFrame
+Hệ điều hành dành cho máy Server
+Hệ điều hành dành cho máy nhiều CPU
+Hệ điều hành dành cho máy tính cá nhân (PC)
+Hệ điều hành dành cho máy PDA (Embedded OS - hệ điều hành nhúng)
+Hệ điều hành dành cho máy chuyên biệt
+Hệ điều hành dành cho thẻ chíp (SmartCard)
+[sửa]Thông thường dưới góc độ người sử dụng và số chương trình được sử dụng cùng lúc hệ điều hành được chia làm 3 loại chính:
+Hệ điều hành đơn nhiệm một người dùng
+Hệ điều hành đa nhiệm một người dùng
+Hệ điều hành đa nhiệm nhiều người dùng
+Các từ:
+Đơn nhiệm: tức là mỗi lần chỉ thực hiện được một chương trình hay nói cách khác các chương trình phải được thực hiện lần lượt (vd: HĐH MS-DOS).
+Đa nhiệm: tức là có thể thực hiện đồng thời nhiều chương trình (VD: HĐH Windows và một số phiên bản mới sau này của MS-DOS).
+Một người dùng: chỉ cho phép một người đăng nhập vào hệ thống khi làm việc (VD: HĐH Windows 95 trở về trước).
+Nhiều người dùng: cho phép nhiều người đồng thời đăng nhập vào hệ thống. Việc này được quản lí thông qua tài khoản người dùng và mật khẩu tương ứng(VD: các phiên bản mới HĐH Windows như Win 2000,XP,...).
+[sửa]Dưới góc độ người dùng (truy xuất tài nguyên cùng lúc)
+Một người dùng
+Nhiều người dùng
+Mạng ngang hàng
+Mạng có máy chủ: LAN, WAN, ...
+[sửa]Dưới góc độ hình thức xử lý
+Hệ thống xử lý theo lô
+Hệ thống xử lý theo lô đa chương
+Hệ thống chia sẻ thời gian
+Hệ thống song song
+Hệ thống phân tán
+Hệ thống xử lý thời gian thực
+[sửa]Hàm hệ thống
+
+System Call Hàm hệ thống là một tập giao diện của hạt nhân đến ứng dụng, thông qua hàm hệ thống ứng dụng thực hiện được các công việc của mình. Hạt nhân trừu tượng các chức năng của phần cứng thành hàm hệ thống, và quản lý điều phối cho ứng dụng thông qua hàm hệ thống.
+[sửa]Những dịch vụ cốt lõi
+
+[sửa]Các hệ điều hành hiện đại
+
+Các hệ điều hành được sử dụng ngày nay trên các máy tính đa chức năng (như máy tính cá nhân) chủ yếu gồm hai chủng loại: hệ điều hành họ Unix và hệ điều hành họ Microsoft Windows. Các máy tính mẹ (Mainframe computer) và các hệ thống nhúng dùng nhiều loại hệ điều hành khác nhau, không phải là Unix hay Windows, nhưng cũng tương tự như Unix hay Windows.
+Hệ điều hành họ Windows: Các phiên bản được liệt kê tại liên kết Microsoft Windows
+Các hệ điều hành khác
+
+Thí dụ hệ điều hành
+
+AmigaOS
+BeOS
+Debian
+Fedora
+FreeBSD
+Linux
+Mac OS và Mac OS X
+MS-DOS và Windows
+OS/2
+Palm OS
+Solaris
+Ubuntu
+UNIX
+Windows Mobile

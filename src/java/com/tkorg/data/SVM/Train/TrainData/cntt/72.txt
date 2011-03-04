@@ -1,0 +1,40 @@
+﻿Giới thiệu về khoa Khoa học và Kỹ thuật Máy tính
+Khoa Khoa học và Kỹ thuật Máy tính được thành lập năm 1978 với tên là Bộ môn Điện toán thuộc khoa Điện - Điện tử, Đại học Bách khoa Thành phố Hồ Chí Minh. Năm 1985, khoa được tách ra thành Trung tâm điện toán và đến năm 1993 là Khoa Khoa học Máy tính. Năm 2007, khoa được tái cơ cấu lại thành khoa Khoa học và Kỹ thuật Máy tính để đáp ứng nhu cầu nhân lực ngày càng tăng theo sự phát triển của đất nước.
+
+Khoa đào tạo ở các bậc đại học, cao học và tiến sỹ. Có hai ngành đào tạo ở bậc đại học là Khoa học Máy tính và Kỹ thuật Máy tính. Mục tiêu chính của chương trình đào tạo là cung cấp cho sinh viên các kiến thức cần thiết để có thể làm việc ở các trường đại học và các công ty.
+
+Hiện tại khoa có hơn 80 giảng viên với hơn 25 tiến sỹ và được tổ chức thành 5 bộ môn:
+
+Bộ môn Kỹ thuật Máy tính
+Bộ môn Hệ thống và Mạng Máy tính
+Bộ môn Khoa học Máy tính
+Bộ môn Hệ thống Thông tin
+Bộ môn Công nghệ Phần mềm
+
+Chương trình & Bằng cấp
+Bằng kỹ sư
+
+Để được nhận vào học chương trình kỹ sư hệ chính quy, học  sinh phải trải qua một kỳ thi tuyển sinh quốc gia với các môn Toán,  Vật lý và Hóa học. Sau đó, chỉ những thí sinh có điểm cao nhất mới được chọn,  với chỉ tiêu tuyển sinh trung bình là 300 sinh viên mỗi năm.
+Để được nhận bằng kỹ sư, sinh viên phải hoàn thành chương  trình học và bảo vệ thành công luận văn tốt nghiệp trước hội đồng. Chương trình chính quy kéo dài trong 4 năm rưỡi (tương  đương 9 học kỳ).
+Khoa Khoa học và Kỹ thuật Máy tính cũng cung cấp chương  trình đào tạo kỹ sư cho những người đã tốt nghiệp đại học ở những ngành khác có  những môn cơ sở giống như ngành Khoa học và Kỹ thuật máy tính. Đây là chương  trình đào tạo Kỹ sư 2 của Khoa. Để được nhận vào học chương trình này, sinh  viên phải trải qua một kỳ thi tuyển các môn Toán, Lập trình và tiếng Anh.
+
+Để tốt nghiệp chương trình Kỹ sư 2, sinh viên phải hoàn  thành chương trình học bao gồm những môn chuyên ngành của ngành Khoa học và Kỹ  thuật máy tính, đồng thời bảo vệ thành công luận văn tốt nghiệp trước hội đồng.  Chương trình kéo dài trong 3 năm (tương đương  6 học kỳ).
+Xét về mặt những môn học bắt buộc, luận văn tốt nghiệp và  thời gian học thông thường, bằng cấp Kỹ sư của Khoa có thể được so sánh tương  đương với bằng Kỹ sư chất lượng cao ở một số trường đại học ở nước ngoài.
+Kể từ năm 2002, Khoa đã mở chương trình Kỹ sư tài năng dành  cho các sinh viên ưu tú. Chương trình chỉ có  một lớp dành cho sinh viên chính quy, bao gồm khoảng 10% sinh viên giỏi nhất  của mỗi khóa. Bằng việc cung cấp những điều kiện dạy và học tốt nhất, mục tiêu  của chương trình này là đào tạo những sinh viên giỏi nhất cho quốc gia.
+
+Bằng thạc sỹ
+
+Để được nhận vào học chương trình thạc sỹ ngành Khoa học và  Kỹ thuật máy tính, ứng viên phải:
+
+Có bằng đại học ở một lĩnh vực thích hợp của một trường đại học hay học viện đã được công nhận.
+Có trình độ tiếng Anh tốt.
+Trải qua kỳ thi Tuyển sinh Cao học được tổ chức hằng năm bởi Phòng đào học sau Đại học của đại học Bách Khoa thành phố Hồ Chí Minh.
+Chương trình sẽ tuyển khoảng 40 ứng viên mỗi năm. Sinh viên tốt nghiệp đại học của các ngành đào tạo sau có thể nộp đơn vào chương trình Thạc sỹ là: Khoa học và Kỹ thuật máy tính, Điện – điện tử và Toán. Những ứng viên của các ngành khoa học tự nhiên cũng sẽ được xem xét đạt yêu cầu trong 6 môn chuyển tiếp sau đây: Trí tuệ nhân tạo, Kiến trúc máy tính, Cấu trúc dữ liệu và giải thuật, Hệ cơ sở dữ liệu, Hệ điều hành, và Ngôn ngữ lập trình. Để tốt nghiệp chương trình đào tạo Thạc sỹ, sinh viên phải hoàn thành chương trình học và bảo vệ thành công luận văn tốt nghiệp trước hội đồng. Thời gian tối thiểu để hoàn thành chương trình là 2 năm (tương đương 4 học kỳ).
+Bằng Tiến sỹ
+
+Để được nhận vào chương trình đào tạo Tiến sỹ Khoa học và Kỹ thuật máy tính, ứng viên phải:
+
+Có bằng Thạc sỹ trong lĩnh vực Khoa học và Kỹ thuật máy tính hoặc một ngành khác gần với nó của một trường đại học hay học viện đã được công nhận.
+Có trình độ tiếng Anh tốt.
+Trải qua kỳ thi Tuyển sinh được tổ chức hằng năm bởi Phòng đào học sau Đại học của đại học Bách Khoa thành phố Hồ Chí Minh
+Chương trình đào học Tiến sỹ chỉ dành cho lĩnh vực nghiên cứu. Để hoàn thành chương trình này, nghiên cứu sinh phải hoàn thành 3 chuyên đề trong thời gian tối thiểu là 3 năm (tương đương 6 học kỳ), và bảo vệ thành công trước hội đồng. Những vấn đề nghiên cứu có thể nằm trong các lĩnh vực sau: Trí tuệ nhân tạo, Kiến trúc máy tính, Hệ thống thông tin, Xử lý song song và Công nghệ phần mềm.

@@ -1,0 +1,6 @@
+﻿(TNO) Microsoft vừa chính thức cho ra mắt một phần mềm tối ưu tốc độ download tập tin trên internet.
+Phần mềm này có tên gọi là Microsoft Download Manager (MDM), với ưu điểm cực kỳ gọn nhẹ (1,1MB) và được cung cấp hoàn toàn miễn phí.
+
+Trong một vài trường hợp, nếu người dùng gặp phải bảng thông báo lỗi không thể tải files, thì có thể nhấn vào tùy chọn Settings > nhấn vào tab Proxy. Trong hộp thoại Configure proxies to access the Internet, hãy nhấn vào tùy chọn No proxy vào bấm vào nút OK để xác nhận các bước.
+
+Để sử dụng MDM, người dùng có thể bấm vào đây để tải file cài đặt về máy.

@@ -1,0 +1,6 @@
+﻿Thượng Hải - thành phố đông dân nhất Trung Quốc - đang lún xuống khoảng 2-4 cm mỗi năm. Sự cố này có thể gây sụp đổ các tòa nhà và hệ thống đường hầm của thành phố.
+Vì vậy, Quỹ Khoa học tự nhiên quốc gia của Trung Quốc đã cấp ngân sách 80.000 USD cho một nhà nghiên cứu của trường Đại học Nottingham, nhằm phát triển một chương trình máy tính xác định các tòa nhà đang dịch chuyển nhiều nhất và có nguy cơ sụp đổ nhất.
+
+Phần mềm này được phát triển bởi Andrew Sowter tại Đại học Nottingham Ningbo chi nhánh Trung Quốc. Chương trình máy tính sẽ được dùng để phân tích hình ảnh Thượng Hải thu thập được từ vệ tinh trong nhiều năm qua, cho thấy việc dịch chuyển địa hình đối với thành phố ven biển. Phần mềm này cũng kết hợp các dữ liệu thu từ mặt đất để xác định chính xác từng milimet mức độ chìm từng khu vực. Nhiều thành phố khác tại Trung Quốc cũng sẽ hưởng lợi từ phần mềm này, ví dụ như Ninh Ba chuẩn bị xây dựng hệ thống đường sắt ngầm nhưng chính quyền đang rất lo lắng việc đất đang lún xuống. Một trong những phương thức chống lại việc chìm dần của các thành phố là bơm nước ngầm vào lòng đất.
+
+Phần mềm của Sowter còn có nhiều tính năng hữu dụng khác như: xác định rủi ro trong khu vực động đất, vùng lũ, sông băng, sạt lở đất.

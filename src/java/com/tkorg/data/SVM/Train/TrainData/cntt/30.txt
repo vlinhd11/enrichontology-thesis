@@ -1,0 +1,24 @@
+﻿Chứng chỉ Microsoft mất dần giá trị
+Giá trị các chứng chỉ Microsoft đang suy giảm và kém tác dụng tăng lương hơn so với các kỹ năng CNTT của các hãng Cisco, Oracle, EMC, VMware, IBM, SAP và Red Hat.
+
+“Rất nhiều người đã có các chứng chỉ Microsoft đến nỗi khoảng cách giữa cung và cầu bị lu mờ, các chứng chỉ này bị đánh đồng như các chứng chỉ khác”, David Foote của hãng nghiên cứu CNTT Foote Partners nói.
+
+Tính trung bình, những nhân viên CNTT có chứng chỉ Microsoft có thu nhập cao hơn 5,9% so với những người không có kỹ năng triển khai các công nghệ Microsoft nhưng tỷ lệ này thấp hơn nhiều so với mức trung bình của toàn ngành. Theo nghiên cứu của Foote Partners, mức cải thiện thu nhập trung bình của những nhân viên CNTT có một trong số 225 chứng chỉ CNTT là 7,3%.   
+
+Foote Partners đã theo dõi hơn 100.000 nhân viên CNTT, 43% trong số đó được tăng lương vì năng lực chuyên môn hóa cao trong công việc. Những trường hợp được tăng lương liên quan đến chứng chỉ Microsoft (hiện có 19 chứng chỉ Microsoft) đã giảm từ mức 6,1% xuống 5,9% trong 6 tháng qua. Tỷ lệ 5,9% này thấp hơn nhiều so với mức trung bình 8,1% những trường hợp được tăng lương liên quan đến 31 chứng chỉ Cisco. Ngoài ra, 6 chứng chỉ Oracle mang lại cơ hội tăng lương trung bình 7,5%; 15 chứng chỉ IBM đạt tỷ lệ 7,1%; 5 chứng chỉ Red Hat đạt mức 7,9%, 9 chứng chỉ EMC đạt mức 8,4% và 2 chứng chỉ Vmware đạt mức 8,5%.
+
+Nguyên nhân giảm sút một phần do các chứng chỉ Microsoft đã quá phổ biến. “Tôi cá rằng nhiều chứng chỉ của họ không còn quan trọng như trước đây”, Foote nhận định. “Hiện nay nhiều hãng khác đã có những chứng chỉ nổi tiếng hơn”.
+
+Trong số 19 chứng chỉ Microsoft, cái có giá trị nhất là Microsoft Certified Architect, mang lại 11% cơ hội tăng lương; trái lại, chứng chỉ Microsoft Certified Professional và Certified Systems Administrator là những chứng chỉ có số cơ hội tăng lương thấp hơn mức trung bình 5,9% của Microsoft. Nhìn chung, những kỹ năng chuyên môn hóa cao nhất sẽ là những kỹ năng giá trị nhất. 
+
+Foote Partners đã theo dõi giá trị của các chứng chỉ CNTT và cả các kỹ năng phi chứng chỉ. Với một số hãng, họ đào tạo các kỹ năng chứng chỉ nhiều hơn các kỹ năng phi chứng chỉ, và ngược lại. Nhưng trong trường hợp của Microsoft, Foote theo dõi 19 kỹ năng chứng chỉ và 18 kỹ năng phi chứng chỉ. Giá trị trung bình của 18 kỹ năng phi chứng chỉ tương đương với 6,6% cơ hội tăng lương. Xét trên toàn ngành, trong số 241 kỹ năng phi chứng chỉ, con số trung bình là 8,42%. Với hãng SAP, 76 kỹ năng mang lại cơ hội trung bình được tăng lương là 9,9%.
+
+Trong số 18 kỹ năng phi chứng chỉ của Microsoft, chỉ có 2 kỹ năng - Exchange Server và BizTalk Server – gia tăng giá trị trong 3 tháng qua. Ngoài ra, Foote nhận ra giá trị của .Net sụt giảm mạnh, song hiện nó vẫn là kỹ năng Microsoft mang lại mức thu nhập cao nhất cho những người sở hữu với tỷ lệ tăng lương trung bình là 12%. Giá trị của chứng chỉ .Net đã giảm liên tục trong 4 quý liền, nhưng điều này cũng có thể nhìn nhận theo cách tích cực. Giá trị giảm nghĩa là cung đang đuổi kịp cầu, Foote nói.
+
+Ngoài .Net, các kỹ năng phi chứng chỉ Microsoft “còn giá trị thu nhập cao” bao gồm Microsoft Commerce Server và SQL Server.
+
+Nhìn chung, Foote cho rằng triển vọng nghề nghiệp CNTT sáng sủa hơn nhiều so với bức tranh các con số thống kê của chính phủ. Cục Thống kê Lao động Mỹ đã “hạ điểm” các nghề nghiệp CNTT, không tính những chuyên gia CNTT làm việc trong các bộ phận kinh doanh, như nhóm marketing và sản phẩm, mà chỉ tính những người làm việc trực tiếp dưới “trướng” của CIO.
+
+Chính phủ Mỹ chỉ đưa ra lực lượng lao động ngành CNTT là 4 triệu, thì Foote Partners tin rằng con số này cao đến 24 triệu khi “tính gộp” tất cả các nhân viên được trả lương vì có các kỹ năng CNTT.
+
+“Chính phủ định nghĩa ‘ngành CNTT’ không khác gì định nghĩa của mấy thập kỷ qua, chỉ có 21 ngành nghề tồn tại trong danh sách những nghề nghiệp CNTT năm 2010-2011, tất cả đều chỉ là những công việc truyền thống kỹ thuật như phân tích hệ thống, lập trình, mạng lưới, dữ liệu, hỗ trợ kỹ thuật…”, Foote nói trong một phân tích gần đây.

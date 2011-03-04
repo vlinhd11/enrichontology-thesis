@@ -1,0 +1,109 @@
+﻿Tin học là ngành nghiên cứu về việc tự động hóa xử lý thông tin bởi một hệ thống máy tính cụ thể hoặc trừu tượng. Với cách hiểu hiện nay, tin học bao hàm tất cả các nghiên cứu và kỹ thuật có liên quan đến việc xử lý thông tin. Trong nghĩa thông dụng, tin học còn có thể bao hàm cả những gì liên quan đến các thiết bị máy tính hay các ứng dụng tin học văn phòng.
+
+Về định nghĩa thế nào là tin học, Edsger Dijkstra đã tóm tắt bằng câu sau đây:
+
+    Quan hệ giữa tin học với máy tính không khác gì quan hệ giữa thiên văn học với kính viễn vọng.
+
+Người ta có thể làm việc với tin học bằng bất cứ một hệ thống nào hoạt động tương tự với các mạch lôgic: các máy cơ học (chẳng hạn máy tính Pascal và ô-tô-mát), máy khí động, hệ thống thủy lực... Những chương trình tin học đầu tiên được viết từ trước sự ra đời của máy tính rất lâu (xem Ada Lovelace).
+Mục lục
+[ẩn]
+
+    * 1 Tên gọi
+    * 2 Một số phân nhánh quan trọng
+          o 2.1 Các ngành có liên quan chặt chẽ
+    * 3 Các lĩnh vực quan trọng đối với tin học
+          o 3.1 Cơ sở toán học
+          o 3.2 Tin học lý thuyết
+          o 3.3 Phần cứng
+          o 3.4 Tổ chức hệ thống máy tính
+          o 3.5 Phần mềm
+          o 3.6 Dữ liệu và các hệ thống thông tin
+          o 3.7 Các phương pháp tính toán
+          o 3.8 Các ứng dụng máy tính
+          o 3.9 Các chủ đề khác
+    * 4 Thuật ngữ tin học Anh-Việt
+    * 5 Xem thêm
+    * 6 Liên kết ngoài
+
+[sửa] Tên gọi
+
+Từ "tin học" đã được dịch từ informatique trong tiếng Pháp. Từ informatics trong tiếng Anh cũng bắt nguồn từ từ tiếng Pháp này, nhưng theo thời gian informatics đã mang nghĩa khác dần với nghĩa ban đầu và hầu như chỉ còn được dùng phổ biến tại châu Âu. Ngày nay, thuật ngữ tiếng Anh tương đương với informatique là computer science, nghĩa là "khoa học về máy tính".
+
+Có thể phân biệt các thuật ngữ có nghĩa gần giống nhau và dễ bị nhầm lẫn như sau:
+
+    * Khoa học máy tính, (tiếng Anh: Computer science) ngành nghiên cứu các cơ sở lý thuyết của tin học như thuật toán, ngôn ngữ hình thức, lý thuyết đồ thị, đồ họa máy tính... nghĩa là chỉ có liên quan gián tiếp đến phần mềm và máy tính. Khái niệm gần như tương đương (nhưng không hoàn toàn tương đương) trong tiếng Pháp là Informatique théorique.
+    * Kỹ thuật máy tính (tiếng Anh: Computer engineering): nghiên cứu về việc chế tạo và sử dụng các thiết bị tin học.
+    * Kỹ nghệ phần mềm (tiếng Anh: Software engineering): nghiên cứu về việc mô hình hóa và phát triển phần mềm, hay còn được gọi là Công nghệ phần mềm.
+    * Công nghệ thông tin (tiếng Anh: Information technology): nghiên cứu việc áp dụng công nghệ trong việc quản trị và xử lý thông tin, đặc biệt trong các hệ thống thông tin (information system) của các cơ quan tổ chức lớn.
+
+[sửa] Một số phân nhánh quan trọng
+
+   1. Khoa học máy tính
+   2. Công nghệ phần mềm
+   3. Phương pháp số
+   4. Hệ điều hành
+   5. Phân tích hệ thống
+   6. Cơ sở dữ liệu và Cấu trúc dữ liệu
+   7. Kiến trúc máy tính
+   8. Mạng máy tính
+   9. Tính toán khoa học
+
+[sửa] Các ngành có liên quan chặt chẽ
+
+Ngành tin học có quan hệ chặt chẽ với nhiều ngành khác. Các ngành này có nhiều phần chung, tuy vẫn khác nhau ở nhiều điểm quan trọng:
+Thuật toán 	Là dãy thao tác lệnh mà sau một số bước hữu hạn từ input đã cho ta có output.
+Trí tuệ nhân tạo 	Cài đặt và nghiên cứu các hệ thống thể hiện hành vi hoặc trí thông minh tự động của bản thân, đôi khi được phỏng theo đặc điểm của các thực thể sống. Tin học gắn bó chặt chẽ với Trí tuệ nhân tạo, bởi phần mềm và máy tính là các công cụ cơ bản cho việc phát triển trí thông minh nhân tạo
+Tin học kinh tế 	Xây dựng các hệ thống phức hợp giữa tin học và kinh tế/xã hội, qua đó ứng dụng và phát triển chúng trong thực tế nhằm giải quyết các vấn đề kinh tế cũng như xã hội
+Tin sinh học 	Áp dụng các kỹ thuật của toán học ứng dụng, khoa học thông tin, thống kê và khoa học máy tính để giải quyết các bài toán sinh học
+Kỹ nghệ máy tính
+(Computer engineering) 	Phân tích, thiết kế, và xây dựng các hệ thống máy tính (bao gồm phần cứng và mạng máy tính)
+Độ phức tạp tính toán
+(Complexity theory) 	Một ngành con của khoa học máy tính, nghiên cứu tìm các cận dưới cơ bản của tính toán
+Lập trình 	Hoạt động viết mã chương trình
+Đồ họa máy tính 	Một ngành tính toán hình ảnh (visual computing), trong đó, máy tính được sử dụng để tạo các hình ảnh tổng hợp và để tích hợp hay sửa đổi các dữ liệu hình ảnh và không gian thu thập được từ thế giới thực
+Computer vision 	Nghiên cứu sử dụng máy tính để tách các đối tượng 3 chiều từ một hình ảnh 2 chiều
+Tính toán (Computing) 	Thuật ngữ phủ chung cho tất cả những ngành có liên quan đến tin học
+Ngôn ngữ hình thức
+(formal grammar) 	Nghiên cứu các cấu trúc trừu tượng mô tả một ngôn ngữ hình thức một cách chính thức
+Khoa học thông tin
+(Informatics hoặc Information science) 	Nghiên cứu dữ liệu và thông tin, các phương pháp tạo, tìm hiểu, phân tích, lưu trữ, thu thập và quản lý. Khoa học thông tin được xem là cơ sở khoa học cho truyền thông và cơ sở dữ liệu. Nó còn quan tâm đến cách con người tạo, sử dụng, và tìm kiếm thông tin (xem en:cognitive science)
+An toàn thông tin 	Phân tích và cài đặt các tính năng đảm bảo an toàn cho hệ thống thông tin, chẳng hạn mật mã học
+Thu thập thông tin
+(Information retrieval) 	Nghệ thuật và khoa học tìm kiếm thông tin trong các tài liệu, tìm kiếm chính các tài liệu, tìm kiếm metadata mô tả các tài liệu, hoặc tìm kiếm văn bản, âm thanh, hình ảnh hoặc dữ liệu trong cơ sở dữ liệu (hoặc các cơ sở dữ liệu quan hệ độc lập hoặc các cơ sở dữ liệu nối mạng siêu văn bản như Internet hoặc intranet)
+Các hệ thống thông tin 	Ứng dụng tin học để hỗ trợ hoạt động của một tổ chức: hoạt động, cài đặt, và bảo trì máy tính, phần mềm và dữ liệu
+Công nghệ thông tin 	Một thuật ngữ bao trùm tất cả các ngành có liên quan đến tin học
+Từ điển học
+(lexicography) 	Nghiên cứu về tra cứu từ điển, bao gồm nghiên cứu về các từ điển điện tử và từ điển Internet
+Ngôn ngữ học 	Nghiên cứu các ngôn ngữ; nó gặp tin học ở những lĩnh vực như thiết kế ngôn ngữ lập trình và xử lý ngôn ngữ tự nhiên
+Logic 	Một hệ thống suy luận hình thức và nghiên cứu về các nguyên lý nền tảng của máy tính, cả ở mức phần cứng (digital logic) và phần mềm (kiểm định, trí tuệ nhân tạo v.v.)
+Các hệ thống thông tin quản lý 	Ngành con của các hệ thống thông tin, tập trung vào quản lý cá nhân và quản lý tài chính
+Toán học 	Chia sẻ nhiều kỹ thuật và chủ đề với khoa học máy tính, nhưng ở mức tổng quát hơn. Tin học lý thuyết chính là toán học về tính toán
+Kỹ nghệ phần mềm 	Tập trung vào đặc tả, phân tích, thiết kế, xây dựng, và kiểm thử phần mềm. Kỹ nghệ phần mềm bao gồm các phương pháp phát triển (chẳng hạn mô hình thác nước và lập trình cực đoan) và quản lý dự án
+[sửa] Các lĩnh vực quan trọng đối với tin học
+Cơ sở toán học
+
+Đại số Boolean – Toán học rời rạc – Lý thuyết đồ thị – Logic toán – Xác suất – Thống kê – Điều khiển học – Lý thuyết thông tin – Lý thuyết miền – Lý thuyết phân loại –
+Tin học lý thuyết
+
+Thuật toán – Độ phức tạp Kolmogorov – Mật mã học – Ngữ nghĩa hình thức của ngôn ngữ lập trình – Lý thuyết tính toán – Lý thuyết độ phức tạp tính toán – Lý thuyết kiểu – Tính toán lượng tử – Lý thuyết thông tin lượng tử
+Phần cứng
+
+Electrical engineering – Kỹ thuật máy tính – Các cấu trúc điều khiển – Vi lập trình – Số học – Các cấu trúc logic – Cấu trúc bộ nhớ – Vào/ra dữ liệu – Truyền thông dữ liệu – Thiết kế logic và Thiết kế ASIC  – Mạch tích hợp – VLSI design –
+Tổ chức hệ thống máy tính
+
+Kiến trúc máy tính – Mạng máy tính – Tính toán phân tán – Hiệu năng hệ thống – Cài đặt hệ thống máy tính – Mạng sensor không dây
+Phần mềm
+
+Hệ điều hành – Kỹ thuật lập trình – Chương trình máy tính và Lập trình – Lập trình tương tranh – Lập trình song song – Đặc tả chương trình – Kiểm thử chương trình – Kỹ nghệ phần mềm – Quản lý cấu hình – Mẫu thiết kế – Các phương pháp hình thức – Hướng đối tượng – Hướng khía cạnh – Tài liệu – Tối ưu hóa – Các phép đo phần mềm – Lập trình cấu trúc – Ngôn ngữ lập trình – C – Lập trình mệnh lệnh – Lập trình hàm – LISP – Lập trình logic – Prolog – Trình biên dịch – Phân tích từ vựng – Phân tích cú pháp – Tối ưu hóa trình biên dịch
+Dữ liệu và các hệ thống thông tin
+
+Cấu trúc dữ liệu – Mã hóa dữ liệu – Nén dữ liệu – Khôi phục dữ liệu – Lập trình – Lý thuyết thông tin – File – Định dạng files – Các hệ thống thông tin – Cơ sở dữ liệus – Lưu trữ thông tin – Thu thập thông tin – Biểu diễn và giao diện thông tin
+Các phương pháp tính toán
+
+Đại số – Trí tuệ nhân tạo – Đồ họa máy tính – Xử lý ảnh – Computer vision – Nhận dạng mẫu – Nhận dạng tiếng nói – Giả lập – Mô hình hóa – Tài liệu – Xử lý văn bản – Xử lý tín hiệu số
+Các ứng dụng máy tính
+
+Xử lý dữ liệu tổ chức – Lập kế hoạch tài nguyên doanh nghiệp – Quản lý quan hệ khách hàng – Các hệ thống quản lý nguồn nhân lực – Phần mềm toán học – Phân tích số – Chứng minh tự động – Các hệ thống đại số máy tính – Vật lý and Kỹ thuật – Hóa học tính toán – Vật lý tính toán – Sinh học and Y học – Tin sinh học – Sinh học tính toán – Tin y học – Khoa học xã hội and Khoa học hành vi – Computer-aided engineering – Người máy – Giao diện người máy – Tổng hợp tiếng nói – Usability engineering – Viễn thông – Lý thuyết hàng đợi
+Các chủ đề khác
+
+Công nghiệp máy tính – Các bài toán chưa giải được của khoa học máy tính – Các khía cạnh luật pháp về tin học – Phần mềm tự do – Mã nguồn mở – Quản lý các hệ thống thông tin – An ninh máy tính – An ninh thông tin

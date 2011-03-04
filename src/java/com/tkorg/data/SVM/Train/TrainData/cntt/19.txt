@@ -1,0 +1,38 @@
+﻿"Hiện thực mới" làm biến đổi doanh nghiệp
+
+Các cách tiếp cận cho phép đảm bảo tính năng động, cởi mở, hiệu quả và an toàn của doanh nghiệp hiện đại là trung tâm chú ý của các đại biểu tham dự Diễn đàn CIO toàn Nga lần thứ 18.
+Các doanh nghiệp (DN) đang trải qua một thực tế mà các nhà phân tích của hãng McKinsey gọi là “sự bình thường mới”. Việc thích nghi ra sao với tình thế đó được bàn tại Diễn đàn “Những hiện thực mới của CNTT - Thảo luận cởi mở về các vấn đề của lãnh đạo CNTT” tổ chức hôm 16/11/2010 ở Nga.
+
+
+
+Thế giới của sự năng động
+Như các chuyên gia nhấn mạnh, thế giới hiện đại đang được điều khiển không bởi thông tin nữa mà là sự năng động (Dynamics): Các DN buộc phải biết cách chuyển hoá năng động. Vị thế dẫn đầu trong môi trường mới sẽ thuộc về các tổ chức dám nghĩ dám làm và linh hoạt. Vì thế, tốc độ ra quyết định là điều quan trọng hàng đầu đối với DN. Việc cải tổ CNTT và các mô hình kinh doanh theo hướng này luôn kéo theo những nỗ lực lớn. Ví dụ, những phương pháp phân tích kinh doanh cũ nhiều khi không còn phù hợp với những nhiệm vụ hiện tại của DN nữa.
+
+“Sự vắng mặt lãnh đạo CNTT trong hội đồng quản trị khi thông qua hàng loạt quyết định quan trọng sẽ khiến DN gặp nguy hiểm, vì CNTT đóng vai trò rất quan trọng trong hoạt động của DN” - Vitali Lazorin, chuyên gia công nghệ và thông tin của PricewaterhouseCoopers nhấn mạnh.
+
+Tính đặc thù của DN có thể trở thành ưu thế cạnh tranh. Từ quan điểm công nghệ, trong vấn đề này, các phương pháp làm việc với siêu dữ liệu, phát triển hạ tầng quản lý các quy trình, nội dung và làm việc nhóm là rất quan trọng. Giá trị thường được các nhân viên tạo ra trong các quy trình kinh doanh phi cấu trúc. Sự chuẩn hoá các quá trình sáng tạo, thường chiếm “nhiều chỗ” trong các DN, có thể dẫn đến phá vỡ DN.
+
+“Giám đốc CNTT trước hết là một nhà quản lý” - Victor Evdokimov, Trưởng ban kiểm soát của “Barkleys Bank” đề cập. Và, điều đó chỉ được xác nhận với sự phổ biến của hoạt động thuê ngoài và thực tế các nhà tích hợp hệ thống ngày càng trở thành những nhà cung cấp dịch vụ. Mặt khác, bất kể là công nghệ nào, khi thiếu sự kiểm soát cần thiết các thay đổi đang diễn ra, chúng sẽ không thực thi như cách mong đợi. Quản lý các rủi ro CNTT ngày càng có vai trò quan trọng trong công việc hàng ngày của lãnh đạo CNTT. Sự không kịp thời trong triển khai các dự án, sự không tương thích của các hệ thống với đòi hỏi kinh doanh, những lỗi trong phát triển giải pháp, không truy cập được vào các dịch vụ - đó là những vấn đề rất phổ biến, tác động rất tiêu cực lên quan hệ của DN với bộ phận CNTT.
+
+Tất cả rồi sẽ lên… mây?
+
+“Sự dịch chuyển của các nhà cung cấp lên mô hình đám mây sẽ làm cuộc sống của CIO dễ thở hơn đáng kể. Vấn đề duy nhất là giá của những dịch vụ này” - Alexander Artiukhov, Giám đốc điều hành Bộ phận CNTT của Hệ thống thương mại Kopeyka xác nhận. Khi các dịch vụ đám mây trở thành đại trà, chúng sẽ rẻ đi đáng kể và việc sử dụng chúng trở nên thích hợp. Hiện giờ, thị trường đang ở thời kỳ “ươm mầm” nên giá cho những giải pháp mới còn cao. Giá thuê ngoài chất lượng cao cũng còn rất cao. Cộng với các vấn đề về chất lượng dịch vụ CNTT trong đa phần trường hợp, vai trò chính của thuê ngoài bị từ chối và các công ty vẫn tiếp tục duy trì đội ngũ CNTT riêng.
+
+Tuy nhiên, chính điện toán đám mây đang gắn liền với những mong đợi lớn của cộng đồng CNTT. Như Pavel Egorikhin, Giám đốc tiếp thị về sản phẩm điện toán mây của Microsoft thừa nhận, thì trong thời buổi hiện tại vẫn chưa hề có định nghĩa rõ ràng về các dịch vụ đám mây: Nó vẫn là một khái niệm đang “tiến hoá”. Những thuộc tính của nó là tự phục vụ, chi trả chỉ cho phần nguồn lực được sử dụng, ổn định và quy mô lớn… Gartner khẳng định đến năm 2012, 80% DN trong danh sách Fortune 1000 sử dụng dịch vụ điện toán mây dưới một hình thức nào đó.
+
+Công nghiệp CNTT đang trải qua con đường ngành điện đã đi. Thời đầu, các trạm điện cũng được xây dựng theo đặt hàng, không theo chuẩn và là tiện nghi đắt đỏ. Giờ đây, chỉ đơn giản cắm phích vào ổ điện là người dùng đã có dịch vụ điện chất lượng cao hợp chuẩn. CNTT cũng cần phải đi con đường chuẩn hoá dịch vụ và các dịch vụ đám mây đang trở thành các bước đi khổng lồ theo hướng đó. Thật ra, cũng tương tự ngành điện, hãy đừng quên các giải pháp đảm bảo các tổ máy phát diesel hoạt động liên tục vì chúng vẫn cần cho nhu cầu hiện đại trong điều kiện ngành điện đã trưởng thành. Có khả năng, thời điểm chuyển những ứng dụng kinh doanh sống còn lên các đám mây vẫn chưa tới.
+
+
+Chọn đám mây riêng hay công cộng?
+“Với các ngân hàng, dịch vụ đám mây hiện chưa tồn tại” - Igor Kovals, Giám đốc điều hành AMT Bank nói. Để các dịch vụ bắt đầu mang lại thích thú cho các tổ chức tài chính, ít nhất, nhà cung cấp trung tâm dữ liệu phải nằm trên lãnh thổ Nga và được FSTEK (Dịch vụ liên bang về kỹ thuật và kiểm soát xuất khẩu Nga) chứng nhận. Hiện thời, các nhà cung cấp chỉ bắt đầu các việc mới liên quan đến chứng nhận các dịch vụ của mình.
+“Cho đến nay, các công ty vẫn đề cao các đám mây riêng hơn là đám mây công cộng và nguyên nhân thì rất rõ ràng” - Sergei Chlek, lãnh đạo Bộ phận Bladesystem của HP nói. Thị trường Nga chưa có đủ số công ty cần thiết cảm thấy dễ chịu trên đám mây công cộng. Đây là tính bảo thủ đặc trưng cho đa số DN: Họ tin hơn vào những gì nằm trong tầm kiểm soát của họ.
+
+Chủ đề điện toán mây đã kéo dài trong phân ban về an toàn thông tin. Theo Kirill Kertsenbaum, chuyên gia cung ứng các giải pháp của IBM Tivoli Security, các công nghệ đám mây hiện đang phát triển rất mạnh và vì thế, số các điểm yếu dễ bị tấn công phát hiện được trong chúng cũng gia tăng chóng mặt. Nói chung, xu hướng đó diễn ra với bất cứ công nghệ phổ biến nào. Ảo hoá nằm trong cơ sở của các đám mây có hàng loạt ưu thế nhưng cũng mang đến hàng loạt nguy cơ mới. Chính vì thế, đảm bảo an ninh cho công nghệ này là tâm điểm chú ý của các công ty.
+
+Trong nhiều trường hợp, hypervisor (lớp phần mềm phục vụ ảo hoá, cho phép nhiều hệ điều hành chia sẻ một máy chủ phần cứng duy nhất - ND) trở thành điểm ngắt thống nhất không thể không khiến các công ty coi việc vận hành kinh doanh liên tục là tối quan trọng cảm thấy bất an. Những phương pháp tiếp cận cổ điển nhằm đảm bảo an toàn trong trường hợp này tỏ ra không hiệu quả: Thế là gia tăng giá thành và độ phức tạp của việc quản lý hệ thống bảo mật. Khi giải các bài toán này, các công ty buộc phải mua thiết bị bảo mật tương thích điện toán mây.
+
+Đa dạng hoá phần mềm
+
+Còn một chủ đề nóng trong những năm tới là phần mềm tự do. Thậm chí các ông lớn trên thị trường CNTT cũng đang thừa nhận cuộc chiến với chúng là vô nghĩa. Đặc biệt nhất là sự thay đổi trong lập trường công khai của Microsoft: công ty này đang quan tâm nhiều hơn đến việc làm cho các sản phẩm tự do làm việc được với hệ thống phần mềm độc quyền của họ. Hơn thế, để phần mềm tự do chống lại phần mềm độc quyền là việc làm vô nghĩa, Gleb LaDưzhensky, Giám đốc Microsoft Nga nói tới những tiền lệ hiển nhiên của việc dùng cả hai mô hình này.
+
+Đặc biệt, số giải pháp phần mềm nguồn mở trên nền Windows trong thời gian gần đây phát triển rất nhanh do hệ điều hành Windows rất phổ biến và các nhà phát triển không thể bỏ qua nó. Theo Dmitri Zaitsev, Giám đốc Trung tâm Gia công phần mềm Aplana Software, trên thị trường Nga đang có sự chuyển dịch từ từ sang sử dụng phần mềm miễn phí. Trong đó, nhiều giải pháp tạo dựng trên nền phần mềm miễn phí đã trở thành then chốt trong DN, khiến cho nguy cơ rủi ro với công ty đó càng tăng. Chính vì thế, nhiều DN bắt đầu quan tâm tới phần mềm thương mại với mã nguồn mở và hiểu được ích lợi của nó. Hơn nữa, trong những năm tới, người ta dự báo sẽ có sự bùng nổ các dịch vụ thương mại được đề xuất cung ứng trên cơ sở phần mềm tự do.

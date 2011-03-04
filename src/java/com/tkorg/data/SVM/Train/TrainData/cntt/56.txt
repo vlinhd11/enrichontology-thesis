@@ -1,0 +1,19 @@
+﻿Windows bị mất một số chức năng sử dụng
+
+Máy tính của em tự nhiên mất chức năng và Task Manager và File Run. Xin hỏi nguyên nhân tại sao.
+
+Ngo Xuan Dat
+
+Câu hỏi khác xin gửi về: vitinh@vnexpress.net
+
+Nguyên nhân của hiện tượng bạn mô tả là do máy tính của bạn đã bị nhiễm virus.
+
+Virus đã thay đổi thông số trong Registry (cơ sở dữ liệu của Windows chứa các thông tin về máy tính) để không cho phép hiển thị Task Manager (công cụ cung cấp thông tin và quản lý các chương trình đang chạy trên máy tính), Folder Options (tính năng cho phép người dùng thay đổi cách hiển thị các file, thư mục và một số chức năng khác). Do vậy, virus có thể tự che giấu bằng cách đặt thuộc tính ẩn cho file chứa virus. Người sử dụng sẽ không thể dùng các chương trình như Explorer để phát hiện virus và virus có thể tiếp tục âm thầm phá hoại lây nhiễm.
+
+Để đảm bảo an toàn và bảo vệ cho máy tính, bạn nên chọn một phần mềm diệt virus tốt để cài đặt và sử dụng thường xuyên, lâu dài cho máy tính của mình. Phần mềm diệt virus tốt phải đáp ứng được đầy đủ các tiêu chí: là phần mềm có bản quyền, cập nhật phiên bản mới thường xuyên và quan trọng là phải có hỗ trợ kỹ thuật trực tiếp từ nhà sản xuất khi có sự cố liên quan tới virus. Để có được đầy đủ các quyền lợi trên, bạn có thể sử dụng phần mềm diệt virus BkavPro 2010.
+
+Trong điều kiện bạn chưa trang bị được các phần mềm diệt virus có bản quyền, bạn có thể sử dụng phần mềm diệt virus BkavHome (phiên bản miễn phí của phần mềm diệt virus BkavPro) để xử lý virus trên máy tính của bạn theo hướng dẫn sau:
+
++ Tải phần mềm diệt virus BkavHome theo hướng dẫn tại đây. Lưu ý: để tránh xảy ra xung đột giữa các phần mềm diệt virus, gây ra việc nhận diện nhầm virus hoặc làm cho hệ thống hoạt động không ổn định, trước khi cài đặt BkavHome bạn nên gỡ bỏ các phần mềm diệt virus đã được cài đặt trên máy.
+
++ Liên hệ với Trung tâm Chăm sóc khách hàng Bkav theo số điện thoại 1900 58 58 50 hoặc email bkav@bkav.com.vn để được tư vấn, hỗ trợ, nếu sau khi thực hiện theo các bước trên mà bạn vẫn nghi ngờ máy tính của mình còn virus. Các chuyên gia của Bkav sẽ kiểm tra tình trạng máy tính của bạn, đưa ra phương án xử lý phù hợp nhất cho bạn. Nếu có biến thể virus mới, Bkav sẽ lấy mẫu và cập nhật vào phần mềm diệt virus Bkav, bạn đợi tới lần cập nhật tiếp theo của Bkav trong ngày thì virus sẽ bị diệt tận gốc.

@@ -1,0 +1,23 @@
+﻿E-marketing là gì?
+     
+09:07' PM - Thứ ba, 04/11/2003
+Tiếp thị điện tử (e-marketing) là cách thức tiếp thị vận dụng các tính năng của Internet nhằm mục đích cuối cùng là phân phối được sản phẩm hàng hóa hay dịch vụ đến thị trường tiêu thụ.
+
+Các quy tắc cơ bản của tiếp thị điện tử cũng giống như tiếp thị trong môi trường kinh doanh truyền thống. Hoạt động tiếp thị vẫn theo trình tự: Sản phẩm – Giá thành - Xúc tiến thương mại - Thị trường tiêu thụ.
+
+Tuy nhiên, tiếp thị điện tử gặp khó khăn ở vấn đề cơ sở hạ tầng công nghệ thông tin của thị trường mục tiêu (số lượng người sử dụng internet, mức độ sử dụng, tốc độ truy cập mạng,...). Nếu cơ sở hạ tầng còn yếu kém thì người tiêu thụ không có nhiều cơ hội tiếp cận với mạng Internet, tìm thông tin trên Net, mua hàng trực tuyến, tham gia đấu giá trên mạng, ....Như vậy, e-marketing khó có thể có ảnh hưởng đến người tiêu dùng ở thị trường đó.
+
+Phân biệt e-marketing, e-commerce và e-business
+
+E-marketing là cách thức dùng các phương tiện điện tử để giới thiệu, mời chào, cung cấp thông tin về sản phẩm hàng hóa hoặc dịch vụ của nhà sản xuất đến người tiêu dùng và thuyết phục họ chọn nó.
+E-commerce chỉ các hoạt động mua bán thông qua các phương tiện điện tử.
+E-business chỉ tất cả những hoạt động kiếm tiền từ mạng, từ việc bán hàng hoá, dịch vụ cho đến tư vấn, đầu tư.
+Các hình thức của e-marketing
+
+E-mail marketing: e-mail là cách tốt nhất để giao dịch với khách hàng. Chi phí thấp và không mang tính xâm nhập đột ngột như tiếp thị qua điện thoại. Doanh nghiệp có thể gởi thông điệp của mình đến mười ngàn người khác nhau, ở bất kỳ nơi đâu, trong thời gian nhanh nhất. Tuy nhiên, để không quấy rầy khách hàng như các spam, e-mail marketing nên xác nhận yêu cầu được cung cấp thông tin hoặc sự chấp thuận của khách hàng. Nếu không, các thông điệp e-mail được gởi đến sẽ bị cho vào thùng rác. Để tránh điều này, mọi thông tin do doanh nghiệp gởi đi phải mới mẻ, hấp dẫn và có ích đối với khách hàng.
+Website marketing: giới thiệu các sản phẩm trực tuyến. Các thông tin về sản phẩm ( hình ảnh, chất lượng, các tính năng, giá cả, ...) được hiển thị 24, 365, sẵn sàng phục vụ người tiêu dùng. Khách hàng có thể đặt hàng các sản phẩm, dịch vụ, và thanh toán trực tiếp trên mạng. Để thu hút sự chú ý và tạo dựng lòng trung thành nơi người tiêu dùng, doanh nghiệp phải đáp ứng đúng nhu cầu, thị hiếu của thị trường. Ví dụ, áp dụng chương trình khuyến mãi miễn phí địa chỉ e-mail, hộp thư, server, dung lượng hoặc không gian web. Mặt khác, website của doanh nghiệp phải có giao diện lôi cuốn, dễ sử dụng, dễ tìm thấy trong các site tìm kiếm. Doanh nghiệp cũng nên chú ý đến yếu tố an toàn, độ tin cậy và tiện dụng. Hoạt động mua bán phải rõ ràng, dễ dàng, , kiểm tra dễ dàng số lượng hàng hóa mua được, sử dụng thẻ điện tử để thanh toán. ...Hỏi đáp trực tuyến cũng được đánh giá cao trong một website tiếp thị.
+E-marketing ở Việt Nam
+
+Cơ sở hạ tầng kỹ thuật chưa cao, thiếu vốn, ngành ngân hàng kém phát triển, hệ thống pháp luật chưa đủ, lượng người dùng Internet còn thấp - đó là những nguyên do chính khiến e-marketing vẫn còn đang trong giai đoạn khởi đầu tại Việt Nam. Mặt khác, phần lớn người tiêu dùng Việt Nam chưa có điều kiện tiếp cận thông tin và công nghệ mới.Thu nhập bình quân đầu người còn thấp nên sức mua chưa cao. 
+
+Tuy nhiên, những năm gần đây, số lượng máy tính sử dụng cũng như số người truy nhập Internet tăng lên đáng kể, càng ngày càng có nhiều doanh nghiệp có website riêng để quảng bá cho đơn vị, sản phẩm, dịch vụ của mình. E-marketing đang từng bước được khai thác, áp dụng trong môi trường kinh doanh ở Việt Nam.

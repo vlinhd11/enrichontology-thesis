@@ -1,0 +1,48 @@
+﻿“Tư duy mở ” cho nhân lực CNTT
+
+Chuyên môn sâu về CNTT và tư duy logic của “dân CNTT” (lập trình viên, quản lý dự án, phụ trách hệ thống CNTT doanh nghiệp...) là điểm mạnh, nhưng nó lại có thể gây ra một số cản trở đối với sự phát triển cá nhân cũng như hiệu quả công việc của họ!
+Điểm yếu “kỹ năng mềm”
+
+
+
+Theo Thạc sỹ Hà Hoàng Huy, Giám Đốc Trung tâm Công nghệ Phần mềm Sài Gòn SSP (có hơn 60% nhân sự là kỹ sư CNTT) thì các nhân viên CNTT thường giỏi về tư duy logic, nhưng họ lại kém trong giao tiếp, kỹ năng trình bày và sự thuyết phục hiệu quả. Họ thường tập trung vào giải quyết các yêu cầu tính năng kỹ thuật trong việc cung cấp các giải pháp CNTT cho khách hàng. Nhưng họ lại ít chú trọng đến các yêu cầu khác như ngân sách và thời gian (vốn chiếm khoảng 80% mức độ quan trọng trong các quyết định chọn giải pháp CNTT của khách hàng). 
+
+Anh M.Đ, tốt nghiệp đại học Bách Khoa ngành CNTT, từng là LTV. Anh nói chỉ nhận rõ được sự khác biệt giữa “dân kỹ thuật CNTT" và các bạn “dân xã hội” làm báo chí, kinh doanh, marketting khi đã chuyển sang vị trí “Giám đốc sản phẩm” cho một website thương mại của nước ngoài - công việc này đòi hỏi cả về kỹ thuật lẫn kinh doanh. Anh cho rằng dân CNTT thường mạnh về tư duy logic và có lối suy nghĩ một cách hệ thống, bài bản. Nhưng họ thường chậm trong giao tiếp, và không nhanh nhạy khi xử lý các vấn đề có tính thay đổi liên tục trong bán hàng, tiếp thị...
+Đâu là chìa khóa của vấn đề?
+
+Đi tìm câu trả lời cho vấn đề cải thiện kỹ năng mềm cho nhân sự CNTT, chúng tôi đã trao đổi với 2 nhà quản lý có kinh nghiệm về vấn đề này:
+
+Thạc sỹ Hà Hoàng Huy, Giám đốc Trung tâm Công nghệ Phần mềm Sài Gòn SSP:
+LTV cần một tư duy tổng thể!
+
+Để khắc phục các điểm yếu về kỹ năng của các kỹ sư CNTT, giải pháp của tôi là cho các bạn tiếp xúc trực tiếp với khách hàng, lắng nghe và hiểu được nhu cầu thực sự của họ là gì. Điều này mang lại kết quả rất tốt. Họ nhận thức được rõ ràng yêu cầu tổng thể của khách hàng về ngân sách, thời gian, tính năng kỹ thuật. Nhờ đó họ điều chỉnh được ngay, coi trọng các yêu cầu về ngân sách và thời gian trong việc đưa ra các giải pháp CNTT cho khách hàng. Từ đó, khách hàng hài lòng hơn hẳn; hiệu quả kinh doanh của chúng tôi tăng lên.
+
+Ngoài ra chúng tôi còn tổ chức các khóa đào tạo về các kỹ năng giao tiếp, truyền đạt, giải quyết vấn đề mang tính xã hội... Việc chia sẻ kinh nghiệm làm việc với khách hàng giữa các nhóm sản phẩm khác nhau cũng giúp các bạn thay đổi tư duy và cải thiện các kỹ năng còn yếu của mình.
+
+Tiến sỹ phát triển nguồn nhân lực Nguyễn Hữu Lam, Giám đốc Trung tâm Nghiên cứu & Phát triển Quản trị (CEMD):
+Nhân sự CNTT cần có thêm tư duy kinh doanh!
+
+TGVT B: Với nhiều năm giảng dạy và tư vấn về lĩ̃nh vực chuyên môn này, theo ông đâu là sự khác biệt đáng kể giữa nhân sự chuyên về CNTT và các ngành khác?
+
+Kỹ năng “mềm” đầu tiên được phát triển trong các trường kinh doanh, thường được gọi là kỹ năng quản lý hiệu quả. Sau đó, nó được coi là kỹ năng làm việc hiệu quả (cần thiết cho mọi nghề nghiệp), và thậm chí là những kỹ năng sống, như: giao tiếp, thuyết trình, làm việc nhóm, giải quyết vấn đề, tư duy sáng tạo, quản lý thời gian...
+
+Theo TS Nguyễn Hữu Lam
+
+TS Nguyễn Hữu Lam: Nhân sự tốt nghiệp từ các trường kỹ thuật khác với các ngành xã hội... Họ thường mạnh trong năng lực làm việc độc lập và tư duy logic, nhưng yếu về tư duy linh hoạt, đa dạng và những năng lực làm việc với con người. Chính sự đòi hỏi về chuyên môn kỹ thuật rất sâu làm họ nhìn nhận công việc qua “lăng kính kỹ thuật” nhiều hơn hẳn so với “tư duy kinh doanh (biz-oriented mind) hay “tư duy dịch vụ khách hàng” (customer-service mind).
+
+Điều dễ nhìn thấy là nhân viên CNTT của các công ty rất bận rộn. Họ liên tục giúp xử lý các vấn đề về CNTT mà các nhân viên khác thường gặp, hay sự trục trặc của hệ thống thông tin. Anh ta có thể được đánh giá là người rất quan trọng trong công ty vì giúp được mọi người giải quyết ổn thỏa các phát sinh trong sử dụng CNTT.
+
+Tuy nhiên, từ một góc nhìn khác lại có thể đánh giá hiệu quả công việc của anh ta chưa tốt. Các nhân viên khác mất nhiều thời gian với những vấn đề nhỏ và tương đối đơn giản về CNTT, vì họ không được đào tạo và hỗ trợ đúng mức. Nếu anh chịu khó xây dựng một “Cẩm nang” về xử lý những lỗi thường gặp, giúp cho các nhân viên khác tự giải quyết được các vấn đề này, thì anh sẽ có nhiều thời gian để hoàn thiện hệ thống thông tin ở mức độ cao hơn.
+
+Như vậy, công việc ở công ty sẽ vẫn trôi chảy ngay cả khi anh không có mặt. Như vậy anh đã làm tốt “dịch vụ khách hàng” và tăng hiệu quả kinh doanh.
+
+Theo ông “kỹ năng mềm” của đội ngũ nhân sự CNTT có thể được cải thiện bằng cách nào?
+
+Chất lượng nhân sự trong doanh nghiệp thường được quyết định từ ba yếu tố: nền giáo dục, sự tự học và đào tạo của công ty. Ở Việt Nam, chất lượng của hệ thống giáo dục còn nhiều bất cập, đặc biệt trong việc phát triển các kỹ năng “mềm”. Vì vậy chất lượng nhân sự có được hoàn thiện không sẽ phụ thuộc nhiều vào hai yếu tố còn lại: sự tự học và việc đào tạo - phát triển của công ty.
+
+Nhân lực ngành nào cũng cần có các kỹ năng làm việc hiệu quả như: truyền đạt, giải quyết vấn đề và tư duy sáng tạo, quản lý xung đột và đàm phán, hoàn thiện và phát triển bản thân.
+Suy cho cùng, để công việc được thực hiện tốt, thì bất kỳ nhân sự nào cũng cần có các kỹ năng làm việc hiệu quả như: truyền đạt, giải quyết vấn đề và tư duy sáng tạo, quản lý xung đột và đàm phán, hoàn thiện và phát triển bản thân. Nếu các bạn sinh viên chuyên ngành kỹ thuật có “tư duy mở”, tự ý thức được rằng mình cần thêm những hiểu biết và năng lực về kinh doanh, xã hội, thì họ có thể chủ động tham gia vào các hoạt động đội nhóm, phong trào hay công tác xã hội để trau dồi các kỹ năng này cho tốt hơn ngay từ khi chưa ra trường.
+
+Trong doanh nghiệp, cũng cần đến một “tư duy mở” để nối kết mục tiêu kinh doanh và mục tiêu phát triển hệ thống CNTT. Cần phối hợp chặt chẽ giữa bộ phận nhân sự và người quản lý trực tiếp của nhân viên CNTT. Người quản lý trực tiếp có khả năng đánh giá được những thiếu hụt kỹ năng của nhân viên so với việc hoàn thành nhiệm vụ, và đạt tới các mục tiêu đã đặt ra, xem họ còn thiếu các kỹ năng nào để hoàn thiện hệ thống CNTT theo mục tiêu kinh doanh. Do vậy phải phối hợp với bộ phận nhân lực để tìm các khóa đào tạo hiệu quả cho nhân viên. Sau khi học xong, các nhà quản lý trực tiếp phải tạo điều kiện thuận lợi để họ áp dụng những kỹ năng mới học vào công việc. Như vậy mới có kết quả tốt.
+
+Trên thực tế tôi thấy nhiều công ty vừa và nhỏ Việt Nam chưa có sự phối hợp nhịp nhàng và đồng bộ những điều trên, nên chưa phát triển được nhân sự nói chung và nhân sự CNTT nói riêng. Do đó, hiệu quả đóng góp của hệ thống CNTT vào kết quả kinh doanh của doanh nghiệp chưa được nâng cao.

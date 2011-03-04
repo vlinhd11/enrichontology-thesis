@@ -1,0 +1,60 @@
+﻿Mật khẩu mã hóa động
+
+Mô hình có tính bảo mật cao với khả năng chống lại các kiểu tấn công đồng thời đảm bảo tính dễ sử dụng và tương thích với các hệ thống xác thực truyền thống.
+Mặc dù có nhiều điểm yếu, mô hình mật khẩu văn bản (cặp văn bản tên người dùng/mật khẩu – username/password) vẫn là cách thức xác thực phổ biến nhất trên máy tính hiện nay. Nhằm khắc phục các nhược điểm của mật khẩu văn bản, nhiều mô hình mật khẩu mới đã được đưa ra, tuy nhiên chưa mô hình nào được chấp nhận rộng rãi.
+
+Trong bài viết này, tôi đề nghị một mô hình mật khẩu mới được gọi là Dynamic Encoded Password (Mật khẩu mã hóa động), viết tắt là DEPAS. DEPAS cho phép người dùng nhập vào mật khẩu dưới dạng mã hóa tuân theo một lược đồ mã hóa động do hệ thống phát sinh ngẫu nhiên và truyền đạt một cách an toàn đến cho người dùng ở mỗi lần đăng nhập. Đây thực chất là phương pháp xác thực “thử thách/hồi đáp” [1], DEPAS có khả năng kháng cự hoàn hảo đối với các kiểu tấn công shoulder-surfing [2], chụp lén (hidden camera) và spyware [3]; DEPAS cũng miễn nhiễm với các kiểu tấn công brute force [4] và dictionary [5]. Do DEPAS dựa trên mật khẩu văn bản, các hệ thống và người dùng hiện tại (dựa trên mật khẩu văn bản) có thể chuyển đổi sang và thích ứng với DEPAS một cách dễ dàng.
+
+1. Giải pháp DEPAS
+
+Về cơ bản, DEPAS vẫn dựa trên cặp văn bản tên người dùng/mật khẩu truyền thống. Tuy nhiên trong quá trình nhập mật khẩu lúc đăng nhập, người dùng thay vì nhập mật khẩu thực (nguyên gốc), sẽ nhập một chuỗi ký tự bao gồm các ký tự giả và các ký tự được biến đổi. Ký tự giả người dùng có thể chọn từ bàn phím, còn ký tự biến đổi có được từ việc biến đổi một ký tự của mật khẩu thực qua một hàm ánh xạ. Người dùng sẽ không nhập các ký tự giả và ký tự biến đổi một cách tùy ý, thay vào đó một ký hiệu đồ họa (ký hiệu mã hóa) được hiển thị trước sẽ quy định người dùng phải nhập một ký tự giả hay là một ký tự biến đổi của mật khẩu thực. Mối tương quan giữa một ký hiệu mã hóa và một hàm mã hóa (tức là sử dụng một ký tự giả hay một ký tự biến đổi) là bí mật được chia sẻ giữa người dùng và hệ thống, và được thiết lập thông qua cấu hình người dùng trước đó. Bởi vì các ký hiệu mã hóa được sinh ra một cách ngẫu nhiên, chuỗi mật khẩu nhập vào sẽ khác xa so với mật khẩu thực, và sẽ rất khác nhau ở mỗi lần đăng nhập khác nhau, đây chính là đặc điểm tạo nên tính bảo mật cao của DEPAS.
+
+1.1. Phép biến đổi
+
+Cùng với ký tự giả, ký tự biến đổi được sử dụng để “làm rối” mật khẩu nhập vào (nhằm che dấu mật khẩu thực). Với mục đích cho đơn giản và dễ nhớ, tôi đề nghị các phép biến đổi ký tự dựa trên vị trí các phím trên bàn phím chuẩn QWERTY. Bảng 1 dưới đây trình bày một số phép biến đổi đề nghị (lưu ý phím Caps Lock được giả định là TẮT trong tất cả các phép biến đổi dưới đây). Xem bảng 1.
+
+Bảng 1. Một số phép biến đổi ký tự đề nghị
+Tên	Diễn giải	Ví dụ
+Non-transformed	Không biến đổi, ký tự được giữ nguyên	A	b	~	\	5
+“SHIFT” reversed	Ký tự biến đổi là nghịch đảo SHIFT của ký tự gốc	a	b	`	|	%
+Right-character	Ký tự biến đổi là liền kề bên phải của ký tự gốc	S	n	!	q	6
+Left-character	Ký tự biến đổi là liền kề bên trái của ký tự gốc	"	v	
++
+
+]	4
+Một hệ thống DEPAS có thể định nghĩa nhiều hơn và khác đi các phép biến đổi ký tự so với các phép biến đổi trình bày ở trên. Lưu ý rằng nếu hệ thống càng cung cấp nhiều phép biến đổi ký tự, thì tính bảo mật của mô hình càng tăng, trong khi không làm tăng nhiều mức độ phức tạp trong việc sử dụng của người dùng, do người dùng được phép chọn chỉ sử dụng những phép biến đổi cụ thể và chỉ cần nhớ các phép biến đổi đó mà thôi.
+
+
+Có thể nêu một ví dụ minh họa tương đương trong mật khẩu văn bản hiện nay là giả sử ta có hai trường hợp: 1) mật khẩu chỉ bao gồm các ký tự số (từ 0 đến 9) và 2) mật khẩu bao gồm tất cả các ký tự thấy được (94 ký tự). Nếu mật khẩu người dùng có độ dài là n (tức là mật khẩu gồm n ký tự), thì số các khả năng có thể có của mật khẩu (không gian mật khẩu) trong trường hợp 1 là 10^n (10 lũy thừa n); trong khi ở trường hợp 2 là 94^n (94 lũy thừa n), lớn hơn rất nhiều so với trường hợp 1 (có nghĩa là mô hình mật khẩu ở trường hợp 2 có tính bảo mật mạnh hơn nhiều so với trường hợp 1), tuy nhiên xét về tính thuận tiện/dễ sử dụng, chúng ta thấy rằng việc sử dụng mật khẩu ở 1 và 2 cũng chẳng khác nhau nhiều lắm.
+
+1.2. Tương quan giữa ký hiệu mã hóa và hàm mã hóa
+
+Hệ thống sẽ bao gồm một số (ví dụ 9 biểu tượng) các biểu tượng đồ họa khác nhau, được gọi là các biểu tượng mã hóa. Người dùng sẽ liên kết mỗi biểu tượng mã hóa với một hàm mã hóa xác định của hệ thống. Lưu ý, DEPAS cho phép nhiều biểu tượng mã hóa liên kết với cùng một hàm mã hóa. Các biểu tượng mã hóa sẽ được dùng như là các ký hiệu để thông báo cho người dùng biết cách mã hóa ký tự của mật khẩu như thế nào (tức là nhập ký tự giả hay biến đổi ký tự của mật khẩu thực) trong quá trình nhập mật khẩu. Bảng 2 dưới đây sẽ trình bày 9 biểu tượng mã hóa mẫu, và ví dụ về tùy chọn liên kết giữa biểu tượng mã hóa và hàm mã hóa của người dùng. Xem bảng 1.
+
+Một người dùng khác có thể thiết lập một tùy chọn liên kết đơn giản hơn (do đó sẽ dễ nhớ hơn), ví dụ, liên kết tất cả các biểu tượng mã hóa với hai hàm mã hóa “Non-transformed” và “Ký tự giả”. Dễ thấy rằng nếu tất cả biểu tượng mã hóa đều được liên kết với hàm “Non-transformed”, thì quá trình đăng nhập của DEPAS sẽ không khác với quá trình đăng nhập của hệ thống mật khẩu văn bản hiện tại.
+
+Một vấn đề cần lưu ý, là bởi vì số lượng các biểu tượng mã hóa khá nhỏ (ví dụ 9 biểu tượng), nên nếu hệ thống truyền đạt hàm mã hóa cần thiết cho người dùng bằng cách hiển thị đơn giản biểu tượng mã hóa trên màn hình đăng nhập của người dùng, thì một kẻ tấn công (qua shoulder-surfing, hidden camera hoặc spyware) có thể sẽ nhanh chóng tìm ra hàm mã hóa thật sự liên kết với biểu tượng thông qua một số lần quan sát. Để tăng tính gây rối (do đó nâng cao tính bảo mật) của việc truyền đạt ký hiệu mã hóa, một bảng bao gồm 9 ô trong đó có chứa 9 biểu tượng mã hóa sẽ được sử dụng thay cho các biểu tượng mã hóa riêng rẽ. Người dùng sẽ chọn trước một ô xác định trong bảng gọi là ô cơ sở của mình. Biểu tượng nằm trong ô cơ sở sẽ là biểu tượng mã hóa thật sự (do đó sẽ quy định phép mã hóa ký tự mà người dùng phải sử dụng). Như vậy đối với một người quan sát, không phải một biểu tượng đồ họa riêng rẽ, mà là nguyên một bảng bao gồm cả 9 biểu tượng sắp xếp bên trong mới là một ký hiệu mã hóa. Phương pháp này giúp làm tăng số ký hiệu mã hóa khác nhau lên rất nhiều (từ 9 lên 9!), cũng có nghĩa là kẻ tấn công sẽ khó khăn hơn để tìm ra mối quan hệ giữa một ký hiệu mã hóa và một hàm mã hóa, do đó làm tăng tính bảo mật của hệ thống nhưng lại không tăng độ phức tạp cho việc sử dụng của người dùng. Xem hình 1.
+
+1.3. Màn hình đăng nhập và quá trình nhập mật khẩu của DEPAS
+
+Trên màn hình đăng nhập người dùng (trong chương trình client của DEPAS), bên cạnh cặp tên người dùng/mật khẩu truyền thống sẽ có thêm một bảng gồm 9 ô (3 x 3) trong đó chứa 9 biểu tượng mã hóa được bố trí một cách ngẫu nhiên (hình 2). Trước khi mỗi ký tự được nhập vào cho mật khẩu, chương trình client sẽ lại hoán chuyển ngẫu nhiên vị trí của 9 biểu tượng trong các ô của bảng. Căn cứ vào biểu tượng nằm trong ô cơ sở, người dùng biết hàm mã hóa yêu cầu cho ký tự sắp sửa nhập vào là gì để nhập vào một ký tự tương ứng. Nếu hàm mã hóa yêu cầu là “ký tự giả”, người dùng sẽ nhập vào một ký tự tùy ý. Nếu hàm mã hóa yêu cầu là một hàm biến đổi, người dùng sẽ nhập vào một ký tự biến đổi tương ứng với một ký tự của mật khẩu thực. Quá trình nhập mật khẩu hoàn tất khi tất cả các ký tự của mật khẩu thực đã được nhập (ở dạng biến đổi, dĩ nhiên). Chương trình client sẽ chuyển chuỗi mật khẩu được nhập và thông tin về các ký hiệu mã hóa đã được phát sinh trong suốt quá trình nhập mật khẩu đến server để dùng cho việc xác thực. Dựa trên thông tin người dùng (ô cơ sở và cách thức liên kết mã hóa của người dùng), hệ thống sẽ giải mã mật khẩu đăng nhập về lại mật khẩu thực (loại bỏ các ký tự giả, phục hồi ký tự mật khẩu bị biến đổi về ký tự gốc) trước khi thực hiện việc xác thực một cách thông thường.
+
+Phần kế tiếp sẽ trình bày một ví dụ minh họa quá trình nhập mật khẩu của DEPAS. Giả sử chuỗi mật khẩu thực của người dùng là ABC123 (một mật khẩu tương đối “yếu”), người dùng đã thiết lập liên kết mã hóa như Bảng 2 và chọn ô (2, 2) là ô cơ sở. Trong quá trình nhập mật khẩu, chương trình client của DEPAS hiển thị các ký hiệu mã hóa như hình 3 dưới đây. Chúng ta thấy rằng người dùng đã nhập chuỗi mật khẩu là T^azNbLV`q(2!$#, chuỗi này khác xa so với mật khẩu thực ABC123 và tỏ ra là một mật khẩu rất “mạnh”!
+
+2. Phân tích khả năng bảo mật của DEPAS
+
+Chống kiểu tấn công shoulder-surfing: Rõ ràng cho dù kẻ tấn công có ghi nhận được cả chuỗi mật khẩu người dùng nhập vào và các ký hiệu mã hóa phát sinh trong quá trình đăng nhập của người dùng, hắn cũng không thể đoán ra được mật khẩu thực cũng như ý nghĩa mã hóa thật sự của các ký hiệu mã hóa, hai thành phần cần thiết để truy cập hệ thống. Do đó DEPAS có khả năng chống lại hoàn hảo các kiểu tấn công Shoulder-surfing, hidden camera và spyware.
+
+Chống tấn công tìm kiếm brute force: Theo cách thức hoạt động của DEPAS, kẻ tấn công chỉ có thể thực hiện brute-force đối với mật khẩu nhập vào (bởi vì nếu chỉ có mật khẩu thực không thôi thì không đăng nhập được). DEPAS cũng có không gian mật khẩu (password space) giống như mật khẩu văn bản là 94^n (với n là độ dài mật khẩu đăng nhập). Tuy nhiên mật khẩu đăng nhập hầu như luôn dài hơn nhiều so với mật khẩu thực (do có thêm các ký tự giả), thêm nữa mật khẩu đăng nhập luôn thay đổi và khác nhau ở mỗi lần đăng nhập, nên kiểu tấn công brute-force hầu như không khả thi đối với DEPAS.
+
+Chống tấn công dictionary: Mật khẩu nhập vào luôn thay đổi ngẫu nhiên nên kiểu tấn công dictionary là vô dụng đối với DEPAS Tính tương thích và tính dễ sử dụng: Do DEPAS vẫn xác thực người dùng dựa trên mật khẩu văn bản nên các hệ thống xác thực hiện tại có thể dễ dàng nâng cấp lên DEPAS. DEPAS cho phép người dùng điều khiển quá trình thích ứng của mình với DEPAS để có được một cân bằng tối ưu giữa tính bảo mật và tính dễ sử dụng thông qua cơ chế cấu hình người dùng (liên kết mã hóa) linh hoạt.
+
+
+3. Kết luận
+
+DEPAS có tính bảo mật cao, có khả năng chống lại các kiểu tấn công phổ biến hiện nay, đồng thời cũng đảm bảo tính dễ sử dụng và tương thích với các hệ thống xác thực truyền thống. Các bất tiện nhỏ của DEPAS là người dùng có thể phải nhập nhiều ký tự hơn cho mật khẩu, và cần phải nhớ thêm một số biểu tượng đồ họa.
+
+Các đề nghị nghiên cứu tiếp theo bao gồm việc tìm hiểu/thu thập các kết quả của người dùng thực từ việc sử dụng thật sự hệ thống DEPAS; Nghiên cứu cách thức người dùng nên trộn các ký tự giả trong chuỗi mật khẩu đăng nhập như thế nào để có hiệu quả làm rối cao nhất; Nghiên cứu về các hàm biến đổi ký tự. Đây là những việc mà tôi chưa hoàn thành do giới hạn về nguồn lực và thời gian. Do đó tôi hoan nghênh sự hợp tác của các bạn quan tâm đến chủ đề này để phát triển DEPAS thành một ứng dụng/giải pháp khả thi thật sự.
+
+
+Hình 3. Các ký hiệu mã hóa và các ký tự mật khẩu được nhập

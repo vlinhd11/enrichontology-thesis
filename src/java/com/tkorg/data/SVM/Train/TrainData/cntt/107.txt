@@ -1,0 +1,44 @@
+﻿Trí tuệ nhân tạo hay trí thông minh nhân tạo (tiếng Anh: artificial intelligence hay machine intelligence, thường được viết tắt là AI) là trí tuệ được biểu diễn bởi bất cứ một hệ thống nhân tạo nào. Thuật ngữ này thường dùng để nói đến các máy tính có mục đích không nhất định và ngành khoa học nghiên cứu về các lý thuyết và ứng dụng của trí tuệ nhân tạo.
+Tuy rằng trí thông minh nhân tạo có nghĩa rộng như là trí thông minh trong khoa học viễn tưởng, nó là một trong những ngành trọng yếu của tin học. Trí thông minh nhân tạo liên quan đến cách cư xử, sự học hỏi và khả năng thích ứng thông minh của máy móc. Các ví dụ ứng dụng bao gồm các tác vụ điều khiển, lập kế hoạch và lập lịch (scheduling), khả năng trả lời các câu hỏi về chẩn đoán bệnh, trả lời khách hàng về các sản phẩm của một công ty, nhận dạng chữ viết tay, nhận dạng tiếng nói và khuôn mặt. Bởi vậy, trí thông minh nhân tạo đã trở thành một môn học, với mục đích chính là cung cấp lời giải cho các vấn đề của cuộc sống thực tế. Ngày nay, các hệ thống nhân tạo được dùng thường xuyên trong kinh tế, y dược, các ngành kỹ thuật và quân sự, cũng như trong các phần mềm máy tính thông dụng trong gia đình và trò chơi điện tử.
+Mục lục [ẩn]
+1 Các trường phái trí tuệ nhân tạo
+2 Lịch sử
+3 Triết lý Trí tuệ nhân tạo
+4 Máy tỏ ra có trí tuệ
+5 Các nhà nghiên cứu AI
+6 Tham khảo thêm
+6.1 Sách khoa học
+6.2 Các chủ đề có liên quan
+6.2.1 Các bài toán điển hình áp dụng các phương pháp TTNT
+6.2.2 Các lĩnh vực khác cài đặt các phương pháp TTNT
+7 Liên kết ngoài
+7.1 Tổng quan
+7.2 Các tổ chức liên quan
+[sửa]Các trường phái trí tuệ nhân tạo
+
+
+
+Robot TOPIO (TOSY - Việt Nam)
+
+
+Robot ASIMO (HONDA - Nhật Bản)
+Trí tuệ nhân tạo (TTNT) chia thành hai trường phái tư duy: TTNT truyền thống và Trí tuệ tính toán.
+TTNT truyền thống hầu như bao gồm các phương pháp hiện được phân loại là các phương pháp học máy (machine learning), đặc trưng bởi hệ hình thức (formalism) và phân tích thống kê. Nó còn được biết với các tên TTNT biểu tượng, TTNT logic, TTNT ngăn nắp (neat AI) và TTNT cổ điển (Good Old Fashioned Artificial Intelligence). (Xem thêm ngữ nghĩa học.) Các phương pháp gồm có:
+Hệ chuyên gia: áp dụng các khả năng suy luận để đạt tới một kết luận. Một hệ chuyên gia có thể xử lý các lượng lớn thông tin đã biết và đưa ra các kết luận dựa trên các thông tin đó. Clippy chương trình trợ giúp có hình cái kẹp giấy của Microsoft Office là một ví dụ. Khi người dùng gõ phím, Clippy nhận ra các xu hướng nhất định và đưa ra các gợi ý.
+Lập luận theo tình huống.
+Mạng Bayes.
+Trí tuệ tính toán nghiên cứu việc học hoặc phát triển lặp (ví dụ: tinh chỉnh tham số trong hệ thống, chẳng hạn hệ thống connectionist). Việc học dựa trên dữ liệu kinh nghiệm và có quan hệ với Trí tuệ nhân tạo phi ký hiệu, TTNT lộn xộn (scruffy AI) và tính toán mềm (soft computing). Các phương pháp chính gồm có:
+Mạng neuron: các hệ thống mạnh về nhận dạng mẫu (pattern recognition).
+Hệ mờ (Fuzzy system): các kỹ thuật suy luận không chắc chắn, đã được sử dụng rộng rãi trong các hệ thống công nghiệp hiện đại và các hệ thống quản lý sản phẩm tiêu dùng.
+Tính toán tiến hóa (Evolutionary computation): ứng dụng các khái niệm sinh học như quần thể, biến dị và đấu tranh sinh tồn để sinh các lời giải ngày càng tốt hơn cho bài toán. Các phương pháp này thường được chia thành các thuật toán tiến hóa (ví dụ thuật toán gien) và trí tuệ bầy đàn (swarm intelligence) (chẳng hạn hệ kiến).
+TTNT dựa hành vi (Behavior based AI): một phương pháp mô-đun để xây dựng các hệ thống TTNT bằng tay.
+Người ta đã nghiên cứu các hệ thống thông minh lai (hybrid intelligent system), trong đó kết hợp hai trường phái này. Các luật suy diễn của hệ chuyên gia có thể được sinh bởi mạng nơ-ron hoặc các luật dẫn xuất (production rule) từ việc học theo thống kê như trong kiến trúc ACT-R.
+Các phương pháp trí tuệ nhân tạo thường được dùng trong các công trình nghiên cứu khoa học nhận thức (cognitive science), một ngành cố gắng tạo ra mô hình nhận thức của con người (việc này khác với các nghiên cứu TTNT, vì TTNT chỉ muốn tạo ra máy móc thực dụng, không phải tạo ra mô hình về hoạt động của bộ óc con người).
+[sửa]Lịch sử
+
+Bài chi tiết: Lịch sử ngành trí tuệ nhân tạo
+Đầu thế kỷ 17, René Descartes đã đưa ra quan điểm rằng cơ thể của động vật chỉ là các cỗ máy tinh xảo. Năm 1642 Blaise Pascal chế tạo chiếc máy tính cơ học đầu tiên. Charles Babbage và Ada Lovelace đã nghiên cứu về các máy tính cơ học có khả năng lập trình được.
+Bertrand Russell và Alfred North Whitehead đã xuất bản cuốn Principia Mathematica, trong đó logic hình thức đã được cách mạng hóa. Warren McCulloch và Walter Pitts xuất bản A Logical Calculus of the Ideas Immanent in Nervous Activity năm 1943 đặt nền móng cho mạng nơ-ron.
+Thập niên 1950 là thời kỳ của nhiều hoạt động trong lĩnh vực TTNT. John McCarthy thiết lập thuật ngữ "artificial intelligence" trong hội thảo đầu tiên dành cho chủ đề này. Ông còn sáng chế ngôn ngữ lập trình Lisp. Alan Turing đưa ra "Turing test" như là một phương pháp kiểm chứng hành vi thông minh. Joseph Weizenbaum xây dựng ELIZA, một chatterbot cài đặt liệu pháp tâm lý Rogerian.
+Trong các thập niên 1960 và 1970, Joel Moses biểu diễn sức mạnh của suy diễn ký hiệu trong việc tích hợp các bài toán trong chương trình Macsyma, chương trình toán học sử dụng cơ sở tri thức đầu tiên thành công. Marvin Minsky và Seymour Papert xuất bản Perceptrons, trong đó chứng minh các giới hạn của các mạng nơ-ron đơn giản, và Alain Colmerauer phát triển ngôn ngữ lập trình Prolog. Ted Shortliffe biển diễn sức mạnh của các hệ thống sử dụng luật để biểu diễn tri thức và suy diễn trong các chẩn đoán và liệu pháp y học trong một chương trình mà đối khi được gọi là hệ chuyên gia đầu tiên. Hans Moravec phát triển chiếc xe đầu tiên được máy tính điều khiển tự động vượt chướng ngại vật.
+Thập niên 1980, mạng nơ-ron được sử dụng rộng rãi với thuật toán truyền ngược (backpropagation), thuật toán này đã được mô tả đầu tiên bởi Paul John Werbos vào năm 1974. Thập niên 1990 đánh dấu các thành tựu chính trong nhiều lĩnh vực của TTNT và được thể hiện trong nhiều ứng dụng đa dạng. Nổi tiếng nhất là Deep Blue, một máy tính chơi cờ vua đã thắng Garry Kasparov trong một trận đấu 6 ván nổi tiếng năm 1997. DARPA tuyên bố rằng chi phí tiết kiệm được do cài đặt các phương pháp TTNT cho việc lập lịch cho các đơn vị trong Chiến tranh vùng Vịnh lần thứ nhất đã bù lại được toàn bộ đầu tư của chính phủ Mỹ cho nghiên cứu TTNT kể từ thập niên 1950.

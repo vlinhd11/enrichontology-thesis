@@ -1,0 +1,4 @@
+﻿Khai mạc hội thảo Công nghệ thông tin quốc gia
+
+Hội thảo Công nghệ thông tin quốc gia lần thứ 12 về một số vấn đề chọn lọc của công nghệ thông tin và truyền thông với chủ đề “Phát hiện tri thức từ dữ liệu” do Viện Công nghệ thông tin VN phối hợp với trường ĐH Lạc Hồng, Đồng Nai tổ chức đã khai mạc ngày 5.8.
+Hội thảo diễn ra trong hai ngày 5-6.8 với sự tham dự của hơn 300 nhà khoa học, báo cáo 6 vấn đề chính: Phát hiện tri thức từ dữ liệu, Cơ sở toán học của tin học, xử lý ảnh và kỹ thuật video, Công nghệ mạng và viễn thông, Công nghệ đa phương tiện, Công nghệ phần mềm. Hội thảo là diễn đàn để các nhà khoa học và quản lý trong cả nước chia sẻ kinh nghiệm nghiên cứu, tìm kiếm sự tài trợ hợp tác, trao đổi triển khai các đề tài nghiên cứu trong lĩnh vực công nghệ thông tin và truyền thông.

@@ -1,0 +1,11 @@
+﻿Khoa học thông tin là một ngành khoa học liên ngành với mối quan tâm chính là việc thu thập, phân loại, xử lý, lưu trữ, tìm kiếm và phổ biến thông tin. Ngành khoa học thông tin nghiên cứu ứng dụng và việc sử dụng tri thức trong các tổ chức, và trong sự tương tác giữa người, các tổ chức, và các hệ thống thông tin. Ngành này thường được nghiên cứu như là một nhánh của khoa học máy tính hay tin học và có quan hệ chặt chẽ với khoa học nhận thức (cognitive science) và các ngành khoa học xã hội.
+Khoa học thông tin tập trung tìm hiểu các vấn đề từ góc độ của người giữ trách niệm có liên quan và sau đó áp dụng công nghệ thông tin và các công nghệ khác theo sự cần thiết. Nói cách khác, ngành khoa học này xử lý bài toán đặt ra trước thay vì làm việc với công nghệ trước. Trong ngành khoa học thông tin những năm gần đây, người ta quan tâm nhiều đến tương tác người-máy, phần mềm nhóm (groupware), semantic web, các quy trình thiết kế lặp (iterative design process) và tới cách con người tạo, sử dụng và tìm thông tin.
+Không nên lẫn lộn khoa học thông tin với lý thuyết thông tin (information theory) - ngành nghiên cứu khái niệm toán học của thông tin, hay với Tin học - ngành khoa học rộng hơn nghiên cứu nhiều khía cạnh của xử lý thông tin.
+[sửa]Xem thêm
+
+Tin học
+Khoa học nhận thức, Tâm lý học nhật thức – Trí tuệ với vai trò một hệ thống xử lý thông tin.
+Khoa học máy tính
+Công nghệ thông tin – Sử dụng máy tính và công nghệ để quản lý thông tin.
+Quản lý tri thức – Tin học và tri thức.
+Triết học thông tin (Philosophy of Information)
