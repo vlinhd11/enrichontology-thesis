@@ -54,6 +54,7 @@ public class Constants {
                                             "Ráo_trọi", "Thỏm", "Thọt", "Tỏ_ra", "Tỏ_vẻ", "Tọt", "Trỏng", "Trời_ơi",
                                             "Trời_đất_ơi", "Úi", "Úi_chà", "Úi_dào", "Về", "Về_mặt", "Về_phía", "Ví_phỏng",
                                             "Xềnh_Xệch", "Ý", "Ý_chừng", "Ý_da"};
+    public static String[] words = {".", ",", "(", ")", ";", "!", "-", "?", "...", ":", "“", "”"};
 
     /* number */
     
@@ -65,7 +66,6 @@ public class Constants {
     public static String PATH_SVM_TRAIN_TRAINDATA = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/TrainData").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
     public static String PATH_SVM_TRAIN_REMOVESTOPWORDFILES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/RemoveStopwordFiles").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
     public static String PATH_SVM_TRAIN_ITFEATURES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/IT_features.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
-    public static String PATH_SVM_TRAIN_OTHERFEATURES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/other_features.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
     public static String PATH_SVM_TRAIN_TFIDFFEATURES = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/tfidf_features.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
     public static String PATH_SVM_TRAIN_MODEL = Thread.currentThread().getContextClassLoader().getResource("com/tkorg/data/SVM/Train/train_model.txt").getPath().replace("%20", " ").replaceFirst("/", "").replace("build/web/WEB-INF/classes", "src/java");
 
