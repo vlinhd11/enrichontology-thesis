@@ -21,12 +21,13 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author DANHIT
  */
-public class Main {
+public class Features_Main {
 
     public static ArrayList < String > features = null;
     private int quantityOfFeatures = 0;
@@ -34,7 +35,7 @@ public class Main {
     private ArrayList < TFIDF > tfidfFMax = null;
     private boolean isCNTT;
 
-    public Main() {
+    public Features_Main() {
         fileList = new ArrayList < MyFile >();
         tfidfFMax = new ArrayList < TFIDF >();
         features = new ArrayList < String >();
@@ -57,43 +58,63 @@ public class Main {
     public String outFile(String pathFile) {
 
         String result = "";
-        String strFeaturesList = "";
-        int temp;
+        if (isCNTT == true) {
+            String strFeaturesList = "";
+            int temp;
 
-        for (int i = 0; i < quantityOfFeatures; i++) {
-            strFeaturesList = strFeaturesList + tfidfFMax.get(i).getWord() + "\n";
-        }
-        if (isCNTT == true)
-            temp = 1;
-        else
-            temp = -1;
-        for (int i = 0; i < fileList.size(); i++) {
-            result = result + temp + " ";
-            for (int j = 0; j < quantityOfFeatures; j++) {
-                result = result + (j + 1) + ":";
-                boolean isExist = false;
-                for (int k = 0; k < fileList.get(i).getTfidfList().size(); k++) {
-                    if (tfidfFMax.get(j).getWord().equals(fileList.get(i).getTfidfList().get(k).getWord())) {
-                        isExist = true;
-                        result = result + fileList.get(i).getTfidfList().get(k).getValue() + " ";
+            for (int i = 0; i < quantityOfFeatures; i++) {
+                strFeaturesList = strFeaturesList + tfidfFMax.get(i).getWord() + "\n";
+            }
+            if (isCNTT == true)
+                temp = 1;
+            else
+                temp = -1;
+            for (int i = 0; i < fileList.size(); i++) {
+                result = result + temp + " ";
+                for (int j = 0; j < quantityOfFeatures; j++) {
+                    result = result + (j + 1) + ":";
+                    boolean isExist = false;
+                    for (int k = 0; k < fileList.get(i).getTfList().size(); k++) {
+                        if (tfidfFMax.get(j).getWord().equals(fileList.get(i).getTfList().get(k).getWord())) {
+                            isExist = true;
+                            result = result + fileList.get(i).getTfList().get(k).getFrequency() + " ";
+                        }
+                    }
+                    if (!isExist) {
+                        result = result + "0 ";
                     }
                 }
-                if (!isExist) {
-                    result = result + "0 ";
-                }
+                result = result + "\n";
             }
-            result = result + "\n";
-        }
 
-        try {
-            File file = new File(pathFile);
-            BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
-            output.write(strFeaturesList);
-            output.close();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ie) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ie);
+            try {
+                File file = new File(pathFile);
+                BufferedWriter output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
+                output.write(strFeaturesList);
+                output.close();
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ie) {
+                Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ie);
+            }
+        } else {
+            for (int i = 0; i < fileList.size(); i++) {
+                result = result + "-1" + " ";
+                for (int j = 0; j < quantityOfFeatures; j++) {
+                    result = result + (j + 1) + ":";
+                    boolean isExist = false;
+                    for (int k = 0; k < fileList.get(i).getTfList().size(); k++) {
+                        if (features.get(j).equals(fileList.get(i).getTfList().get(k).getWord())) {
+                            isExist = true;
+                            result = result + fileList.get(i).getTfList().get(k).getFrequency() + " ";
+                        }
+                    }
+                    if (!isExist) {
+                        result = result + "0 ";
+                    }
+                }
+                result = result + "\n";
+            }
         }
 
         return result;
@@ -107,10 +128,10 @@ public class Main {
             for (int j = 0; j < quantityOfFeatures; j++) {
                 result = result + (j + 1) + ":";
                 boolean isExist = false;
-                for (int k = 0; k < fileList.get(i).getTfidfList().size(); k++) {
-                    if (features.get(j).equals(fileList.get(i).getTfidfList().get(k).getWord())) {
+                for (int k = 0; k < fileList.get(i).getTfList().size(); k++) {
+                    if (features.get(j).equals(fileList.get(i).getTfList().get(k).getWord())) {
                         isExist = true;
-                        result = result + fileList.get(i).getTfidfList().get(k).getValue() + " ";
+                        result = result + fileList.get(i).getTfList().get(k).getFrequency() + " ";
                     }
                 }
                 if (!isExist) {
@@ -125,9 +146,9 @@ public class Main {
             DataOutputStream data = new DataOutputStream(output);
             data.writeBytes(result);
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ie) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ie);
+            Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ie);
         }
 
         return result;
@@ -201,24 +222,27 @@ public class Main {
         if (cnttFiles.exists() && cnttFiles.isDirectory()) {
             File[] textFiles = cnttFiles.listFiles();
             for (int i = 0; i < textFiles.length; i++) {
-                MyFile file = new MyFile();
-                file.setName(textFiles[i].getName());
-                
-                try {
-                    reader = new BufferedReader(new InputStreamReader(new FileInputStream(textFiles[i]), "UTF8"));
-                    String text = "";
-                    ArrayList < String > temp = new ArrayList < String >();
-                    boolean isFirst = true;
-                    while ((text = reader.readLine()) != null) {
-                        if (isFirst == false)
-                            temp.add(text);
-                        isFirst = false;
+                int index = textFiles[i].getPath().indexOf(".svn");
+                if (index == -1) {
+                    MyFile file = new MyFile();
+                    file.setName(textFiles[i].getName());
+
+                    try {
+                        reader = new BufferedReader(new InputStreamReader(new FileInputStream(textFiles[i]), "UTF8"));
+                        String text = "";
+                        ArrayList < String > temp = new ArrayList < String >();
+                        boolean isFirst = true;
+                        while ((text = reader.readLine()) != null) {
+                            if (isFirst == false)
+                                temp.add(text);
+                            isFirst = false;
+                        }
+                        file.setWords(temp);
+                    } catch (Exception e) {
+                        System.out.println(e.toString());
                     }
-                    file.setWords(temp);
-                } catch (Exception e) {
-                    System.out.println(e.toString());
+                    fileList.add(file);
                 }
-                fileList.add(file);
             }
         } else {
             System.out.println("cnttFiles has not exist of files");
@@ -313,9 +337,9 @@ public class Main {
                 features.add(text);
             }
         } catch (UnsupportedEncodingException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException io) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, io);
+            Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, io);
         }
     }
 
@@ -353,32 +377,32 @@ public class Main {
 
     public static void main(String args[]) {
 
-        Main cntt = new Main();
+        Features_Main cntt = new Features_Main();
         String result = "";
 
         cntt.setIsCNTT(true);
         cntt.runFile(Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES + "/cntt");
         cntt.groupTFIDFList();
         cntt.sortTFIDFList();
-        cntt.setQuantityOfFeatures(20);
+        cntt.setQuantityOfFeatures(1);
         result = cntt.outFile(Constants.PATH_SVM_TRAIN_ITFEATURES);
 
-        Main khac = new Main();
+        Features_Main khac = new Features_Main();
         khac.setIsCNTT(false);
         khac.runFile(Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES + "/khac");
         khac.groupTFIDFList();
         khac.sortTFIDFList();
-        khac.setQuantityOfFeatures(20);
-        result = result + khac.outFile(Constants.PATH_SVM_TRAIN_OTHERFEATURES);
+        khac.setQuantityOfFeatures(1);
+        result = result + khac.outFile("");
 
         try {
             OutputStream output = new FileOutputStream(Constants.PATH_SVM_TRAIN_TFIDFFEATURES);
             DataOutputStream data = new DataOutputStream(output);
             data.writeBytes(result);
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ie) {
-            Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ie);
+            Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ie);
         }
     }
 }
