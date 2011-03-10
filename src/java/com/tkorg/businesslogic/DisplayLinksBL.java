@@ -5,6 +5,8 @@
 
 package com.tkorg.businesslogic;
 
+import com.tkorg.svm.classify.Classify_Main;
+
 /**
  *
  * @author danhit
@@ -15,7 +17,7 @@ public class DisplayLinksBL {
     }
 
     public void downloadAndClassify() {
-        com.tkorg.svm.classify.Classify_Main classify = new com.tkorg.svm.classify.Classify_Main();
+        Classify_Main classify = new Classify_Main();
 
         classify.seperateWordsForClassify();
         classify.removeStopwords();
