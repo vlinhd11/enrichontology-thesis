@@ -54,7 +54,11 @@ public class Constants {
                                             "Ráo_trọi", "Thỏm", "Thọt", "Tỏ_ra", "Tỏ_vẻ", "Tọt", "Trỏng", "Trời_ơi",
                                             "Trời_đất_ơi", "Úi", "Úi_chà", "Úi_dào", "Về", "Về_mặt", "Về_phía", "Ví_phỏng",
                                             "Xềnh_Xệch", "Ý", "Ý_chừng", "Ý_da"};
-    public static String[] words = {".", ",", "(", ")", ";", "!", "-", "?", "...", ":", "“", "”"};
+    public static String[] words = {".", "(", ")", ";", "!", "-", "?", "...", ":", "“", "”", "\n"};
+    public static String[] followwords = {" là", " có nghĩa là", " được định nghĩa là", " được gọi là", " được hiểu như là", " được hiểu là",
+                                            " có thể là", " được biết như là", " được biết là", " được dùng trong", " được dùng để", " gồm", ":", " - ", "-"};
+    public static String[] forwardwords = {"được gọi là ", "gọi là "};
+    public static String[] removewords = {"Trong đó", "Vì vậy", "Theo đó", "Do đó"};
 
     /* number */
     
