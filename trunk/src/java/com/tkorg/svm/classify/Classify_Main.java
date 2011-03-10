@@ -21,7 +21,6 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -32,7 +31,7 @@ public class Classify_Main {
     private void outFile(File file, String pathChosenFile) {
         BufferedWriter out = null;
         BufferedReader reader = null;
-        String content = "";
+        String content = "\n";
         File chosenFile = new File(pathChosenFile + "/" + file.getName());
 
         try {
