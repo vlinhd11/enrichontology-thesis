@@ -65,7 +65,9 @@ public class SeperateWords {
                     File[] textFiles = trainFiles[i].listFiles();
                     for (int j = 0; j < textFiles.length; j++) {
                         String temp = Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES + "/" + trainFiles[i].getName() + "/" + textFiles[j].getName();
-                        vietToken.tokenize(textFiles[j].toString(), temp);
+                         int index = temp.indexOf(".svn");
+                         if (index == -1)
+                            vietToken.tokenize(textFiles[j].toString(), temp);
                     }
                 }
             }

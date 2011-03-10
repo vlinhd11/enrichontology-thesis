@@ -19,6 +19,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -71,7 +72,9 @@ public class Stopwords {
             File download_files = new File(pathFile);
             File[] files = download_files.listFiles();
             for (int i = 0; i < files.length; i++) {
-                remove(pathFile + "/" + files[i].getName(), outFile + "/" + files[i].getName(), isClassify);
+                int index = (pathFile + "/" + files[i].getName()).indexOf(".svn");
+                if (index == -1)
+                    remove(pathFile + "/" + files[i].getName(), outFile + "/" + files[i].getName(), isClassify);
             }
         } else {
             File download_files = new File(pathFile);
@@ -79,8 +82,10 @@ public class Stopwords {
             for (int i = 0; i < files01.length; i++) {
                 File[] files02 = files01[i].listFiles();
                 for (int j = 0; j < files02.length; j++) {
-                    remove(pathFile + "/" + files01[i].getName() + "/" + files02[j].getName(),
-                            outFile + "/" + files01[i].getName() + "/" + files02[j].getName(), isClassify);
+                    int index = (pathFile + "/" + files01[i].getName() + "/" + files02[j].getName()).indexOf(".svn");
+                    if (index == -1)
+                        remove(pathFile + "/" + files01[i].getName() + "/" + files02[j].getName(),
+                                outFile + "/" + files01[i].getName() + "/" + files02[j].getName(), isClassify);
                 }
             }
         }

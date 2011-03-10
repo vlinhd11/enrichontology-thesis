@@ -15,7 +15,7 @@ public class DisplayLinksBL {
     }
 
     public void downloadAndClassify() {
-        com.tkorg.svm.classify.Main classify = new com.tkorg.svm.classify.Main();
+        com.tkorg.svm.classify.Classify_Main classify = new com.tkorg.svm.classify.Classify_Main();
 
         classify.seperateWordsForClassify();
         classify.removeStopwords();
