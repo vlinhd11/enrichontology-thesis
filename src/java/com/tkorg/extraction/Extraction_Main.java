@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 public class Extraction_Main {
 
     public ArrayList < com.tkorg.extraction.MyFile > fileList = null;
-    public ArrayList < MyKeyword > keywordList = null;
+    public static ArrayList < MyKeyword > keywordList = null;
 
     public Extraction_Main() {
         fileList = new ArrayList < com.tkorg.extraction.MyFile >();
@@ -117,6 +117,12 @@ public class Extraction_Main {
             }
             keywordList.add(keyword);
         }
+//        keywordList.remove(0);
+//        MyKeyword key = new MyKeyword();
+//        key.setName("Tin_học");
+//        key.getIndividuals().add("ngành công nghiệp quan trọng");
+//        key.getIndividuals().add("ngành hiện đại");
+//        keywordList.add(key);
     }
 
     public ArrayList<MyFile> getFileList() {
@@ -131,29 +137,10 @@ public class Extraction_Main {
         return keywordList;
     }
 
-    public void setKeywordList(ArrayList<MyKeyword> keywordList) {
-        this.keywordList = keywordList;
+    public void setKeywordList(ArrayList<MyKeyword> _keywordList) {
+        keywordList = _keywordList;
     }
 
     public static void main(String[] args) {
-        Extraction_Main m = new Extraction_Main();
-
-        m.loadFiles();
-        ArrayList < String > keywords = new ArrayList < String >();
-        keywords.add("tin học");
-        keywords.add("hệ điều hành mạng");
-        m.extractWithKeywords(keywords);
-        for (int i = 0; i < m.getKeywordList().size(); i++) {
-            System.out.println(m.getKeywordList().get(i).getName());
-            for (int j = 0; j < m.getKeywordList().get(i).getIndividuals().size(); j++) {
-                System.out.println("    " + m.getKeywordList().get(i).getIndividuals().get(j));
-            }
-        }
-
-//        for (int i = 0; i < m.getFileList().size(); i++) {
-//            for (int j = 0; j < m.getFileList().get(i).getSentences().size(); j++) {
-//                System.out.println(m.getFileList().get(i).getSentences().get(j));
-//            }
-//        }
     }
 }
