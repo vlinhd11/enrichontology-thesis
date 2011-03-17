@@ -10,6 +10,7 @@ import com.tkorg.util.Constants;
 import java.io.File;
 import java.net.URI;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -19,6 +20,7 @@ public class SearchOntologyBL {
 
     public static ArrayList < MyKeyword > googleList = null;
     public static ArrayList < MyKeyword > yahooList = null;
+    public static ArrayList < String > keywordNameList = null;
 
     private String path;
     private String result;
@@ -51,32 +53,34 @@ public class SearchOntologyBL {
         return name;
     }
 
-    public void searchOntologyWithIndividual(String query_string, String google, int m_google, String yahoo, int m_yahoo) {
+    public void searchOntologyWithKeywords(String query_string, String google, int m_google, String yahoo, int m_yahoo) {
 
-        String[] keywordNameList = null;
-
-        keywordNameList = query_string.split("-");
+        keywordNameList = new ArrayList<String>();
+        String[] temp = query_string.split("-");
+        for (int i = 0; i < temp.length; i++) {
+            keywordNameList.add(temp[i].toString());
+        }
         
-        for (int i = 0; i < keywordNameList.length; i++) {
+        for (int i = 0; i < keywordNameList.size(); i++) {
             SearchEnginesAction queryAction = new SearchEnginesAction();
 
-            keywordNameList[i] = convertVN(keywordNameList[i]);
+            keywordNameList.set(i, convertVN(keywordNameList.get(i)));
             if (google.equals(Constants.GOOGLE)) {
                 try {
                     MyKeyword keyword = new MyKeyword();
-                    keyword.setName(keywordNameList[i]);
-                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList[i], true, m_google));
+                    keyword.setName(keywordNameList.get(i));
+                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList.get(i) + " là gì", true, m_google));
                     googleList.add(keyword);
 		} catch (NumberFormatException e) {
                     e.printStackTrace();
-		} catch (InterruptedException e) {
-                    e.printStackTrace();
+		} catch (InterruptedException ite) {
+                    ite.printStackTrace();
                 }
             }
             if (yahoo.equals(Constants.YAHOO)) {
                 MyKeyword keyword = new MyKeyword();
-                keyword.setName(keywordNameList[i]);
-                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList[i], true, m_yahoo));
+                keyword.setName(keywordNameList.get(i));
+                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList.get(i) + " là gì", true, m_yahoo));
                 yahooList.add(keyword);
             }
         }
