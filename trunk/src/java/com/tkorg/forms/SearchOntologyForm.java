@@ -29,7 +29,6 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
 	private String m_yahoo;
 	private String google;
 	private String m_google;
-        private String my_property = "individual";
 
     public String getGoogle() {
         return google;
@@ -61,14 +60,6 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
 
     public void setM_yahoo(String m_yahoo) {
         this.m_yahoo = m_yahoo;
-    }
-
-    public String getMy_property() {
-        return my_property;
-    }
-
-    public void setMy_property(String my_property) {
-        this.my_property = my_property;
     }
 
     public String getProcessid() {
