@@ -1,0 +1,57 @@
+﻿Quần xã sinh vật
+Bách khoa toàn thư mở Wikipedia
+Quần xã là một tập hợp các quần thể sinh vật cùng sống trong một vùng địa lý hay sinh cảnh nhất định, là phần sống hay hữu sinh của hệ sinh thái. Các sinh vật trong quần xã có mối quan hệ hữu cơ với nhau (quan hệ thợ săn - con mồi, cạnh tranh cùng loài hay khác loài, quan hệ cộng sinh, quan hệ vật ký sinh - vật chủ) về nguồn thức ăn, điều kiện sống .v.v. Mối quan hệ phức tạp này được thể hiện qua các lưới thức ăn, chuỗi thức ăn. Một quần xã sinh vật thường có lịch sử hình thành lâu dài và hoạt động như một hệ thống mở tương tác với các yếu tố vô sinh của môi trường.
+Mục lục [ẩn]
+1 Các đặc trưng của quần xã
+1.1 Đặc trưng về thành phần loài
+1.2 Đặc trưng về cấu trúc phân tầng
+1.3 Đặc trưng về quan hệ dinh dưỡng
+1.4 Đặc trưng về diễn thế sinh thái
+2 Tài liệu tham khảo
+3 Xem thêm
+[sửa]Các đặc trưng của quần xã
+
+[sửa]Đặc trưng về thành phần loài
+Độ nhiều:
+Ứng với số lượng cá thể của loài sống trên một đơn vị diện tích hay thể tích.
+Thay đổi theo thời gian ( biến động theo mùa, năm hay do đột xuất)
+Độ thường gặp hay chỉ số có mặt:
+Là tỉ số % số địa điểm lấy mẫu có loài được xét so với tổng số địa điểm lấy mẫu trong vùng nghiên cứu.
+Tần số:
+Là tỉ lệ % số cá thể một loài đối với tòan bộ cá thể của quần xã trong một lần thu mẫu hay trong toàn bộ các lần thu mẫu của quần xã.
+Loài ưu thế:
+là một loài hoặc các nhóm có ảnh hưởng xác định lên quần xã, quyết định số lượng, kích thước, năng suất và các thông số của chúng.
+Loài ưu thế tích cực tham gia vào sự điều chỉnh, vào quá trình trao đổi vật chất và năng lượng giữa quần xã với môi trường xung quanh. Chính vì vậy, nó có ảnh hưởng đến môi trường, từ đó ảnh hưởng đến các loài khác trong quần xã.
+Ví dụ: Bò rừng Bison là loài chiếm ưu thế trong quần xã đồng cỏ lớn ở Bắc Mỹ
+Độ ưa thích:
+Độ ưa thích cho thấy cường độ gắn bó của một loài đối với quần xã và được phân thành các mức độ:
++ Loài đặc trưng:là loài thường gặp và có độ nhiều cao hơn với các loài khác.Chỉ có mặt ở một quần xã
++ Loài ưa thích: có mặt ở nhiều quần xã, nhưng ưa thích nhất một quần xã trong số đó.
++ Loài lạc lõng: ngẫu nhiên có mặt trong quần xã
++ Loài ngẫu nhiên: có mặt ở nhiều quần xã. Là loài phổ biến có giới hạn sinh thái rộng
+Độ đa dạng:
+Chỉ mức độ phong phú về số lượng loài trong quần xã.
+Ví dụ: Khi di chuyển từ miền địa cực xuống vùng xích đạo thường có sự thay đổi số lượng loài và theo chiều hướng gia tăng.
+[sửa]Đặc trưng về cấu trúc phân tầng
+Bất cứ quần xã nào cũng có một cấu trúc đặc trưng ứng với sự phân bố cá thể các loài khác nhau theo chiều ngang và theo chiều thẳng đứng.
+Phân tầng theo chiều thẳng đứng:sự phân tầng theo chiều thẳng đứng thể hiện rõ nhất ở các quần xã ở rừng, ở vườn, ở trong nước.
+Ví dụ:
++ Rừng nhiệt đới thường có năm tầng, trong đó có 2 - 3 tầng cây gỗ lớn, 1 tầng cây bụi thấp, 1 tầng cỏ và dương xỉ
++ Vườn cây thường có 4 tầng:
+Tầng A ( tầng vượt tán, tầng cao nhất): > 10m
+Tầng B (tầng trung bình): 5 - 10m
+Tầng C (tầng thấp): 1 - 5m
+Tầng D (tầng sát mặt đất): 0 - 1m
+Sự phân tầng theo chiều ngang:sự phân tầng theo chiều ngang có thể gặp trong các quần xã ở biển, sông, hồ, vườn nhà..
+Ví dụ:
++ Ở biển: sinh vật nổi vùng khơi có những đặc trưng về thành phần loài và số lượng cá thể các loài nghèo hơn so với vùng ven bờ.
+[sửa]Đặc trưng về quan hệ dinh dưỡng
+Chuỗi và lưới thức ăn biểu hiện mối quan hệ dinh dưỡng giữa các loài sinh vật trong quần xã sinh vật.
+Chuỗi thức ăn :
+–Là một dãy nhiều loài sinh vật có quan hệ dinh dưỡng với nhau. Mỗi loài trong chuỗi thức ăn vừa là sinh vật tiêu thụ mắt xích phía trước, vừa là sinh vật bị mắt xích phía sau tiêu thụ.
+–Ví dụ : Cây cỏ → Sâu → Chuột.
+Lưới thức ăn :
+–Trong tự nhiên, một loài sinh vật không chỉ tham gia vào một chuỗi thức ăn mà đồng thời còn tham gia vào chuỗi thức ăn khác. Các chuỗi thức ăn có nhiều mắt xích chung tạo thành một lưới thức ăn.
+–Một lưới thức ăn hoàn chỉnh bao gồm 3 thành phần chủ yếu : sinh vật sản xuất (thực vật), sinh vật tiêu thụ (động vật ăn thực vật và động vật ăn thịt) và sinh vật phân giải (vi khuẩn, nấm...).
+[sửa]Đặc trưng về diễn thế sinh thái
+Hệ sinh thái trẻ → Hệ sinh thái già → Hệ sinh thái cao đỉnh, khi đó cân bằng sinh thái tự nhiên được thiết lập. Con người là nhân tố quan trọng trong diễn thế sinh thái, có thể làm đảo ngược quá trình này.
