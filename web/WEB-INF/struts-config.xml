@@ -7,6 +7,8 @@
 
 <struts-config>
     <form-beans>
+        <form-bean name="UpdateOntologyForm" type="com.tkorg.forms.UpdateOntologyForm"/>
+        <form-bean name="ITDocumentForm" type="com.tkorg.forms.ITDocumentForm"/>
         <form-bean name="DisplayLinksForm" type="com.tkorg.forms.DisplayLinksForm"/>
         <form-bean name="SearchOntologyForm" type="com.tkorg.forms.SearchOntologyForm" />
         <form-bean name="WelcomeForm" type="com.tkorg.forms.WelcomeForm"/>
@@ -27,11 +29,18 @@
             <forward name="fail" path="/jsp/error.jsp" />
         </action>
         <action input="/" name="SearchOntologyForm" path="/SearchOntologyAction" scope="session" type="com.tkorg.actions.SearchOntologyAction" validate="true">
-            <forward name="searchOntology01" path="/jsp/displayLinks01.jsp" />
-            <forward name="searchOntology02" path="/jsp/displayLinks02.jsp" />
+            <forward name="success" path="/jsp/displayLinks.jsp" />
+            <forward name="fail" path="/jsp/searchOntology.jsp" />
         </action>
         <action input="/" name="DisplayLinksForm" path="/DisplayLinksAction" scope="session" type="com.tkorg.actions.DisplayLinksAction">
+            <forward name="success" path="/jsp/itDocument.jsp" />
+        </action>
+        <action input="/" name="ITDocumentForm" path="/ITDocumentAction" scope="session" type="com.tkorg.actions.ITDocumentAction">
+            <forward name="success" path="/jsp/updateOntology.jsp" />
+        </action>
+        <action input="/" name="UpdateOntologyForm" path="/UpdateOntologyAction" scope="session" type="com.tkorg.actions.UpdateOntologyAction">
             <forward name="success" path="/jsp/error.jsp" />
+            <forward name="fail" path="/jsp/error.jsp" />
         </action>
         <action path="/Welcome" forward="/jsp/welcome.jsp"/>
     </action-mappings>
