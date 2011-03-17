@@ -11,7 +11,6 @@ import com.tkorg.util.Constants;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import javax.swing.JOptionPane;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
@@ -59,7 +58,7 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                 HttpSession httpSession = request.getSession();
                 
                 if ("individual".equals(my_property)) {
-                    searchOntologyBL.searchOntologyWithIndividual(query_string, google, m_google, yahoo, m_yahoo);
+                    searchOntologyBL.searchOntologyWithKeywords(query_string, google, m_google, yahoo, m_yahoo);
                     httpSession.setAttribute(Constants.GOOGLE_LIST, SearchOntologyBL.googleList);
                     httpSession.setAttribute(Constants.YAHOO_LIST, SearchOntologyBL.yahooList);
                     if (Constants.GOOGLE.equals(google)) {
