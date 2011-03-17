@@ -105,7 +105,7 @@ public class SeperateWords {
                             "yahoo-" + SearchOntologyBL.yahooList.get(i).getName() + "-" + (j + 1));
                 } else {
                     downloadPDFFromLink(SearchOntologyBL.yahooList.get(i).getLinkList().get(j),
-                            "google-" + SearchOntologyBL.yahooList.get(i).getName() + "-" + (j + 1),
+                            "yahoo-" + SearchOntologyBL.yahooList.get(i).getName() + "-" + (j + 1),
                             ".pdf");
                 }
             }
