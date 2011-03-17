@@ -41,14 +41,16 @@ public class DisplayLinksAction extends org.apache.struts.action.Action {
         String screenid = displayLinksForm.getScreenid();
         String processid = displayLinksForm.getProcessid();
 
-        if (screenid.equals("ERROR")) {
-            if (processid.equals("ERROR_01")) {
+        if (screenid.equals("DISPLAY_LINKS")) {
+            if (processid.equals("DISPLAY_LINKS_01")) {
                 DisplayLinksBL displayBL = new DisplayLinksBL();
                 displayBL.downloadAndClassify();
+                displayBL.choseLinks();
                 
                 return mapping.findForward(SUCCESS);
             }
         }
+        
         return mapping.findForward(SUCCESS);
     }
 }
