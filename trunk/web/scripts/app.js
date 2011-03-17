@@ -38,11 +38,11 @@ function submitForm(frm, screenid, processid) {
             frm.query_string.value = query;
             frm.submit();
         }
-    } else if (screenid == 'ERROR') {
+    } else if (screenid == 'DISPLAY_LINKS') {
+        frm.submit();
+    } else if (screenid == 'IT_DOCUMENT') {
+        frm.submit();
+    } else if (screenid == 'UPDATE_ONTOLOGY') {
         frm.submit();
     }
-}
-
-function test() {
-    alert('success');
 }
