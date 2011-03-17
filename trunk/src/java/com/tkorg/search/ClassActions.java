@@ -16,8 +16,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ClassActions {
-	public static ArrayList<OWLNamedClass> classesArrayList = null;
-	public static ArrayList<String> liClassNameList = null;
+	public static ArrayList < OWLNamedClass > classesArrayList = null;
+	public static ArrayList < String > liClassNameList = null;
 	public static String selectedClassName = "";
 	public static String strResult = "";
         private static String temp = "";
@@ -31,7 +31,7 @@ public class ClassActions {
 		OWLNamedClass owlThingClass = OWLModel.owlModel.getOWLThingClass();
 		classesArrayList.add(owlThingClass);
 
-		// Add all classes into classesArrayList.
+		//Add all classes into classesArrayList.
 		addClassesIntoArrayListByClass(owlThingClass);
 
 		for (int i = 0; i < classesArrayList.size(); i++) {
