@@ -14,6 +14,17 @@
         <title>SUCCESS</title>
     </head>
     <body>
-        <h1>SUCCESS</h1>
+        <%
+            boolean isExist = (Boolean) request.getAttribute("isExist");
+            if (isExist == true) {
+        %>
+                <h1>DATA IS ADDED</h1>
+        <%
+            } else {
+        %>
+                <h1>NO DATA IS ADDED</h1>
+        <%
+            }
+        %>
     </body>
 </html>
