@@ -6,6 +6,7 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.UpdateOntologyBL;
+import com.tkorg.extraction.Extraction_Main;
 import com.tkorg.forms.UpdateOntologyForm;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,6 +22,7 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
     
     /* forward name="success" path="" */
     private static final String SUCCESS = "success";
+    private static final String FAIL = "fail";
     
     /**
      * This is the action called from the Struts framework.
@@ -45,13 +47,18 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
         if (screenid.equals("UPDATE_ONTOLOGY")) {
             if (processid.equals("UPDATE_ONTOLOGY_01")) {
                 UpdateOntologyBL displayBL = new UpdateOntologyBL();
-                displayBL.choseItems(item);
-                displayBL.inputOntology();
+                if (Extraction_Main.keywordList.size() != 0) {
+                    displayBL.choseItems(item);
+                    displayBL.inputOntology();
+                    request.setAttribute("isExist", true);
 
-                return mapping.findForward(SUCCESS);
+                    return mapping.findForward(SUCCESS);
+                } else {
+                    request.setAttribute("isExist", false);
+                }
             }
         }
 
-        return mapping.findForward(SUCCESS);
+        return mapping.findForward(FAIL);
     }
 }
