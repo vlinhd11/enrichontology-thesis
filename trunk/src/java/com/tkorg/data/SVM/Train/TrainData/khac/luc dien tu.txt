@@ -1,5 +1,0 @@
-﻿Lực điện từ là lực mà điện-từ trường tác dụng lên hạt mang điện tích (chuyển động hay đứng yên).
-Theo biểu diễn cổ điển của lực điện từ, lực này gồm hai thành phần, do điện trường tạo ra (lực điện) và do từ trường tạo ra (lực từ).
-Lực điện từ đôi khi còn được gọi là lực Lorentz, mặc dù thuật ngữ này cũng có thể chỉ dùng để nói về thành phần gây ra bởi từ trường. Lý do là trong lý thuyết điện từ và lý thuyết tương đối, từ trường và điện trường được thống nhất thành một trường tạo ra tương tác duy nhất gọi là trường điện từ. Đặc biệt, trong lý thuyết tương đối, biểu thức lực từ và lực tĩnh điện quy tụ về một biểu thức duy nhất.
-Việc thống nhất lực điện và lực từ thành một loại lực điện từ cũng phù hợp với quan điểm của lý thuyết điện động lực học lượng tử. Theo lý thuyết này, lực điện từ được gây ra bởi sự trao đổi của hạt trường là photon.
-Mô hình chuẩn ghi nhận lực điện từ là một trong bốn lực cơ bản của tự nhiên.

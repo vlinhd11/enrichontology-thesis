@@ -1,2 +1,0 @@
-﻿Trong Toán học và Thống kê, một phân phối xác suất hay thường gọi hơn là một hàm phân phối xác suất là qui luật cho biết cách gán mỗi xác suất cho mỗi khoảng giá trị của tập số thực, sao cho các tiên đề xác suất được thỏa mãn. Theo thuật ngữ kỹ thuật, một phân phối xác suất là một độ đo xác suất (probability measure) mà miền xác định là đại số Borel trên tập số thực.
-Một phân phối xác suất là một trường hợp đặc biệt của một khái niệm tổng quát hơn về độ đo xác suất, đó là một hàm thỏa mãn các tiên đề xác suất của Kolmogorov cho các tập đo được của một không gian đo được
