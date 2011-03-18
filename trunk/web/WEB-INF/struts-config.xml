@@ -26,7 +26,7 @@
     <action-mappings>
         <action input="/" name="WelcomeForm" path="/WelcomeAction" scope="session" type="com.tkorg.actions.WelcomeAction">
             <forward name="searchOntology" path="/jsp/searchOntology.jsp" />
-            <forward name="fail" path="/jsp/error.jsp" />
+            <forward name="fail" path="/jsp/result.jsp" />
         </action>
         <action input="/" name="SearchOntologyForm" path="/SearchOntologyAction" scope="session" type="com.tkorg.actions.SearchOntologyAction" validate="true">
             <forward name="success" path="/jsp/displayLinks.jsp" />
@@ -39,8 +39,8 @@
             <forward name="success" path="/jsp/updateOntology.jsp" />
         </action>
         <action input="/" name="UpdateOntologyForm" path="/UpdateOntologyAction" scope="session" type="com.tkorg.actions.UpdateOntologyAction">
-            <forward name="success" path="/jsp/error.jsp" />
-            <forward name="fail" path="/jsp/error.jsp" />
+            <forward name="success" path="/jsp/searchOntology.jsp" />
+            <forward name="fail" path="/jsp/searchOntology.jsp" />
         </action>
         <action path="/Welcome" forward="/jsp/welcome.jsp"/>
     </action-mappings>
