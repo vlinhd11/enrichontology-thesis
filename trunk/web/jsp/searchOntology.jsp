@@ -62,7 +62,7 @@
 			&nbsp;&nbsp;
 			Max result&nbsp;&nbsp;
 			<html:select property="m_google" >
-                            <html:option value="2" >2</html:option>
+                            <html:option value="5" >5</html:option>
                             <html:option value="10" >10</html:option>
                             <html:option value="20" >20</html:option>
                             <html:option value="30" >30</html:option>
@@ -75,7 +75,7 @@
                         &nbsp;&nbsp;
                         Max result&nbsp;&nbsp;
                         <html:select property="m_yahoo" >
-                            <html:option value="2" >2</html:option>
+                            <html:option value="5" >5</html:option>
                             <html:option value="10" >10</html:option>
                             <html:option value="20" >20</html:option>
                             <html:option value="30" >30</html:option>
