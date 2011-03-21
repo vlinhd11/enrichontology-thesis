@@ -23,7 +23,7 @@ public class SearchEnginesAction {
 	 * @throws InterruptedException
 	 */
 	
-	public  ArrayList<String> submitQueryToGoogle(String queryString, boolean googleChecked, int maxGoogleResult) throws InterruptedException {
+	public  ArrayList < String > submitQueryToGoogle(String queryString, boolean googleChecked, int maxGoogleResult) throws InterruptedException {
 		if (googleChecked == true) {
 			Thread googleSearchEngineThread = new GoogleSearchEngine();	
 			((GoogleSearchEngine) googleSearchEngineThread).setQueryString(queryString);
