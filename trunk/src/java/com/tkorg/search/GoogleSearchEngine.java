@@ -72,6 +72,9 @@ public class GoogleSearchEngine extends Thread {
                 i += 8;
             }
 
+            for (int l=0;l<returnArray.size();l++){
+                returnArray.set(l, returnArray.get(l).replace("25", ""));
+            }
             // Remove objects that is over the max number result required
             if (returnArray.size() > maxResult) {
                 for (int k=0; k<maxResult; k++){
