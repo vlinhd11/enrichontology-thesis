@@ -16,11 +16,13 @@ public class MyKeyword {
     private String name;
     private ArrayList < String > linkList = null;
     private ArrayList < String > titleList = null;
+    private ArrayList < String > contents = null;
 
     public MyKeyword() {
         name = "";
         linkList = new ArrayList < String >();
         titleList = new ArrayList < String >();
+        contents = new ArrayList < String >();
     }
 
     public void setLinkandTitle(ArrayList<String> linkList) {
@@ -56,5 +58,13 @@ public class MyKeyword {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public ArrayList<String> getContents() {
+        return contents;
+    }
+
+    public void setContents(ArrayList<String> contents) {
+        this.contents = contents;
     }
 }
