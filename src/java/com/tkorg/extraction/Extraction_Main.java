@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -98,6 +99,19 @@ public class Extraction_Main {
                     break;
                 }
             }
+        } else if (sentence.indexOf(keywordname) > -1) {
+            String cha = sentence.substring(sentence.indexOf(keywordname), sentence.indexOf(keywordname) + 1);
+            if (cha.equals(keywordname.substring(0, 1).toUpperCase())) {
+                if ((sentence.indexOf(keywordname + "(") > -1) || (sentence.indexOf(keywordname + " (") > -1)) {
+                    for (int j = 0; j < Constants.followwords.length; j++) {
+                        int index02 = sentence.indexOf(")" + Constants.followwords[j]);
+                        if (index02 > -1) {
+                            individual = sentence.substring(index02 + Constants.followwords[j].length() + 1);
+                            break;
+                        }
+                    }
+                }
+            }
         }
 
         return individual;
@@ -109,7 +123,7 @@ public class Extraction_Main {
             keyword.setName(keywordnames.get(index));
             for (int i = 0; i < fileList.size(); i++) {
                 for (int j = 0; j < fileList.get(i).getSentences().size(); j++) {
-                    String temp = extractSentence(fileList.get(i).getSentences().get(j), keyword.getName());
+                    String temp = extractSentence(fileList.get(i).getSentences().get(j), keyword.getName().replace(" ", "_"));
                     if (!temp.equals("")) {
                         keyword.getIndividuals().add(temp);
                     }
@@ -142,5 +156,9 @@ public class Extraction_Main {
     }
 
     public static void main(String[] args) {
+        Extraction_Main e = new Extraction_Main();
+        String t = e.extractSentence("org Phần_mềm ( tiếng Anh : software ) là một tập_hợp những câu_lệnh được viết bằng một hoặc nhiều ngôn_ngữ_lập_trình theo một trật_tự xác_định nhằm tự_động thực_hiện một_số nhiệm_vụ hoặc chức_năng hoặc giải_quyết một bài_toán nào_đó",
+                            "Phần mềm");
+        JOptionPane.showMessageDialog(null, t);
     }
 }
