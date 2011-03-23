@@ -9,6 +9,7 @@ import com.tkorg.features.Features_Main;
 import com.tkorg.token.SeperateWords;
 import com.tkorg.token.Stopwords;
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -61,19 +62,14 @@ public class Classify_Main {
     }
 
     public void choseFile() {
-        File download_files = new File(Constants.PATH_SVM_CLASSIFY_DOWNLOADFILES);
-        File[] fileList = null;
         File resultFile = new File(Constants.PATH_SVM_CLASSIFY_RESULT);
         BufferedReader reader = null;
         ArrayList < Integer > svmList = new ArrayList < Integer >();
 
-        fileList = download_files.listFiles();
         try {
             reader = new BufferedReader(new InputStreamReader(new FileInputStream(resultFile), "UTF8"));
             String text = null;
 
-            //Loai bo stopword.
-            svmList.add(0); //0 la chi .svn
             while ((text = reader.readLine()) != null) {
                 svmList.add(Integer.parseInt(text.replace(".0", "")));
             }
@@ -90,17 +86,14 @@ public class Classify_Main {
                 e.printStackTrace();
             }
         }
-
         for (int i = 0; i < svmList.size(); i++) {
             if (svmList.get(i) == 1) {
-                int index = fileList[i].getPath().indexOf(".svn");
-                if (index == -1)
-                    outFile(fileList[i], Constants.PATH_SVM_CLASSIFY_CHOSENFILES);
+                Global.entityList.get(i).setIsChosen(true);
             }
         }
         System.out.println("finish choseFile");
     }
-
+    
     public void calculateTFIDF() {
         Features_Main cntt = new Features_Main();
 
@@ -109,15 +102,15 @@ public class Classify_Main {
         cntt.groupTFIDFList();
         cntt.sortTFIDFList();
         cntt.loadFeatures();
-        cntt.setQuantityOfFeatures(Features_Main.features.size());
+        cntt.setQuantityOfFeatures(Global.features.size());
         cntt.outFile02(Constants.PATH_SVM_CLASSIFY_TFIDFDOWNLOADFILES);
         System.out.println("finish calculateTFIDF");
     }
 
-    public void removeStopwords() {
+    public void removeStopwordsForClassify() {
         Stopwords stopwords = new Stopwords();
 
-        stopwords.removeStopwords(Constants.PATH_SVM_CLASSIFY_DOWNLOADFILES, Constants.PATH_SVM_CLASSIFY_REMOVESTOPWORDFILES, true);
+        stopwords.removeStopwordsForClassify();
         System.out.println("finish removeStopwords");
     }
 
