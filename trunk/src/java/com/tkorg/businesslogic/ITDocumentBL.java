@@ -6,6 +6,7 @@
 package com.tkorg.businesslogic;
 
 import com.tkorg.extraction.Extraction_Main;
+import com.tkorg.util.Global;
 
 /**
  *
@@ -16,6 +17,6 @@ public class ITDocumentBL {
     public void extractWithKeywords() {
         Extraction_Main extractMain = new Extraction_Main();
         extractMain.loadFiles();
-        extractMain.extractWithKeywords(SearchOntologyBL.keywordNameList);
+        extractMain.extractWithKeywords(Global.keywordNameList);
     }
 }
