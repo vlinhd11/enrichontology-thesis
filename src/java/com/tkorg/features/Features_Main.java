@@ -6,6 +6,7 @@
 package com.tkorg.features;
 
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.DataOutputStream;
@@ -21,7 +22,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -29,7 +29,6 @@ import javax.swing.JOptionPane;
  */
 public class Features_Main {
 
-    public static ArrayList < String > features = null;
     private int quantityOfFeatures = 0;
     private ArrayList < MyFile > fileList = null;
     private ArrayList < TFIDF > tfidfFMax = null;
@@ -38,7 +37,7 @@ public class Features_Main {
     public Features_Main() {
         fileList = new ArrayList < MyFile >();
         tfidfFMax = new ArrayList < TFIDF >();
-        features = new ArrayList < String >();
+        Global.features = new ArrayList < String >();
     }
 
     public int calculateSum(ArrayList < String > words) {
@@ -104,7 +103,7 @@ public class Features_Main {
                     result = result + (j + 1) + ":";
                     boolean isExist = false;
                     for (int k = 0; k < fileList.get(i).getTfList().size(); k++) {
-                        if (features.get(j).equals(fileList.get(i).getTfList().get(k).getWord())) {
+                        if (Global.features.get(j).equals(fileList.get(i).getTfList().get(k).getWord())) {
                             isExist = true;
                             result = result + fileList.get(i).getTfList().get(k).getFrequency() + " ";
                         }
@@ -129,7 +128,7 @@ public class Features_Main {
                 result = result + (j + 1) + ":";
                 boolean isExist = false;
                 for (int k = 0; k < fileList.get(i).getTfList().size(); k++) {
-                    if (features.get(j).equals(fileList.get(i).getTfList().get(k).getWord())) {
+                    if (Global.features.get(j).equals(fileList.get(i).getTfList().get(k).getWord())) {
                         isExist = true;
                         result = result + fileList.get(i).getTfList().get(k).getFrequency() + " ";
                     }
@@ -214,6 +213,19 @@ public class Features_Main {
     public double calculateFrequency(int count, int sum) {
         return (double) count/sum;
     }
+
+    public void loadFiles() {
+
+        for (int i = 0; i < Global.entityList.size(); i++) {
+            MyFile file = new MyFile();
+            file.setName(Global.entityList.get(i).getTitle());
+            String[] temp = Global.entityList.get(i).getContentAfterRemoveStopwords().split("\n");
+            for (int j = 0; j < temp.length; j++) {
+                file.getWords().add(temp[j]);
+            }
+            fileList.add(file);
+        }
+    }
     
     public void loadFiles(String pathFiles) {
         File cnttFiles = new File(pathFiles);
@@ -291,7 +303,7 @@ public class Features_Main {
 
     public void runFile(String pathFiles) {
 
-        loadFiles(pathFiles);
+        loadFiles();
 
         for (int i = 0; i < fileList.size(); i++) {
             int sum = calculateSum(fileList.get(i).getWords());
@@ -334,7 +346,7 @@ public class Features_Main {
             reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
             String text = "";
             while ((text = reader.readLine()) != null) {
-                features.add(text);
+                Global.features.add(text);
             }
         } catch (UnsupportedEncodingException ex) {
             Logger.getLogger(Features_Main.class.getName()).log(Level.SEVERE, null, ex);
