@@ -20,6 +20,7 @@
 
 <%@page import="java.io.IOException" %>
 <%@page import="java.util.ArrayList" %>
+<%@page import="com.tkorg.util.Global" %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
@@ -45,28 +46,32 @@
                     <th width =\"82%\"><bean:message key="itDocument.heading" /></th>
                 </tr>
                 <%
-                    for(int i = 0; i < DisplayLinksBL.chosenLinks.size(); i++) {
+                    for(int i = 0; i < Global.keywordNameList.size(); i++) {
                 %>
                 <tr>
                     <td></td>
-                    <td style="background-color: yellow" width="82%"><%=DisplayLinksBL.chosenLinks.get(i).getName()%></td>
+                    <td style="background-color: yellow" width="82%"><%=Global.entityList.get(i).getKeyword()%></td>
                 </tr>
                 <%
-                        for (int j = 0; j < DisplayLinksBL.chosenLinks.get(i).getLinkList().size(); j++) {
+                        for (int j = 0; j < Global.entityList.size(); j++) {
+                            if (Global.keywordNameList.get(i).equals(Global.entityList.get(j).getKeyword()) &&
+                                    Global.entityList.get(j).isIsChosen() == true) {
+
                 %>
                 <tr>
-                    <td width="3%"><%=Integer.toString(j+1)%>.</td>
+                    <td width="3%"><%=Integer.toString(j - i + 1)%>.</td>
                     <td width="82%">
-                        <a href="<%=DisplayLinksBL.chosenLinks.get(i).getLinkList().get(j)%>" target="_blank">
-                            <%=DisplayLinksBL.chosenLinks.get(i).getLinkList().get(j)%>
+                        <a href="<%=Global.entityList.get(j).getLink()%>" target="_blank">
+                            <%=Global.entityList.get(j).getLink()%>
                         </a>
                         <br>
-                        <%=DisplayLinksBL.chosenLinks.get(i).getTitleList().get(j)%>
+                        <%=Global.entityList.get(j).getTitle()%>
                     </td>
                 </tr>
             <%
                         }
-                    }
+                        }
+                        }
             %>
             </table><br><br>
             <input type="button" value="Extract Concepts" onclick="submitForm(document.forms[0], 'IT_DOCUMENT', 'IT_DOCUMENT_01')">

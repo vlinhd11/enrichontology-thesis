@@ -16,7 +16,7 @@
 
 <%@page import="com.tkorg.util.Constants" %>
 <%@page import="com.tkorg.entities.MyKeyword" %>
-<%@page import="com.tkorg.extraction.Extraction_Main" %>
+<%@page import="com.tkorg.util.Global" %>
 
 <%@page import="java.io.IOException" %>
 <%@page import="java.util.ArrayList" %>
@@ -47,19 +47,19 @@
                     <th width="3%">Remove</th>
                 </tr>
                 <%
-                    for(int i = 0; i < Extraction_Main.keywordList.size(); i++) {
+                    for(int i = 0; i < Global.keywordList.size(); i++) {
                 %>
                 <tr>
                     <td></td>
-                    <td style="background-color: yellow" width="82%"><%=Extraction_Main.keywordList.get(i).getName()%></td>
+                    <td style="background-color: yellow" width="82%"><%=Global.keywordList.get(i).getName()%></td>
                     <td></td>
                 </tr>
                 <%
-                        for (int j = 0; j < Extraction_Main.keywordList.get(i).getIndividuals().size(); j++) {
+                        for (int j = 0; j < Global.keywordList.get(i).getIndividuals().size(); j++) {
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j)%>.</td>
-                    <td width="79%"><%=Extraction_Main.keywordList.get(i).getIndividuals().get(j)%></td>
+                    <td width="79%"><%=Global.keywordList.get(i).getIndividuals().get(j)%></td>
                     <td width="3%">
                 <%
                             String temp = "" + i + "-" + j;
