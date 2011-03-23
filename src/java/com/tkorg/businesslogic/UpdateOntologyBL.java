@@ -6,9 +6,9 @@
 package com.tkorg.businesslogic;
 
 import com.tkorg.entities.OWLModel;
-import com.tkorg.extraction.Extraction_Main;
 import com.tkorg.extraction.MyKeyword;
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import edu.stanford.smi.protegex.owl.model.OWLDatatypeProperty;
 import edu.stanford.smi.protegex.owl.model.OWLIndividual;
 import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
@@ -32,19 +32,14 @@ public class UpdateOntologyBL {
     }
 
     public void choseItems(String[] item) {
-        if (item[0] == null) {
-            
-        } else {
-            for (int i = 0; i < item.length; i++) {
-                String[] temp = item[i].split("-");
-                int temp01 = Integer.parseInt(temp[0]);
-                int temp02 = Integer.parseInt(temp[1]);
-                Extraction_Main.keywordList.get(temp01).getIndividuals().remove(temp02);
-            }
+        for (int i = 0; i < item.length; i++) {
+            String[] temp = item[i].split("-");
+            int temp01 = Integer.parseInt(temp[0]);
+            int temp02 = Integer.parseInt(temp[1]);
+            Global.keywordList.get(temp01).getIndividuals().remove(temp02);
         }
-
-        for (int i = 0; i < Extraction_Main.keywordList.size(); i++) {
-            selectedItemsList.add(Extraction_Main.keywordList.get(i));
+        for (int i = 0; i < Global.keywordList.size(); i++) {
+            selectedItemsList.add(Global.keywordList.get(i));
         }
     }
 
