@@ -6,9 +6,9 @@
 package com.tkorg.actions;
 
 import com.tkorg.forms.WelcomeForm;
+import com.tkorg.util.Global;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.JOptionPane;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
@@ -40,9 +40,10 @@ public class WelcomeAction extends org.apache.struts.action.Action {
         WelcomeForm welcomeForm = (WelcomeForm) form;
 
         String screenid = welcomeForm.getScreenid();
-//	String processid = welcomeForm.getProcessid();
 
 	if (screenid.equals("WELCOME")) {
+            Global g = new Global();
+
             return mapping.findForward(SEARCH_ONTOLOGY);
 	}
 	return mapping.findForward(FAIL);
