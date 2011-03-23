@@ -5,19 +5,15 @@
 
 package com.tkorg.token;
 
-import com.tkorg.businesslogic.SearchOntologyBL;
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.io.StringReader;
-import java.io.Writer;
-import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -29,7 +25,6 @@ import vn.hus.nlp.tokenizer.TokenizerOptions;
 import vn.hus.nlp.tokenizer.TokenizerProvider;
 import vn.hus.nlp.tokenizer.VietTokenizer;
 import vn.hus.nlp.tokenizer.tokens.TaggedWord;
-import vn.hus.nlp.utils.UTF8FileUtility;
 
 /**
  * them removestopword
@@ -77,38 +72,16 @@ public class SeperateWords {
     public void forClassify() throws Exception {
         tokenizer = TokenizerProvider.getInstance().getTokenizer();
 
-        //Download Google.
         File file = new File(Constants.PATH_SVM_CLASSIFY_DOWNLOADFILES);
         if (!file.exists())
             file.mkdir();
 
-        for (int i = 0; i < SearchOntologyBL.googleList.size(); i++) {
-            for (int j = 0; j < SearchOntologyBL.googleList.get(i).getLinkList().size(); j++) {
-                int index = SearchOntologyBL.googleList.get(i).getLinkList().get(j).indexOf(".pdf");
-                if (index == -1) {
-                    downloadFileFromLink(SearchOntologyBL.googleList.get(i).getLinkList().get(j),
-                        "google-" + SearchOntologyBL.googleList.get(i).getName() + "-" + (j + 1));
-                } else {
-                    downloadPDFFromLink(SearchOntologyBL.googleList.get(i).getLinkList().get(j),
-                            "google-" + SearchOntologyBL.googleList.get(i).getName() + "-" + (j + 1),
-                            ".pdf");
-                }
-            }
-        }
-
-        //Download Yahoo.
-        for (int i = 0; i < SearchOntologyBL.yahooList.size(); i++) {
-            for (int j = 0; j < SearchOntologyBL.yahooList.get(i).getLinkList().size(); j++) {
-                int index = SearchOntologyBL.yahooList.get(i).getLinkList().get(j).indexOf(".pdf");
-                if (index == -1) {
-                    downloadFileFromLink(SearchOntologyBL.yahooList.get(i).getLinkList().get(j),
-                            "yahoo-" + SearchOntologyBL.yahooList.get(i).getName() + "-" + (j + 1));
-                } else {
-                    downloadPDFFromLink(SearchOntologyBL.yahooList.get(i).getLinkList().get(j),
-                            "yahoo-" + SearchOntologyBL.yahooList.get(i).getName() + "-" + (j + 1),
-                            ".pdf");
-                }
-            }
+        for (int i = 0; i < Global.entityList.size(); i++) {
+            int temp = Global.entityList.get(i).getLink().indexOf(".pdf");
+            if (temp == -1)
+                downloadFileFromLink(Global.entityList.get(i).getLink(), i);
+            else
+                downloadPDFFromLink(Global.entityList.get(i).getLink(), Global.entityList.get(i).getTitle(), i);
         }
     }
     
@@ -141,27 +114,27 @@ public class SeperateWords {
 	return result.toString().trim();
     }
 
-    private void downloadFileFromLink(String url, String title) {
+    private void downloadFileFromLink(String url, int index) {
         try {
-            segment(getUrlContentsAsText(url));
-            outFile(Constants.PATH_SVM_CLASSIFY_DOWNLOADFILES + "/" + title + ".txt");
+            Global.entityList.get(index).setContent(segment(getUrlContentsAsText(url)));
         } catch (Exception ex) {
             Logger.getLogger(SeperateWords.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    private void downloadPDFFromLink(String url, String title, String type) {
+    private void downloadPDFFromLink(String url, String title, int index) {
         try {
-            downloadPDF(url, title, type);
-            changePDFtoText(title, type);
+            downloadPDF(url, title);
+            changePDFtoText(title, index);
         } catch (Exception ex) {
             Logger.getLogger(SeperateWords.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    public void downloadPDF(String url, String title, String type) throws FileNotFoundException, IOException {
+    public void downloadPDF(String url, String title) throws FileNotFoundException, IOException {
+
         BufferedInputStream in = new BufferedInputStream(new java.net.URL(url).openStream());
-        FileOutputStream fos = new FileOutputStream(Constants.PATH_SVM_CLASSIFY_PDFFILES + "/" + title + type);
+        FileOutputStream fos = new FileOutputStream(Constants.PATH_SVM_CLASSIFY_PDFFILES + "/" + title + ".pdf");
         BufferedOutputStream bout = new BufferedOutputStream(fos, 1024);
         byte[] data = new byte[1024];
         int x = 0;
@@ -172,29 +145,12 @@ public class SeperateWords {
         in.close();
     }
 
-    public void changePDFtoText(String title, String type) throws Exception {
+    public void changePDFtoText(String title, int index) throws Exception {
 
-        PDDocument pddDocument = PDDocument.load(new File(Constants.PATH_SVM_CLASSIFY_PDFFILES + "/" + title + type));
-            
+        PDDocument pddDocument = PDDocument.load(new File(Constants.PATH_SVM_CLASSIFY_PDFFILES + "/" + title + ".pdf"));
         PDFTextStripper textStripper = new PDFTextStripper();
-
-        String test=textStripper.getText(pddDocument);
-        Writer output = null;
-        File file = new File(Constants.PATH_SVM_CLASSIFY_DOWNLOADFILES + "/" + title + ".txt");
-        output = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
-        output.write(test);
-        output.close();
+        Global.entityList.get(index).setContent(textStripper.getText(pddDocument));
         pddDocument.close();
-    }
-
-    private void outFile(String filename) throws Exception {
-        UTF8FileUtility.createWriter(filename);
-        for (Iterator<TaggedWord> iter = list.iterator(); iter.hasNext();) {
-            TaggedWord token = iter.next();
-            UTF8FileUtility.write(token.toString().replaceAll(" ", "_") + " ");
-        }
-
-	UTF8FileUtility.closeWriter();
     }
 
     public static void main(String[] args) {
