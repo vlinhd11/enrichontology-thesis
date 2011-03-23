@@ -8,6 +8,7 @@ package com.tkorg.svm.train;
 import com.tkorg.token.SeperateWords;
 import com.tkorg.token.Stopwords;
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import java.io.DataOutputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -50,7 +51,7 @@ public class Train_Main {
         khac.groupTFIDFList();
         khac.sortTFIDFList();
         khac.loadFeatures();
-        khac.setQuantityOfFeatures(com.tkorg.features.Features_Main.features.size());
+        khac.setQuantityOfFeatures(Global.features.size());
         result = result + khac.outFile("");
 
         try {
@@ -67,7 +68,7 @@ public class Train_Main {
     public void removeStopwords() {
         Stopwords stopwords = new Stopwords();
 
-        stopwords.removeStopwords(Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES, Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES, false);
+        stopwords.removeStopwordsForTrain(Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES, Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES);
     }
 
     public void seperateWordsForTrain() {
