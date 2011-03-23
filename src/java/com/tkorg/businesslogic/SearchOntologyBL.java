@@ -1,5 +1,6 @@
 package com.tkorg.businesslogic;
 
+import com.tkorg.entities.MyEntity;
 import com.tkorg.entities.MyKeyword;
 import com.tkorg.entities.OWLModel;
 import com.tkorg.search.ClassActions;
@@ -7,6 +8,7 @@ import com.tkorg.search.ClassActions;
 import com.tkorg.search.SearchEnginesAction;
 import com.tkorg.util.Constants;
 
+import com.tkorg.util.Global;
 import java.io.File;
 import java.net.URI;
 import java.util.ArrayList;
@@ -19,7 +21,6 @@ public class SearchOntologyBL {
 
     public static ArrayList < MyKeyword > googleList = null;
     public static ArrayList < MyKeyword > yahooList = null;
-    public static ArrayList < String > keywordNameList = null;
 
     private String path;
     private String result;
@@ -54,33 +55,49 @@ public class SearchOntologyBL {
 
     public void searchOntologyWithKeywords(String query_string, String google, int m_google, String yahoo, int m_yahoo) {
 
-        keywordNameList = new ArrayList<String>();
-        String[] temp = query_string.split("-");
-        for (int i = 0; i < temp.length; i++) {
-            keywordNameList.add(temp[i].toString());
+        Global.keywordNameList = new ArrayList < String >();
+        String[] temp01 = query_string.split("-");
+        for (int i = 0; i < temp01.length; i++) {
+            Global.keywordNameList.add(temp01[i].toString());
         }
-        
-        for (int i = 0; i < keywordNameList.size(); i++) {
-            SearchEnginesAction queryAction = new SearchEnginesAction();
 
-            keywordNameList.set(i, convertVN(keywordNameList.get(i)));
+        SearchEnginesAction queryAction = new SearchEnginesAction();
+        for (int i = 0; i < Global.keywordNameList.size(); i++) {
+            Global.keywordNameList.set(i, convertVN(Global.keywordNameList.get(i)));
+
             if (google.equals(Constants.GOOGLE)) {
                 try {
-                    MyKeyword keyword = new MyKeyword();
-                    keyword.setName(keywordNameList.get(i));
-                    keyword.setLinkandTitle(queryAction.submitQueryToGoogle(keywordNameList.get(i) + " là gì", true, m_google));
-                    googleList.add(keyword);
-		} catch (NumberFormatException e) {
+                    ArrayList < String > linkList = queryAction.submitQueryToGoogle(Global.keywordNameList.get(i) + " là", true, m_google);
+                    for (int j = 0; j < linkList.size(); j++) {
+                        MyEntity entity = new MyEntity();
+                        entity.setKeyword(Global.keywordNameList.get(i));
+                        String[] temp02 =linkList.get(j).split("<br>");
+                        String link = temp02[0];
+                        String title = temp02[1];
+                        entity.setLink(link);
+                        entity.setTitle(title);
+                        entity.setType("google");
+                        Global.entityList.add(entity);
+                    }
+                } catch (NumberFormatException e) {
                     e.printStackTrace();
 		} catch (InterruptedException ite) {
                     ite.printStackTrace();
                 }
             }
             if (yahoo.equals(Constants.YAHOO)) {
-                MyKeyword keyword = new MyKeyword();
-                keyword.setName(keywordNameList.get(i));
-                keyword.setLinkandTitle(queryAction.submitQueryToYahoo(keywordNameList.get(i) + " là gì", true, m_yahoo));
-                yahooList.add(keyword);
+                ArrayList<String> linkList = queryAction.submitQueryToYahoo(Global.keywordNameList.get(i) + " là", true, m_yahoo);
+                for (int j = 0; j < linkList.size(); j++) {
+                    MyEntity entity = new MyEntity();
+                    entity.setKeyword(Global.keywordNameList.get(i));
+                    String[] temp02 =linkList.get(j).split("<br>");
+                    String link = temp02[0];
+                    String title = temp02[1];
+                    entity.setLink(link);
+                    entity.setTitle(title);
+                    entity.setType("yahoo");
+                    Global.entityList.add(entity);
+                }
             }
         }
     }

@@ -27,7 +27,7 @@ public class DisplayLinksBL {
         Classify_Main classify = new Classify_Main();
 
         classify.seperateWordsForClassify();
-        classify.removeStopwords();
+        classify.removeStopwordsForClassify();
         classify.calculateTFIDF();
         classify.useSVMTest();
         classify.choseFile();
