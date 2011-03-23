@@ -78,10 +78,21 @@ public class SeperateWords {
 
         for (int i = 0; i < Global.entityList.size(); i++) {
             int temp = Global.entityList.get(i).getLink().indexOf(".pdf");
+            boolean isPDF = false;
             if (temp == -1)
-                downloadFileFromLink(Global.entityList.get(i).getLink(), i);
+                isPDF = false;
             else
-                downloadPDFFromLink(Global.entityList.get(i).getLink(), Global.entityList.get(i).getTitle(), i);
+                isPDF = true;
+
+            Thread seperateWordsThread = new SeperateWordsThread();
+            ((SeperateWordsThread) seperateWordsThread).setLink(Global.entityList.get(i).getLink());
+            ((SeperateWordsThread) seperateWordsThread).setIndex(i);
+            ((SeperateWordsThread) seperateWordsThread).setIsPDF(isPDF);
+            ((SeperateWordsThread) seperateWordsThread).setTitle("" + i);
+            ((SeperateWordsThread) seperateWordsThread).setTokenizer(tokenizer);
+            ((SeperateWordsThread) seperateWordsThread).start();
+            ((SeperateWordsThread) seperateWordsThread).join();
+            ((SeperateWordsThread) seperateWordsThread).stop();
         }
     }
     
