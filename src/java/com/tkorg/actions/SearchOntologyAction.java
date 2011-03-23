@@ -6,8 +6,10 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.SearchOntologyBL;
+import com.tkorg.entities.MyKeyword;
 import com.tkorg.forms.SearchOntologyForm;
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -56,6 +58,46 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                 HttpSession httpSession = request.getSession();
                 
                 searchOntologyBL.searchOntologyWithKeywords(query_string, google, m_google, yahoo, m_yahoo);
+
+                for (int i = 0; i < Global.entityList.size(); i++) {
+                    if (Global.entityList.get(i).getType().equals("google")) {
+                        boolean isExist = false;
+                        for (int j = 0; j < SearchOntologyBL.googleList.size(); j++) {
+                            if (SearchOntologyBL.googleList.get(j).getName().equals(Global.entityList.get(i).getKeyword())) {
+                                isExist = true;
+                                SearchOntologyBL.googleList.get(j).getLinkList().add(Global.entityList.get(i).getLink());
+                                SearchOntologyBL.googleList.get(j).getTitleList().add(Global.entityList.get(i).getTitle());
+                                break;
+                            }
+                        }
+                        if (isExist == false) {
+                            MyKeyword keyword = new MyKeyword();
+                            keyword.setName(Global.entityList.get(i).getKeyword());
+                            keyword.getLinkList().add(Global.entityList.get(i).getLink());
+                            keyword.getTitleList().add(Global.entityList.get(i).getTitle());
+                            SearchOntologyBL.googleList.add(keyword);
+                        }
+                    }
+                    if (Global.entityList.get(i).getType().equals("yahoo")) {
+                        boolean isExist = false;
+                        for (int j = 0; j < SearchOntologyBL.yahooList.size(); j++) {
+                            if (SearchOntologyBL.yahooList.get(j).getName().equals(Global.entityList.get(i).getKeyword())) {
+                                isExist = true;
+                                SearchOntologyBL.yahooList.get(j).getLinkList().add(Global.entityList.get(i).getLink());
+                                SearchOntologyBL.yahooList.get(j).getTitleList().add(Global.entityList.get(i).getTitle());
+                                break;
+                            }
+                        }
+                        if (isExist == false) {
+                            MyKeyword keyword = new MyKeyword();
+                            keyword.setName(Global.entityList.get(i).getKeyword());
+                            keyword.getLinkList().add(Global.entityList.get(i).getLink());
+                            keyword.getTitleList().add(Global.entityList.get(i).getTitle());
+                            SearchOntologyBL.yahooList.add(keyword);
+                        }
+                    }
+                }
+
                 httpSession.setAttribute(Constants.GOOGLE_LIST, SearchOntologyBL.googleList);
                 httpSession.setAttribute(Constants.YAHOO_LIST, SearchOntologyBL.yahooList);
                 if (Constants.GOOGLE.equals(google)) {
