@@ -6,6 +6,7 @@
 package com.tkorg.token;
 
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -19,7 +20,6 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -67,16 +67,16 @@ public class Stopwords {
         }
     }
 
-    public void removeStopwords(String pathFile, String outFile, boolean isClassify) {
-        if (isClassify == true) {
-            File download_files = new File(pathFile);
-            File[] files = download_files.listFiles();
-            for (int i = 0; i < files.length; i++) {
-                int index = (pathFile + "/" + files[i].getName()).indexOf(".svn");
-                if (index == -1)
-                    remove(pathFile + "/" + files[i].getName(), outFile + "/" + files[i].getName(), isClassify);
-            }
-        } else {
+    public void removeStopwordsForClassify() {
+        
+        for (int i = 0; i < Global.entityList.size(); i++) {
+            String content = remove(Global.entityList.get(i).getContent());
+            Global.entityList.get(i).setContentAfterRemoveStopwords(content);
+        }
+    }
+
+    public void removeStopwordsForTrain(String pathFile, String outFile) {
+        
             File download_files = new File(pathFile);
             File[] files01 = download_files.listFiles();
             for (int i = 0; i < files01.length; i++) {
@@ -85,13 +85,56 @@ public class Stopwords {
                     int index = (pathFile + "/" + files01[i].getName() + "/" + files02[j].getName()).indexOf(".svn");
                     if (index == -1)
                         remove(pathFile + "/" + files01[i].getName() + "/" + files02[j].getName(),
-                                outFile + "/" + files01[i].getName() + "/" + files02[j].getName(), isClassify);
+                                outFile + "/" + files01[i].getName() + "/" + files02[j].getName());
+                }
+            }
+    }
+
+//    public void removeStopwords(String pathFile, String outFile, boolean isClassify) {
+//        if (isClassify == true) {
+//            File download_files = new File(pathFile);
+//            File[] files = download_files.listFiles();
+//            for (int i = 0; i < files.length; i++) {
+//                int index = (pathFile + "/" + files[i].getName()).indexOf(".svn");
+//                if (index == -1)
+//                    remove(pathFile + "/" + files[i].getName(), outFile + "/" + files[i].getName(), isClassify);
+//            }
+//        } else {
+//            File download_files = new File(pathFile);
+//            File[] files01 = download_files.listFiles();
+//            for (int i = 0; i < files01.length; i++) {
+//                File[] files02 = files01[i].listFiles();
+//                for (int j = 0; j < files02.length; j++) {
+//                    int index = (pathFile + "/" + files01[i].getName() + "/" + files02[j].getName()).indexOf(".svn");
+//                    if (index == -1)
+//                        remove(pathFile + "/" + files01[i].getName() + "/" + files02[j].getName(),
+//                                outFile + "/" + files01[i].getName() + "/" + files02[j].getName(), isClassify);
+//                }
+//            }
+//        }
+//    }
+
+    public String remove(String content) {
+
+        String[] temp = content.split(" ");
+        content = "";
+        for (int i = 0; i < temp.length; i++) {
+            for (int j = 0; j < stopwordList.size(); j++) {
+                if (temp[i].equals(stopwordList.get(j))) {
+                    temp[i] = "";
                 }
             }
         }
+        for (int i = 0; i < temp.length; i++) {
+            if (!temp[i].equals("")) {
+                content = content + temp[i] + "\n";
+            }
+        }
+
+        return content;
     }
 
-    public void remove(String pathFile, String outFile, boolean isClassify) {
+    public void remove(String pathFile, String outFile) {
         File file = new File(pathFile);
         BufferedReader reader = null;
 
@@ -120,12 +163,8 @@ public class Stopwords {
 
             //Xuat ra file.
             BufferedWriter out = null;
-            if (isClassify == false) {
-                out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
-            } else {
-                File file02 = new File(outFile);
-                out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file02), "UTF-8"));
-            }
+            File file02 = new File(outFile);
+            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file02), "UTF-8"));
             out.write(content);
             out.close();
         } catch (FileNotFoundException ex) {
@@ -155,6 +194,6 @@ public class Stopwords {
         Stopwords temp = new Stopwords();
         String path = Constants.PATH_SVM_TRAIN_REMOVESTOPWORDFILES + "/cntt" + "/3.txt";
 
-        temp.remove(path, path, false);
+        temp.remove(path, path);
     }
 }
