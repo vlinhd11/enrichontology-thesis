@@ -8,8 +8,8 @@ package com.tkorg.businesslogic;
 import com.tkorg.entities.MyKeyword;
 import com.tkorg.svm.classify.Classify_Main;
 import java.io.File;
-import java.util.ArrayList;
 import com.tkorg.util.Constants;
+import com.tkorg.util.Global;
 
 /**
  *
@@ -17,10 +17,8 @@ import com.tkorg.util.Constants;
  */
 public class DisplayLinksBL {
 
-    public static ArrayList < MyKeyword > chosenLinks = null;
-
     public DisplayLinksBL() {
-        chosenLinks = new ArrayList < MyKeyword >();
+        
     }
 
     public void downloadAndClassify() {
@@ -46,8 +44,8 @@ public class DisplayLinksBL {
                 String t = files[i].getName();
                 temp = t.split("-");
                 index = Integer.parseInt(temp[2].toString().substring(0, temp[2].length() - 4)) - 1;
-                for (int j = 0; j < chosenLinks.size(); j++) {
-                    if (temp[1].equals(chosenLinks.get(j).getName())) {
+                for (int j = 0; j < Global.chosenLinks.size(); j++) {
+                    if (temp[1].equals(Global.chosenLinks.get(j).getName())) {
                         isExist = true;
                     }
                 }
@@ -55,41 +53,41 @@ public class DisplayLinksBL {
                 if (!isExist) {
                     MyKeyword keyword = new MyKeyword();
                     if (temp[0].equals("google")) {
-                        for (int k = 0; k < SearchOntologyBL.googleList.size(); k++) {
-                            if (temp[1].equals(SearchOntologyBL.googleList.get(k).getName())) {
+                        for (int k = 0; k < Global.googleList.size(); k++) {
+                            if (temp[1].equals(Global.googleList.get(k).getName())) {
                                 keyword.setName(temp[1]);
-                                keyword.getLinkList().add(SearchOntologyBL.googleList.get(k).getLinkList().get(index));
-                                keyword.getTitleList().add(SearchOntologyBL.googleList.get(k).getTitleList().get(index));
+                                keyword.getLinkList().add(Global.googleList.get(k).getLinkList().get(index));
+                                keyword.getTitleList().add(Global.googleList.get(k).getTitleList().get(index));
                                 break;
                             }
                         }
                     } else if (temp[0].equals("yahoo")) {
-                        for (int k = 0; k < SearchOntologyBL.yahooList.size(); k++) {
-                            if (temp[1].equals(SearchOntologyBL.yahooList.get(k).getName())) {
+                        for (int k = 0; k < Global.yahooList.size(); k++) {
+                            if (temp[1].equals(Global.yahooList.get(k).getName())) {
                                 keyword.setName(temp[1]);
-                                keyword.getLinkList().add(SearchOntologyBL.yahooList.get(k).getLinkList().get(index));
-                                keyword.getTitleList().add(SearchOntologyBL.yahooList.get(k).getTitleList().get(index));
+                                keyword.getLinkList().add(Global.yahooList.get(k).getLinkList().get(index));
+                                keyword.getTitleList().add(Global.yahooList.get(k).getTitleList().get(index));
                                 break;
                             }
                         }
                     }
-                    chosenLinks.add(keyword);
+                    Global.chosenLinks.add(keyword);
                 } else {
-                    for (int j = 0; j < chosenLinks.size(); j++) {
-                        if (temp[1].equals(chosenLinks.get(j).getName())) {
+                    for (int j = 0; j < Global.chosenLinks.size(); j++) {
+                        if (temp[1].equals(Global.chosenLinks.get(j).getName())) {
                             if (temp[0].equals("google")) {
-                                for (int k = 0; k < SearchOntologyBL.googleList.size(); k++) {
-                                    if (temp[1].equals(SearchOntologyBL.googleList.get(k).getName())) {
-                                        chosenLinks.get(j).getLinkList().add(SearchOntologyBL.googleList.get(k).getLinkList().get(index));
-                                        chosenLinks.get(j).getTitleList().add(SearchOntologyBL.googleList.get(k).getTitleList().get(index));
+                                for (int k = 0; k < Global.googleList.size(); k++) {
+                                    if (temp[1].equals(Global.googleList.get(k).getName())) {
+                                        Global.chosenLinks.get(j).getLinkList().add(Global.googleList.get(k).getLinkList().get(index));
+                                        Global.chosenLinks.get(j).getTitleList().add(Global.googleList.get(k).getTitleList().get(index));
                                         break;
                                     }
                                 }
                             } else if (temp[0].equals("yahoo")) {
-                                for (int k = 0; k < SearchOntologyBL.yahooList.size(); k++) {
-                                    if (temp[1].equals(SearchOntologyBL.yahooList.get(k).getName())) {
-                                        chosenLinks.get(j).getLinkList().add(SearchOntologyBL.yahooList.get(k).getLinkList().get(index));
-                                        chosenLinks.get(j).getTitleList().add(SearchOntologyBL.yahooList.get(k).getTitleList().get(index));
+                                for (int k = 0; k < Global.yahooList.size(); k++) {
+                                    if (temp[1].equals(Global.yahooList.get(k).getName())) {
+                                        Global.chosenLinks.get(j).getLinkList().add(Global.yahooList.get(k).getLinkList().get(index));
+                                        Global.chosenLinks.get(j).getTitleList().add(Global.yahooList.get(k).getTitleList().get(index));
                                         break;
                                     }
                                 }

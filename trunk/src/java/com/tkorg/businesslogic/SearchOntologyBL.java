@@ -19,15 +19,11 @@ import java.util.ArrayList;
  */
 public class SearchOntologyBL {
 
-    public static ArrayList < MyKeyword > googleList = null;
-    public static ArrayList < MyKeyword > yahooList = null;
-
     private String path;
     private String result;
 
     public SearchOntologyBL() {
-        googleList = new ArrayList < MyKeyword >();
-        yahooList = new ArrayList < MyKeyword >();
+        
     }
 
     private String convertVN(String name) {
@@ -114,7 +110,7 @@ public class SearchOntologyBL {
                 MyKeyword keyword = new MyKeyword();
                 keyword.setName(query_string);
                 keyword.setLinkandTitle(queryAction.submitQueryToGoogle(query_string, true, m_google));
-                googleList.add(keyword);
+                Global.googleList.add(keyword);
             } catch (NumberFormatException e) {
                 e.printStackTrace();
             } catch (InterruptedException e) {
@@ -125,21 +121,17 @@ public class SearchOntologyBL {
             MyKeyword keyword = new MyKeyword();
             keyword.setName(query_string);
             keyword.setLinkandTitle(queryAction.submitQueryToYahoo(query_string, true, m_yahoo));
-            yahooList.add(keyword);
+            Global.yahooList.add(keyword);
         }
     }
 
     public void loadOntology(String namePath) {
-        if (ClassActions.classesArrayList == null) {
-            URI uri = new File(namePath).toURI();
+        URI uri = new File(namePath).toURI();
 
-            OWLModel owlModel = new OWLModel();
-            owlModel.loadOWLModelFromExistFile(uri);
-            ClassActions.viewClasses();
-	} else {
-            ClassActions.convertClassesIntoTree();
-	}
-            this.result = ClassActions.strResult;
+        OWLModel owlModel = new OWLModel();
+        owlModel.loadOWLModelFromExistFile(uri);
+        ClassActions.viewClasses();
+        this.result = Global.strResult;
     }
 
     public String getPath() {

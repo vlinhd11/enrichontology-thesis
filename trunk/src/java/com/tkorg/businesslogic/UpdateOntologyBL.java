@@ -18,7 +18,6 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 /**
  *
  * @author DANHIT
@@ -32,12 +31,17 @@ public class UpdateOntologyBL {
     }
 
     public void choseItems(String[] item) {
-        for (int i = 0; i < item.length; i++) {
-            String[] temp = item[i].split("-");
-            int temp01 = Integer.parseInt(temp[0]);
-            int temp02 = Integer.parseInt(temp[1]);
-            Global.keywordList.get(temp01).getIndividuals().remove(temp02);
+        if (item[0] == null) {
+
+        } else {
+            for (int i = 0; i < item.length; i++) {
+                String[] temp = item[i].split("-");
+                int temp01 = Integer.parseInt(temp[0]);
+                int temp02 = Integer.parseInt(temp[1]);
+                Global.keywordList.get(temp01).getIndividuals().remove(temp02);
+            }
         }
+
         for (int i = 0; i < Global.keywordList.size(); i++) {
             selectedItemsList.add(Global.keywordList.get(i));
         }
@@ -49,15 +53,29 @@ public class UpdateOntologyBL {
                 OWLNamedClass keyword = OWLModel.owlModel.getOWLNamedClass(selectedItemsList.get(i).getName().replace(" ", "_"));
                 OWLDatatypeProperty property = OWLModel.owlModel.getOWLDatatypeProperty("Định_nghĩa");
                 for (int j = 0; j < selectedItemsList.get(i).getIndividuals().size(); j++) {
-                    OWLIndividual individual = keyword.createOWLIndividual(keyword.getBrowserText() + "_" + j);
+                    int index = checkExist(keyword.getBrowserText());
+                    OWLIndividual individual = keyword.createOWLIndividual(keyword.getBrowserText() + "_" + index);
                     property.setDomain(keyword);
                     individual.setPropertyValue(property, selectedItemsList.get(i).getIndividuals().get(j));
                 }
             }
-            URI uri = new File(Constants.PATH_ONTOLOGY).toURI();
-            OWLModel.owlModel.save(uri);
+            if (OWLModel.owlModel.hasChanged()) {
+                URI uri = new File(Constants.PATH_ONTOLOGY).toURI();
+                OWLModel.owlModel.save(uri);
+            }
         } catch (Exception ex) {
             Logger.getLogger(UpdateOntologyBL.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+
+    private int checkExist(String name) {
+        int index = 0;
+        do {
+            OWLIndividual individual = OWLModel.owlModel.getOWLIndividual(name + "_" + index);
+            if (individual == null) {
+                return index;
+            }
+            index++;
+        } while (true);
     }
 }
