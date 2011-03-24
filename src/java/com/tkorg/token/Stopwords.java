@@ -70,8 +70,18 @@ public class Stopwords {
     public void removeStopwordsForClassify() {
         
         for (int i = 0; i < Global.entityList.size(); i++) {
-            String content = remove(Global.entityList.get(i).getContent());
-            Global.entityList.get(i).setContentAfterRemoveStopwords(content);
+            try {
+                Thread stopword = new StopwordsThread();
+                ((StopwordsThread) stopword).setInput(Global.entityList.get(i).getContent());
+                ((StopwordsThread) stopword).setStopwordList(stopwordList);
+                ((StopwordsThread) stopword).start();
+                ((StopwordsThread) stopword).join();
+                String content = ((StopwordsThread) stopword).getOutput();
+                ((StopwordsThread) stopword).stop();
+                Global.entityList.get(i).setContentAfterRemoveStopwords(content);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Stopwords.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
     }
 
@@ -114,25 +124,25 @@ public class Stopwords {
 //        }
 //    }
 
-    public String remove(String content) {
-
-        String[] temp = content.split(" ");
-        content = "";
-        for (int i = 0; i < temp.length; i++) {
-            for (int j = 0; j < stopwordList.size(); j++) {
-                if (temp[i].equals(stopwordList.get(j))) {
-                    temp[i] = "";
-                }
-            }
-        }
-        for (int i = 0; i < temp.length; i++) {
-            if (!temp[i].equals("")) {
-                content = content + temp[i] + "\n";
-            }
-        }
-
-        return content;
-    }
+//    public String remove(String content) {
+//
+//        String[] temp = content.split(" ");
+//        content = "";
+//        for (int i = 0; i < temp.length; i++) {
+//            for (int j = 0; j < stopwordList.size(); j++) {
+//                if (temp[i].equals(stopwordList.get(j))) {
+//                    temp[i] = "";
+//                }
+//            }
+//        }
+//        for (int i = 0; i < temp.length; i++) {
+//            if (!temp[i].equals("")) {
+//                content = content + temp[i] + "\n";
+//            }
+//        }
+//
+//        return content;
+//    }
 
     public void remove(String pathFile, String outFile) {
         File file = new File(pathFile);
