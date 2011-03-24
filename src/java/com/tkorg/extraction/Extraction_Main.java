@@ -8,7 +8,8 @@ package com.tkorg.extraction;
 import com.tkorg.util.Constants;
 import com.tkorg.util.Global;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -45,58 +46,25 @@ public class Extraction_Main {
         }
     }
 
-    public String extractSentence(String sentence, String keywordname) {
-        String individual = "";
-        for (int j = 0; j < Constants.removewords.length; j++) {
-            if (sentence.toLowerCase().startsWith(Constants.removewords[j].toLowerCase())) {
-                sentence = sentence.substring(Constants.removewords[j].length()).toString();
-                if (sentence.startsWith(",")) {
-                    sentence = sentence.substring(2);
-                }
-            }
-        }
-
-        if (sentence.toLowerCase().startsWith(keywordname) || sentence.toLowerCase().startsWith(" " + keywordname)) {
-            for (int j = 0; j < Constants.followwords.length; j++) {
-                if (sentence.matches(keywordname + Constants.followwords[j] + ".*") || sentence.matches(keywordname + " \\(.*\\)" + Constants.followwords[j] + ".*")) {
-                    individual = sentence.substring(keywordname.length() + Constants.followwords[j].length() + 1);
-                    break;
-                }
-            }
-        } else if (sentence.endsWith(keywordname)) {
-            for (int j = 0; j < Constants.forwardwords.length; j++) {
-                if (sentence.endsWith(Constants.forwardwords[j] + keywordname)) {
-                    individual = sentence.substring(0, sentence.length() - (Constants.forwardwords[j].length() + keywordname.length()));
-                    break;
-                }
-            }
-        } else if (sentence.indexOf(keywordname) > -1) {
-            String cha = sentence.substring(sentence.indexOf(keywordname), sentence.indexOf(keywordname) + 1);
-            if (cha.equals(keywordname.substring(0, 1).toUpperCase())) {
-                if ((sentence.indexOf(keywordname + "(") > -1) || (sentence.indexOf(keywordname + " (") > -1)) {
-                    for (int j = 0; j < Constants.followwords.length; j++) {
-                        int index02 = sentence.indexOf(")" + Constants.followwords[j]);
-                        if (index02 > -1) {
-                            individual = sentence.substring(index02 + Constants.followwords[j].length() + 1);
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-
-        return individual;
-    }
-
     public void extractWithKeywords(ArrayList < String > keywordnames) {
         for (int index = 0; index < keywordnames.size(); index++) {
             MyKeyword keyword = new MyKeyword();
             keyword.setName(keywordnames.get(index));
             for (int i = 0; i < fileList.size(); i++) {
                 for (int j = 0; j < fileList.get(i).getSentences().size(); j++) {
-                    String temp = extractSentence(fileList.get(i).getSentences().get(j), keyword.getName().replace(" ", "_"));
-                    if (!temp.equals("")) {
-                        keyword.getIndividuals().add(temp);
+                    try {
+                        Thread extraction = new Extraction_Thread();
+                        ((Extraction_Thread) extraction).setSentence(fileList.get(i).getSentences().get(j));
+                        ((Extraction_Thread) extraction).setKeyword(keyword.getName().replace(" ", "_"));
+                        ((Extraction_Thread) extraction).start();
+                        ((Extraction_Thread) extraction).join();
+                        String temp = ((Extraction_Thread) extraction).getIndividual();
+                        ((Extraction_Thread) extraction).stop();
+                        if (!temp.equals("")) {
+                            keyword.getIndividuals().add(temp);
+                        }
+                    } catch (InterruptedException ex) {
+                        Logger.getLogger(Extraction_Main.class.getName()).log(Level.SEVERE, null, ex);
                     }
                 }
             }
@@ -113,9 +81,6 @@ public class Extraction_Main {
     }
 
     public static void main(String[] args) {
-        Extraction_Main e = new Extraction_Main();
-        String t = e.extractSentence("org Phần_mềm ( tiếng Anh : software ) là một tập_hợp những câu_lệnh được viết bằng một hoặc nhiều ngôn_ngữ_lập_trình theo một trật_tự xác_định nhằm tự_động thực_hiện một_số nhiệm_vụ hoặc chức_năng hoặc giải_quyết một bài_toán nào_đó",
-                            "Phần mềm");
-        JOptionPane.showMessageDialog(null, t);
+        
     }
 }
