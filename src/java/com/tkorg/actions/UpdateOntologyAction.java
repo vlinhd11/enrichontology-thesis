@@ -52,6 +52,8 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
                     displayBL.inputOntology();
                     request.setAttribute("isExist", true);
 
+                    Global g = new Global();
+
                     return mapping.findForward(SUCCESS);
                 } else {
                     request.setAttribute("isExist", false);
