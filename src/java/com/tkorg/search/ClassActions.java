@@ -9,6 +9,7 @@ import java.util.Iterator;
 import com.tkorg.entities.MyStack;
 import com.tkorg.entities.OWLModel;
 
+import com.tkorg.util.Global;
 import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
 import edu.stanford.smi.protegex.owl.model.RDFSClass;
 import edu.stanford.smi.protegex.owl.model.impl.DefaultRDFSNamedClass;
@@ -16,31 +17,25 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ClassActions {
-	public static ArrayList < OWLNamedClass > classesArrayList = null;
-	public static ArrayList < String > liClassNameList = null;
-	public static String selectedClassName = "";
-	public static String strResult = "";
         private static String temp = "";
 
 	public static void viewClasses() {
-		classesArrayList = new ArrayList<OWLNamedClass>();
-		liClassNameList = new ArrayList<String>();
-		MyStack myStack = new MyStack();
 
+		MyStack myStack = new MyStack();
 		myStack.init();
 		OWLNamedClass owlThingClass = OWLModel.owlModel.getOWLThingClass();
-		classesArrayList.add(owlThingClass);
+		Global.classesArrayList.add(owlThingClass);
 
 		//Add all classes into classesArrayList.
 		addClassesIntoArrayListByClass(owlThingClass);
 
-		for (int i = 0; i < classesArrayList.size(); i++) {
-			liClassNameList.add("liClosed");
+		for (int i = 0; i < Global.classesArrayList.size(); i++) {
+			Global.liClassNameList.add("liClosed");
 		}
 
                 // remove duplicate class in list
-                Set setClasses = new HashSet(classesArrayList);
-                classesArrayList = new ArrayList<OWLNamedClass>(setClasses);
+                Set setClasses = new HashSet(Global.classesArrayList);
+                Global.classesArrayList = new ArrayList<OWLNamedClass>(setClasses);
 		// Convert all classes into Tree.                                
 		convertClassesIntoTree();
 	}
@@ -51,7 +46,7 @@ public class ClassActions {
 			for (Iterator it = classes.iterator(); it.hasNext();) {
 				DefaultRDFSNamedClass cls = (DefaultRDFSNamedClass) it.next();
 				if (!cls.isSystem()) {
-					classesArrayList.add((OWLNamedClass) cls);
+					Global.classesArrayList.add((OWLNamedClass) cls);
 					if (cls.getSubclassCount() != 0) {
 						addClassesIntoArrayListByClass((OWLNamedClass) cls);
 					}
@@ -63,55 +58,55 @@ public class ClassActions {
 	}
 
 	public static void convertClassesIntoTree() {
-		strResult = "<ul class=\"mktree\" id=\"tree1\" >\n";
-		for (int i = 0; i < classesArrayList.size(); i++) {
-			if (classesArrayList.get(i).getBrowserText().equals("owl:Thing")) {
-				strResult += "<li id=\"" + classesArrayList.get(i).getBrowserText() +"\" " +
-                                        "class=\"" + liClassNameList.get(i) + "\" >\n";
-				if (classesArrayList.get(i).getSubclassCount() != 0) {
-					strResult += "	<a href='#"+classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" " +
-                                                    "onclick=\"changeTree('" + classesArrayList.get(i).getBrowserText() + "')\" ></a>" +
+		Global.strResult = "<ul class=\"mktree\" id=\"tree1\" >\n";
+		for (int i = 0; i < Global.classesArrayList.size(); i++) {
+			if (Global.classesArrayList.get(i).getBrowserText().equals("owl:Thing")) {
+				Global.strResult += "<li id=\"" + Global.classesArrayList.get(i).getBrowserText() +"\" " +
+                                        "class=\"" + Global.liClassNameList.get(i) + "\" >\n";
+				if (Global.classesArrayList.get(i).getSubclassCount() != 0) {
+					Global.strResult += "	<a href='#"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" " +
+                                                    "onclick=\"changeTree('" + Global.classesArrayList.get(i).getBrowserText() + "')\" ></a>" +
                                                 "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				}
 				else {
-					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
+					Global.strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
 				}
-				strResult += "<a href='#"+classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" name='"+classesArrayList.get(i).getBrowserText() + "_"+i+"'"+ "style=\"text-decoration:none\" onclick=\"addConcept('" + classesArrayList.get(i).getBrowserText() + "','listID')\" >"
-						+ classesArrayList.get(i).getBrowserText()
+				Global.strResult += "<a href='#"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" name='"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+"'"+ "style=\"text-decoration:none\" onclick=\"addConcept('" + Global.classesArrayList.get(i).getBrowserText() + "','listID')\" >"
+						+ Global.classesArrayList.get(i).getBrowserText()
 						+ "</a>\n";
-				addNodesByRank(classesArrayList.get(i));
-                                strResult += "\n</li>\n";
+				addNodesByRank(Global.classesArrayList.get(i));
+                                Global.strResult += "\n</li>\n";
 				break;
 			}
 		}
 	}
 
 	private static void addNodesByRank(OWLNamedClass parentClass) {
-            strResult += "<ul>\n";
-		for (int i = 0; i < classesArrayList.size(); i++) {
-			if (classesArrayList.get(i).isSubclassOf((RDFSClass) parentClass)) {
-                            temp = classesArrayList.get(i).getBrowserText().replace("_", " ");
-				strResult += "<li id=\"" + temp + "_" + parentClass.getBrowserText() + "\" " +
-                                        "class=\"" + liClassNameList.get(i) + "\" >";
-				if (classesArrayList.get(i).getSubclassCount() != 0)
-					strResult += "	<a href='#"+temp + "_sub_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" onclick=\"changeTree('"
+            Global.strResult += "<ul>\n";
+		for (int i = 0; i < Global.classesArrayList.size(); i++) {
+			if (Global.classesArrayList.get(i).isSubclassOf((RDFSClass) parentClass)) {
+                            temp = Global.classesArrayList.get(i).getBrowserText().replace("_", " ");
+				Global.strResult += "<li id=\"" + temp + "_" + parentClass.getBrowserText() + "\" " +
+                                        "class=\"" + Global.liClassNameList.get(i) + "\" >";
+				if (Global.classesArrayList.get(i).getSubclassCount() != 0)
+					Global.strResult += "	<a href='#"+temp + "_sub_"+i+ "'"+" style=\"text-decoration:none\" class=\"bullet\" onclick=\"changeTree('"
 							+ temp + "_" + parentClass.getBrowserText()
 							+ "')\" ></a>" +
                                                         "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				else
-					strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
-				strResult += "<a href='#"+temp + "_sub_"+i+ "'"+" name='"+temp + "_sub_"+i+"'"+" style=\"text-decoration:none\" onclick=\"addConcept('"
+					Global.strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
+				Global.strResult += "<a href='#"+temp + "_sub_"+i+ "'"+" name='"+temp + "_sub_"+i+"'"+" style=\"text-decoration:none\" onclick=\"addConcept('"
 						+ temp
 						+ "','listID')\" >"
 						+ temp
 						+ "</a>\n";
-				if (classesArrayList.get(i).getSubclassCount() != 0) {
-					addNodesByRank(classesArrayList.get(i));
+				if (Global.classesArrayList.get(i).getSubclassCount() != 0) {
+					addNodesByRank(Global.classesArrayList.get(i));
 				}
-                                strResult += "</li>\n";
+                                Global.strResult += "</li>\n";
 			}
 		}
-            strResult += "</ul>";
+            Global.strResult += "</ul>";
 	}
 
     @SuppressWarnings("empty-statement")
@@ -122,8 +117,8 @@ public class ClassActions {
 		owlModel.loadOWLModelFromExistFile(uri);;
 		ClassActions.viewClasses();
 		
-		for (int i = 0; i < classesArrayList.size(); i++) {
-			System.out.println(classesArrayList.get(i).getBrowserText());
+		for (int i = 0; i < Global.classesArrayList.size(); i++) {
+			System.out.println(Global.classesArrayList.get(i).getBrowserText());
 		}
 	}
 }
