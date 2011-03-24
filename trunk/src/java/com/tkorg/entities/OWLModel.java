@@ -15,7 +15,8 @@ public class OWLModel {
 
     public void loadOWLModelFromExistFile(URI uri) {
         try {
-            owlModel = ProtegeOWL.createJenaOWLModelFromURI(uri.toString());
+            if (owlModel == null)
+                owlModel = ProtegeOWL.createJenaOWLModelFromURI(uri.toString());
         } catch (Exception e) {
             System.out.print(e.getMessage());
         }
