@@ -62,11 +62,11 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                 for (int i = 0; i < Global.entityList.size(); i++) {
                     if (Global.entityList.get(i).getType().equals("google")) {
                         boolean isExist = false;
-                        for (int j = 0; j < SearchOntologyBL.googleList.size(); j++) {
-                            if (SearchOntologyBL.googleList.get(j).getName().equals(Global.entityList.get(i).getKeyword())) {
+                        for (int j = 0; j < Global.googleList.size(); j++) {
+                            if (Global.googleList.get(j).getName().equals(Global.entityList.get(i).getKeyword())) {
                                 isExist = true;
-                                SearchOntologyBL.googleList.get(j).getLinkList().add(Global.entityList.get(i).getLink());
-                                SearchOntologyBL.googleList.get(j).getTitleList().add(Global.entityList.get(i).getTitle());
+                                Global.googleList.get(j).getLinkList().add(Global.entityList.get(i).getLink());
+                                Global.googleList.get(j).getTitleList().add(Global.entityList.get(i).getTitle());
                                 break;
                             }
                         }
@@ -75,16 +75,16 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                             keyword.setName(Global.entityList.get(i).getKeyword());
                             keyword.getLinkList().add(Global.entityList.get(i).getLink());
                             keyword.getTitleList().add(Global.entityList.get(i).getTitle());
-                            SearchOntologyBL.googleList.add(keyword);
+                            Global.googleList.add(keyword);
                         }
                     }
                     if (Global.entityList.get(i).getType().equals("yahoo")) {
                         boolean isExist = false;
-                        for (int j = 0; j < SearchOntologyBL.yahooList.size(); j++) {
-                            if (SearchOntologyBL.yahooList.get(j).getName().equals(Global.entityList.get(i).getKeyword())) {
+                        for (int j = 0; j < Global.yahooList.size(); j++) {
+                            if (Global.yahooList.get(j).getName().equals(Global.entityList.get(i).getKeyword())) {
                                 isExist = true;
-                                SearchOntologyBL.yahooList.get(j).getLinkList().add(Global.entityList.get(i).getLink());
-                                SearchOntologyBL.yahooList.get(j).getTitleList().add(Global.entityList.get(i).getTitle());
+                                Global.yahooList.get(j).getLinkList().add(Global.entityList.get(i).getLink());
+                                Global.yahooList.get(j).getTitleList().add(Global.entityList.get(i).getTitle());
                                 break;
                             }
                         }
@@ -93,13 +93,13 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                             keyword.setName(Global.entityList.get(i).getKeyword());
                             keyword.getLinkList().add(Global.entityList.get(i).getLink());
                             keyword.getTitleList().add(Global.entityList.get(i).getTitle());
-                            SearchOntologyBL.yahooList.add(keyword);
+                            Global.yahooList.add(keyword);
                         }
                     }
                 }
 
-                httpSession.setAttribute(Constants.GOOGLE_LIST, SearchOntologyBL.googleList);
-                httpSession.setAttribute(Constants.YAHOO_LIST, SearchOntologyBL.yahooList);
+                httpSession.setAttribute(Constants.GOOGLE_LIST, Global.googleList);
+                httpSession.setAttribute(Constants.YAHOO_LIST, Global.yahooList);
                 if (Constants.GOOGLE.equals(google)) {
                     httpSession.setAttribute(Constants.IS_GOOGLE, (Boolean)true);
                 } else {
