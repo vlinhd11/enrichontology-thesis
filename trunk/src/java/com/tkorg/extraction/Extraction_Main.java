@@ -39,6 +39,7 @@ public class Extraction_Main {
             }
             MyFile file = new MyFile();
             file.setName(Global.entityList.get(i).getTitle());
+            file.setLink(Global.entityList.get(i).getLink());
             for (int j = 0; j < temp.size(); j++) {
                 file.getSentences().add(temp.get(j));
             }
@@ -61,6 +62,7 @@ public class Extraction_Main {
                         String temp = ((Extraction_Thread) extraction).getIndividual();
                         ((Extraction_Thread) extraction).stop();
                         if (!temp.equals("")) {
+                            keyword.getLinks().add(fileList.get(i).getLink());
                             keyword.getIndividuals().add(temp);
                         }
                     } catch (InterruptedException ex) {
