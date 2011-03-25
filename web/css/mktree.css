@@ -38,8 +38,7 @@
 }
 
 #scroll_box {
-    height: 400px;
+    height: 470px;
     width: 400px;
     overflow: scroll;
-
 }
