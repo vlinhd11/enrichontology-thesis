@@ -13,10 +13,12 @@ import java.util.ArrayList;
  */
 public class MyKeyword {
 
-    String name;
-    ArrayList < String > individuals = null;
+    private String name;
+    private ArrayList < String > links = null;
+    private ArrayList < String > individuals = null;
 
     public MyKeyword() {
+        links = new ArrayList < String >();
         individuals = new ArrayList < String >();
     }
 
@@ -26,6 +28,14 @@ public class MyKeyword {
 
     public void setIndividuals(ArrayList<String> individuals) {
         this.individuals = individuals;
+    }
+
+    public ArrayList<String> getLinks() {
+        return links;
+    }
+
+    public void setLinks(ArrayList<String> links) {
+        this.links = links;
     }
 
     public String getName() {

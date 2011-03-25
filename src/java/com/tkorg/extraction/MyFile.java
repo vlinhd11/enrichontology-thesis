@@ -13,11 +13,20 @@ import java.util.ArrayList;
  */
 public class MyFile {
 
-    String name;
+    private String name;
+    private String link;
     ArrayList < String > sentences = null;
 
     MyFile() {
         sentences = new ArrayList < String >();
+    }
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
     }
 
     public String getName() {
