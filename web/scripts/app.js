@@ -44,5 +44,7 @@ function submitForm(frm, screenid, processid) {
         frm.submit();
     } else if (screenid == 'UPDATE_ONTOLOGY') {
         frm.submit();
+    } else if (screenid == 'RESULT') {
+        frm.submit();
     }
 }
