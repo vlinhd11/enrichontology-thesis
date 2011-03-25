@@ -37,14 +37,14 @@
         <h1><bean:message key="updateOntology.heading" /></h1>
         
         <html:form action="/UpdateOntologyAction">
-            <html:hidden property="screenid" value="UPDATE_ONTOLOGY" />
-            <html:hidden property="processid" value="UPDATE_ONTOLOGY_01" />
+            <html:hidden property="screenid" value="" />
+            <html:hidden property="processid" value="" />
 
             <table border="1" width="100%">
                 <tr BGCOLOR="#FFF8C6">
-                    <th width ="3%">No.</th>
+                    <th width ="3%"><bean:message key="updateOntology.no" /></th>
                     <th width ="79%"><bean:message key="updateOntology.heading" /></th>
-                    <th width="3%">Remove</th>
+                    <th width="3%"><bean:message key="updateOntology.remove" /></th>
                 </tr>
                 <%
                     for(int i = 0; i < Global.keywordList.size(); i++) {
@@ -56,10 +56,13 @@
                 </tr>
                 <%
                         for (int j = 0; j < Global.keywordList.get(i).getIndividuals().size(); j++) {
+                            String content = Global.keywordList.get(i).getIndividuals().get(j)
+                                    + "<br />"
+                                    + "<a href=#>" + Global.keywordList.get(i).getLinks().get(j) + "</a>";
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j)%>.</td>
-                    <td width="79%"><%=Global.keywordList.get(i).getIndividuals().get(j)%></td>
+                    <td width="79%"><%=content%></td>
                     <td width="3%">
                 <%
                             String temp = "" + i + "-" + j;
@@ -72,7 +75,8 @@
                     }
             %>
             </table><br><br>
-            <input type="button" value="Extract Concepts" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')">
+            <%--<input type="button" value="Cập nhật Ontology" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')">--%>
+            <html:button property="btnUpdateOntology" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')" ><bean:message key="updateOntology.submit" /></html:button>
         </html:form>
     </body>
 </html>
