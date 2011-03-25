@@ -60,6 +60,7 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
                 }
             }
         }
+        request.setAttribute("isExist", false);
 
         return mapping.findForward(FAIL);
     }
