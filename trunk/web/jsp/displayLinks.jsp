@@ -36,8 +36,8 @@
         <h1><bean:message key="display.heading" /></h1>
         
         <html:form action="/DisplayLinksAction">
-            <html:hidden property="screenid" value="DISPLAY_LINKS" />
-            <html:hidden property="processid" value="DISPLAY_LINKS_01" />
+            <html:hidden property="screenid" value="" />
+            <html:hidden property="processid" value="" />
             <%
                 ArrayList < MyKeyword > googleList = (ArrayList<MyKeyword>) session.getAttribute(Constants.GOOGLE_LIST);
                 ArrayList < MyKeyword > yahooList = (ArrayList < MyKeyword >) session.getAttribute(Constants.YAHOO_LIST);
@@ -49,8 +49,8 @@
             %>
             <table border="1" width="100%">
                 <tr BGCOLOR="#FFF8C6">
-                    <th width =\"3%\">No.</th>
-                    <th width =\"82%\">Search results by Google</th>
+                    <th width =\"3%\"><bean:message key="display.no" /></th>
+                    <th width =\"82%\"><bean:message key="display.resultByGoogle" /></th>
                 </tr>
                 <%
                     for(int i = 0; i < googleList.size(); i++) {
@@ -85,8 +85,8 @@
             %>
             <table border="1" width="100%">
                 <tr BGCOLOR="#FFF8C6">
-                    <th width =\"3%\">No.</th>
-                    <th width =\"97%\">Search results by Yahoo</th>
+                    <th width =\"3%\"><bean:message key="display.no" /></th>
+                    <th width =\"97%\"><bean:message key="display.resultByYahoo" /></th>
                 </tr>
                 <%
                     for(int i = 0; i < yahooList.size(); i++) {
@@ -112,11 +112,12 @@
                         }
                     }
             %>
-            </table><br><br>
+            </table>
+            <br>
             <%
                 }
             %>
-            <input type="button" value="Classify" onclick="submitForm(document.forms[0], 'DISPLAY_LINKS', 'DISPLAY_LINKS_01')">
+            <html:button property="btnDisplay" onclick="submitForm(document.forms[0], 'DISPLAY_LINKS', 'DISPLAY_LINKS_01')" ><bean:message key="display.submit" /></html:button>
 
         </html:form>
 

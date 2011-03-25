@@ -16,6 +16,7 @@
    "http://www.w3.org/TR/html4/loose.dtd">
 
 <%@page import="com.tkorg.util.Constants" %>
+<%@page import="javax.swing.JOptionPane;" %>
 
 <html>
     <head>
@@ -27,20 +28,22 @@
         <title><bean:message key="searchOntology.title" /></title>
     </head>
     <body>
-        <h1 class="color" style="text-align: center;"><bean:message key="searchOntology.heading" /></h1>
-        
+        <%--<h1 style="text-align: center; background-color: rgb(62, 116, 67);"><bean:message key="searchOntology.heading"  /></h1>--%>
         <html:form action="/SearchOntologyAction">
-            <table border="1" cellpadding="10" width="90%" >
+            <html:hidden property="li_id" value=""/>
+            <html:hidden property="screenid" value=""/>
+            <html:hidden property="processid" value=""/>
+            <html:hidden property="query_string" value=""/>
+            
+            <table border="0" cellpadding="10" width="90%" align="center" >
                 <tr>
-                    <td width="30%" align="left" valign="top" style="background-color: rgb(255, 248, 198);">
+                    <td width="30%" align="center" valign="top" >
+                        <img src="./css/searching.jpg" alt="" border="0" />
+                    </td>
+                    <td width="35%" align="left" valign="top" style="background-color: rgb(180, 255, 180);">
                         <h3><bean:message key="searchOntology.ontology" /></h3>
-                        <h5><bean:message key="searchOntology.addConcept" /></h5>
-			<html:hidden property="li_id" value=""/>
-			<html:hidden property="screenid" value=""/>
-			<html:hidden property="processid" value=""/>
-			<html:hidden property="query_string" value=""/>
                         <div id="scroll_box">
-                            <jsp:useBean id="ontology" class="com.tkorg.businesslogic.SearchOntologyBL" scope="session">
+                            <jsp:useBean id="ontology" class="com.tkorg.businesslogic.SearchOntologyBL" scope="page">
                                 <%
                                   String namePath = Constants.PATH_ONTOLOGY;
                                 %>
@@ -49,18 +52,17 @@
                             </jsp:useBean>
                         </div>
                     </td>
-                    <td width="30%" align="left" valign="top">
-                        <h3>Concepts</h3>
-			<select id="listID" name="listquery" size="20" style="width: 90%;" />
-                        <br /><br /><br />
-                        <input type="button" value="Remove" onclick="removeConcept('listID')" />
-			<input type="button" value="Remove All" onclick="removeAll('listID')" />
-                    </td>
-                    <td width="30%" align="left" valign="top">
-			<h3>Select Search Engine</h3>
+                    <td width="35%" align="left" valign="top">
+                        <h3><bean:message key="searchOntology.list" /></h3>
+			<select id="listID" name="listquery" size="15" style="width: 90%;" />
+                        <br /><br />
+                        <input type="button" value="Xóa một khái niệm" onclick="removeConcept('listID')" />
+			<input type="button" value="Xóa tất cả" onclick="removeAll('listID')" />
+                        <br /><br />
+                        <h3><bean:message key="searchOntology.ChoseSearchEngine" /></h3>
 			<html:checkbox property="google" value="google" >Google</html:checkbox>
 			&nbsp;&nbsp;
-			Max result&nbsp;&nbsp;
+                        <bean:message key="searchOntology.maxResult" />&nbsp;&nbsp;
 			<html:select property="m_google" >
                             <html:option value="5" >5</html:option>
                             <html:option value="10" >10</html:option>
@@ -73,7 +75,7 @@
                         <br />
                         <html:checkbox property="yahoo" value="yahoo" >Yahoo</html:checkbox>
                         &nbsp;&nbsp;
-                        Max result&nbsp;&nbsp;
+                        <bean:message key="searchOntology.maxResult" />&nbsp;&nbsp;
                         <html:select property="m_yahoo" >
                             <html:option value="5" >5</html:option>
                             <html:option value="10" >10</html:option>
@@ -82,9 +84,8 @@
                             <html:option value="40" >40</html:option>
                             <html:option value="50" >50</html:option>
                         </html:select>
-                        <br /><br /><br /><br /><br /><br />
-                        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                        <html:button property="button01" onclick="submitForm(document.forms[0], 'SEARCH_ONTOLOGY', 'SEARCH_ONTOLOGY_01')">Submit Query</html:button>
+                        <br /><br />
+                        <html:button property="btnSearch" onclick="submitForm(document.forms[0], 'SEARCH_ONTOLOGY', 'SEARCH_ONTOLOGY_01')"><bean:message key="searchOntology.submit" /></html:button>
                     </td>
                 </tr>
             </table>
