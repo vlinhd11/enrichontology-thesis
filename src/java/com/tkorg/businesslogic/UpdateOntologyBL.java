@@ -18,6 +18,7 @@ import java.net.URI;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 /**
  *
  * @author DANHIT
@@ -51,27 +52,32 @@ public class UpdateOntologyBL {
         try {
             for (int i = 0; i < selectedItemsList.size(); i++) {
                 OWLNamedClass keyword = OWLModel.owlModel.getOWLNamedClass(selectedItemsList.get(i).getName().replace(" ", "_"));
-                OWLDatatypeProperty property = OWLModel.owlModel.getOWLDatatypeProperty("Định_nghĩa");
+                OWLDatatypeProperty property01 = OWLModel.owlModel.getOWLDatatypeProperty("Định_nghĩa");
+                OWLDatatypeProperty property02 = OWLModel.owlModel.getOWLDatatypeProperty("Nguồn");
                 for (int j = 0; j < selectedItemsList.get(i).getIndividuals().size(); j++) {
                     int index = checkExist(keyword.getBrowserText());
                     OWLIndividual individual = keyword.createOWLIndividual(keyword.getBrowserText() + "_" + index);
-                    property.setDomain(keyword);
-                    individual.setPropertyValue(property, selectedItemsList.get(i).getIndividuals().get(j));
+                    property01.setDomain(keyword);
+                    individual.setPropertyValue(property01, selectedItemsList.get(i).getIndividuals().get(j));
+
+                    property02.setDomain(keyword);
+                    individual.setPropertyValue(property02, selectedItemsList.get(i).getLinks().get(j));
                 }
             }
             if (OWLModel.owlModel.hasChanged()) {
                 URI uri = new File(Constants.PATH_ONTOLOGY).toURI();
                 OWLModel.owlModel.save(uri);
+            } else {
             }
         } catch (Exception ex) {
             Logger.getLogger(UpdateOntologyBL.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    private int checkExist(String name) {
+    private int checkExist(String keyword) {
         int index = 0;
         do {
-            OWLIndividual individual = OWLModel.owlModel.getOWLIndividual(name + "_" + index);
+            OWLIndividual individual = OWLModel.owlModel.getOWLIndividual(keyword + "_" + index);
             if (individual == null) {
                 return index;
             }
