@@ -15,9 +15,7 @@ import org.apache.struts.action.ActionMapping;
  * @author DANHIT
  */
 public class UpdateOntologyForm extends org.apache.struts.action.ActionForm {
-    
-    private String screenid;
-    private String processid;
+
     private String[] item;
 
     public String[] getItem() {
@@ -26,22 +24,6 @@ public class UpdateOntologyForm extends org.apache.struts.action.ActionForm {
 
     public void setItem(String[] item) {
         this.item = item;
-    }
-
-    public String getProcessid() {
-        return processid;
-    }
-
-    public void setProcessid(String processid) {
-        this.processid = processid;
-    }
-
-    public String getScreenid() {
-        return screenid;
-    }
-
-    public void setScreenid(String screenid) {
-        this.screenid = screenid;
     }
 
     /**
