@@ -38,8 +38,6 @@
         <h1><bean:message key="itDocument.heading" /></h1>
         
         <html:form action="/ITDocumentAction">
-            <html:hidden property="screenid" value="" />
-            <html:hidden property="processid" value="" />
             <table border="1" width="100%">
                 <tr BGCOLOR="#FFF8C6">
                     <th width =\"3%\"><bean:message key="itDocument.no" /></th>
@@ -75,7 +73,7 @@
             %>
             </table>
             <br>
-            <html:button property="btnITDocument" onclick="submitForm(document.forms[0], 'IT_DOCUMENT', 'IT_DOCUMENT_01')" ><bean:message key="itDocument.submit" /></html:button>
+            <%--<html:button property="btnITDocument" onclick="submitForm(document.forms[0], 'IT_DOCUMENT', 'IT_DOCUMENT_01')" ><bean:message key="itDocument.submit" /></html:button>--%>
 
         </html:form>
 
