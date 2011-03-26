@@ -40,7 +40,6 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
     public ActionForward execute(ActionMapping mapping, ActionForm form,
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
-        
         SearchOntologyForm searchOntologyForm = (SearchOntologyForm) form;
 
 	String screenid = searchOntologyForm.getScreenid();
@@ -56,7 +55,7 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
                 int m_yahoo = Integer.parseInt(searchOntologyForm.getM_yahoo());
                 SearchOntologyBL searchOntologyBL = new SearchOntologyBL();
                 HttpSession httpSession = request.getSession();
-                
+
                 searchOntologyBL.searchOntologyWithKeywords(query_string, google, m_google, yahoo, m_yahoo);
 
                 for (int i = 0; i < Global.entityList.size(); i++) {

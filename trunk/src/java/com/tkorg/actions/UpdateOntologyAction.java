@@ -40,27 +40,21 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
 
         UpdateOntologyForm updateOntologyForm = (UpdateOntologyForm) form;
 
-        String screenid = updateOntologyForm.getScreenid();
-        String processid = updateOntologyForm.getProcessid();
         String[] item = updateOntologyForm.getItem();
 
-        if (screenid.equals("UPDATE_ONTOLOGY")) {
-            if (processid.equals("UPDATE_ONTOLOGY_01")) {
-                UpdateOntologyBL displayBL = new UpdateOntologyBL();
-                if (Global.keywordList.size() != 0) {
-                    displayBL.choseItems(item);
-                    displayBL.inputOntology();
-                    request.setAttribute("isExist", true);
 
-                    Global g = new Global();
+        UpdateOntologyBL displayBL = new UpdateOntologyBL();
+        if (Global.keywordList.size() != 0) {
+            displayBL.choseItems(item);
+            displayBL.inputOntology();
+            request.setAttribute("isExist", true);
 
-                    return mapping.findForward(SUCCESS);
-                } else {
-                    request.setAttribute("isExist", false);
-                }
-            }
+            Global g = new Global();
+
+            return mapping.findForward(SUCCESS);
+        } else {
+            request.setAttribute("isExist", false);
         }
-        request.setAttribute("isExist", false);
 
         return mapping.findForward(FAIL);
     }

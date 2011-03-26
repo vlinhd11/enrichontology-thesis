@@ -6,7 +6,6 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.DisplayLinksBL;
-import com.tkorg.forms.DisplayLinksForm;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
@@ -36,21 +35,10 @@ public class DisplayLinksAction extends org.apache.struts.action.Action {
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
 
-        DisplayLinksForm displayLinksForm = (DisplayLinksForm) form;
+        DisplayLinksBL displayBL = new DisplayLinksBL();
+        displayBL.downloadAndClassify();
+        displayBL.choseLinks();
 
-        String screenid = displayLinksForm.getScreenid();
-        String processid = displayLinksForm.getProcessid();
-
-        if (screenid.equals("DISPLAY_LINKS")) {
-            if (processid.equals("DISPLAY_LINKS_01")) {
-                DisplayLinksBL displayBL = new DisplayLinksBL();
-                displayBL.downloadAndClassify();
-                displayBL.choseLinks();
-                
-                return mapping.findForward(SUCCESS);
-            }
-        }
-        
         return mapping.findForward(SUCCESS);
     }
 }
