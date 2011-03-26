@@ -26,18 +26,14 @@
         <tiles:insert attribute="header" />
         <table width="90%" align="center" border="1" cellpadding="10">
             <tr>
-                <td colspan="2">
-                    <tiles:insert attribute="header" />
-                </td>
-            </tr>
-            <tr>
-                <td>
+                <td bgcolor="rgb(180, 255, 180)" nowrap width="20%">
                     <tiles:insert attribute="menu" />
                 </td>
-                <td>
+                <td align="center" width="80%">
                     <tiles:insert attribute="body" />
                 </td>
             </tr>
         </table>
+        <tiles:insert attribute="footer" />
     </body>
 </html>
