@@ -6,7 +6,6 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.ITDocumentBL;
-import com.tkorg.forms.ITDocumentForm;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
@@ -36,20 +35,9 @@ public class ITDocumentAction extends org.apache.struts.action.Action {
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
 
-        ITDocumentForm itDocumentForm = (ITDocumentForm) form;
+        ITDocumentBL displayBL = new ITDocumentBL();
+        displayBL.extractWithKeywords();
 
-        String screenid = itDocumentForm.getScreenid();
-        String processid = itDocumentForm.getProcessid();
-
-        if (screenid.equals("IT_DOCUMENT")) {
-            if (processid.equals("IT_DOCUMENT_01")) {
-                ITDocumentBL displayBL = new ITDocumentBL();
-                displayBL.extractWithKeywords();
-
-                return mapping.findForward(SUCCESS);
-            }
-        }
-        
         return mapping.findForward(SUCCESS);
     }
 }
