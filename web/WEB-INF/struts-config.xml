@@ -25,28 +25,68 @@
     </global-forwards>
 
     <action-mappings>
-        <action input="/" name="WelcomeForm" path="/WelcomeAction" scope="session" type="com.tkorg.actions.WelcomeAction">
-            <forward name="searchOntology" path="/jsp/searchOntology.jsp" />
-            <forward name="fail" path="/jsp/result.jsp" />
+        <action name="WelcomeForm" 
+                path="/WelcomeAction"
+                scope="session"
+                type="com.tkorg.actions.WelcomeAction">
+
+            <forward name="searchOntology"
+                     path="/jsp/searchOntology.jsp" />
+            <forward name="fail"
+                     path="/jsp/result.jsp" />
         </action>
-        <action input="/" name="SearchOntologyForm" path="/SearchOntologyAction" scope="session" type="com.tkorg.actions.SearchOntologyAction" validate="true">
-            <forward name="success" path="/jsp/displayLinks.jsp" />
-            <forward name="fail" path="/jsp/searchOntology.jsp" />
+
+        <action name="SearchOntologyForm"
+                path="/SearchOntologyAction"
+                scope="session"
+                type="com.tkorg.actions.SearchOntologyAction">
+            
+            <forward name="success"
+                     path=".display" />
+            <forward name="fail"
+                     path="/jsp/searchOntology.jsp" />
         </action>
-        <action input="/" name="DisplayLinksForm" path="/DisplayLinksAction" scope="session" type="com.tkorg.actions.DisplayLinksAction">
-            <forward name="success" path="/jsp/itDocument.jsp" />
+
+        <action name="DisplayLinksForm" 
+                path="/DisplayLinksAction"
+                scope="session"
+                type="com.tkorg.actions.DisplayLinksAction">
+
+            <forward name="success"
+                     path=".itDocument" />
         </action>
-        <action input="/" name="ITDocumentForm" path="/ITDocumentAction" scope="session" type="com.tkorg.actions.ITDocumentAction">
-            <forward name="success" path="/jsp/updateOntology.jsp" />
+
+        <action name="ITDocumentForm" 
+                path="/ITDocumentAction"
+                scope="session"
+                type="com.tkorg.actions.ITDocumentAction">
+
+            <forward name="success"
+                     path=".updateOntology" />
         </action>
-        <action input="/" name="UpdateOntologyForm" path="/UpdateOntologyAction" scope="session" type="com.tkorg.actions.UpdateOntologyAction">
-            <forward name="success" path="/jsp/result.jsp" />
-            <forward name="fail" path="/jsp/result.jsp" />
+
+        <action name="UpdateOntologyForm" 
+                path="/UpdateOntologyAction"
+                scope="session"
+                type="com.tkorg.actions.UpdateOntologyAction">
+
+            <forward name="success"
+                     path="/jsp/result.jsp" />
+            <forward name="fail"
+                     path="/jsp/result.jsp" />
         </action>
-        <action input="/" name="ResultForm" path="/ResultAction" scope="session" type="com.tkorg.actions.ResultAction">
-            <forward name="success" path="/jsp/searchOntology.jsp" />
+
+        <action name="ResultForm" 
+                path="/ResultAction"
+                scope="session"
+                type="com.tkorg.actions.ResultAction">
+
+            <forward name="success"
+                     path="/jsp/searchOntology.jsp" />
         </action>
-        <action path="/Welcome" forward="/jsp/welcome.jsp"/>
+
+        <action path="/Welcome"
+                forward="/jsp/welcome.jsp"/>
     </action-mappings>
     
     <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>

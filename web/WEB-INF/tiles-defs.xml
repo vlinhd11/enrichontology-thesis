@@ -11,30 +11,30 @@
 
 <tiles-definitions>
 
-    <!-- sample tiles definitions
-    <definition name=".mainLayout" path="/common/layouts/classicLayout.jsp">
-        <put name="title"  value="Sample Page Title" />
+    <definition name=".mainLayout" path="/common/Layout.jsp">
+        <put name="title"  value="" />
         <put name="header" value="/common/header.jsp" />
-        <put name="menu"   value=".mainMenu" />
+        <put name="menu"   value="/common/menu01.jsp" />
         <put name="footer" value="/common/footer.jsp" />
-        <put name="body"   value=".portal.body" />
+        <put name="body"   value="" />
     </definition>
 
-    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
-        <putList name="list" >
-            <add value=".menu.links" />
-            <add value=".menu.taglib.references" />
-            <add value=".menu.printer.friendly" />
-            <add value=".menu.old.documents" />
-      </putList>
+    <definition name=".display" extends=".mainLayout">
+        <put name="title" value="Display Links" />
+        <put name="body" value="/jsp/displayLinks.jsp" />
     </definition>
 
-    <definition name="aPage" extends=".mainLayout">
-        <put name="title"  value="Another Title" />
-        <put name="body"   value=".aPage.body" />
+    <definition name=".itDocument" extends=".mainLayout">
+        <put name="title" value="IT Document" />
+        <put name="menu"   value="/common/menu02.jsp" />
+        <put name="body" value="/jsp/itDocument.jsp" />
     </definition>
 
-    end samples -->
+    <definition name=".updateOntology" extends=".mainLayout">
+        <put name="title" value="Update Ontology" />
+        <put name="menu"   value="/common/menu03.jsp" />
+        <put name="body" value="/jsp/updateOntology.jsp" />
+    </definition>
 
     <definition name="${YOUR_DEFINITION_HERE}">
     </definition>
