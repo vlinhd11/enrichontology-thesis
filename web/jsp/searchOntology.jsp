@@ -28,7 +28,6 @@
         <title><bean:message key="searchOntology.title" /></title>
     </head>
     <body>
-        <%--<h1 style="text-align: center; background-color: rgb(62, 116, 67);"><bean:message key="searchOntology.heading"  /></h1>--%>
         <html:form action="/SearchOntologyAction">
             <html:hidden property="li_id" value=""/>
             <html:hidden property="screenid" value=""/>
