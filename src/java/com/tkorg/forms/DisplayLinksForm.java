@@ -15,25 +15,6 @@ import org.apache.struts.action.ActionMapping;
  * @author danhit
  */
 public class DisplayLinksForm extends org.apache.struts.action.ActionForm {
-    
-    private String screenid;
-    private String processid;
-
-    public String getProcessid() {
-        return processid;
-    }
-
-    public void setProcessid(String processid) {
-        this.processid = processid;
-    }
-
-    public String getScreenid() {
-        return screenid;
-    }
-
-    public void setScreenid(String screenid) {
-        this.screenid = screenid;
-    }
 
     /**
      *
