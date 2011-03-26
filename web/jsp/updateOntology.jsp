@@ -37,8 +37,6 @@
         <h1><bean:message key="updateOntology.heading" /></h1>
         
         <html:form action="/UpdateOntologyAction">
-            <html:hidden property="screenid" value="" />
-            <html:hidden property="processid" value="" />
 
             <table border="1" width="100%">
                 <tr BGCOLOR="#FFF8C6">
@@ -75,8 +73,7 @@
                     }
             %>
             </table><br><br>
-            <%--<input type="button" value="Cập nhật Ontology" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')">--%>
-            <html:button property="btnUpdateOntology" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')" ><bean:message key="updateOntology.submit" /></html:button>
+            <%--<html:button property="btnUpdateOntology" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')" ><bean:message key="updateOntology.submit" /></html:button>--%>
         </html:form>
     </body>
 </html>

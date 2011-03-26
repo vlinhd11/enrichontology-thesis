@@ -36,8 +36,6 @@
         <h1><bean:message key="display.heading" /></h1>
         
         <html:form action="/DisplayLinksAction">
-            <html:hidden property="screenid" value="" />
-            <html:hidden property="processid" value="" />
             <%
                 ArrayList < MyKeyword > googleList = (ArrayList<MyKeyword>) session.getAttribute(Constants.GOOGLE_LIST);
                 ArrayList < MyKeyword > yahooList = (ArrayList < MyKeyword >) session.getAttribute(Constants.YAHOO_LIST);
@@ -117,7 +115,7 @@
             <%
                 }
             %>
-            <html:button property="btnDisplay" onclick="submitForm(document.forms[0], 'DISPLAY_LINKS', 'DISPLAY_LINKS_01')" ><bean:message key="display.submit" /></html:button>
+            <%--<html:button property="btnDisplay" onclick="submitForm(document.forms[0], 'DISPLAY_LINKS', 'DISPLAY_LINKS_01')" ><bean:message key="display.submit" /></html:button>--%>
 
         </html:form>
 
