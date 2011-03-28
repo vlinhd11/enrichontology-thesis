@@ -31,9 +31,9 @@
                 type="com.tkorg.actions.WelcomeAction">
 
             <forward name="searchOntology"
-                     path="/jsp/searchOntology.jsp" />
+                     path=".searchOntology" />
             <forward name="fail"
-                     path="/jsp/result.jsp" />
+                     path=".result" />
         </action>
 
         <action name="SearchOntologyForm"
@@ -44,7 +44,7 @@
             <forward name="success"
                      path=".display" />
             <forward name="fail"
-                     path="/jsp/searchOntology.jsp" />
+                     path=".searchOntology" />
         </action>
 
         <action name="DisplayLinksForm" 
@@ -54,6 +54,8 @@
 
             <forward name="success"
                      path=".itDocument" />
+            <forward name="fail"
+                     path=".result" />
         </action>
 
         <action name="ITDocumentForm" 
@@ -63,6 +65,8 @@
 
             <forward name="success"
                      path=".updateOntology" />
+            <forward name="fail"
+                     path=".result" />
         </action>
 
         <action name="UpdateOntologyForm" 
@@ -71,9 +75,9 @@
                 type="com.tkorg.actions.UpdateOntologyAction">
 
             <forward name="success"
-                     path="/jsp/result.jsp" />
+                     path=".result" />
             <forward name="fail"
-                     path="/jsp/result.jsp" />
+                     path=".result" />
         </action>
 
         <action name="ResultForm" 
@@ -82,11 +86,11 @@
                 type="com.tkorg.actions.ResultAction">
 
             <forward name="success"
-                     path="/jsp/searchOntology.jsp" />
+                     path=".searchOntology" />
         </action>
 
         <action path="/Welcome"
-                forward="/jsp/welcome.jsp"/>
+                forward=".welcome"/>
     </action-mappings>
     
     <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>

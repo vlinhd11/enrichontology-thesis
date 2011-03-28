@@ -16,6 +16,7 @@
 
 <%@page import="com.tkorg.util.Constants" %>
 <%@page import="com.tkorg.entities.MyKeyword" %>
+<%@page import="com.tkorg.util.Global" %>
 
 <%@page import="java.io.IOException" %>
 <%@page import="java.util.ArrayList" %>
@@ -52,22 +53,25 @@
                 </tr>
                 <%
                     for(int i = 0; i < googleList.size(); i++) {
+                        String temp = Global.checkSize(googleList.get(i).getName());
                 %>
                 <tr>
                     <td></td>
-                    <td style="background-color: yellow" width="82%"><%=googleList.get(i).getName()%></td>
+                    <td style="background-color: yellow" width="82%"><%=temp%></td>
                 </tr>
                 <%
                         for (int j = 0; j < googleList.get(i).getLinkList().size(); j++) {
+                            String temp02 = Global.checkSize(googleList.get(i).getLinkList().get(j));
+                            String temp03 = Global.checkSize(googleList.get(i).getTitleList().get(j));
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j+1)%>.</td>
                     <td width="82%">
                         <a href="<%=googleList.get(i).getLinkList().get(j)%>" target="_blank">
-                            <%=googleList.get(i).getLinkList().get(j)%>
+                            <%=temp02%>
                         </a>
                         <br>
-                        <%=googleList.get(i).getTitleList().get(j)%>
+                        <%=temp03%>
                     </td>
                 </tr>
             <%
@@ -88,22 +92,25 @@
                 </tr>
                 <%
                     for(int i = 0; i < yahooList.size(); i++) {
+                        String temp01 = Global.checkSize(yahooList.get(i).getName());
                 %>
                 <tr>
                     <td></td>
-                    <td style="background-color: yellow" width="82%"><%=yahooList.get(i).getName()%></td>
+                    <td style="background-color: yellow" width="82%"><%=temp01%></td>
                 </tr>
                 <%
                         for (int j = 0; j < yahooList.get(i).getLinkList().size(); j++) {
+                            String temp02 = Global.checkSize(yahooList.get(i).getLinkList().get(j));
+                            String temp03 = Global.checkSize(yahooList.get(i).getTitleList().get(j));
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j+1)%>.</td>
                     <td width="97%">
                         <a href="<%=yahooList.get(i).getLinkList().get(j)%>" target="_blank">
-                            <%=yahooList.get(i).getLinkList().get(j)%>
+                            <%=temp02%>
                         </a>
                         <br>
-                        <%=yahooList.get(i).getTitleList().get(j)%>
+                        <%=temp03%>
                     </td>
                 </tr>
             <%
@@ -111,11 +118,9 @@
                     }
             %>
             </table>
-            <br>
             <%
                 }
             %>
-            <%--<html:button property="btnDisplay" onclick="submitForm(document.forms[0], 'DISPLAY_LINKS', 'DISPLAY_LINKS_01')" ><bean:message key="display.submit" /></html:button>--%>
 
         </html:form>
 

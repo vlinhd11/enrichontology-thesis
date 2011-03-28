@@ -34,10 +34,10 @@
             <html:hidden property="processid" value=""/>
             <html:hidden property="query_string" value=""/>
             
-            <table border="0" cellpadding="10" width="90%" align="center" >
+            <table border="0" width="<bean:message key="size.width" />" align="center" style="margin-top: -5px; padding: 0px">
                 <tr>
-                    <td width="30%" align="center" valign="top" >
-                        <img src="./css/searching.jpg" alt="" border="0" />
+                    <td width="35%" align="center" valign="top" >
+                        <img src="./css/searching.jpg" alt="" border="0" width="100%" height="100%" />
                     </td>
                     <td width="35%" align="left" valign="top" style="background-color: rgb(180, 255, 180);">
                         <h3><bean:message key="searchOntology.ontology" /></h3>
@@ -51,10 +51,10 @@
                             </jsp:useBean>
                         </div>
                     </td>
-                    <td width="35%" align="left" valign="top">
+                    <td width="30%" align="left" valign="top">
                         <h3><bean:message key="searchOntology.list" /></h3>
-			<select id="listID" name="listquery" size="15" style="width: 90%;" />
-                        <br /><br />
+			<select id="listID" name="listquery" size="15" style="width: 100%;" />
+                        <br />
                         <input type="button" value="Xóa một khái niệm" onclick="removeConcept('listID')" />
 			<input type="button" value="Xóa tất cả" onclick="removeAll('listID')" />
                         <br /><br />
@@ -71,9 +71,8 @@
                             <html:option value="50" >50</html:option>
                         </html:select>
                         <br />
-                        <br />
                         <html:checkbox property="yahoo" value="yahoo" >Yahoo</html:checkbox>
-                        &nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;
                         <bean:message key="searchOntology.maxResult" />&nbsp;&nbsp;
                         <html:select property="m_yahoo" >
                             <html:option value="5" >5</html:option>

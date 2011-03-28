@@ -35,14 +35,37 @@
                     <td align="center">
                         <%
                             boolean isExist = (Boolean) request.getAttribute("isExist");
-                            if (isExist) {
+                            String screen = (String) request.getAttribute("screen");
+                            if (screen.equals("updateOnotlogy")) {
+                                if (isExist) {
                         %>
-                        <h1 align="center"><bean:message key="result.success" /></h1>
+                        <h1 align="center"><bean:message key="result.updateOntology.success" /></h1>
                         <%
-                            } else {
+                                } else {
                         %>
-                        <h1 align="center"><bean:message key="result.fail" /></h1>
+                        <h1 align="center"><bean:message key="result.updateOntology.fail" /></h1>
                         <%
+                                }
+                            } else if (screen.equals("classify")) {
+                                if (isExist) {
+                        %>
+                        <h1 align="center"><bean:message key="result.classify.success" /></h1>
+                        <%
+                                } else {
+                        %>
+                        <h1 align="center"><bean:message key="result.classify.fail" /></h1>
+                        <%
+                                }
+                            } else if (screen.equals("extraction")) {
+                                if (isExist) {
+                        %>
+                        <h1 align="center"><bean:message key="result.extraction.success" /></h1>
+                        <%
+                                } else {
+                        %>
+                        <h1 align="center"><bean:message key="result.extraction.fail" /></h1>
+                        <%
+                                }
                             }
                         %>
                     </td>

@@ -11,29 +11,52 @@
 
 <tiles-definitions>
 
-    <definition name=".mainLayout" path="/common/Layout.jsp">
+    <definition name=".mainLayout01" path="/common/Layout01.jsp">
         <put name="title"  value="" />
         <put name="header" value="/common/header.jsp" />
-        <put name="menu"   value="/common/menu01.jsp" />
+        <put name="menu"   value="" />
         <put name="footer" value="/common/footer.jsp" />
         <put name="body"   value="" />
     </definition>
 
-    <definition name=".display" extends=".mainLayout">
+    <definition name=".mainLayout02" path="/common/Layout02.jsp">
+        <put name="title"  value="" />
+        <put name="header" value="/common/header.jsp" />
+        <put name="footer" value="/common/footer.jsp" />
+        <put name="body"   value="" />
+    </definition>
+
+    <definition name=".display" extends=".mainLayout01">
         <put name="title" value="Display Links" />
+        <put name="menu"   value="/common/menu01.jsp" />
         <put name="body" value="/jsp/displayLinks.jsp" />
     </definition>
 
-    <definition name=".itDocument" extends=".mainLayout">
+    <definition name=".itDocument" extends=".mainLayout01">
         <put name="title" value="IT Document" />
         <put name="menu"   value="/common/menu02.jsp" />
         <put name="body" value="/jsp/itDocument.jsp" />
     </definition>
 
-    <definition name=".updateOntology" extends=".mainLayout">
+    <definition name=".updateOntology" extends=".mainLayout01">
         <put name="title" value="Update Ontology" />
         <put name="menu"   value="/common/menu03.jsp" />
         <put name="body" value="/jsp/updateOntology.jsp" />
+    </definition>
+
+    <definition name=".welcome" extends=".mainLayout02">
+        <put name="title" value="Welcome" />
+        <put name="body" value="/jsp/welcome.jsp" />
+    </definition>
+
+    <definition name=".searchOntology" extends=".mainLayout02">
+        <put name="title" value="SearchOntology" />
+        <put name="body" value="/jsp/searchOntology.jsp" />
+    </definition>
+
+    <definition name=".result" extends=".mainLayout02">
+        <put name="title" value="Result" />
+        <put name="body" value="/jsp/result.jsp" />
     </definition>
 
     <definition name="${YOUR_DEFINITION_HERE}">
