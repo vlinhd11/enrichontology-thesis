@@ -6,6 +6,7 @@
 package com.tkorg.actions;
 
 import com.tkorg.businesslogic.ITDocumentBL;
+import com.tkorg.util.Global;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
@@ -20,6 +21,7 @@ public class ITDocumentAction extends org.apache.struts.action.Action {
     
     /* forward name="success" path="" */
     private static final String SUCCESS = "success";
+    private static final String FAIL = "fail";
     
     /**
      * This is the action called from the Struts framework.
@@ -38,6 +40,12 @@ public class ITDocumentAction extends org.apache.struts.action.Action {
         ITDocumentBL displayBL = new ITDocumentBL();
         displayBL.extractWithKeywords();
 
-        return mapping.findForward(SUCCESS);
+        if (Global.keywordList.get(0).getIndividuals().size() > 0) {
+            return mapping.findForward(SUCCESS);
+        } else {
+            request.setAttribute("screen", "extraction");
+            request.setAttribute("isExist", false);
+            return mapping.findForward(FAIL);
+        }
     }
 }
