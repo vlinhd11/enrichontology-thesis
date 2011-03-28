@@ -27,6 +27,7 @@ public class Global {
     public static ArrayList < MyKeyword > yahooList = null;
     public static String selectedClassName = "";
     public static String strResult = "";
+    public static int max_size = 70;
 
     public Global() {
         if (entityList != null)
@@ -64,5 +65,22 @@ public class Global {
         chosenLinks = new ArrayList < MyKeyword >();
         googleList = new ArrayList < MyKeyword >();
         yahooList = new ArrayList < MyKeyword >();
+    }
+
+    public static String checkSize(String strIn) {
+        String strOut = "";
+        if (strIn.length() > max_size) {
+            int size = strIn.length();
+            String content = strIn;
+            while (size > max_size) {
+                strOut += content.substring(0, max_size) + "<br>";
+                content = content.substring(max_size, content.length());
+                size = content.length();
+            }
+            strOut += content;
+        } else {
+            strOut = strIn;
+        }
+        return strOut;
     }
 }
