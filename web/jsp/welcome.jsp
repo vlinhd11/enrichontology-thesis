@@ -26,9 +26,9 @@
         <html:form action="WelcomeAction">
             <html:hidden property="screenid" value="" />
             <html:hidden property="processid" value="" />
-            <table width="70%" border="0px" align="center">
+            <table width="<bean:message key="size.width" />" border="0" align="center" style="margin-top: -25px; padding: 0px">
                 <tr align="center">
-                    <td colspan="2">
+                    <td colspan="2" width="100%">
                         <h1 style="color:blue;background-color:yellow" align="center"><bean:message key="welcome.heading"/></h1>
                     </td>
                 </tr>
@@ -45,7 +45,7 @@
                         <a href="#" onclick="submitForm(document.forms[0], 'WELCOME', 'WELCOME_00')"><bean:message key="welcome.run"/></a>
                     </td>
                     <td width="50%" align="right">
-                        <img src="./css/welcome.jpg" border="0" align="middle" alt="">
+                        <img src="./css/welcome.jpg" border="0" align="middle" alt="" width="100%">
                     </td>
                 </tr>
             </table>

@@ -45,25 +45,28 @@
                 </tr>
                 <%
                     for(int i = 0; i < Global.keywordNameList.size(); i++) {
+                        String temp01 = Global.checkSize(Global.entityList.get(i).getKeyword());
                 %>
                 <tr>
                     <td></td>
-                    <td style="background-color: yellow" width="82%"><%=Global.entityList.get(i).getKeyword()%></td>
+                    <td style="background-color: yellow" width="82%"><%=temp01%></td>
                 </tr>
                 <%
                         for (int j = 0; j < Global.entityList.size(); j++) {
                             if (Global.keywordNameList.get(i).equals(Global.entityList.get(j).getKeyword()) &&
                                     Global.entityList.get(j).isIsChosen() == true) {
+                                String temp02 = Global.checkSize(Global.entityList.get(j).getLink());
+                                String temp03 = Global.checkSize(Global.entityList.get(j).getTitle());
 
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j - i + 1)%>.</td>
                     <td width="82%">
                         <a href="<%=Global.entityList.get(j).getLink()%>" target="_blank">
-                            <%=Global.entityList.get(j).getLink()%>
+                            <%=temp02%>
                         </a>
                         <br>
-                        <%=Global.entityList.get(j).getTitle()%>
+                        <%=temp03%>
                     </td>
                 </tr>
             <%
@@ -72,8 +75,6 @@
                         }
             %>
             </table>
-            <br>
-            <%--<html:button property="btnITDocument" onclick="submitForm(document.forms[0], 'IT_DOCUMENT', 'IT_DOCUMENT_01')" ><bean:message key="itDocument.submit" /></html:button>--%>
 
         </html:form>
 

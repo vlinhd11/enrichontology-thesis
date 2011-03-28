@@ -19,6 +19,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 
-<div align="left">
-    <img src="./css/banner.png" border="0" align="left" alt="">
+<div>
+    <img src="./css/banner.jpg" border="0" alt="">
 </div>

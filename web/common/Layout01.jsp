@@ -20,16 +20,21 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="./css/mktree.css">
         <title><tiles:getAsString name="title" /></title>
     </head>
     <body>
-        <tiles:insert attribute="header" />
-        <table width="90%" align="center" border="1" cellpadding="10">
+        <table width="1000" align="center" border="0" cellpadding="0" style="margin-top: -10px;">
             <tr>
-                <td bgcolor="rgb(180, 255, 180)" nowrap width="20%">
+                <td colspan="2" align="center">
+                    <tiles:insert attribute="header" />
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="rgb(180, 255, 180)" width="30%" valign="top" align="left" nowrap>
                     <tiles:insert attribute="menu" />
                 </td>
-                <td align="center" width="80%">
+                <td align="center" width="70%" valign="top">
                     <tiles:insert attribute="body" />
                 </td>
             </tr>

@@ -46,10 +46,11 @@
                 </tr>
                 <%
                     for(int i = 0; i < Global.keywordList.size(); i++) {
+                        String temp01 = Global.checkSize(Global.keywordList.get(i).getName());
                 %>
                 <tr>
                     <td></td>
-                    <td style="background-color: yellow" width="82%"><%=Global.keywordList.get(i).getName()%></td>
+                    <td style="background-color: yellow" width="82%"><%=temp01%></td>
                     <td></td>
                 </tr>
                 <%
@@ -57,6 +58,7 @@
                             String content = Global.keywordList.get(i).getIndividuals().get(j)
                                     + "<br />"
                                     + "<a href=#>" + Global.keywordList.get(i).getLinks().get(j) + "</a>";
+                            content = Global.checkSize(content);
                 %>
                 <tr>
                     <td width="3%"><%=Integer.toString(j)%>.</td>
@@ -72,8 +74,7 @@
                         }
                     }
             %>
-            </table><br><br>
-            <%--<html:button property="btnUpdateOntology" onclick="submitForm(document.forms[0], 'UPDATE_ONTOLOGY', 'UPDATE_ONTOLOGY_01')" ><bean:message key="updateOntology.submit" /></html:button>--%>
+            </table>
         </html:form>
     </body>
 </html>
