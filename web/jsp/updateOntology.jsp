@@ -61,7 +61,7 @@
                             content = Global.checkSize(content);
                 %>
                 <tr>
-                    <td width="3%"><%=Integer.toString(j)%>.</td>
+                    <td width="3%"><%=Integer.toString(j + 1)%>.</td>
                     <td width="79%"><%=content%></td>
                     <td width="3%">
                 <%

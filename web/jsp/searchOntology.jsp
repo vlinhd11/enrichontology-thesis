@@ -53,7 +53,7 @@
                     </td>
                     <td width="30%" align="left" valign="top">
                         <h3><bean:message key="searchOntology.list" /></h3>
-			<select id="listID" name="listquery" size="15" style="width: 100%;" />
+			<select id="listID" name="listquery" size="7" style="width: 100%;" />
                         <br />
                         <input type="button" value="Xóa một khái niệm" onclick="removeConcept('listID')" />
 			<input type="button" value="Xóa tất cả" onclick="removeAll('listID')" />
@@ -82,6 +82,11 @@
                             <html:option value="40" >40</html:option>
                             <html:option value="50" >50</html:option>
                         </html:select>
+                        <br /><br />
+                        <h3><bean:message key="searchOntology.radio.name" /></h3>
+                        <html:radio property="my_property" value="individual"><bean:message key="searchOntology.radio.my_property.individual" /></html:radio>
+                        <br />
+                        <html:radio property="my_property" value="relation"><bean:message key="searchOntology.radio.my_property.relation" /></html:radio>
                         <br /><br />
                         <html:button property="btnSearch" onclick="submitForm(document.forms[0], 'SEARCH_ONTOLOGY', 'SEARCH_ONTOLOGY_01')"><bean:message key="searchOntology.submit" /></html:button>
                     </td>
