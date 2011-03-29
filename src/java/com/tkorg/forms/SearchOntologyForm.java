@@ -17,18 +17,19 @@ import org.apache.struts.action.ActionMapping;
 public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
     
     /**
-	 *
-	 */
-	private static final long serialVersionUID = 1L;
+     *
+     */
+    private static final long serialVersionUID = 1L;
 
-	private String li_id;
-	private String screenid;
-	private String processid;
-	private String query_string;
-	private String yahoo;
-	private String m_yahoo;
-	private String google;
-	private String m_google;
+    private String li_id;
+    private String screenid;
+    private String processid;
+    private String query_string;
+    private String yahoo;
+    private String m_yahoo;
+    private String google;
+    private String m_google;
+    private String my_property;
 
     public String getGoogle() {
         return google;
@@ -92,6 +93,14 @@ public class SearchOntologyForm extends org.apache.struts.action.ActionForm {
 
     public void setYahoo(String yahoo) {
         this.yahoo = yahoo;
+    }
+
+    public String getMy_property() {
+        return my_property;
+    }
+
+    public void setMy_property(String my_property) {
+        this.my_property = my_property;
     }
 
     /**

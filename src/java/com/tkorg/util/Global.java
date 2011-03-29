@@ -9,6 +9,7 @@ import com.tkorg.entities.MyEntity;
 import com.tkorg.entities.MyKeyword;
 import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
 import java.util.ArrayList;
+import vn.hus.nlp.tokenizer.VietTokenizer;
 
 /**
  *
@@ -28,6 +29,7 @@ public class Global {
     public static String selectedClassName = "";
     public static String strResult = "";
     public static int max_size = 70;
+    public static VietTokenizer vietToken = null;
 
     public Global() {
         if (entityList != null)

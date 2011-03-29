@@ -11,14 +11,11 @@ import com.tkorg.token.Stopwords;
 import com.tkorg.util.Constants;
 import com.tkorg.util.Global;
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -28,38 +25,6 @@ import java.util.logging.Logger;
  * @author DANHIT
  */
 public class Classify_Main {
-
-    private void outFile(File file, String pathChosenFile) {
-        BufferedWriter out = null;
-        BufferedReader reader = null;
-        String content = "\n";
-        File chosenFile = new File(pathChosenFile + "/" + file.getName());
-
-        try {
-            reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF-8"));
-            String text = "";
-            while ((text = reader.readLine()) != null) {
-                content = content + text + "\n";
-            }
-            
-            //Xuat file.
-            out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(chosenFile), "UTF-8"));
-            out.write(content);
-            out.close();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(Stopwords.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            Logger.getLogger(Stopwords.class.getName()).log(Level.SEVERE, null, ex);
-        } finally {
-            try {
-                if (reader != null) {
-                    reader.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 
     public void choseFile() {
         File resultFile = new File(Constants.PATH_SVM_CLASSIFY_RESULT);

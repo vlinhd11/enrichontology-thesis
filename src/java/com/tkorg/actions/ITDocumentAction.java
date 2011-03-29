@@ -40,12 +40,16 @@ public class ITDocumentAction extends org.apache.struts.action.Action {
         ITDocumentBL displayBL = new ITDocumentBL();
         displayBL.extractWithKeywords();
 
-        if (Global.keywordList.get(0).getIndividuals().size() > 0) {
-            return mapping.findForward(SUCCESS);
-        } else {
-            request.setAttribute("screen", "extraction");
-            request.setAttribute("isExist", false);
-            return mapping.findForward(FAIL);
+        for (int i = 0; i < Global.keywordList.size(); i++) {
+            for (int j = 0; j < Global.keywordList.get(i).getIndividuals().size(); j++) {
+                if (Global.keywordList.get(0).getIndividuals().size() > 0) {
+                    return mapping.findForward(SUCCESS);
+                }
+            }
         }
+        
+        request.setAttribute("screen", "extraction");
+        request.setAttribute("isExist", false);
+        return mapping.findForward(FAIL);
     }
 }

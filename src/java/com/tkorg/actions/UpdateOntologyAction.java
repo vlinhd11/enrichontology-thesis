@@ -47,17 +47,28 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
         if (Global.keywordList.size() != 0) {
             displayBL.choseItems(item);
             displayBL.inputOntology();
-            request.setAttribute("screen", "updateOnotlogy");
-            request.setAttribute("isExist", true);
 
-            Global g = new Global();
-
-            return mapping.findForward(SUCCESS);
+            boolean isExist = false;
+            for (int i = 0; i < Global.keywordList.size(); i++) {
+                if (Global.keywordList.get(i).getIndividuals().size() > 0) {
+                    isExist = true;
+                    break;
+                }
+            }
+            if (isExist) {
+                request.setAttribute("screen", "updateOnotlogy");
+                request.setAttribute("isExist", true);
+                return mapping.findForward(SUCCESS);
+            }
+            else {
+                request.setAttribute("screen", "updateOnotlogy");
+                request.setAttribute("isExist", false);
+                return mapping.findForward(FAIL);
+            }
         } else {
             request.setAttribute("screen", "updateOnotlogy");
             request.setAttribute("isExist", false);
+            return mapping.findForward(FAIL);
         }
-
-        return mapping.findForward(FAIL);
     }
 }

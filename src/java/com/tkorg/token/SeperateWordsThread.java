@@ -13,16 +13,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.StringReader;
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFTextStripper;
 import org.htmlparser.beans.StringBean;
-import vn.hus.nlp.tokenizer.Tokenizer;
-import vn.hus.nlp.tokenizer.TokenizerOptions;
-import vn.hus.nlp.tokenizer.tokens.TaggedWord;
 
 /**
  *
@@ -30,8 +25,6 @@ import vn.hus.nlp.tokenizer.tokens.TaggedWord;
  */
 public class SeperateWordsThread extends Thread {
 
-    private Tokenizer tokenizer = null;
-    private List < TaggedWord > list = null;
     private boolean isPDF;
     private String link;
     private String title;
@@ -58,30 +51,9 @@ public class SeperateWordsThread extends Thread {
         return content;
     }
 
-    private String segment(String sentence) throws Exception {
-	StringBuffer result = new StringBuffer(1000);
-	StringReader reader = new StringReader(sentence);
-
-        // tokenize the sentence
-	tokenizer.tokenize(reader);
-        list = tokenizer.getResult();
-        for (TaggedWord taggedWord : list) {
-            String word = taggedWord.toString();
-            if (TokenizerOptions.USE_UNDERSCORE) {
-                word = word.replaceAll("\\s+", "_");
-            } else {
-                word = "[" + word + "]";
-            }
-            result.append(word);
-            result.append(' ');
-        }
-
-	return result.toString().trim();
-    }
-
     private void downloadFileFromLink(String url, int index) {
         try {
-            Global.entityList.get(index).setContent(segment(getUrlContentsAsText(url)));
+            Global.entityList.get(index).setContent(Global.vietToken.segment(getUrlContentsAsText(url)));
         } catch (Exception ex) {
             Logger.getLogger(SeperateWords.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -148,13 +120,5 @@ public class SeperateWordsThread extends Thread {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public Tokenizer getTokenizer() {
-        return tokenizer;
-    }
-
-    public void setTokenizer(Tokenizer tokenizer) {
-        this.tokenizer = tokenizer;
     }
 }
