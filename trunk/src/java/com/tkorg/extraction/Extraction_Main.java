@@ -10,6 +10,7 @@ import com.tkorg.util.Global;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -83,6 +84,11 @@ public class Extraction_Main {
     }
 
     public static void main(String[] args) {
-        
+        try {
+            System.out.println(Constants.LEXICON_DFA);
+        JOptionPane.showMessageDialog(null, Constants.LEXICON_DFA);
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(null, e.toString());
+        }
     }
 }

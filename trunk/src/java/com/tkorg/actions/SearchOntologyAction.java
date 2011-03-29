@@ -45,6 +45,8 @@ public class SearchOntologyAction extends org.apache.struts.action.Action {
 	String screenid = searchOntologyForm.getScreenid();
 	String processid = searchOntologyForm.getProcessid();
 
+        Global g = new Global();
+
 	if (screenid.equals("SEARCH_ONTOLOGY")) {
             if (processid.equals("SEARCH_ONTOLOGY_01")) {
 

@@ -64,7 +64,7 @@
                         <bean:message key="searchOntology.maxResult" />&nbsp;&nbsp;
 			<html:select property="m_google" >
                             <html:option value="5" >5</html:option>
-                            <html:option value="10" >10</html:option>
+                            <html:option value="0" >10</html:option>
                             <html:option value="20" >20</html:option>
                             <html:option value="30" >30</html:option>
                             <html:option value="40" >40</html:option>

@@ -6,6 +6,7 @@
 package com.tkorg.actions;
 
 import com.tkorg.forms.ResultForm;
+import com.tkorg.util.Global;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
@@ -42,6 +43,7 @@ public class ResultAction extends org.apache.struts.action.Action {
 
         if (screenid.equals("RESULT")) {
             if (processid.equals("RESULT_O1")) {
+                Global g = new Global();
                 return mapping.findForward(SUCCESS);
             }
         }
