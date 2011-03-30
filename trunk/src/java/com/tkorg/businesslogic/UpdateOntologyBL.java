@@ -32,7 +32,7 @@ public class UpdateOntologyBL {
     }
 
     public void choseItems(String[] item) {
-        if (item[0] == null) {
+        if (item == null) {
 
         } else {
             for (int i = 0; i < item.length; i++) {
