@@ -48,3 +48,7 @@ function submitForm(frm, screenid, processid) {
         frm.submit();
     }
 }
+
+function submit(frm) {
+    frm.submit()
+}
