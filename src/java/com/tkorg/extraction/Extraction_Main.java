@@ -82,13 +82,4 @@ public class Extraction_Main {
     public void setFileList(ArrayList<MyFile> fileList) {
         this.fileList = fileList;
     }
-
-    public static void main(String[] args) {
-        try {
-            System.out.println(Constants.LEXICON_DFA);
-        JOptionPane.showMessageDialog(null, Constants.LEXICON_DFA);
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, e.toString());
-        }
-    }
 }
