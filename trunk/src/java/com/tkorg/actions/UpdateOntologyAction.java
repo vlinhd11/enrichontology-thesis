@@ -42,9 +42,8 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
 
         String[] item = updateOntologyForm.getItem();
 
-
         UpdateOntologyBL displayBL = new UpdateOntologyBL();
-        if (Global.keywordList.size() != 0) {
+        if (Global.keywordList.size() > 0) {
             displayBL.choseItems(item);
             displayBL.inputOntology();
 
@@ -59,8 +58,7 @@ public class UpdateOntologyAction extends org.apache.struts.action.Action {
                 request.setAttribute("screen", "updateOnotlogy");
                 request.setAttribute("isExist", true);
                 return mapping.findForward(SUCCESS);
-            }
-            else {
+            } else {
                 request.setAttribute("screen", "updateOnotlogy");
                 request.setAttribute("isExist", false);
                 return mapping.findForward(FAIL);
