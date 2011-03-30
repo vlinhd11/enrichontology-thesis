@@ -10,7 +10,6 @@ import com.tkorg.forms.WelcomeForm;
 import com.tkorg.util.Global;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.JOptionPane;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
@@ -40,7 +39,6 @@ public class WelcomeAction extends org.apache.struts.action.Action {
     public ActionForward execute(ActionMapping mapping, ActionForm form,
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
-        JOptionPane.showMessageDialog(null, Constants.LEXICON_DFA);
         WelcomeForm welcomeForm = (WelcomeForm) form;
 
         String screenid = welcomeForm.getScreenid();
