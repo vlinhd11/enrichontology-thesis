@@ -34,6 +34,12 @@ public class UpdateOntologyForm extends org.apache.struts.action.ActionForm {
         this.item = new String[500];
     }
 
+    @Override
+    public void reset(ActionMapping mapping, HttpServletRequest request) {
+        this.item = null;
+    }
+
+
     /**
      * This is the action called from the Struts framework.
      * @param mapping The ActionMapping used to select this instance.
