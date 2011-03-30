@@ -34,7 +34,7 @@
             </td>
         </tr>
         <tr>
-            <td><a href="UpdateOntologyAction.do"><bean:message key="menu.row04" /></a></td>
+            <td><a href="#" onclick="submit(document.UpdateOntologyForm)"><bean:message key="menu.row04" /></a></td>
         </tr>
     </table>
 </div>
