@@ -5,12 +5,12 @@
 
 package com.tkorg.extraction;
 
+import com.tkorg.entities.MyIndividual;
 import com.tkorg.util.Constants;
 import com.tkorg.util.Global;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.JOptionPane;
 
 /**
  *
@@ -63,8 +63,11 @@ public class Extraction_Main {
                         String temp = ((Extraction_Thread) extraction).getIndividual();
                         ((Extraction_Thread) extraction).stop();
                         if (!temp.equals("")) {
-                            keyword.getLinks().add(fileList.get(i).getLink());
-                            keyword.getIndividuals().add(temp);
+                            MyIndividual individual = new MyIndividual();
+                            individual.setContent(temp);
+                            individual.setLink(fileList.get(i).getLink());
+                            individual.setIsChosen(true);
+                            keyword.getIndividuals().add(individual);
                         }
                     } catch (InterruptedException ex) {
                         Logger.getLogger(Extraction_Main.class.getName()).log(Level.SEVERE, null, ex);

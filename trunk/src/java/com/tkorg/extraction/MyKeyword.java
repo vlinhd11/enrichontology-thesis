@@ -5,6 +5,7 @@
 
 package com.tkorg.extraction;
 
+import com.tkorg.entities.MyIndividual;
 import java.util.ArrayList;
 
 /**
@@ -14,28 +15,18 @@ import java.util.ArrayList;
 public class MyKeyword {
 
     private String name;
-    private ArrayList < String > links = null;
-    private ArrayList < String > individuals = null;
+    private ArrayList < MyIndividual > individuals = null;
 
     public MyKeyword() {
-        links = new ArrayList < String >();
-        individuals = new ArrayList < String >();
+        individuals = new ArrayList < MyIndividual >();
     }
 
-    public ArrayList<String> getIndividuals() {
+    public ArrayList<MyIndividual> getIndividuals() {
         return individuals;
     }
 
-    public void setIndividuals(ArrayList<String> individuals) {
+    public void setIndividuals(ArrayList<MyIndividual> individuals) {
         this.individuals = individuals;
-    }
-
-    public ArrayList<String> getLinks() {
-        return links;
-    }
-
-    public void setLinks(ArrayList<String> links) {
-        this.links = links;
     }
 
     public String getName() {
