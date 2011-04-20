@@ -45,7 +45,7 @@
                 </tr>
                 <%
                     for(int i = 0; i < Global.keywordNameList.size(); i++) {
-                        String temp01 = Global.checkSize(Global.entityList.get(i).getKeyword());
+                        String temp01 = Global.checkSize(Global.keywordNameList.get(i));
                 %>
                 <tr>
                     <td></td>
