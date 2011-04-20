@@ -55,9 +55,9 @@
                 </tr>
                 <%
                         for (int j = 0; j < Global.keywordList.get(i).getIndividuals().size(); j++) {
-                            String content = Global.keywordList.get(i).getIndividuals().get(j)
+                            String content = Global.keywordList.get(i).getIndividuals().get(j).getContent()
                                     + "<br />"
-                                    + "<a href=#>" + Global.keywordList.get(i).getLinks().get(j) + "</a>";
+                                    + "<a href=#>" + Global.keywordList.get(i).getIndividuals().get(j).getLink() + "</a>";
                             content = Global.checkSize(content);
                 %>
                 <tr>
