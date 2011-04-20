@@ -54,12 +54,13 @@ public class SearchOntologyBL {
         Global.keywordNameList = new ArrayList < String >();
         String[] temp01 = query_string.split("-");
         for (int i = 0; i < temp01.length; i++) {
-            Global.keywordNameList.add(temp01[i].toString());
+            Global.keywordNameList.add(temp01[i].toString() + ".");
         }
 
         SearchEnginesAction queryAction = new SearchEnginesAction();
         for (int i = 0; i < Global.keywordNameList.size(); i++) {
-            Global.keywordNameList.set(i, convertVN(Global.keywordNameList.get(i)));
+            String strVN = convertVN(Global.keywordNameList.get(i));
+            Global.keywordNameList.set(i, strVN.substring(0, strVN.length() - 1));
 
             if (google.equals(Constants.GOOGLE)) {
                 try {

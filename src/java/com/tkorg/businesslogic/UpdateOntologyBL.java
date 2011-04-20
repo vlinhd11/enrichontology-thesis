@@ -39,7 +39,7 @@ public class UpdateOntologyBL {
                 String[] temp = item[i].split("-");
                 int temp01 = Integer.parseInt(temp[0]);
                 int temp02 = Integer.parseInt(temp[1]);
-                Global.keywordList.get(temp01).getIndividuals().remove(temp02);
+                Global.keywordList.get(temp01).getIndividuals().get(temp02).setIsChosen(false);
             }
         }
 
@@ -55,13 +55,15 @@ public class UpdateOntologyBL {
                 OWLDatatypeProperty property01 = OWLModel.owlModel.getOWLDatatypeProperty("Định_nghĩa");
                 OWLDatatypeProperty property02 = OWLModel.owlModel.getOWLDatatypeProperty("Nguồn");
                 for (int j = 0; j < selectedItemsList.get(i).getIndividuals().size(); j++) {
-                    int index = checkExist(keyword.getBrowserText());
-                    OWLIndividual individual = keyword.createOWLIndividual(keyword.getBrowserText() + "_" + index);
-                    property01.setDomain(keyword);
-                    individual.setPropertyValue(property01, selectedItemsList.get(i).getIndividuals().get(j));
+                    if (selectedItemsList.get(i).getIndividuals().get(j).isIsChosen() == true) {
+                        int index = checkExist(keyword.getBrowserText());
+                        OWLIndividual individual = keyword.createOWLIndividual(keyword.getBrowserText() + "_" + index);
+                        property01.setDomain(keyword);
+                        individual.setPropertyValue(property01, selectedItemsList.get(i).getIndividuals().get(j).getContent());
 
-                    property02.setDomain(keyword);
-                    individual.setPropertyValue(property02, selectedItemsList.get(i).getLinks().get(j));
+                        property02.setDomain(keyword);
+                        individual.setPropertyValue(property02, selectedItemsList.get(i).getIndividuals().get(j).getLink());
+                    }
                 }
             }
             if (OWLModel.owlModel.hasChanged()) {
