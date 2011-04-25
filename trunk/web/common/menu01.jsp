@@ -30,7 +30,7 @@
             </td>
         </tr>
         <tr>
-            <td><a href="DisplayLinksAction.do"><bean:message key="menu.row02" /></a></td>
+            <td><a href="DisplayLinksAction.do" onclick="showLoadingPage()"><bean:message key="menu.row02" /></a></td>
         </tr>
         <tr>
             <td><bean:message key="menu.row03" /></td>

@@ -31,7 +31,7 @@
             </td>
         </tr>
         <tr>
-            <td><a href="ITDocumentAction.do"><bean:message key="menu.row03" /></a></td>
+            <td><a href="ITDocumentAction.do" onclick="showLoadingPage()"><bean:message key="menu.row03" /></a></td>
         </tr>
         <tr>
             <td><bean:message key="menu.row04" /></td>
