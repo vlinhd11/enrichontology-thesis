@@ -9,9 +9,12 @@ import com.tkorg.search.SearchEnginesAction;
 import com.tkorg.util.Constants;
 
 import com.tkorg.util.Global;
+import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
 import java.io.File;
 import java.net.URI;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
 
 /**
  *
@@ -19,14 +22,13 @@ import java.util.ArrayList;
  */
 public class SearchOntologyBL {
 
-    private String path;
     private String result;
 
     public SearchOntologyBL() {
         
     }
 
-    private String convertVN(String name) {
+    public static String convertVN(String name) {
         for (int i = 0; i < Constants.unicodeWords.length; i++) {
             if (!Constants.unicodeWords[i].equals("")) {
                 String strTemp = "";
@@ -131,31 +133,29 @@ public class SearchOntologyBL {
 
         OWLModel owlModel = new OWLModel();
         owlModel.loadOWLModelFromExistFile(uri);
+        Global.init();
         ClassActions.viewClasses();
         this.result = Global.strResult;
     }
 
-    public String getPath() {
-        return path;
-    }
+    public void loadClasses() {
+        Collection classList = OWLModel.owlModel.getUserDefinedOWLNamedClasses();
+        ArrayList < String > list = new ArrayList < String >();
+        for (Iterator it = classList.iterator(); it.hasNext();) {
+            OWLNamedClass c = (OWLNamedClass) it.next();
+            list.add(c.getBrowserText().replaceAll("_", " "));
+        }
 
-    public void setPath(String path) {
-        this.path = path;
-        loadOntology(path);
+        this.result = "";
+        this.result += "<select id=\"classListID\" onchange=\"addConcept(this.value, 'listID03')\" size=\"25\" style=\"width: 100%;\">";
+        for (int i = 0; i < list.size(); i++) {
+            this.result += "<option value=\""+ list.get(i) +"\">"+ list.get(i) +"</option>";
+        }
+        this.result += "</select>";
     }
 
     public String getResult() {
+        loadClasses();
         return result;
-    }
-
-    public void setResult(String result) {
-        this.result = result;
-    }
-
-    public static void main(String args[]) {
-        SearchOntologyBL search = new SearchOntologyBL();
-
-        String name = "Khái niá»m thuá»c ngÃ nh cÃ´ng nghá» thÃ´ng tin";
-        name = search.convertVN(name);
     }
 }
