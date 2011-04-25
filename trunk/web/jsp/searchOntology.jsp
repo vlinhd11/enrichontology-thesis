@@ -16,7 +16,6 @@
    "http://www.w3.org/TR/html4/loose.dtd">
 
 <%@page import="com.tkorg.util.Constants" %>
-<%@page import="javax.swing.JOptionPane;" %>
 
 <html>
     <head>
@@ -34,26 +33,24 @@
             <html:hidden property="processid" value=""/>
             <html:hidden property="query_string" value=""/>
             
-            <table border="0" width="<bean:message key="size.width" />" align="center" style="margin-top: -5px; padding: 0px">
+            <table border="1" width="<bean:message key="size.width" />" align="center" style="margin-top: -5px; padding: 0px">
                 <tr>
-                    <td width="35%" align="center" valign="top" >
-                        <img src="./css/searching.jpg" alt="" border="0" width="100%" height="100%" />
-                    </td>
-                    <td width="35%" align="left" valign="top" style="background-color: rgb(180, 255, 180);">
-                        <h3><bean:message key="searchOntology.ontology" /></h3>
-                        <div id="scroll_box">
-                            <jsp:useBean id="ontology" class="com.tkorg.businesslogic.SearchOntologyBL" scope="page">
-                                <%
-                                  String namePath = Constants.PATH_ONTOLOGY;
-                                %>
-                                <jsp:setProperty name="ontology" property="path" value="<%=namePath%>" />
-                                <jsp:getProperty name="ontology" property="result" />
+                    <td width="35%" align="left" valign="top">
+                        <h3>Classes</h3>
+                        <input id="input_class" type="text" size="40" value="">&nbsp;
+                        <input name="button01" type="button" onclick="chose('input_class', 'classListID', 'listID03')" value="Chọn">
+                        <%--<div id="scroll_box">--%>
+                            <jsp:useBean id="classes" class="com.tkorg.businesslogic.SearchOntologyBL" scope="page">
+                                <jsp:getProperty name="classes" property="result" />
                             </jsp:useBean>
-                        </div>
+                        <%--</div>--%>
+                    </td>
+                    <td width="35%" align="center" valign="top" >
+                        <img src="./css/searching.jpg" alt="" border="0" width="70%" height="70%" align="middle" />
                     </td>
                     <td width="30%" align="left" valign="top">
                         <h3><bean:message key="searchOntology.list" /></h3>
-			<select id="listID" name="listquery" size="7" style="width: 100%;" />
+                        <select id="listID03" name="listquery" size="7" style="width: 100%;" />
                         <br />
                         <input type="button" value="Xóa một khái niệm" onclick="removeConcept('listID')" />
 			<input type="button" value="Xóa tất cả" onclick="removeAll('listID')" />
@@ -64,7 +61,7 @@
                         <bean:message key="searchOntology.maxResult" />&nbsp;&nbsp;
 			<html:select property="m_google" >
                             <html:option value="5" >5</html:option>
-                            <html:option value="0" >10</html:option>
+                            <html:option value="10" >10</html:option>
                             <html:option value="20" >20</html:option>
                             <html:option value="30" >30</html:option>
                             <html:option value="40" >40</html:option>

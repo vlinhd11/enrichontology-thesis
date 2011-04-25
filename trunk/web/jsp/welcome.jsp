@@ -42,7 +42,7 @@
                         <br>
                         &nbsp;&nbsp;&nbsp;&nbsp;<bean:message key="welcome.author02" />
                         <br><br>
-                        <a href="#" onclick="submitForm(document.forms[0], 'WELCOME', 'WELCOME_00')"><bean:message key="welcome.run"/></a>
+                        <%--<a href="#" onclick="submitForm(document.forms[0], 'WELCOME', 'WELCOME_00')"><bean:message key="welcome.run"/></a>--%>
                     </td>
                     <td width="50%" align="right">
                         <img src="./css/welcome.jpg" border="0" align="middle" alt="" width="100%">

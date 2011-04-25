@@ -60,7 +60,7 @@
 
                 %>
                 <tr>
-                    <td width="3%"><%=Integer.toString(j - i + 1)%>.</td>
+                    <td width="3%"><%=Integer.toString(j + 1)%>.</td>
                     <td width="82%">
                         <a href="<%=Global.entityList.get(j).getLink()%>" target="_blank">
                             <%=temp02%>
