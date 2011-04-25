@@ -10,6 +10,7 @@ import com.tkorg.entities.MyStack;
 import com.tkorg.entities.OWLModel;
 
 import com.tkorg.util.Global;
+import edu.stanford.smi.protegex.owl.model.OWLIndividual;
 import edu.stanford.smi.protegex.owl.model.OWLNamedClass;
 import edu.stanford.smi.protegex.owl.model.RDFSClass;
 import edu.stanford.smi.protegex.owl.model.impl.DefaultRDFSNamedClass;
@@ -61,6 +62,7 @@ public class ClassActions {
 		Global.strResult = "<ul class=\"mktree\" id=\"tree1\" >\n";
 		for (int i = 0; i < Global.classesArrayList.size(); i++) {
 			if (Global.classesArrayList.get(i).getBrowserText().equals("owl:Thing")) {
+                            Global.liClassNameList.set(i, "liOpen");
 				Global.strResult += "<li id=\"" + Global.classesArrayList.get(i).getBrowserText() +"\" " +
                                         "class=\"" + Global.liClassNameList.get(i) + "\" >\n";
 				if (Global.classesArrayList.get(i).getSubclassCount() != 0) {
@@ -71,7 +73,7 @@ public class ClassActions {
 				else {
 					Global.strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
 				}
-				Global.strResult += "<a href='#"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" name='"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+"'"+ "style=\"text-decoration:none\" onclick=\"addConcept('" + Global.classesArrayList.get(i).getBrowserText() + "','listID')\" >"
+				Global.strResult += "<a href='#"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+ "'"+" name='"+Global.classesArrayList.get(i).getBrowserText() + "_"+i+"'"+ "style=\"text-decoration:none\" onclick=\"showIndividuals('" + Global.classesArrayList.get(i).getBrowserText() + "','listID')\" >"
 						+ Global.classesArrayList.get(i).getBrowserText()
 						+ "</a>\n";
 				addNodesByRank(Global.classesArrayList.get(i));
@@ -95,7 +97,7 @@ public class ClassActions {
                                                         "<IMG SRC=\"./css/accept.png\" BORDER=0 align=\"bottom\">\n";
 				else
 					Global.strResult += "	<IMG SRC=\"./css/bullet.gif\" BORDER=0 align=\"bottom\">\n";
-				Global.strResult += "<a href='#"+temp + "_sub_"+i+ "'"+" name='"+temp + "_sub_"+i+"'"+" style=\"text-decoration:none\" onclick=\"addConcept('"
+				Global.strResult += "<a href='#"+temp + "_sub_"+i+ "'"+" name='"+temp + "_sub_"+i+"'"+" style=\"text-decoration:none\" onclick=\"showIndividuals('"
 						+ temp
 						+ "','listID')\" >"
 						+ temp
@@ -107,18 +109,5 @@ public class ClassActions {
 			}
 		}
             Global.strResult += "</ul>";
-	}
-
-    @SuppressWarnings("empty-statement")
-	public static void main(String[] args) {
-		OWLModel owlModel = new OWLModel();
-		URI uri = new File("D://OVIT.owl").toURI();
-		
-		owlModel.loadOWLModelFromExistFile(uri);;
-		ClassActions.viewClasses();
-		
-		for (int i = 0; i < Global.classesArrayList.size(); i++) {
-			System.out.println(Global.classesArrayList.get(i).getBrowserText());
-		}
 	}
 }
