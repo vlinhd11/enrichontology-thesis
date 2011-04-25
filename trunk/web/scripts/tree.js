@@ -11,14 +11,14 @@
  */
 
 function clickNode(frm, li_id, screenid, processid) {
-	frm.li_id.value = li_id;
-	submitForm(frm, screenid, processid);
+    frm.li_id.value = li_id;
+    submitForm(frm, screenid, processid);
 }
 
 function changeTree(liID) {
-	var li = document.getElementById(liID);
-	if (li.className == 'liClosed')
-		document.getElementById(liID).className = 'liOpen';
-	else
-		document.getElementById(liID).className = 'liClosed';
+    var li = document.getElementById(liID);
+    if (li.className == 'liClosed')
+        document.getElementById(liID).className = 'liOpen';
+    else
+        document.getElementById(liID).className = 'liClosed';
 }
