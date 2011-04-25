@@ -7,6 +7,10 @@
 
 <struts-config>
     <form-beans>
+        <form-bean name="BTForm" type="com.tkorg.forms.BTForm"/>
+        <form-bean name="InitForm" type="com.tkorg.forms.InitForm"/>
+        <form-bean name="IndexForm" type="com.tkorg.forms.IndexForm"/>
+        <form-bean name="OntologyForm" type="com.tkorg.forms.OntologyForm"/>
         <form-bean name="ResultForm" type="com.tkorg.forms.ResultForm"/>
         <form-bean name="UpdateOntologyForm" type="com.tkorg.forms.UpdateOntologyForm"/>
         <form-bean name="ITDocumentForm" type="com.tkorg.forms.ITDocumentForm"/>
@@ -87,6 +91,24 @@
 
             <forward name="success"
                      path=".searchOntology" />
+        </action>
+        <action name="IndexForm"
+                path="/IndexAction"
+                scope="session"
+                type="com.tkorg.actions.IndexAction">
+            <forward name="success" path=".welcome" />
+        </action>
+        <action path="/OntologyAction"
+                scope="session"
+                type="com.tkorg.actions.OntologyAction">
+            <forward name="showIndividuals" path="/jsp/ontology_showIndividuals.jsp" />
+            <forward name="showValues" path="/jsp/ontology_showValues.jsp" />
+        </action>
+        <action name="InitForm" path="/Init" scope="session" type="com.tkorg.actions.Init">
+            <forward name="success" path=".ontology" />
+        </action>
+        <action input="/" name="BTForm" path="/BTAction" scope="session" type="com.tkorg.actions.BTAction">
+            <forward name="success" path=".welcome" />
         </action>
 
         <action path="/Welcome"

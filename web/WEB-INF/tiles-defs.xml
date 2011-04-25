@@ -59,6 +59,11 @@
         <put name="body" value="/jsp/result.jsp" />
     </definition>
 
+    <definition name=".ontology" extends=".mainLayout02">
+        <put name="title" value="Ontology" />
+        <put name="body" value="/jsp/ontology.jsp" />
+    </definition>
+
     <definition name="${YOUR_DEFINITION_HERE}">
     </definition>
 

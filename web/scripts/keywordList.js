@@ -36,7 +36,7 @@ function addConcept(concept, listID) {
 }
 
 function removeConcept(listID) {
-	var list = document.getElementById('listID');
+	var list = document.getElementById('listID03');
 	var numberOfItems = list.options.length;
 	for(var i = numberOfItems - 1; i >= 0; i--) {
 		if ((list.options[i] != null) && (list.options[i].selected == true)) {
@@ -46,7 +46,7 @@ function removeConcept(listID) {
 }
 
 function removeAll(listID) {
-	var list = document.getElementById('listID');
+	var list = document.getElementById('listID03');
 	var numberOfItems = list.options.length;
 	for(var i = numberOfItems - 1; i >= 0; i--) {
 		if ((list.options[i] != null)) {
