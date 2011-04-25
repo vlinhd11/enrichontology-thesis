@@ -31,7 +31,13 @@ public class Global {
     public static int max_size = 70;
     public static VietTokenizer vietToken = null;
 
+    public static boolean isFirst = true;
+
     public Global() {
+        init();
+    }
+
+    public static void init() {
         if (entityList != null)
             entityList.removeAll(entityList);
         if (keywordNameList != null)
