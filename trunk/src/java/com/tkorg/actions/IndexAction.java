@@ -5,26 +5,20 @@
 
 package com.tkorg.actions;
 
-import com.tkorg.businesslogic.WelcomeBL;
-import com.tkorg.forms.WelcomeForm;
-import com.tkorg.util.Global;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
-import vn.hus.nlp.tokenizer.VietTokenizer;
 
 /**
  *
- * @author danhit
+ * @author DANHIT
  */
-public class WelcomeAction extends org.apache.struts.action.Action {
+public class IndexAction extends org.apache.struts.action.Action {
     
     /* forward name="success" path="" */
     private static final String SUCCESS = "success";
-    private static final String SEARCH_ONTOLOGY = "searchOntology";
-    private static final String FAIL = "fail";
     
     /**
      * This is the action called from the Struts framework.
@@ -39,7 +33,7 @@ public class WelcomeAction extends org.apache.struts.action.Action {
     public ActionForward execute(ActionMapping mapping, ActionForm form,
             HttpServletRequest request, HttpServletResponse response)
             throws Exception {
-        
-        return mapping.findForward(SEARCH_ONTOLOGY);
+
+        return mapping.findForward(SUCCESS);
     }
 }

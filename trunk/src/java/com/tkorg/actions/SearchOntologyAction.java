@@ -10,6 +10,7 @@ import com.tkorg.entities.MyKeyword;
 import com.tkorg.forms.SearchOntologyForm;
 import com.tkorg.util.Constants;
 import com.tkorg.util.Global;
+import edu.stanford.smi.protege.server.Session;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
